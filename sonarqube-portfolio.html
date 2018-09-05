@@ -23,20 +23,21 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <div class="section-title" id="about-us">
-            <h3>Code Quality Overview for your instance</h3>
+          <div class="section-title" id="portfolio-code-quality-overview">
+            <h3>Code Quality Overview for your portfolio</h3>
               <p>
-                We love SonarQube... We have a lot of projects... but... what about your whole instance? Did you ever though about getting a big picture?
+                We love SonarQube... We have a lot of projects... but... what about your whole instance? what about a team? what about a specific portfolio of projects? Did you ever though about getting a big picture?
               </p>
             </div>
-            <p>This plugin provides an overview of your current project portfolio in your SonarQube instance.</p>
-            <p>On a single page you will get an snapshot of all your projects with aggregated metrics, including your leak period.</p>
+            <p>With this plugin you will be able to manage your views or portfolios in SonarQube instance. Create new portfolios/views inside SonarQube user interface
+              and get an overview of all the aggregated quality metrics. By default if no portfolio is defined, it will display an overview of all your projects in your SonarQube instance</p>
+            <p>On a single page you will get all aggregated metrics, including your leak period.</p>
             <p>You will be able to see total number of bugs, vulnerabilities and code smells, along with size metrics, duplications or coverage.</p>
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="img/sonarqube-portfolio/sonarqube-portfolio-report.png" alt="Data Breach shown in a code simulator">
+          <img src="img/sonarqube-portfolio/sonarqube-portfolio-report.png" alt="SonarQube Portfolio sample with whole instance">
         </div>
       </div><!-- .col-md-6 close -->
     </div>
@@ -53,10 +54,10 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <div class="section-title" id="about-us">
+          <div class="section-title" id="portfolio-features">
             <h3>Features</h3>
           </div>
-          <p>This plugin provides a global page with all the collected metrics and global ratings. This includes the project distribution for each rating (size, reliability, security and maintainability) and the aggregated measures.</p>
+          <p>This plugin provides a global page with all the collected metrics and global ratings for the portfolios or your whole instance. This includes the project distribution for each rating (size, reliability, security and maintainability) and the aggregated measures.</p>
 
           <p>Global ratings are computed as follows:</p>
           <p>- <strong>Size rating</strong>: this is the sum of all lines of code of all the projects. The rating is computed exactly the same as a individual project. See Size Rating for more information.</p>
@@ -66,6 +67,32 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
       </div><!-- .col-md-6 close -->
     </div>
   </div>
+</section>
+
+<section id="product-block">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <div class="block">
+        <div class="section-title" id="portfolio-code-quality-configuration">
+          <h3>Define your portfolios in SonarQube</h3>
+        </div>
+        <p>Go to plugin settings (<strong>Administration > General Settings > Portfolio</strong>). The portfolio section allows
+        you to configure your custom portfolios in SonarQube.</p>
+        <p>You just need to enter your portfolio name and a comma separated list of resource keys to be included in the
+        portfolio.</p>
+        <p>You will be able to see total number of bugs, vulnerabilities and code smells, along with size metrics, duplications or coverage,
+        for each defined portfolio in the global page.</p>
+        <p>If no portfolio is defined, then the plugin will compute all your projects and will provide an overview summary.</p>
+      </div>
+    </div><!-- .col-md-6 close -->
+    <div class="col-md-6 col-sm-12">
+      <div class="block">
+        <img src="img/sonarqube-portfolio/sonarqube-portfolio-sample.png" alt="Portfolio sample with two views">
+      </div>
+    </div><!-- .col-md-6 close -->
+  </div>
+</div>
 </section>
 
 
@@ -115,7 +142,7 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
                 </div>
                 <script>
                     var product = 'bitegarden-sonarqube-portfolio';
-                    var version = '1.0';
+                    var version = '1.1';
                 </script>
             </div>
         </div>
