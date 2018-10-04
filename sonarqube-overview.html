@@ -1,8 +1,10 @@
 ---
 layout: page
-title: SonarQube Portfolio Plugin
+title: SonarQube Overview Report Plugin
 description: Provides a big picture of your SonarQube instance with all the aggregated measures in a single view
-image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
+image: /img/sonarqube-overview/sonarqube-overview-report.png
+redirect_from:
+  - /sonarqube-portfolio
 ---
 
 <section id="global-header-product">
@@ -10,7 +12,7 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>SonarQube Portfolio Plugin</h1>
+                    <h1>SonarQube Overview Report Plugin</h1>
                     <p>Provides a big picture of your SonarQube instance with all the aggregated measures in a single view</p>
                 </div>
             </div>
@@ -24,20 +26,19 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title" id="portfolio-code-quality-overview">
-            <h3>Code Quality Overview for your portfolio</h3>
+            <h3>Code Quality Overview for SonarQube</h3>
               <p>
                 We love SonarQube... We have a lot of projects... but... what about your whole instance? what about a team? what about a specific portfolio of projects? Did you ever though about getting a big picture?
               </p>
             </div>
-            <p>With this plugin you will be able to manage your views or portfolios in SonarQube instance. Create new portfolios/views inside SonarQube user interface
-              and get an overview of all the aggregated quality metrics. By default if no portfolio is defined, it will display an overview of all your projects in your SonarQube instance</p>
+            <p>With this plugin you will be able to manage your SonarQube instance to get an overview of all the aggregated quality metrics. By default if no group is defined, it will display an overview of all your projects in your SonarQube instance</p>
             <p>On a single page you will get all aggregated metrics, including your leak period.</p>
             <p>You will be able to see total number of bugs, vulnerabilities and code smells, along with size metrics, duplications or coverage.</p>
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="img/sonarqube-portfolio/sonarqube-portfolio-report.png" alt="SonarQube Portfolio sample with whole instance">
+          <img src="img/sonarqube-overview/sonarqube-overview-report.png" alt="SonarQube Overview sample with whole instance">
         </div>
       </div><!-- .col-md-6 close -->
     </div>
@@ -49,7 +50,7 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="img/sonarqube-portfolio/sonarqube-portfolio-trees.jpg" alt="SonarQube Portfolio">
+          <img src="img/sonarqube-overview/sonarqube-overview-trees.jpg" alt="SonarQube Portfolio">
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
@@ -57,7 +58,7 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
           <div class="section-title" id="portfolio-features">
             <h3>Features</h3>
           </div>
-          <p>This plugin provides a global page with all the collected metrics and global ratings for the portfolios or your whole instance. This includes the project distribution for each rating (size, reliability, security and maintainability) and the aggregated measures.</p>
+          <p>This plugin provides a global page with all the collected metrics and global ratings for your whole instance. This includes the project distribution for each rating (size, reliability, security and maintainability) and the aggregated measures.</p>
 
           <p>Global ratings are computed as follows:</p>
           <p>- <strong>Size rating</strong>: this is the sum of all lines of code of all the projects. The rating is computed exactly the same as a individual project. See Size Rating for more information.</p>
@@ -75,20 +76,19 @@ image: /img/sonarqube-portfolio/sonarqube-portfolio-report.png
     <div class="col-md-6 col-sm-12">
       <div class="block">
         <div class="section-title" id="portfolio-code-quality-configuration">
-          <h3>Define your portfolios in SonarQube</h3>
+          <h3>Define groups of projects in SonarQube</h3>
         </div>
-        <p>Go to plugin settings (<strong>Administration > General Settings > Portfolio</strong>). The portfolio section allows
-        you to configure your custom portfolios in SonarQube.</p>
-        <p>You just need to enter your portfolio name and a comma separated list of resource keys to be included in the
-        portfolio.</p>
+        <p>Go to plugin settings (<strong>Administration > General Settings > Overview</strong>). The project groups section allows
+        you to configure your custom group of resources in SonarQube.</p>
+        <p>You just need to enter your name and a comma separated list of resource keys to be included in the group.</p>
         <p>You will be able to see total number of bugs, vulnerabilities and code smells, along with size metrics, duplications or coverage,
-        for each defined portfolio in the global page.</p>
-        <p>If no portfolio is defined, then the plugin will compute all your projects and will provide an overview summary.</p>
+        for each defined group in the global page.</p>
+        <p>If no group is defined, then the plugin will compute all your projects and will provide an overview summary.</p>
       </div>
     </div><!-- .col-md-6 close -->
     <div class="col-md-6 col-sm-12">
       <div class="block">
-        <img src="img/sonarqube-portfolio/sonarqube-portfolio-sample.png" alt="Portfolio sample with two views">
+        <img src="img/sonarqube-overview/sonarqube-overview-sample.png" alt="Portfolio sample with two views">
       </div>
     </div><!-- .col-md-6 close -->
   </div>
