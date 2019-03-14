@@ -32,3 +32,74 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.modPriceBox {
+  border: 1px solid #e0e0e0;
+  padding: 0 15px 15px;
+  margin: 0 0 60px;
+  background-color: #fff;
+  text-align: center;
+  height: 350px;
+}
+.modPriceBox ul {
+  margin-left: 0;
+  list-style: none;
+}
+.modPriceBox .info {
+  border-top: 4px solid #bbb;
+  padding: 20px 0 0;
+}
+.modPriceBox li {
+  background: #eee;
+  color: #999;
+}
+.modPriceBox li.even {
+  background: #f7f7f7;
+}
+.modPriceBox p.level {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+  color: #999;
+}
+.modPriceBox p.desc {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #999;
+}
+.modPriceBox p.price {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.modPriceBox p.price .dollar {
+  font-size: 30px;
+  color: #333;
+  font-style: normal;
+  position: relative;
+  top: -30px;
+}
+.modPriceBox p.price .number {
+  font-size: 30px;
+  color: #333;
+  font-style: normal;
+}
+.modPriceBox .features {
+  margin: 0 0 30px;
+}
+.modPriceBox .features li {
+  padding: 5px 0;
+}
+.modPriceBox p.start {
+  margin: 0;
+}
+
+.modPriceBox.featured .info {
+  border-top: 4px solid #1eaa5d;
+}
+
+
