@@ -11,7 +11,7 @@ permalink: /downloads/
             <div class="col-md-12">
                 <div class="block">
                   <h1>Downloads</h1>
-                  <h4>Download any of our SonarQube&trade; plugins below</h4>
+                  <h4>Download any of our SonarQube&trade; plugins below or <a href="#update-center">configure update center to do it automatically</a></h4>
                   <!-- <h4>Download SonarQube&trade; plugins below or <a href="#update-center">configure update center to do it automatically</a></h4> -->
                 </div>
             </div>
@@ -201,7 +201,7 @@ permalink: /downloads/
 </section>
 
 <!-- Metrics Pack Downloads -->
-<section id="downloads-report">
+<section id="downloads-metrics-pack">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -288,9 +288,27 @@ permalink: /downloads/
 <section id="call-to-action">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="block">
+      <div class="col-md-8 col-md-offset-2">
+        <div style="text-align:left;" id="update-center" class="block">
+          <h2 style="text-align:center;">Setup <strong>bitegarden</strong> update center in SonarQube&trade; for automatic updates!</h2>
+          <p>SonarQube&trade; update center helps you to maintain and install plugins and extensions from bitegarden as
+            well as the official community plugins and commercial plugins from SonarSource.</p>
+          <p>bitegarden has released his own file for the <a href="/update-center.properties">update center</a> so that all the plugins could be kept up to date
+            in an easy way. You just have to go to your Settings and click on the Marketplace/Update Center, and then you can access "Available plugins" tab to install the new plugins or access "Plugin updates" to update to new releases.</p>
+          <p>It is quite simple, you have to add this line in your Sonar configuration file $SONAR_HOME/conf/sonar.properties:</p>
+            <code style="color:black">sonar.updatecenter.url=https://www.bitegarden.com/update-center.properties</code>
+            <p>When you restart your instance all the plugins from bitegarden (and all the default plugins from SonarSource) will be available to install or update.</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Metrics Pack Downloads -->
+<section id="update-center-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
       </div>
     </div>
   </div>
