@@ -160,6 +160,29 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 
+#customers {
+  padding: 100px 0;
+}
+#customers .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#customers .block p {
+  color: #7B7B7B;
+  padding-top: 20px;
+}
+#customers .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#customers .section-title {
+  margin-bottom: 0px;
+}
+#customers .section-title p {
+  padding-top: 20px;
+}
+
 #product-block {
   padding: 50px 0;
 }
@@ -415,6 +438,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
 }
+
 /*---------------------------------------------
 					Work Start
 -----------------------------------------------*/

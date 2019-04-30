@@ -102,4 +102,19 @@
   border-top: 4px solid #1eaa5d;
 }
 
+.gray {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+.gray:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+#clients-logo {
+  padding-top: 50px;
+}
 
