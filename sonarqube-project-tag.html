@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Security Plugin for SonarQube
-description: Based on OWASP, CWE, WASC, SANS and CERT security standards, SonarQube Security Plugin gathers a list of vulnerabilities detected in the form of issues in SonarQube, letting you know the security level of the whole project
-image: /img/sonarqube-security/security-assessment.png
+title: Project Tag Plugin for SonarQube
+description: Set project tag during analysis
 ---
 
 <section id="global-header-product">
@@ -10,11 +9,10 @@ image: /img/sonarqube-security/security-assessment.png
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                  <h1>Security Plugin for SonarQube&trade;</h1>
-                  <p>Provides information about security standards (OWASP, CWE, etc.) <br> including risk factor and
-                     security vulnerabilities and categories</p>
+                  <h1>Project Tag Plugin for SonarQube&trade;</h1>
+                  <p>Set project tag during analysis in SonarQube&trade; using a command line property</p>
                   <a class="btn btn-default btn-call-to-action fancybox" href="#inline-download">Try it free</a>
-                  <a class="btn btn-primary btn-call-to-action fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=74C6V55G9PKU8">Buy Now</a>
+                  <a target="_blank" class="btn btn-primary btn-call-to-action fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D99A3JCQ8H5XJ">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -26,26 +24,32 @@ image: /img/sonarqube-security/security-assessment.png
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <div class="section-title" id="about-us">
-            <h3>Security Assessment on SonarQube&trade;</h3>
-              <p>
-                Have you ever wondered how secure is your project? Do you want to know which security vulnerabilities you need to
-                focus on?
-              </p>
+          <div class="section-title">
+            <h3>Tag your project automatically</h3>
             </div>
-                <p>Based on <strong>OWASP, CWE, WASC, SANS and CERT security standards</strong>, <strong>Security Plugin for SonarQube&trade;</strong> gathers a list of vulnerabilities detected in the form
-                of issues in SonarQube&trade;, letting you know the security level of the whole project.</p>
-
-              <p>Moreover, the plugin includes OWASP Top 10 categories, that groups the most
-                important security aspects to take in mind in any application.</p>
+              <p>Did you ever tried to automate your project on-boarding using tags in SonarQube&trade;?</p>
             
-            <p><strong>Security Plugin for SonarQube&trade;</strong> will provide you a new brand security space in your SonarQube&trade; project where you
-            will be able to see all the details about the security assement.</p>
+              <p>
+                SonarQube&trade; has a powerful tag management in projects space, but the only way to create a tag is
+                manually through the user interface. When you already have project meta-data you will want to use it during
+                project analysis (in your CI tool like Jenkins). Everything is automated and the project tag is set
+                using the meta-data and available as soon as possible.
+              </p>
+
+              <p>
+                Creating tags manually is a very hard when you have a lot of projects.
+              </p>
+
+              <p>
+                With this plugin you will be able to set the project tag in an easy way. Just provide the tag through
+                a command line property in your analysis and the plugin will do the rest.
+              </p>
+
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="img/sonarqube-security/security-assessment.png" alt="sonarqube security assessment screenshot">
+          <img style="margin-top: 10%" src="img/sonarqube-project-tag/projects-space-tags.png" alt="sonarqube project tag spaces screenshot">
         </div>
       </div><!-- .col-md-6 close -->
     </div>
@@ -57,31 +61,24 @@ image: /img/sonarqube-security/security-assessment.png
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="img/sonarqube-security/dead-tree.jpg" alt="Img">
+          <img style="margin-top: 10%" src="img/sonarqube-project-tag/project-tag-administration.png" alt="Img">
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <div class="section-title" id="about-us">
-            <h3>Features</h3>
+          <div class="section-title">
+            <h3>Usage</h3>
           </div>
-          <p>Security Plugin for SonarQube&trade; is a perfect tool for those developers who worry about the quality and security
-            of their code. Representing the level of security risk of your project through the following factors, makes
-            it much more easier for you to manage your code security.</p>
+          <p>With this plugin you will be able to tag a project automatically in SonarQube&trade;:</p>
+          <p><strong>Set tag through command line property</strong>: you just need to add this property "-Dbitegarden.project.tag=YOUR_TAG" to any of your scanners and the plugin
+          will get the information and will store it in SonarQube&trade;.
 
-          <p> <b>Technical debt:</b>  Technical debt value corresponding to the security issues of the project.</p>
+          <p><strong>In admin settings, launch the process to tag all the projects</strong>: once your projects are analyzed using the property,
+          you can just launch the process that will tag the projects for you. Just go to Administration -> Configuration -> Project Tag and
+        launch it. </p>
 
-          <p> <b>Risk factor:</b>  Percentage value (%) that indicates how vulnerable is your project, taking into
-              account the total number of issues detected as well as the size of our project. Moreover, we’ve
-              developed an interpretation of this value through a series of ratings. </p>
-
-          <p> <b>Global Maximum Severity:</b> We wanted to represent in a very visual way how worrying are the
-                security issues of projects. That’s why we designed representative and bright colour indicators
-                of the maximum global severity level of your evidences, so you only have to worry about taking care
-                of them, even if you are dealing with a low level risk factor. </p>
-
-          <p> <b> Violations density:</b> Percentage value (%) that represents the amount of issues in relation
-               with the security of your project.</p>
+          <p><strong>Custom and system tags are kept</strong>: the process won't remove any tag and it will only add the tag
+            used during the analysis.</p>
 
         </div>
       </div><!-- .col-md-6 close -->
@@ -91,12 +88,11 @@ image: /img/sonarqube-security/security-assessment.png
 
 
 <section id="product-block-center">
-
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>It's time to secure your code!</h1><br><br>
+          <h2>Start tagging all your projects!</h2><br><br>
         </div>
       </div>
     </div>
@@ -118,7 +114,6 @@ image: /img/sonarqube-security/security-assessment.png
               <li class="">14 days evaluation license</li>
               <li class="even">After submitting the form you will receive the trial key by email</li>
               <li class="">By using this form you will download LTS compatible version, go to <a href="downloads">downloads</a> for the latest</li>
-
             </ul>
           </div>
         </div>
@@ -128,10 +123,10 @@ image: /img/sonarqube-security/security-assessment.png
       <div class="col-md-3">
         <div class="mod modPriceBox featured">
           <div class="info">
-            <a class="btn btn-primary fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=74C6V55G9PKU8">Buy Now</a>
+            <a target="_blank" class="btn btn-primary fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D99A3JCQ8H5XJ">Buy Now</a>
             <p class="desc"></p>
             <p class="price">
-              <span class="number">450 €/year</span>
+              <span class="number">150 €/year</span>
             </p>
           </div>
           <div class="features">
@@ -151,7 +146,7 @@ image: /img/sonarqube-security/security-assessment.png
 
   <div id="inline-download" style="display:none" class="download-form">
     <form id="form" name="form">
-      <h1>Download and Request Evaluation Form</h1>
+      <h1>Download Form</h1>
       <p>Fill all the information to download the product.<br>
         You will get a valid license key for two weeks in your email inbox.
       </p>
@@ -183,13 +178,10 @@ image: /img/sonarqube-security/security-assessment.png
 
     </form>
   </div>
-
   <script>
-    var product = 'bitegarden-sonarqube-security';
-    var version = '1.2.3-sq-7';
+    var product = 'bitegarden-sonarqube-project-tag-plugin';
+    var version = '1.1';
   </script>
-
 </section>
-
 
 
