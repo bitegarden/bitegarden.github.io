@@ -4,19 +4,30 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+
+  <section id="global-header-blog">
     <div class="container">
       <div class="row">
-        <div>
+        <div class="col-md-12">
           <div class="block">
-            <h1>{{ page.title }}</h1>
+            <h1><strong>{{ page.title }}</strong></h1>
             <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
+              <p><span class="bold">{{ page.date | date: "%B %-d, %Y" }}</p>
             </div>
-            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 20px; border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
             <p>{{ content }}</p>
           </div>
-        </div><!-- .col-md-7 close -->
+        </div>
       </div>
     </div>
   </section>
