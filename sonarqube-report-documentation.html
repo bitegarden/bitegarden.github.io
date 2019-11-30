@@ -1,0 +1,191 @@
+---
+layout: page
+title: Documentation for Report Plugin for SonarQube
+description: This is the official documentation site for the Report Plugin
+image: /img/sonarqube-report/sonarqube-report-cover.jpg
+---
+
+<section id="global-header-product">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Report Plugin for SonarQube&trade;</h1>
+          <p>Generate your project report from a fully customizable ODT template </p>
+          <a class="btn btn-default btn-call-to-action fancybox" href="#inline-download">Try it free</a>
+          <a class="btn btn-primary btn-call-to-action fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCTW5937XWCJS">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="product-main-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+              <li><a href="/sonarqube-report">Home</a></li>
+              <li class="active">Usage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="product-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <h3>Installation and setup is quite easy</h3>
+          <ol>
+            <li><p><a href="/downloads/#update-center">Use bitegarden update center</a> or copy jar file downloaded on <strong>SonarQube&trade;</strong> plugins folder:</p>
+              <pre>$SONAR_HOME/extensions/plugins/</pre>
+            </li>
+            <li>Restart SonarQube server.</li>
+            <li>Log in with administrator rights, go to your SonarQube&trade; global settings, and then select the plugin in general settings.</li>
+            <li>Paste license key and save.</li>
+          </ol>
+          <p>It is required a new analysis in order to view the results.</p>
+
+          <h3>Customize your report template</h3>
+          <p>Create your custom template and setup the plugin to use your file through administration settings.</p>
+          <p>Download the <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">default template</a> to see how it works</p>
+          <p>Report Plugin for SonarQube&trade; allows you to configure the template file globally or at project level. Besides,
+            the templates are provided through URLs, so it is not mandatory to have access to the machine where SonarQube&trade; is running.</p>
+
+          <h3>Report configuration</h3>
+
+          <p>The report configuration is the template itself. This template is an <a href="https://en.wikipedia.org/wiki/OpenDocument" class="external-link" rel="nofollow">OpenDocument</a> text document and can be easily edited with <a href="http://www.openoffice.org" class="external-link" rel="nofollow">OpenOffice</a> or <a href="https://www.libreoffice.org/" class="external-link" rel="nofollow">LibreOffice</a>.</p>
+          <p>To generate the templates, a subset of the <a href="http://www.freemarker.org" class="external-link" rel="nofollow">FreeMarker</a> language template is used. Some valid expressions are:</p>
+          <ul>
+            <li><code>${ncloc}</code> : Replaces the expression ncloc with its value. If ncloc is not available at execution time the report generation will stop.</li>
+            <li><code>${ncloc!}</code> : Replaces the expression ncloc with its value if exists.</li>
+            <li><code>${ncloc!&quot;No lines&quot;}</code> : Replaces the expression ncloc with its value if exists. Otherwise, it will show "No lines" (without the double quotes).</li>
+            <li><code>[#if ncloc &gt; 10000]</code> : If ncloc &gt; 10000 we show everything till "else", otherwise, we show the next text block.<br>
+              <code>Big project</code><br>
+              <code>[#else]</code><br>
+              <code>Small project</code> <br>
+              <code>[/#if]</code><br>
+            </li>
+          </ul>
+          <p>You have to be careful with how OpenOffice generates the templates. It happens oftenly that expressions are not saved as a single element. To fix this, we need to click on "clear direct formatting" (select text and click right button).</p>
+          <p>Notice that, in order to work properly, all the expressions must be well formed and have to be evaluable.</p>
+
+          <h3>Available variables in report generation time</h3>
+          <p>The available variables are all the SonarQube metrics for the project, where the hyphens ('-') have been replaced with underlines ('_'), and others like <code>project_name</code>, <code>project_description</code>, <code>analysis_date</code> y <code>analysis_version</code>.
+
+          <h3>Sending your report by email</h3>
+          <p>To send the report by email you must set the SMTP settings in <i>Settings --> General --> Email.</i> After this, you will have to fill in the field <i>Mailing list</i> at the plugin configuration with the recipient list (comma-separated).</p>
+
+          <h3>PDF generation</h3>
+          <p>To generate the report in PDF format, <a href="http://www.openoffice.org/" class="external-link" rel="nofollow">OpenOffice</a> must be installed in our computer.
+            Then, we need to fill in the <i>OpenOffice path</i> field at the configuration section, that indicates the path to the installation directory of the OpenOffice tool.</p>
+          <p>Finally, we need to activate the generation of PDF format, properties also available at the configuration section of the plugin.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Get your SonarQube&trade; reports right now!</h2><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3">
+        <div class="mod modPriceBox ">
+          <div class="info">
+            <a class="btn btn-default fancybox price-button" href="#inline-download">Download and Try</a>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">FREE TRIAL</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">14 days evaluation license</li>
+              <li class="even">After submitting the form you will receive the trial key by email</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3">
+        <div class="mod modPriceBox featured">
+          <div class="info">
+            <a class="btn btn-primary fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCTW5937XWCJS">Buy Now</a>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">1.200 €/year</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Per instance of SonarQube</li>
+              <li class="even">Including upgrading and support.</li>
+              <li class="">When you purchase the plugin you agree with <a href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">terms and conditions</a>.</li>
+              <li class="even">Don't forget to include your email. We will send the license to that email.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+
+  <div id="inline-download" style="display:none" class="download-form">
+    <form id="form" name="form">
+      <h1>Download Form</h1>
+      <p>Fill all the information to download the product.<br>
+        You will get a valid license key for two weeks in your email inbox.
+      </p>
+
+      <label>First name*
+        <span class="small">Your name</span>
+      </label>
+      <input type="text" name="name" id="name">
+
+      <label>Surname*
+        <span class="small">Your surname</span>
+      </label>
+      <input type="text" name="surname" id="surname">
+
+      <label>email*
+        <span class="small">Enter a valid email address</span>
+      </label>
+      <input type="text" name="email" id="email">
+
+      <label>Company*
+        <span class="small">Your company</span>
+      </label>
+      <input type="text" name="company" id="company">
+
+      <div class="text-center">
+        <button class="btn btn-default btn-call-to-action" id="send">Submit</button>
+      </div>
+      <div class="spacer"></div>
+
+    </form>
+  </div>
+  <script>
+    var product = 'bitegarden-sonarqube-report';
+    var version = '1.1';
+  </script>
+
+</section>
