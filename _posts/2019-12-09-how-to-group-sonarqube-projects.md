@@ -8,6 +8,8 @@ Many sonar users and managers need to check code quality status of different pro
 
 **Having a portfolio of projects is the easiest way to compare them.** But not only that, gathering and classifying projects is the only chance to have a quick and visual overview of the code quality of your organisation. 
 
+## Groups of projects in SonarQube
+
 * Do you want to know which of your software providers is doing best? Just group all the projects under "Software factory" portfolio or create a portfolio of each provider.
 
 * Do you need to reach a zero-vulnerability objective for your client-side apps? Group all the sonarqube projects that are included onto this category and just focus on them. Take away noise from your sonar management dashboard. 
@@ -17,12 +19,11 @@ Many sonar users and managers need to check code quality status of different pro
 There are many more examples of portfolios: languages (Java, PHP, Phyton...), teams, legacy, open source vs private, internal software...
 
 
-Being able to gather different projects is one of the most valuable and requested functionalities of SonarQube. **You can now create SonarQube project portfolios with [Overview Report Plugin for SonarQubeTM](https://www.bitegarden.com/sonarqube-overview). This enterprise ability is now available for all teams thanks to bitegarden's plugin. 
-
-
 ## Overview Report plugin for SonarQube
 
+Being able to gather different projects is one of the most valuable and requested functionalities of SonarQube. **You can now create SonarQube project portfolios with [Overview Report Plugin for SonarQubeTM](https://www.bitegarden.com/sonarqube-overview).** This enterprise ability is now available for all teams thanks to bitegarden's plugin.
 Creating sonarqube project portfolios would not be a headache anymore. Nor a reason to buy sonarqube enterprise edition. 
+
 
 Using [our plugin](https://www.bitegarden.com/sonarqube-overview), you will be able to gather projects in sonarqube with a simple click. Get an overview of aggregated quality data from different projects. 
  
