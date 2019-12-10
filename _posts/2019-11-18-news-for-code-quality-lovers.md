@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Antonio Calero
+
 ---
 
 We'be been busy these past months working on improvements, new features and even new plugins!
@@ -15,7 +15,7 @@ Do you need help defining an action plan to focus on the problems that matter? U
 
 ---
 
-### Introducing Project Tag Plugin for SonarQube
+### Introducing Project Tag Plugin for SonarQube™
 
 Creating tags manually is a very hard when you have a lot of projects. With our newest plugin you'll be able to set project tags in an easy and automatic way. Just provide the tag through a command line property in your analysis and the plugin will do the rest.
 
@@ -23,7 +23,7 @@ Your project onboarding it's going to be much more smooth...
 
 ---
 
-### Introducing Rating Report Plugin for SonarQube
+### Introducing Rating Report Plugin for SonarQube™
 
 SonarQube™ has a powerful quality model based on reliability, security and maintainability. But sometimes you need to know a little bit more... What about performance? And error handling? User experience?
 
