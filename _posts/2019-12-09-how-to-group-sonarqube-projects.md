@@ -22,7 +22,7 @@ There are many more examples of portfolios: languages (Java, PHP, Phyton...), te
 ## Overview Report plugin for SonarQube
 
 Being able to gather different projects is one of the most valuable and requested functionalities of SonarQube. **You can now create SonarQube project portfolios with [Overview Report Plugin for SonarQubeTM](https://www.bitegarden.com/sonarqube-overview).** This enterprise ability is now available for all teams thanks to bitegarden's plugin.
-Creating sonarqube project portfolios would not be a headache anymore. Nor a reason to buy sonarqube enterprise edition. 
+Creating sonarqube project portfolios would not be a headache anymore. 
 
 
 Using [our plugin](https://www.bitegarden.com/sonarqube-overview), you will be able to gather projects in sonarqube with a simple click. Get an overview of aggregated quality data from different projects. 
