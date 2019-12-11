@@ -7,7 +7,7 @@ We'be been busy these past months working on improvements, new features and even
 
 ---
 
-### SQALE Plugin newest version cames with two new dashboards!
+### SQALE newest version cames with two new dashboards!
 
 Have you lost track of how quality measures are evolving?  Check the evolution of technical debt, broken into SQALE features.
  
@@ -32,5 +32,3 @@ With this plugin you will be able to get ratings for all those code quality char
 ---
 
 Furthermore, you already know that we LOVE feedback, so feel free to email us with any concerns, ideas, questions and criticism :)
-
-<center><a class="btn btn-default btn-call-to-action fancybox" href="/contact">Contact us!</a></center>
