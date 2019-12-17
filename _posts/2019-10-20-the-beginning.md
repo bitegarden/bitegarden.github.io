@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Beginning
-description: This is our first blog post! We are excited about it and we hope you are too!
+description: This is our first blog post! A brief introduction to our SonarQube™ Marketplace project and the roadmap of our SonarQube™ plugins blog. 
 ---
 
 This is our first blog post! We are excited about it and we hope you are too!
