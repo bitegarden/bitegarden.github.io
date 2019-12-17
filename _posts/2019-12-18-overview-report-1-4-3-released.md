@@ -4,7 +4,7 @@ title: Overview Report 1.4.3 released
 description: This version is focused on fixing internal bugs to improve user experience.
 ---
 
-**bitegarden** team is pleased to announce a new version (1.4.3) of **Overview Report Plugin**. It is mainly an internal bugfix version
+**bitegarden** team is pleased to announce a new version (1.4.3) of [**Overview Report Plugin**](https://www.bitegarden.com/sonarqube-overview). It is mainly an internal bugfix version
 
 This new version includes:
 
