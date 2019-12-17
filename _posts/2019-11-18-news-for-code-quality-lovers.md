@@ -1,6 +1,7 @@
 ---
 layout: post
-
+title: News for code quality lovers
+description: We'be been busy these past months working on improvements, new features and even new plugins!
 ---
 
 We'be been busy these past months working on improvements, new features and even new plugins!

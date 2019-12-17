@@ -24,6 +24,7 @@ logo: "/img/logo-solo.png"
 
 # Build settings
 markdown: kramdown
+permalink: :title
 
 # Google analytics
 ga_tracking_id: "UA-118019346-1"

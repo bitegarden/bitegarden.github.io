@@ -1,5 +1,7 @@
 ---
 layout: post
+title: SonarQube Plugins - Our motivation and goals
+description: bitegarden was born more than a year ago as a side project of a group of SonarQube™ professionals. We wanted to spread our knowledge and help with our experience as highly trained and specialised SonarQube™ consultants.  When we look back, it's hard to believe what we've achieved after a year. 
 ---
 
 **bitegarden** was born more than a year ago as a side project of a group of SonarQube™ professionals. We wanted to 
