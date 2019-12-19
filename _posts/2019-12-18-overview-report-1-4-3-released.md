@@ -12,9 +12,13 @@ This new version includes:
 
 \- Server Base URL is no longer required to use the plugin.
 
+[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [downloads page](/downloads).
+
 Enjoy the new version!
 
+![overview-logo](/img/portfolio/sonarqube-overview.png){: .center-image}
+
 ---
-**bitegarden** team
+**<span style="color: green">bitegarden</span> team**
 
 _Helping companies to develop better software_
