@@ -1,0 +1,37 @@
+---
+layout: page_es
+---
+
+<div class="post">
+  <!-- Wrapper Start -->
+
+  <section id="global-header-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <h1><strong>{{ page.title }}</strong></h1>
+            <div class="post-info-wrapper">
+              <p><span class="bold">{{ page.date | date: "%B %-d, %Y" }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 20px; border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <p>{{ content }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/blog">Back to blog</a>
+</p>

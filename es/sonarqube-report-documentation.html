@@ -1,0 +1,227 @@
+---
+layout: page_es
+title: Documentación de Report Plugin for SonarQube
+description: Report Plugin para sonarqube - Documentación oficial
+image: /img/sonarqube-report/sonarqube-report-cover.jpg
+permalink: /es/sonarqube-report-documentation
+---
+
+<section id="global-header-product">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Report Plugin for SonarQube&trade;</h1>
+          <p>Genere su informe de proyecto a partir de una plantilla ODT totalmente personalizable </p>
+          <a class="btn btn-default btn-call-to-action fancybox" href="#inline-download">Probar</a>
+          <a class="btn btn-primary btn-call-to-action fancybox"
+             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCTW5937XWCJS">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="product-main-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+              <li><a href="/es/sonarqube-report">Características</a></li>
+              <li class="active">Documentación</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="product-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <h3>La instalación es muy sencilla</h3>
+          <ol>
+            <li><p><a href="/es/downloads/#update-center">Usa el centro de actualizaciones de bitegarden </a> o copia el
+              .jar descargado en la carpeta de plugins de <strong>SonarQube&trade;</strong>:</p>
+              <pre>$SONAR_HOME/extensions/plugins/</pre>
+            </li>
+            <li>Reinicia el servidor de SonarQube.</li>
+            <li>Inicia sesión como administrador y accede a la configuración global de SonarQube&trade;. Selecciona el
+              plugin en la configuración general.
+            </li>
+            <li>Pega la clave de la licencia y guarda</li>
+          </ol>
+          <p>Se requiere lanzar un nuevo análisis para poder visualizar los resultados</p>
+
+          <h3>Personaliza tu plantilla de proyecto</h3>
+          <p>Crea tu plantilla personalizada y configura el plugin para poder usarla a través de la configuración de la
+            administración</p>
+          <p>Descarga la <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">plantilla
+            por defecto</a> para ver como funciona</p>
+          <p>Report Plugin for SonarQube&trade; te permite configurar la plantilla de manera global o por proyecto.
+            Además, las plantillas se proveen a través de URLs, por lo que no es obligatorio tener acceso a la máquina
+            donde SonarQube&trade; está corriendo</p>
+
+          <h3>Configuración del plugin Report for SonarQube&trade;</h3>
+
+          <p>La configuración del plugin reside en la configuración de la plantilla. La plantilla es un <a
+                  href="https://en.wikipedia.org/wiki/OpenDocument" class="external-link"
+                  rel="nofollow">OpenDocument</a> que puede ser editado con <a href="http://www.openoffice.org"
+                                                                               class="external-link" rel="nofollow">OpenOffice</a>
+            o <a href="https://www.libreoffice.org/" class="external-link" rel="nofollow">LibreOffice</a>.</p>
+          <p>Para generar las plantillas, un subconjunto de <a href="http://www.freemarker.org" class="external-link"
+                                                               rel="nofollow">FreeMarker</a> es usado. Algunas
+            expresiones válidas son:</p>
+          <ul>
+            <li><code>${ncloc}</code> : Reemplaza la expresión ncloc son su valor. Si ncloc no está disponible en el
+              momento de la ejecución, la generación del informe se paralizará.
+            </li>
+            <li><code>${ncloc!}</code> : Reemplaza la expresión ncloc son su valor si éste existe.</li>
+            <li><code>${ncloc!&quot;No lines&quot;}</code> : Reemplaza la expresión ncloc son su valor si éste existe.
+              Si no, mostrará "No hay líneas"
+            </li>
+            <li><code>[#if ncloc &gt; 10000]</code> : Si ncloc &gt; 10000 mostramos todo hasta "else", de lo contrario,
+              mostramos el siguiente bloque de texto.<br>
+              <code>Big project</code><br>
+              <code>[#else]</code><br>
+              <code>Small project</code> <br>
+              <code>[/#if]</code><br>
+            </li>
+          </ul>
+          <p>Debe tener cuidado con cómo OpenOffice genera las plantillas. A menudo sucede que las expresiones no se
+            guardan como un solo elemento. Para solucionar esto, debemos hacer clic en "borrar formato directo"
+            (seleccionar texto y hacer clic con el botón derecho).</p>
+          <p>Tenga en cuenta que, para que funcione correctamente, todas las expresiones deben estar bien formadas y
+            deben ser evaluables.</p>
+
+          <h3>Variables disponibles para la generación de informes</h3>
+          <p>Las variables disponibles son todas las métricas de SonarQube para el proyecto, donde los guiones ('-') han
+            sido reemplazados por subrayados ('_') y otros como <code>project_name</code>,
+            <code>project_description</code>, <code>analysis_date</code> y <code>analysis_version</code>.
+
+          <h3>Enviar informe de SonarQube&trade; por email</h3>
+          <p>Para enviar el informe por correo electrónico, debe establecer la configuración de SMTP en <i>Settings -->
+            General --> Email.</i> Después de esto, deberá completar el campo <i>Mailing list</i> en la configuración
+            del plugin con la lista de destinatarios (comma-separated).</p>
+
+          <h3>Informe de SonarQube&trade; en PDF</h3>
+          <p>Para generar el informe en PDF <a href="http://www.openoffice.org/" class="external-link" rel="nofollow">
+            tienes que tener OpenOffice</a> instalado.
+            Luego, debemos completar el campo <i> OpenOffice path </i> en la sección de configuración, que indica la
+            ruta al directorio de instalación de la herramienta OpenOffice.</p>
+          <p>Finalmente, necesitamos activar la generación del formato PDF, las propiedades también están disponibles en
+            la sección de configuración del complemento.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>¡Obtén informes de SonarQube&trade; ya!</h2><br><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3">
+        <div class="mod modPriceBox ">
+          <div class="info">
+            <a class="btn btn-default fancybox price-button" href="#inline-download">Pruébalo Gratis</a>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">Probar</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Licencia de evaluación de 14 días</li>
+              <li class="even">Tras completar el formulario recibirás la clave por email</li>
+              <li class="">Usando este formulario descargarás la versión compatible con la LTS, visita <a
+                      href="downloads">descargas</a> para las versiones Latest
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3">
+        <div class="mod modPriceBox featured">
+          <div class="info">
+            <a class="btn btn-primary fancybox"
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6CFXPKQY8MMUC">Comprar</a>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">1200 €/año</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Por instancia de SonarQube&trade;</li>
+              <li class="even">Incluye actualizaciones y soporte</li>
+              <li class="">Al comprar el plugin aceptas los <a
+                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">términos y condiciones</a></li>
+              <li class="even">No te olvides de incluir tu email. Enviaremos la licencia a esa dirección de correo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+
+  <div id="inline-download" style="display:none" class="download-form">
+    <form id="form" name="form">
+      <h1>Formulario de descarga</h1>
+      <p>Completa todos los campos para descargar el plugin.<br>
+        Recibirás una licencia de evaluación válida por dos semanas en tu email.
+      </p>
+
+      <label>Nombre*
+        <span class="small">Nombre</span>
+      </label>
+      <input type="text" name="name" id="name">
+
+      <label>Apellidos*
+        <span class="small">Apellidos</span>
+      </label>
+      <input type="text" name="surname" id="surname">
+
+      <label>Email*
+        <span class="small">Usa una dirección válida</span>
+      </label>
+      <input type="text" name="email" id="email">
+
+      <label>Empresa*
+        <span class="small">Empresa</span>
+      </label>
+      <input type="text" name="company" id="company">
+
+      <div class="text-center">
+        <button class="btn btn-default btn-call-to-action" id="send">Solicitar</button>
+      </div>
+      <div class="spacer"></div>
+
+    </form>
+  </div>
+  <script>
+    var product = 'bitegarden-sonarqube-report';
+    var version = '1.2';
+
+  </script>
+
+</section>

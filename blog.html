@@ -17,25 +17,25 @@ permalink: /blog/
   </div>
 </section>
 {% for post in site.posts %}
+{% if post.url contains '_en' %}
 <div class="post-area">
   <div class="row">
     <div class="col-md-2">
     </div>
     <a href="{{ post.url | prepend: site.baseurl }}">
-    <div class="col-md-2">
-      <strong>{{ post.title }}</strong>
-      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-    </div>
-    <div class="col-md-6">
-      <p>
-        {{ post.description }}
-      </p>
-    </div>
+      <div class="col-md-2">
+        <strong>{{ post.title }}</strong>
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+      </div>
+      <div class="col-md-6">
+        <p>
+          {{ post.description }}
+        </p>
+      </div>
     </a>
     <div class="col-md-2">
     </div>
   </div>
-
-
 </div>
+{% endif %}
 {% endfor %}

@@ -9,7 +9,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">Activar navegación</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -21,20 +21,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/products">SonarQube™ Plugins</a></li>
-                <li><a href="{{ site.baseurl }}/downloads">Downloads</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                <li><a href="{{ site.baseurl }}/es/">Inicio</a></li>
+                <li><a href="{{ site.baseurl }}/es/products">SonarQube™ Plugins</a></li>
+                <li><a href="{{ site.baseurl }}/es/downloads">Descargas</a></li>
+                <li><a href="{{ site.baseurl }}/es/blog">Blog</a></li>
+                <li><a href="{{ site.baseurl }}/es/contact">Contacto</a></li>
                 <li><a href="https://twitter.com/bitegarden" target="_blank"><span class="ion-social-twitter" style="font-size: 24px"></span></a></li>
                 <li><a href="https://www.linkedin.com/company/bitegarden" target="_blank"><span class="ion-social-linkedin" style="font-size: 24px"></span></a></li>
 
-                {% if page.url contains '_en' %}
-                <li><a href="{{ site.baseurl }}{{ page.url | replace: "_en", "_es" }}">ES</a></li>
+                {% if page.url contains '_es' %}
+                <li><a href="{{ site.baseurl }}{{ page.url | replace: "_es", "_en" }}">EN</a></li>
                 {% else %}
-                <li><a href="{{ site.baseurl }}/es{{ page.url }}">ES</a></li>
+                <li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/" }}">EN</a></li>
                 {% endif %}
-
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

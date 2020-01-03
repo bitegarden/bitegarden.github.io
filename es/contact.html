@@ -1,0 +1,63 @@
+---
+layout: page_es
+title: Contacto
+description: Completa el formulario y te responderemos lo antes posible. ¡Gracias!
+permalink: /es/contact/
+---
+
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Contacto</h1>
+          <p>Completa el formulario y te responderemos lo antes posible. ¡Gracias!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact form start -->
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+       <div class="block">
+          <form  action="//formspree.io/bitegarden@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+                    
+            <div class="col-md-6 col-sm-12">
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<input type="text" name="name" class="form-control" placeholder="Tu nombre" id="name" required data-validation-required-message="Por favor escribe tu nombre.">
+							<p class="help-block text-danger"></p>
+						</div>
+                    </div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<input type="email" name="_replyto" class="form-control" placeholder="Correo electrónico" id="email" required data-validation-required-message="Por favor escribe tu dirección de correo.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+                    <div>
+						<input type="text" name="_gotcha" style="display:none" />
+					</div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+					<div class="row control-group">
+						<div class="form-group-2 col-xs-12 floating-label-form-group controls">
+							<textarea name="_message" class="form-control" rows="3" placeholder="Tu mensaje" id="message" required data-validation-required-message="Por favor escribe un mensaje."></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div id="success"></div>
+					<div class="block">
+				        <button type="submit" class="btn btn-success btn-lg">Enviar mensaje</button>
+                    </div>
+                </div>
+          </form>
+        
+      </div>
+    </div>
+      
+  </div>
+</section>

@@ -1,0 +1,43 @@
+---
+layout: page_es
+title: Blog
+permalink: /es/blog/
+---
+<!-- Slider Start -->
+<section id="global-header-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>SonarQube&trade; Plugins, noticias sobre calidad de código y mucho más</h1>
+          <p>No te pierdas las últimas novedades del ecosistema SonarQube&trade; </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+
+{% if post.url contains '_es' %}
+<div class="post-area">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <div class="col-md-2">
+        <strong>{{ post.title }}</strong>
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+      </div>
+      <div class="col-md-6">
+        <p>
+          {{ post.description }}
+        </p>
+      </div>
+    </a>
+    <div class="col-md-2">
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% endfor %}
