@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_es
 title: Plugins para SonarQube™ - Motivación y objetivos 
 description: ¿Por qué desarrollamos plugins para SonarQube™? ¿Cómo empezamos este proyecto de calidad de código? Descubre todos los beneficios de extender las funcionalidades de sonar, así como las razones detrás de bitegarden y de dos de nuestros plugins más éxitosos. 
 ---
