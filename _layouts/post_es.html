@@ -12,7 +12,25 @@ layout: page_es
           <div class="block">
             <h1><strong>{{ page.title }}</strong></h1>
             <div class="post-info-wrapper">
-              <p><span class="bold">{{ page.date | date: "%B %-d, %Y" }}</p>
+              <p><span class="bold">
+                {% assign m = page.date | date: "%-m" %}
+                {{ page.date | date: "%-d" }} de
+                {% case m %}
+                {% when '1' %}enero
+                {% when '2' %}febrero
+                {% when '3' %}marzo
+                {% when '4' %}abril
+                {% when '5' %}mayo
+                {% when '6' %}junio
+                {% when '7' %}julio
+                {% when '8' %}agosto
+                {% when '9' %}septiembre
+                {% when '10' %}octubre
+                {% when '11' %}noviembre
+                {% when '12' %}diciembre
+                {% endcase %}
+                {{ page.date | date: "%Y" }}
+              </p>
             </div>
           </div>
         </div>
