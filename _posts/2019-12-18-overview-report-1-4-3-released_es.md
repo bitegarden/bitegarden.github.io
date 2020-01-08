@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_es
 title: Overview Report 1.4.3 
 description: Esta versión se centra en corregir errores internos para mejorar la experiencia del usuario.
 ---
