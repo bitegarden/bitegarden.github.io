@@ -1,23 +1,23 @@
 ---
 layout: post
-title: SQALE 1.2 released
-description: This version is focused on support for SonarQube&trade; latest version (8.x) and several internal improvements.
+title: SQALE 1.2 
+description: Esta versión está centrada en el soporte para la última versión de SonarQube™ (8.x) y otras mejoras internas.
 ---
 
+El equipo de **bitegarden** está encantado de anunciaros una nueva versión (1.2) de [**SQALE Plugin for SonarQube™**](https://www.bitegarden.com/es/sonarqube-sqale). 
 
-**bitegarden** team is pleased to announce a new version (1.2) of [**SQALE Plugin**](https://www.bitegarden.com/sonarqube-sqale).
+Esta versión incluye:
 
-This new version includes:
+\- Soporte para SonarQube&trade; 8.x
 
-\- Suppport for SonarQube&trade; 8.x
+\- El token de credenciales ya no es necesario para usar el plugin. Solo es necesario en caso de que desee cargar el viejo modelo SQALE.
 
-\- Credentials token is no longer required to use the plugin out-of-the-box. It is just required in case you want to load old SQALE model. 
+\- La URL base del servidor ya no es necesaria para usar el plugin.
 
-\- Server Base URL is no longer required to use the plugin.
+[Configura el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar tu versión o descárgala directamente desde la página de [descargas](https://www.bitegarden.com/es/downloads/). 
 
-[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [downloads page](/downloads).
+¡Disfruta de la nueva versión de nuestro plugin para SonarQube™!
 
-Enjoy the new version!
 
 ![sqale-logo](/img/portfolio/sonarqube-sqale.png){: .center-image}
 

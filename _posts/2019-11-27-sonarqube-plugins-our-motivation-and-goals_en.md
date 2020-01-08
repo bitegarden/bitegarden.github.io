@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SonarQube Plugins - Our motivation and goals
+title: SonarQube™ Plugins - Our motivation and goals
 description: Why do we develop SonarQube™ plugins? How did we start this code quality project? Discover all the benefits of extending sonar functionalities as well as the reasons behind bitegarden and two of our most successful SonarQube™ plugins.
 ---
 
@@ -21,21 +21,21 @@ We love their approach and we completely share it: sonar is a developer centered
 better software.
 
 But the software development lifecycle involves other roles too, not only developers. We want to give SonarQube™ all the
-reporting features that are missing and are demanded by project managers, product owners and as much people as we can. 
+reporting features that are missing and are asked for by project managers, product owners and as much people as we can. 
 And that's basically what we do: **we create plugins for SonarQube™ tailored to the needs of each specific team.**
 
 ## SonarQube™ plugins
 
 Two great examples of the motivation behind bitegarden are SQALE and Overview Report plugins. 
 
-* [SQALE plugin for SonarQube™](https://www.bitegarden.com/sonarqube-sqale) brings back a software quality model that 
+\- [SQALE plugin for SonarQube™](https://www.bitegarden.com/sonarqube-sqale) brings back a software quality model that 
 used to be present on SonarQube™ previous versions. 
 The SQALE method is focused on Technical Debt management and it's compliant to ISO 25000, so not only our plugin fits 
 the needs of those who are missing SQALE on SonarQube™, but of those who are looking for a specific, certified and 
-effective methodology to improve software quality. **SQALE Plugin for SonarQube™ is listed as an official SQALE tool 
+effective methodology to improve software quality. **SQALE Plugin for SonarQube™ is [listed](http://www.sqale.org/tools) as an official SQALE tool 
 to manage your technical debt**. 
 
-* [Overview Report Plugin for SonarQube™](https://www.bitegarden.com/sonarqube-overview) responds to one of the most 
+\- [Overview Report Plugin for SonarQube™](https://www.bitegarden.com/sonarqube-overview) responds to one of the most 
 asked functionalities: gather sonarqube projects together creating one or more portfolios for a better evaluation of 
 overall quality of software within an organisation. 
 

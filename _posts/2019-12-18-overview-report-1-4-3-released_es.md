@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Overview Report 1.4.3 released
-description: This version is focused on fixing internal bugs to improve user experience.
+title: Overview Report 1.4.3 
+description: Esta versión se centra en corregir errores internos para mejorar la experiencia del usuario.
 ---
 
-**bitegarden** team is pleased to announce a new version (1.4.3) of [**Overview Report Plugin**](https://www.bitegarden.com/sonarqube-overview). It is mainly an internal bugfix version
+El equipo de **bitegarden** está encantado de anunciaros una nueva versión (1.4.3) de [**Overview Report Plugin**](https://www.bitegarden.com/es/sonarqube-overview). 
 
-This new version includes:
+Esta versión es principalmente una mejora interna de errores. Consiste en:
 
-\- Fix pagination bug in overview report that was limiting the total number of projects to 100.
+\- Corrección del error de paginación en el informe general que limitaba el número total de proyectos a 100.
 
-\- Server Base URL is no longer required to use the plugin.
+\- La URL base del servidor ya no es necesaria para usar el plugin.
 
-[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [downloads page](/downloads).
+[Configura el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar tu versión o descárgala directamente desde la página de [descargas](https://www.bitegarden.com/es/downloads/). 
 
-Enjoy the new version!
+¡Disfruta de la nueva versión de nuestro plugin para SonarQube™!
 
 ![overview-logo](/img/portfolio/sonarqube-overview.png){: .center-image}
 
