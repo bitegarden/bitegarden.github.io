@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_es
 title: Noticias para los amantes de calidad de código
 description: SQALE plugin for SonarQube™  tiene nuevas funcionalidades para gestionar la deuda técnica. También hemos añadido dos nuevos plugins para sonar a nuestro portfolio - Project Tag y Rating Report incorporan funcionalidades avanzadas en el uso de etiquetas de SonarQube™
 ---
