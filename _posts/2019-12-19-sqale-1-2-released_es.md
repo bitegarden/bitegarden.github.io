@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_es
 title: SQALE 1.2 
 description: Esta versión está centrada en el soporte para la última versión de SonarQube™ (8.x) y otras mejoras internas.
 ---
