@@ -56,20 +56,43 @@ permalink: /es/sonarqube-report-documentation
             </li>
             <li>Pega la clave de la licencia y guarda</li>
           </ol>
-          <p>Se requiere lanzar un nuevo análisis para poder visualizar los resultados</p>
+          <p>Se requiere lanzar un nuevo análisis para poder descargar el informe personalizado ODT.</p>
+
+          <p></p>
+          <h3>Gestión de Informes</h3>
+          <p>
+            Puedes encontrar todos los informes relacionados con este plugin en la opción "More..." y después "Reporting" dentro
+            del menu del espacio de proyecto de SonarQube&trade;.
+          </p>
+          <p>
+            Podrás descargar en la página de gestión de informes todos los que estén disponibles:
+          </p>
+          <p>
+            - <strong>Resumen ejecutivo en PDF</strong>: un sencillo y limpio informe con toda la información en una sola página.<br>
+            - <strong>Informe personalizado con Open Document (ODT)</strong>: un informe personalizado creado utilizando una plantilla que puedes
+            modificar para crear nuevos informes.
+          </p>
+
+          <p></p>
+          <div class="text-center">
+            <img style="width:80%;" src="/img/sonarqube-report/bitegarden-report-management.png" alt="report management section">
+          </div>
+          <p class="text-center">Página de Gestión de Informes proporcionada por el plugin</p>
+          <p></p>
 
           <h3>Personaliza tu plantilla de proyecto</h3>
-          <p>Crea tu plantilla personalizada y configura el plugin para poder usarla a través de la configuración de la
+          <p>Crea tu plantilla personalizada y configura el plugin para poder usarla a través de la configuración de
             administración</p>
           <p>Descarga la <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">plantilla
-            por defecto</a> para ver como funciona</p>
+            por defecto</a> para ver un ejemplo de como utilizarla.</p>
           <p>Report Plugin for SonarQube&trade; te permite configurar la plantilla de manera global o por proyecto.
             Además, las plantillas se proveen a través de URLs, por lo que no es obligatorio tener acceso a la máquina
             donde SonarQube&trade; está corriendo</p>
 
-          <h3>Configuración del plugin Report for SonarQube&trade;</h3>
+          <p></p>
+          <h3>Configuración de informes personalizados</h3>
 
-          <p>La configuración del plugin reside en la configuración de la plantilla. La plantilla es un <a
+          <p>La creación de un informe personalizado reside en la configuración de la plantilla. La plantilla es un <a
                   href="https://en.wikipedia.org/wiki/OpenDocument" class="external-link"
                   rel="nofollow">OpenDocument</a> que puede ser editado con <a href="http://www.openoffice.org"
                                                                                class="external-link" rel="nofollow">OpenOffice</a>
@@ -99,24 +122,13 @@ permalink: /es/sonarqube-report-documentation
           <p>Tenga en cuenta que, para que funcione correctamente, todas las expresiones deben estar bien formadas y
             deben ser evaluables.</p>
 
-          <h3>Variables disponibles para la generación de informes</h3>
-          <p>Las variables disponibles son todas las métricas de SonarQube para el proyecto, donde los guiones ('-') han
-            sido reemplazados por subrayados ('_') y otros como <code>project_name</code>,
+          <p></p>
+          <h3>Variables disponibles para el diseño de informes</h3>
+          <p>
+            Las variables disponibles son todas las métricas de SonarQube para el proyecto, donde los guiones ('-') han
+            sido reemplazados por subrayados ('_') y otras variables generales como son: <code>project_name</code>,
             <code>project_description</code>, <code>analysis_date</code> y <code>analysis_version</code>.
-
-          <h3>Enviar informe de SonarQube&trade; por email</h3>
-          <p>Para enviar el informe por correo electrónico, debe establecer la configuración de SMTP en <i>Settings -->
-            General --> Email.</i> Después de esto, deberá completar el campo <i>Mailing list</i> en la configuración
-            del plugin con la lista de destinatarios (comma-separated).</p>
-
-          <h3>Informe de SonarQube&trade; en PDF</h3>
-          <p>Para generar el informe en PDF <a href="http://www.openoffice.org/" class="external-link" rel="nofollow">
-            tienes que tener OpenOffice</a> instalado.
-            Luego, debemos completar el campo <i> OpenOffice path </i> en la sección de configuración, que indica la
-            ruta al directorio de instalación de la herramienta OpenOffice.</p>
-          <p>Finalmente, necesitamos activar la generación del formato PDF, las propiedades también están disponibles en
-            la sección de configuración del complemento.</p>
-
+          </p>
         </div>
       </div>
     </div>
@@ -148,9 +160,9 @@ permalink: /es/sonarqube-report-documentation
           <div class="features">
             <ul>
               <li class="">Licencia de evaluación de 14 días</li>
-              <li class="even">Tras completar el formulario recibirás la clave por email</li>
-              <li class="">Usando este formulario descargarás la versión compatible con la LTS, visita <a
-                      href="downloads">descargas</a> para las versiones Latest
+              <li class="even">Tras completar el formulario descargarás el fichero que incluye la clave de evaluación</li>
+              <li class="">Usando este formulario descargarás la versión compatible con LTS, visita <a
+                      href="downloads">descargas</a> para otras versiones
               </li>
             </ul>
           </div>
@@ -220,7 +232,7 @@ permalink: /es/sonarqube-report-documentation
   </div>
   <script>
     var product = 'bitegarden-sonarqube-report';
-    var version = '1.2';
+    var version = '2.0';
 
   </script>
 
