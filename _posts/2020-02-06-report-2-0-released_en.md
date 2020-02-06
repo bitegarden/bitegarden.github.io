@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Quick and simple, new report 2.0!
-description: We have released a new version of our Report for SonarQube&trade; that changes everything. A new clean PDF executive report and many more to come!
+description: We have released a new version of Report for SonarQube&trade; plugin. A fresh new version, completely changed and adapated to the needs users have shared with us, including a brand new PDF executive report. 
 ---
 
 **bitegarden** team is pleased to announce a new version (2.0) of [**Report Plugin for SonarQube&trade;**](https://www.bitegarden.com/sonarqube-report).
 
-This new version is focused to change the way we were using the reports in SonarQube&trade;. We have redesigned the page in your project space
+This new version is focused in changing the way we were using reports in SonarQube&trade;. We have redesigned the page in your project space
 with different sections that will provide a different kind of report for every user, from management to developers.
 
 ## A new executive report for your SonarQube&trade; projects 
@@ -16,7 +16,7 @@ Take a look a this [**report sample**](/img/sonarqube-report/sonarqube-sample-ex
 
 **You will love it and your managers will love it too!**
 
-Of course, you will be able to still use your ODT template if you want... but sinceresly, who need the custom template when you have 
+Of course, you will be able to still use your ODT template if you want... but sincerely, who need the custom template when you have 
 such a clean and minimalistic summary report with all the information in just one page?
 
 ---
@@ -26,7 +26,7 @@ such a clean and minimalistic summary report with all the information in just on
 ---
 ## And one more thing...
 
-We have removed all the gargabe stuff and make it easier to use. You won't need to configure anything to 
+We have removed all the garbage stuff and make it easier to use. You won't need to configure anything to 
 get your PDF report, and we have removed the required OpenOffice installation to convert ODT templates. This was
 something we really didn't like at all.
 

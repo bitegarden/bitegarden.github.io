@@ -17,7 +17,7 @@ tu proyecto.
 
 Échale un vistazo a este [**ejemplo de informe**](/img/sonarqube-report/sonarqube-sample-executive-report_es.pdf){:target="_blank"}. ¿Está genial, verdad?
 
-**Te encantará poder ver y llevar contigo este informe y aún más, los gestores de proyectos fliparán**
+**Te encantará poder ver y llevar contigo este informe y lo que es mejor... ¡los gestores de proyectos te lo agradecerán!
 
 Por supuesto podrás seguir utilizando la plantilla ODT si quieres... pero sinceramente, ¿quién necesita la plantilla 
 personalizada cuando puedes tener un resumen ejecutivo tan limpio y minimalista que lo incluye todo en una sola página? 
@@ -31,12 +31,12 @@ personalizada cuando puedes tener un resumen ejecutivo tan limpio y minimalista 
 ## Y una cosa más...
 
 Hemos eliminado toda la "basura" para hacer que todo sea más fácil de usar. Ya no necesitas configurar nada para obtener
-tus informes en PDF o en ODT, hemos eliminado toda la necesidad de usar una installación OpenOffice para conversión de 
-plantillas ODT. Esto era algo que realmente no nos gustaba en absoluto.
+tus informes en PDF o en ODT, hemos eliminado toda la necesidad de usar una instalación OpenOffice para conversión de 
+plantillas ODT. Esto era algo que no nos gustaba en absoluto.
 
 Ahora simplemente tendrás dos opciones (¡pronto serán muchas más!)
 
-\- El nuevo informe ejecutivo en PDF de tu proyecto
+\- El nuevo informe ejecutivo de tu proyecto de SonarQube en PDF, listo para descargar
 
 \- El informe a partir de la plantilla ODT por si quieres personalizar algo y ser capaz de editar después el documento
 
