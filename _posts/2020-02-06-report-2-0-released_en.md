@@ -1,0 +1,56 @@
+---
+layout: post
+title: Quick and simple, new report 2.0!
+description: We have released a new version of our Report for SonarQube&trade; that changes everything. A new clean PDF executive report and many more to come!
+---
+
+**bitegarden** team is pleased to announce a new version (2.0) of [**Report Plugin for SonarQube&trade;**](https://www.bitegarden.com/sonarqube-report).
+
+This new version is focused to change the way we were using the reports in SonarQube&trade;. We have redesigned the page in your project space
+with different sections that will provide a different kind of report for every user, from management to developers.
+
+## A new executive report for your SonarQube&trade; projects 
+We have included our first report to provide a clean PDF with an executive summary of your project code quality. 
+
+Take a look a this [**report sample**](/img/sonarqube-report/sonarqube-sample-executive-report.pdf){:target="_blank"}. It is beautiful, isn't it?
+
+**You will love it and your managers will love it too!**
+
+Of course, you will be able to still use your ODT template if you want... but sinceresly, who need the custom template when you have 
+such a clean and minimalistic summary report with all the information in just one page?
+
+---
+
+[![sample-report](/img/sonarqube-report/sonarqube-webgoat-sample-report.png){:width="450px" .center-image}](/img/sonarqube-report/sonarqube-sample-executive-report.pdf)
+
+---
+## And one more thing...
+
+We have removed all the gargabe stuff and make it easier to use. You won't need to configure anything to 
+get your PDF report, and we have removed the required OpenOffice installation to convert ODT templates. This was
+something we really didn't like at all.
+
+Now you have two options (soon there will be more):
+
+\- The brand new executive PDF report for your project
+
+\- The custom ODT template if you want to customize anything or be able to edit the generated report
+
+You just need to go to the "Reporting" page to browse through Report Management section:
+
+---
+
+![report-logo](/img/sonarqube-report/bitegarden-report-management.png){:width="640px" .center-image}
+
+---
+
+[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [downloads page](/downloads).
+
+Enjoy the new version!
+
+[![report-logo](/img/portfolio/sonarqube-report.png){: .center-image}](/sonarqube-report)
+
+---
+**<span style="color: green">bitegarden</span> team**
+
+_Helping companies to develop better software_
