@@ -42,9 +42,6 @@ $(document).ready(function(){
         time: 1000
     });
 
-    // Download form
-    
-	$('.fancybox').fancybox();
 
 });
 
