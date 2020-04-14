@@ -2,6 +2,8 @@
 layout: post
 title: SQALE 1.2 released
 description: This version is focused on support for SonarQube&trade; latest version (8.x) and several internal improvements.
+permalink: /sqale-1-2-released
+spanish: /nueva-version-sqale-plugin-1-2
 ---
 
 
@@ -15,7 +17,9 @@ This new version includes:
 
 \- Server Base URL is no longer required to use the plugin.
 
-[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [downloads page](/downloads).
+<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+
+Or [configure SonarQube&trade; update center](/downloads/#update-center) to upgrade automatically your plugin.
 
 Enjoy the new version!
 

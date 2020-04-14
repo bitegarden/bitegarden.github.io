@@ -2,6 +2,8 @@
 layout: post_es
 title: SQALE 1.2 
 description: Esta versión está centrada en el soporte para la última versión de SonarQube™ (8.x) y otras mejoras internas.
+english: /sqale-1-2-released
+permalink: /nueva-version-sqale-plugin-1-2
 ---
 
 El equipo de **bitegarden** está encantado de anunciaros una nueva versión (1.2) de [**SQALE Plugin for SonarQube™**](https://www.bitegarden.com/es/sonarqube-sqale). 
@@ -14,7 +16,9 @@ Esta versión incluye:
 
 \- La URL base del servidor ya no es necesaria para usar el plugin.
 
-[Configura el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar tu versión o descárgala directamente desde la página de [descargas](https://www.bitegarden.com/es/downloads/). 
+<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+
+Puedes también [configurar el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar de manera automática tu plugin. 
 
 ¡Disfruta de la nueva versión de nuestro plugin para SonarQube™!
 
