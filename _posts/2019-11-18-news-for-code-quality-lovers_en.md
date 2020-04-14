@@ -2,6 +2,8 @@
 layout: post
 title: News for code quality lovers
 description: SQALE plugin for SonarQube™ has new features to manage technical debt and we add two new sonar plugins to the family - Rating Report and Project Tag will boost usability of your tags in SonarQube™. It's all about sonarqube plugins development!
+permalink: /news-for-code-quality-lovers
+spanish: /noticias-para-los-amantes-de-calidad-de-codigo
 ---
 
 We'be been busy these past months working on improvements, new features and even new plugins!

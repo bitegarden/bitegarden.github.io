@@ -18,7 +18,7 @@ permalink: /es/blog/
 </section>
 {% for post in site.posts %}
 
-{% if post.url contains '_es' %}
+{% if post.path contains '_es' %}
 <div class="post-area">
   <div class="row">
     <div class="col-md-2">
@@ -28,7 +28,7 @@ permalink: /es/blog/
         <strong>{{ post.title }}</strong>
 
 
-        <p <p class="post-date">
+        <p class="post-date">
         {% assign m = post.date | date: "%-m" %}
         {{ post.date | date: "%-d" }} de
         {% case m %}

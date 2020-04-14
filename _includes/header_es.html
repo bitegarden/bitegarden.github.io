@@ -29,8 +29,8 @@
                 <li><a href="https://twitter.com/bitegarden" target="_blank"><span class="ion-social-twitter" style="font-size: 24px"></span></a></li>
                 <li><a href="https://www.linkedin.com/company/bitegarden" target="_blank"><span class="ion-social-linkedin" style="font-size: 24px"></span></a></li>
 
-                {% if page.url contains '_es' %}
-                <li><a href="{{ site.baseurl }}{{ page.url | replace: "_es", "_en" }}">EN</a></li>
+                {% if page.path contains '_es' %}
+                <li><a href="{{ site.baseurl }}{{ page.english }}">EN</a></li>
                 {% else %}
                 <li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/" }}">EN</a></li>
                 {% endif %}
