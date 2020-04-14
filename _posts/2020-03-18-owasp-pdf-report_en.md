@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Export OWASP report in PDF
-description: We have released a new version of Security Plugin for SonarQube&trade; that includes the most wanted feature, the ability to export to PDF all your OWASP compliance information. 
+description: We have released a new version of Security Plugin for SonarQube&trade; that includes the most wanted feature, the ability to export to PDF all your OWASP compliance information.
+permalink: export-owasp-pdf-report
+spanish: exporta-informe-owasp-en-pdf
 ---
 
 **bitegarden** team is pleased to announce a new version (2.1) of [**Security Plugin for SonarQube&trade;**](https://www.bitegarden.com/sonarqube-security).
@@ -9,6 +11,8 @@ description: We have released a new version of Security Plugin for SonarQube&tra
 This new version is focused in exporting data the same way we did with [**Report Plugin for Sonarqube&trade;**](/report-2-0-released_en). 
 
 You requested us to export to PDF all the OWASP information from your project and we have just build a beautiful report for you!
+
+<a href="/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 ---
 
