@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Quick and simple, new report 2.0!
-description: We have released a new version of Report for SonarQube&trade; plugin. A fresh new version, completely changed and adapted to the needs users have shared with us, including a brand new PDF executive report. 
+description: We have released a new version of Report for SonarQube&trade; plugin. A fresh new version, completely changed and adapted to the needs users have shared with us, including a brand new PDF executive report.
+permalink: report-2-0-released
+spanish: nueva-version-report-2-0 
 ---
 
 **bitegarden** team is pleased to announce a new version (2.0) of [**Report Plugin for SonarQube&trade;**](https://www.bitegarden.com/sonarqube-report).
 
 This new version is focused in changing the way we were using reports in SonarQube&trade;. We have redesigned the page in your project space
 with different sections that will provide a different kind of report for every user, from management to developers.
+
+<a href="/sonarqube-report-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 ## A new executive report for your SonarQube&trade; projects 
 We have included our first report to provide a clean PDF with an executive summary of your project code quality. 

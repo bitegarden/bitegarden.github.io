@@ -1,7 +1,9 @@
 ---
 layout: post_es
 title: ¡Rápido y sencillo! ¡Así es Report 2.0!
-description: Hemos publicado una nueva versión de nuestro plugin para generar informes en SonarQube&trade; que lo cambia todo. ¡Un nuevo informe ejecutivo en PDF y mucho más que está por llegar! 
+description: Hemos publicado una nueva versión de nuestro plugin para generar informes en SonarQube&trade; que lo cambia todo. ¡Un nuevo informe ejecutivo en PDF y mucho más que está por llegar!
+english: report-2-0-released
+permalink: nueva-version-report-2-0  
 ---
 
 El equipo de **bitegarden** está orgulloso de presentar la nueva versión (2.0) de nuestro [**Report Plugin for SonarQube&trade;**](/es/sonarqube-report).
@@ -10,6 +12,8 @@ Esta versión se centra en cambiar la forma en la que estábamos utilizando los 
 la página de tu espacio de proyecto con diferentes secciones que proporcionarán diferentes tipos de informes para cada tipo de usuario, 
 desde gestores hasta desarrolladores.
  
+<a href="/es/sonarqube-report-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+
 ## Un nuevo informe ejecutivo de tus proyectos de SonarQube&trade;  
 
 Hemos incluido un primer informe para proporcionar un PDF muy limpio con un resumen ejecutivo de la calidad del código de
