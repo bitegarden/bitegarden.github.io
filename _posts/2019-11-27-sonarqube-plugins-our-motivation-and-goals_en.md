@@ -2,6 +2,8 @@
 layout: post
 title: SonarQube™ Plugins - Our motivation and goals
 description: Why do we develop SonarQube™ plugins? How did we start this code quality project? Discover all the benefits of extending sonar functionalities as well as the reasons behind bitegarden and two of our most successful SonarQube™ plugins.
+permalink: /sonarqube-plugins-our-motivation-and-goals
+spanish: /plugins-para-sonarqube-nuestra-motivacion-y-objetivos
 ---
 
 **bitegarden** was born more than a year ago as a side project of a group of SonarQube™ professionals. We wanted to 
@@ -35,10 +37,13 @@ the needs of those who are missing SQALE on SonarQube™, but of those who are l
 effective methodology to improve software quality. **SQALE Plugin for SonarQube™ is [listed](http://www.sqale.org/tools) as an official SQALE tool 
 to manage your technical debt**. 
 
+<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+
 \- [Overview Report Plugin for SonarQube™](https://www.bitegarden.com/sonarqube-overview) responds to one of the most 
 asked functionalities: gather sonarqube projects together creating one or more portfolios for a better evaluation of 
 overall quality of software within an organisation. 
 
+<a href="/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 **[Check all of our plugins](https://www.bitegarden.com/products/), and evaluate them for free!** 
 

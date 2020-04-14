@@ -2,6 +2,8 @@
 layout: post_es
 title: Plugins para SonarQube™ - Motivación y objetivos 
 description: ¿Por qué desarrollamos plugins para SonarQube™? ¿Cómo empezamos este proyecto de calidad de código? Descubre todos los beneficios de extender las funcionalidades de sonar, así como las razones detrás de bitegarden y de dos de nuestros plugins más éxitosos. 
+english: /sonarqube-plugins-our-motivation-and-goals
+permalink: /plugins-para-sonarqube-nuestra-motivacion-y-objetivos
 ---
 
 **bitegarden** nació hace más de un año como un *side project* de un grupo de expertos en SonarQube™. Queríamos difundir nuestros conocimientos y ayudar con nuestra experiencia como consultores altamente capacitados en SonarQube™. Cuando echamos la vista atrás, es difícil creer todo lo que hemos conseguido en un año. 
@@ -27,9 +29,13 @@ Dos grandes ejemplos para reflejar las razones que llevaron a crear bitegarden, 
 \- [SQALE plugin for SonarQube™](https://www.bitegarden.com/es/sonarqube-sqale) trae de vuelta la metodología de calidad de código que solía estar presente en versiones anteriores de SonarQube™. 
 El método SQALE esté centrado en la gestión de la deuda técnica y es conforme a la ISO 25000, así que no solo nuestro plugin cubre las necesidades de aquellos que echan de menos SQALE en SonarQube™, sino también de aquellos que están en búsqueda de un modelo específico, certificado y efectivo para mejorar la calidad de su software. 
 
+<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+
 **El plugin de SQALE está [reconocido](http://www.sqale.org/tools) como herramienta oficial para gestión de la deuda técnica**
 
 \- [Overview Report Plugin for SonarQube™](https://www.bitegarden.com/es/sonarqube-overview) responde a una de las funcionalidades más demandadas: la capacidad de agrupar proyectos de SonarQube™ creando una o más carteras, para una mejor evaluación del estado general de la calidad del código en la organización.
+
+<a href="/es/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 **¡[Descubre todos nuestros plugins](https://www.bitegarden.com/es/products/), y pruébalos gratis!** 
 
