@@ -14,6 +14,8 @@ Have you lost track of how quality measures are evolving?  Check the evolution o
  
 Do you need help defining an action plan to focus on the problems that matter? Use ROI strategy graph which evaluates remediation costs and weighted severity
 
+<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+
 ---
 
 ### Introducing Project Tag Plugin for SonarQube™
@@ -22,6 +24,8 @@ Creating tags manually is a very hard when you have a lot of projects. With our 
 
 Your project onboarding it's going to be much more smooth...
 
+<a href="/sonarqube-project-tag-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+
 ---
 
 ### Introducing Rating Report Plugin for SonarQube™
@@ -29,6 +33,8 @@ Your project onboarding it's going to be much more smooth...
 SonarQube™ has a powerful quality model based on reliability, security and maintainability. But sometimes you need to know a little bit more... What about performance? And error handling? User experience?
 
 With this plugin you will be able to get ratings for all those code quality characteristics by using the rule tags feature available in SonarQube.
+
+<a href="/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 

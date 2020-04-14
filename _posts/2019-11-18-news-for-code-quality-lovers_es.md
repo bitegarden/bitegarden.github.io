@@ -17,12 +17,16 @@ Hemos estado ocupados los últimos meses trabajando en mejoras, nuevas funcional
 
 Descarga y evalua [SQALE Plugin for SonarQube™](https://www.bitegarden.com/es/sonarqube-sqale) para descubrir todas las funcionalidades. 
 
+<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+
 ---
 
 ### Presentación de Project Tag Plugin for SonarQube™
 
 Crear etiquetas manualmente es muy difícil cuando tienes muchos proyectos. Con nuestro nuevo complemento, podrá configurar etiquetas de proyecto de forma fácil y automática. Simplemente proporcione la etiqueta a través de una propiedad de línea de comando en su análisis y el plugin hará el resto.
 ¡Automatiza con [Project Tag](https://www.bitegarden.com/es/sonarqube-project-tag)! 
+
+<a href="/es/sonarqube-project-tag-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 
@@ -31,6 +35,8 @@ Crear etiquetas manualmente es muy difícil cuando tienes muchos proyectos. Con 
 SonarQube™ tiene un poderoso modelo de calidad basado en fiabilidad, seguridad y mantenibilidad. Pero a veces se necesita saber un poco más ... ¿Qué pasa con el rendimiento? ¿Y con el manejo de errores? ¿La experiencia de usuario?
 
 Con [este plugin](https://www.bitegarden.com/es/sonarqube-rating) de SonarQube™, podrá obtener calificaciones para todas esas características de calidad de código mediante el uso de etiquetado de reglas.
+
+<a href="/es/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 
