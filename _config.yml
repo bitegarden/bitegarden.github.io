@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: bitegarden - SonarQubeTM plugins 
+title: bitegarden - Plugins for SonarQubeTM
 subtitle: "Helping companies to build better software"
 url: "https://www.bitegarden.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
