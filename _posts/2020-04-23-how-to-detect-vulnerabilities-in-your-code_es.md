@@ -1,7 +1,7 @@
 ﻿---
 layout: post_es
 title: Cómo detectar vulnerabilidades en tu código
-description: SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SNAS, CWE, ...
+description: SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SANS, CWE, ...
 
 english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
@@ -10,7 +10,7 @@ permalink: como-detectar-vulnerabilidades-en-el-codigo
 SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. 
 
 Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis
-asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SNAS, CWE, ... 
+asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SANS, CWE, ... 
 de forma que en estos momentos ya podemos decir que [SonarQube™ es una herramienta SAST](https://www.sonarqube.org/features/security/) 
 (Static Application Security Testing). 
 

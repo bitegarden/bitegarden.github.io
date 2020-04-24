@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: How to detect vulnerabilities in your code
-description: SonarQube™ has become the most powerful continuous inspection and static analysis tool. For a couple of years, the development team has focused on improving all those analysis characteristics associated with vulnerability detection and security standards, including OWASP, SNAS, CWE, ... 
+description: SonarQube™ has become the most powerful continuous inspection and static analysis tool. For a couple of years, the development team has focused on improving all those analysis characteristics associated with vulnerability detection and security standards, including OWASP, SANS, CWE, ... 
 
 permalink: how-to-detect-vulnerabilities-in-your-code
 spanish: como-detectar-vulnerabilidades-en-el-codigo
@@ -10,7 +10,7 @@ spanish: como-detectar-vulnerabilidades-en-el-codigo
 SonarQube™ has become the most powerful continuous inspection and static analysis tool.
 
 For a couple of years, the development team has focused on improving all those analysis characteristics 
-associated with vulnerability detection and security standards, including OWASP, SNAS, CWE, ... 
+associated with vulnerability detection and security standards, including OWASP, SANS, CWE, ... 
 Now we can say that SonarQube™ is a SAST tool (Static Application Security Testing) .
 
 In addition, if we extend the tool with other Open Source components such as [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/), or 
