@@ -1,7 +1,7 @@
 ﻿---
 layout: post_es
 title: Cómo detectar vulnerabilidades en tu código
-description: These last weeks have been challenging, we've all changed our habits as well as the companies. Remote work is here to stay and, probably even after the emergency. 
+description: SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SNAS, CWE, ...
 
 english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
