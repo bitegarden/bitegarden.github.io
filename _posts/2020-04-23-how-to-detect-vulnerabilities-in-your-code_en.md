@@ -7,6 +7,8 @@ permalink: how-to-detect-vulnerabilities-in-your-code
 spanish: como-detectar-vulnerabilidades-en-el-codigo
 ---
 
+![How to detect vulnerabilities in your code - bitegarden](/img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg){:width="100%" .center-image}
+
 SonarQube™ has become the most powerful continuous inspection and static analysis tool.
 
 For a couple of years, the development team has focused on improving all those analysis characteristics 

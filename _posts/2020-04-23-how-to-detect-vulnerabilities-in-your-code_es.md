@@ -7,6 +7,8 @@ english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
 ---
 
+![Como detectar vulnerabilidades en el código - bitegarden](/img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg){:width="100%" .center-image}
+
 SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. 
 
 Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis
