@@ -22,42 +22,49 @@ permalink: /es/contact/
 <section id="contact-form">
   <div class="container">
     <div class="row">
-       <div class="block">
-          <form  action="https://formspree.io/xdoeordr" method="POST" name="sentMessage" id="contactForm" novalidate>
-                    
-            <div class="col-md-6 col-sm-12">
-					<div class="row control-group">
-						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<input type="text" name="name" class="form-control" placeholder="Tu nombre" id="name" required data-validation-required-message="Por favor escribe tu nombre.">
-							<p class="help-block text-danger"></p>
-						</div>
-                    </div>
-					<div class="row control-group">
-						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<input type="email" name="_replyto" class="form-control" placeholder="Correo electrónico" id="email" required data-validation-required-message="Por favor escribe tu dirección de correo.">
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-                    <div>
-						<input type="text" name="_gotcha" style="display:none" />
-					</div>
+      <div class="block">
+        <form action="https://formspree.io/xdoeordr" method="POST" name="sentMessage" id="contactForm" novalidate>
+          <div class="col-md-3 col-sm-12">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="name" class="form-control" placeholder="Tu nombre" id="name" required data-validation-required-message="Por favor escribe tu nombre.">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-					<div class="row control-group">
-						<div class="form-group-2 col-xs-12 floating-label-form-group controls">
-							<textarea name="_message" class="form-control" rows="3" placeholder="Tu mensaje" id="message" required data-validation-required-message="Por favor escribe un mensaje."></textarea>
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-					<div id="success"></div>
-					<div class="block">
-				        <button type="submit" class="btn btn-success btn-lg">Enviar mensaje</button>
-                    </div>
-                </div>
-          </form>
-        
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="email" name="_replyto" class="form-control" placeholder="Correo electrónico" id="email" required data-validation-required-message="Por favor escribe tu dirección de correo.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div>
+              <input type="text" name="_gotcha" style="display:none"/>
+            </div>
+            <div class="row control-group">
+              <div class="form-group-2 col-xs-12 floating-label-form-group controls">
+                <textarea name="_message" class="form-control" rows="3" placeholder="Tu mensaje" id="message" required
+                          data-validation-required-message="Por favor escribe un mensaje."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <p><strong>bitegarden</strong> se compromete a respetar tu privacidad, y solo usaremos tu información para proporcionar productos, servicios y contenido que pueda ser de interés para tí.</p>
+                <input type="checkbox" name="agreement" class="form-check-input" id="agreement" value="accept" required data-validation-required-message="Por favor lee y acepta la política de privacidad y los términos y condiciones">
+                <label class="form-check-label" for="agreement">He leído y acepto la <a href="https://www.bitegarden.com/privacy-policy" target="_blank">política de privacidad</a> y los <a href="https://www.bitegarden.com/pdf/bitegarden-terms-and-conditions.pdf" target="_blank">términos y condiciones</a></label>
+              </div>
+            </div>
+            <div id="success"></div>
+            <div class="block">
+              <button type="submit" class="btn btn-success btn-lg">Enviar mensaje</button>
+            </div>
+          </div>
+        </form>
+
       </div>
     </div>
-      
+
   </div>
 </section>
