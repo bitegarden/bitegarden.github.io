@@ -22,6 +22,8 @@ baseurl: ""
 cover: "/img/bitegarden-cover.png"
 logo: "/img/logo-solo.png"
 
+disqus_account: bitegarden
+
 # Build settings
 markdown: kramdown
 permalink: :title
