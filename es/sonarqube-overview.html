@@ -30,7 +30,7 @@ redirect_from:
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title" id="portfolio-code-quality-overview">
-            <h3>Informe de calidad de código en SonarQube&trade;</h3>
+            <h3>Visualiza los datos agregados de SonarQube&trade;</h3>
             <hr>
             <p>
               Overview Report Plugin for SonarQube&trade; nos ayuda a tener una visión agregada de las métricas de los
@@ -40,83 +40,203 @@ redirect_from:
             </p>
           </div>
           <p>Overview Report Plugin for SonarQube&trade; presenta una interfaz dedicada y navegable de las distintas
-            agrupaciones de proyectos creadas. Por defecto, si no se crea ningún grupo, se mostrará un informe de todos
-            los proyectos disponibles en tu SonarQube&trade;
+            agrupaciones de proyectos:  agrupando toda la instancia, por grupos personalizados definidos en la configuración o
+            utilizando las etiquetas de proyectos.
           </p>
-          <p>El informe de Overview Report permite visualizar en una sola página todas las métricas agregadas y por cada
-            proyecto que compone la agrupación. Podrá ver el número total de bugs, vulnerabilidades y code smells;
+          <p>El informe de Overview Report permite visualizar en una sola página todas las métricas agregadas.
+            Podrás visualizar el número total de bugs, vulnerabilidades y code smells;
             además del tamaño de los proyectos, los porcentajes de código duplicado y la cobertura</p>
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
+        <div class="block center-text">
+          <br><br><br>
+        </div>
         <div class="block">
-          <img src="/img/sonarqube-overview/sonarqube-overview-report.png"
+          <img src="/img/sonarqube-overview/overview-menu-options.jpg"
                alt="SonarQube&trade; Overview sample with whole instance">
+        </div>
+        <div class="block center-text">
         </div>
       </div><!-- .col-md-6 close -->
     </div>
   </div>
-</section>
 
-<section id="product-block">
-  <div class="container">
+  <div class="container" style="padding-top: 50px; padding-bottom: 50px" >
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="/img/sonarqube-overview/sonarqube-overview-trees.jpg" alt="SonarQube Portfolio">
+          <div class="section-title">
+            <h3>Visión general de todos tus proyectos</h3>
+            <hr>
+          </div>
+          <p>
+            Con un solo click obtendrás rápidamente un resumen de todos los proyectos que están en tu instancia
+            de SonarQube&trade;. Fácil y rápido.
+          </p>
+          <p>
+            En una sola página el plugin te mostrará toda la información de lo que está pasando en el código de tu
+            organización:
+          </p>
+          <p>
+            - <strong>Tamaño</strong>: número total de líneas, de proyectos y su distribución por tamaño<br>
+            - <strong>Lenguajes</strong>: volumen de código por lenguajy y proyectos relacionados<br>
+            - <strong>Estado de Salud</strong>: una nueva forma de conocer si tus proyectos están listos para salir a
+            producción o no, basado en los resultados de los quality gates<br>
+            - <strong>Ratings</strong>: distribución por ratings de fiabilidad, seguridad, mantenibilidad, duplicados,
+            y cobertura<br>
+            - <strong>Ratings Agregados</strong>: ratings globales de todo tu código en conjunto<br>
+            - <strong>Evidencias</strong>: número total de evidencias por severidad<br>
+          <p>
+            Por supuesto, todos los datos son "accionables" para navegar rápidamente a la información deseada.
+          </p>
+
         </div>
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
+        <div class="block center-text">
+          <br><br><br>
+        </div>
+        <div class="block">
+          <img src="/img/sonarqube-overview/overview-all-projects.png" alt="SonarQube Portfolio of all your Projects">
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 50px; padding-bottom: 50px" >
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title" id="portfolio-code-quality-configuration">
-            <h3>Agrupa proyectos en SonarQube&trade;</h3>
+            <h3>Configura grupos de proyectos en SonarQube&trade;</h3>
             <hr>
           </div>
-          <p> ¿Tienes muchos proyectos en tu SonarQube&trade;?¿Quieres evaluar el rendimiento de diversos equipos?
-            Quizás tienes más de una fábrica de software que desarrolla tus aplicaciones y requieres conocer la calidad
-            de sus entregas comparada con la media del sector o con respecto a tus umbrales de calidad. Para todas estas
-            utilidades y mucho más, creamos este plugin de SonarQube&trade;, resolviendo así una de las utilidades más
-            demandadas por los usuarios.
+          <p>
+            ¿Tienes muchos proyectos en tu SonarQube&trade;?¿Quieres evaluar el rendimiento de diversos equipos? ¿Quieres
+            agrupar tu base de código por departamentos, clientes o simplemente por lenguajes?
           </p>
           <p>En la configuración del plugin (<strong>Administration > General Settings > Overview</strong>) podrás
           configurar tus proyectos agregados.</p>
           <p>Solo tienes que introducir el nombre del grupo de proyectos y un listado separado por comas con los
             proyectos que quieras agregar</p>
-
-        </div>
-      </div><!-- .col-md-6 close -->
-    </div>
-  </div>
-</section>
-
-<section id="product-block">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-
-        <div class="block">
-          <div class="section-title" id="portfolio-features">
-            <h3>Funcionalidades</h3>
-            <hr>
-          </div>
-          <p> Descubre las métricas agregadas que podrás visualizar con Overview Report Plugin for SonarQube&trade;
+          <p>
+            En la página <em>Overview Project Groups</em> podrás ver todos los datos agregados de los grupos que hayas
+            definido. Y además, puedes incluso acceder al detalle de cada grupo para ver más infomación.
           </p>
 
-          <p>- <strong>Tamaño</strong>: suma de todas las líneas de código de todos los proyectos. </p>
-          <p>- <strong>Reliability, Security and Maintainability </strong>: Estas calificaciones se calculan dando
-            valores del 1 al 5 a cada proyecto dependiendo de la calificación (A = 1 ... E = 5). Luego sumamos todos los
-            valores y calculamos el número promedio. Este número se redondea al valor más cercano de 1 a 5 siendo
-            finalmente la calificación global para sus proyectos.</p>
         </div>
-
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <img src="/img/sonarqube-overview/sonarqube-overview-sample.png" alt="Portfolio sample with two views">
+          <img src="/img/sonarqube-overview/overview-customizable-groups-settings.png" alt="SonarQube Portfolio customizable group settings">
+        </div>
+        <div class="block" style="padding-top: 20px">
+          <img src="/img/sonarqube-overview/overview-customizable-groups.png" alt="SonarQube Portfolio customizable group">
         </div>
       </div><!-- .col-md-6 close -->
     </div>
   </div>
+
+  <div class="container" style="padding-top: 50px; padding-bottom: 50px" >
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h3>O utiliza las etiquetas de proyectos para agruparlos</h3>
+            <hr>
+          </div>
+          <p>Las etiquetas de proyectos de SonarQube&trade; son una herramienta muy potente para categorizar los proyectos.
+            Si ya las utilizas entonces será super sencillo que puedas visualizar las agrupaciones de proyectos por categorías
+            a través de la página <em>Overview Project Tags</em>.</p>
+
+          <p>La página te mostrará todos los proyectos categorizados por las etiquetas con un resumen de las principales
+            métricas. Y además podrás seleccionar la etiqueta para ver más detalles de esa categoría y obtener una vista
+            detallada de todos los proyectos que la componen.</p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img src="/img/sonarqube-overview/overview-project-tags-settings.png" alt="SonarQube Portfolio project tags">
+        </div>
+        <div class="block" style="padding-top: 20px">
+          <img src="/img/sonarqube-overview/overview-project-tags.png" alt="SonarQube Portfolio project tags page">
+          <p class="center-text"><a target="_blank" href="http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_tags">See Overview Project Tags in action</a></p>
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 50px; padding-bottom: 50px" >
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title" >
+            <h3>Top 10 de evidencias más comunes</h3>
+            <hr>
+          </div>
+          <p>
+            ¿Sientes curiosidad por conocer cuáles son los problemas más comunes de calidad y seguridad del código a los que
+            se tiene que enfrentar tu equipo de desarrollo?
+          </p>
+          <p>
+            Revisa la sección del <strong>Top 10 de Evidencias más comunes</strong> para todos tus proyectos o para alguno
+            de los grupos que tengas definidos (bien usando la configuración de grupos o bien usando las etiquetas de proyecto).
+          </p>
+          <p>
+            Deberías estar preocupado si en el Top 10 encuentras bugs, vulnerabilidades o hotspots de seguridad. ¡Arreglalos cuanto antes!
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block" style="padding-top: 50px">
+          <img src="/img/sonarqube-overview/overview-top-10-common-issues.png" alt="SonarQube Portfolio Top 10 Most Common Issues">
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 50px; padding-bottom: 50px" >
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title" >
+            <h3>Evidencias bloqueantes y críticas</h3>
+            <hr>
+          </div>
+          <p>
+            Si quieres centrarte en evidencias que tengan impacto cuando tu código está en producción entonces deberías revisar
+            el Top de evidencias bloqueantes y críticas.
+          </p>
+          <p>
+            Según la <a target="_blank" href="https://docs.sonarqube.org/latest/user-guide/issues/">documentación oficial de SonarQube&trade;</a>:
+          </p>
+          <p>
+            - Las <strong>evidencias bloqueantes</strong> tienen una alta probabilidad de impactar en el comportamiento de
+            tu aplicación en producción: fugas de memoria, problemas de recursos abiertos, ... Ese código tiene que arreglarse inmediatamente
+          </p>
+          <p>
+            - Las <strong>evidencias críticas</strong> tienen una probabilidad más baja de impactar en el comportamiento de la aplicación en producción o
+            son aquellas que afectan a posibles problemas de seguridad: captura de excepción vacía, inyección SQL, ... El código tiene que ser inmediatamente
+            revisado.
+          </p>
+          <p>
+            Arregla las evidencias bloqueantes y críticas antes de que sea demasiado tarde y controla la calidad y seguridad de tu código para el
+            portfolio de proyectos.
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block" style="padding-top: 50px">
+          <img src="/img/sonarqube-overview/overview-blocker-critical-issues.png" alt="SonarQube Portfolio Top 10 Blocker Critical Issues">
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+
 </section>
 
 
