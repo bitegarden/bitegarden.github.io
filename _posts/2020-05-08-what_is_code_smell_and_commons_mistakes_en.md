@@ -2,6 +2,7 @@
 layout: post
 title: What is a code smell and common mistakes
 description: A code smell, also known as bad smell, in computer programming code, refers to any symptom in the source code of a program that possibly indicates a deeper problem 
+cover: /img/posts/2020-05-08-what_is_code_smell_and_commons_mistakes.png
 
 permalink: what-is-code-smell-and-common-mistakes
 spanish: que-es-un-code-smell-y-errores-comunes

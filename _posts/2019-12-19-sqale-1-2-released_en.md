@@ -2,6 +2,7 @@
 layout: post
 title: SQALE 1.2 released
 description: This version is focused on support for SonarQube&trade; latest version (8.x) and several internal improvements.
+
 permalink: /sqale-1-2-released
 spanish: /nueva-version-sqale-plugin-1-2
 ---
