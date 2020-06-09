@@ -447,8 +447,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header-product {
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 #global-header-product:before {
@@ -529,8 +529,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #plugins-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   background-attachment: fixed;
 }
@@ -1030,8 +1030,8 @@ footer .footer-manu ul li a:hover {
 }
 
 #global-header-downloads {
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 #global-header-downloads:before {
@@ -1067,8 +1067,8 @@ footer .footer-manu ul li a:hover {
 }
 
 #global-header-blog {
-  padding-top: 75px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 #global-header-blog:before {

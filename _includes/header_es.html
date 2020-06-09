@@ -26,8 +26,13 @@
                 <li><a href="{{ site.baseurl }}/es/downloads">Descargas</a></li>
                 <li><a href="{{ site.baseurl }}/es/blog">Blog</a></li>
                 <li><a href="{{ site.baseurl }}/es/contact">Contacto</a></li>
+
+                {% if page.trial %}
+                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="{{ page.trial }}"><span style="color: white">Probar</span></a></div></li>
+                {% else %}
                 <li><a href="https://twitter.com/bitegarden" target="_blank"><span class="ion-social-twitter" style="font-size: 24px"></span></a></li>
                 <li><a href="https://www.linkedin.com/company/bitegarden" target="_blank"><span class="ion-social-linkedin" style="font-size: 24px"></span></a></li>
+                {% endif %}
 
                 {% if page.path contains '_es' %}
                 <li><a href="{{ site.baseurl }}{{ page.english }}">EN</a></li>
