@@ -5,6 +5,7 @@ description: Esta versión está centrada en el soporte para la última versión
 
 english: /sqale-1-2-released
 permalink: /nueva-version-sqale-plugin-1-2
+cover: /img/thumbs/Thumb-new_release-sqale-1_2.jpg
 ---
 
 El equipo de **bitegarden** está encantado de anunciaros una nueva versión (1.2) de [**SQALE Plugin for SonarQube™**](https://www.bitegarden.com/es/sonarqube-sqale). 

@@ -5,6 +5,7 @@ description: This version is focused on support for SonarQube&trade; latest vers
 
 permalink: /sqale-1-2-released
 spanish: /nueva-version-sqale-plugin-1-2
+cover: /img/thumbs/Thumb-new_release-sqale-1_2.jpg
 ---
 
 

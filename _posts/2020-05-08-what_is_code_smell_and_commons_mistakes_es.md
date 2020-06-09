@@ -6,6 +6,7 @@ cover: /img/posts/2020-05-08-what_is_code_smell_and_commons_mistakes.png
 
 english: what-is-code-smell-and-common-mistakes
 permalink: que-es-un-code-smell-y-errores-comunes
+cover: /img/thumbs/Thumb-what-is-code-smell-mistakes.jpg
 ---
 
 Te acabas de incorporar a un proyecto en marcha y eso no es fácil, si tienes suerte puede ocurrir que encuentres algunas anotaciones en

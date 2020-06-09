@@ -6,6 +6,7 @@ cover: /img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg
 
 english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
+cover: /img/thumbs/Thumb-how-to-detect-vulnerabilities-in-your-code.jpg
 ---
 
 ![Como detectar vulnerabilidades en el código - bitegarden](/img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg){:width="100%" .center-image}

@@ -6,6 +6,7 @@ cover: /img/sonarqube-report/bitegarden-report-management_es.png
 
 english: report-2-0-released
 permalink: nueva-version-report-2-0  
+cover: /img/thumbs/Thumb-new-release-report-2_0.jpg
 ---
 
 El equipo de **bitegarden** está orgulloso de presentar la nueva versión (2.0) de nuestro [**Report Plugin for SonarQube&trade;**](/es/sonarqube-report).

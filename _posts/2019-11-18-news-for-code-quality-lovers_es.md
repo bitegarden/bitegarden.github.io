@@ -4,6 +4,7 @@ title: Noticias para los amantes de calidad de código
 description: SQALE plugin for SonarQube™  tiene nuevas funcionalidades para gestionar la deuda técnica. También hemos añadido dos nuevos plugins para sonar a nuestro portfolio - Project Tag y Rating Report incorporan funcionalidades avanzadas en el uso de etiquetas de SonarQube™
 permalink: /noticias-para-los-amantes-de-calidad-de-codigo
 english: /news-for-code-quality-lovers
+cover: /img/thumbs/Thumb-news-for-quality-lovers.jpg
 ---
 
 Hemos estado ocupados los últimos meses trabajando en mejoras, nuevas funcionalidades e incluso nuevos plugins.

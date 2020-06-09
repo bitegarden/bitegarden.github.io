@@ -6,6 +6,7 @@ cover: /img/posts/3-steps-to-be-a-successful-remote-developer.jpg
 
 english: 3-steps-to-be-a-successful-remote-developer
 permalink: 3-claves-para-triunfar-como-desarrollador-remoto
+cover: /img/thumbs/Thumb-3-steps-to-be-remote-developer.jpg
 ---
 
 ![3 Steps to be a successful remote developer](/img/posts/3-steps-to-be-a-successful-remote-developer.jpg){:width="100%" .center-image}

@@ -5,6 +5,8 @@ description: Esta versión se centra en corregir errores internos para mejorar l
 
 english: /overview-report-1-4-3-released
 permalink: /nueva-version-overview-report-1-4-3
+cover: /img/thumbs/Thumb-new-release-overview_report-1_4.jpg
+
 ---
 
 El equipo de **bitegarden** está encantado de anunciaros una nueva versión (1.4.3) de [**Overview Report Plugin**](https://www.bitegarden.com/es/sonarqube-overview). 

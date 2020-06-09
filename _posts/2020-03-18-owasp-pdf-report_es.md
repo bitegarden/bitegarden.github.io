@@ -6,6 +6,7 @@ cover: /img/sonarqube-security/sonarqube-security-owasp-pdf.png
 
 english: export-owasp-pdf-report
 permalink: exporta-informe-owasp-en-pdf
+cover: /img/thumbs/Thumb-export-owasp-report-pdf.jpg
 ---
 
 Estamos muy contentos de presentar nuestra nueva versión (2.1) de [**Security Plugin for SonarQube&trade;**](https://www.bitegarden.com/es/sonarqube-security).

@@ -4,6 +4,7 @@ title: El inicio
 description: ¡Este es nuestro primer post! Una breve introducción a nuestro proyecto SonarQube™ Marketplace y a nuestra hoja de ruta para este blog de plugins para SonarQube™.  
 permalink: /el-inicio
 english: /the-begginning
+cover: /img/thumbs/Thumb-bitegarden-the-beginning.jpg
 ---
 
 ¡Bienvenidos a nuestro primer post! Estamos emocionados y esperamos que tu también lo estés. 
