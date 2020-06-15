@@ -2,7 +2,6 @@
 layout: post_es
 title: ¡Rápido y sencillo! ¡Así es Report 2.0!
 description: Hemos publicado una nueva versión de nuestro plugin para generar informes en SonarQube&trade; que lo cambia todo. ¡Un nuevo informe ejecutivo en PDF y mucho más que está por llegar!
-cover: /img/sonarqube-report/bitegarden-report-management_es.png
 
 english: report-2-0-released
 permalink: nueva-version-report-2-0  

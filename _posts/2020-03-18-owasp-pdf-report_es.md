@@ -2,7 +2,6 @@
 layout: post_es
 title: Exporta un informe OWASP en PDF
 description: Hemos publicado una nueva versión de Security Plugin que incluye una de las funcionalidades más demandadas, la habilidad para exportar a PDF el cupmlimiento del estándar OWASP.
-cover: /img/sonarqube-security/sonarqube-security-owasp-pdf.png
 
 english: export-owasp-pdf-report
 permalink: exporta-informe-owasp-en-pdf

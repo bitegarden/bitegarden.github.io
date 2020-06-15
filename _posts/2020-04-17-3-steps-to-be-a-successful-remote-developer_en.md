@@ -2,7 +2,6 @@
 layout: post
 title: 3 Steps to be a successful remote developer
 description: These last weeks have been challenging, we've all changed our habits as well as the companies. Remote work is here to stay and, probably even after the emergency. 
-cover: /img/posts/3-steps-to-be-a-successful-remote-developer.jpg
 
 permalink: 3-steps-to-be-a-successful-remote-developer
 spanish: 3-claves-para-triunfar-como-desarrollador-remoto

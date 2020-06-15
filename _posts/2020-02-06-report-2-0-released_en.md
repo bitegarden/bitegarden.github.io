@@ -2,7 +2,6 @@
 layout: post
 title: Quick and simple, new report 2.0!
 description: We have released a new version of Report for SonarQube&trade; plugin. A fresh new version, completely changed and adapted to the needs users have shared with us, including a brand new PDF executive report.
-cover: /img/sonarqube-report/bitegarden-report-management.png
 
 permalink: report-2-0-released
 spanish: nueva-version-report-2-0 

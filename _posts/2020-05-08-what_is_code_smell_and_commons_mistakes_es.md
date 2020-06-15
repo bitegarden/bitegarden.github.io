@@ -2,7 +2,6 @@
 layout: post_es
 title: ¿Qué es un code smell? Errores comunes
 description: Un 'code smell', también conocido como 'mala práctica', en el ámbito de la programación se refiere a un síntoma en el código fuente que probablemente nos esté indicando que algo va mal 
-cover: /img/posts/2020-05-08-what_is_code_smell_and_commons_mistakes.png
 
 english: what-is-code-smell-and-common-mistakes
 permalink: que-es-un-code-smell-y-errores-comunes

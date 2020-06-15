@@ -2,7 +2,6 @@
 layout: post_es
 title: 3 claves para triunfar como desarrollador en remoto
 description: Las últimas semanas han sido todo un reto, hemos cambiado todos nuestros hábitos personales así como el de las empresas. El trabajo remoto ha venido para quedarse, probablemente incluso después de la emergencia.
-cover: /img/posts/3-steps-to-be-a-successful-remote-developer.jpg
 
 english: 3-steps-to-be-a-successful-remote-developer
 permalink: 3-claves-para-triunfar-como-desarrollador-remoto
