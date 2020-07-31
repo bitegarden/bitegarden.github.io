@@ -5,7 +5,7 @@ description: Different ways to generate code quality reports in SonarQube&trade;
 
 permalink: generate-code-quality-pdf-report-sonarqube
 spanish: genera-informe-pdf-calidad-codigo-sonarqube
-cover: /img/thumbs/2020-07-28-generate-pdf-report-with-sonarqube.png
+cover: /img/thumbs/2020-07-31-generate-pdf-report-with-sonarqube.png
 ---
 
 SonarQube&trade; is a tool made by developers for developers. Provides everything your need to write clean and secure code 
@@ -45,7 +45,7 @@ you want to appear in the footer:
 
 --- 
 
-![Sample Custom footer](/img/posts/2020-07-28-bitegarden-report-logo-sample.png){:width="100%" .center-image}
+![Sample Custom footer](/img/posts/2020-07-31-bitegarden-report-logo-sample.png){:width="100%" .center-image}
 
 <p class="center-text">
     Report Sample with custom logo

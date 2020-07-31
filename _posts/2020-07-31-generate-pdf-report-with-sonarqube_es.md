@@ -5,7 +5,7 @@ description: Diferentes formas de generar informes de tus datos de la calidad de
 
 english: generate-code-quality-pdf-report-sonarqube
 permalink: genera-informe-pdf-calidad-codigo-sonarqube
-cover: /img/thumbs/2020-07-28-generate-pdf-report-with-sonarqube.png
+cover: /img/thumbs/2020-07-31-generate-pdf-report-with-sonarqube.png
 ---
 
 SonarQube&trade; es una herramienta hecho por desarrolladores para desarrolladores. Proporciona todo lo 
@@ -46,7 +46,7 @@ quieras que aparezca en el pie de página:
 
 --- 
 
-![Ejemplo de informe con logotipo personalizado](/img/posts/2020-07-28-bitegarden-report-logo-sample.png){:width="100%" .center-image}
+![Ejemplo de informe con logotipo personalizado](/img/posts/2020-07-31-bitegarden-report-logo-sample.png){:width="100%" .center-image}
 
 <p class="center-text">
     Ejemplo de informe con logotipo personalizado
