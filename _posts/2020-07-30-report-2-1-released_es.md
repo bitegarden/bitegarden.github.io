@@ -16,7 +16,7 @@ Esta versión añade **2 nuevos  informes** en PDF para extraer más informació
 
  Y otra funcionalidad muy deseada: se  ha implementado la capacidad para configurar el **logo** del pie de  página, para que el informe sea mas corporativo.
 
- Esta versión que  cumple con todo: **informe simple PDF**, **informes completos PDF**, **informe personalizado ODT**.
+ Esta versión incluye todo lo que necesitas: **informe simple PDF**, **informes completos PDF**, **informe personalizado ODT**.
 
 <a href="/es/sonarqube-report-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
