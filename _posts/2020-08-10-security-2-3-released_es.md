@@ -18,7 +18,7 @@ Ahora ya puedes ver la información de seguridad no solo de la rama principal de
 que hayas analizado. Esto también aplica a la generación del PDF, que incluirá la información asociada a la rama que
 haya seleccionada.
 
-#### - Personalización del logo en informe PDF
+#### - Configuración de la imagen de pie de página en informe PDF
 
 A través de la configuración del plugin puedes cambiar la imagen por defecto que se incluye en el pie de página del 
 informe en PDF. Puedes hacerlo a nivel global para todos los proyectos o incluso a nivel de proyecto. Esto te permite 
