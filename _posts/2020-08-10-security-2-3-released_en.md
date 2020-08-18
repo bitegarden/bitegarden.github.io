@@ -8,7 +8,7 @@ spanish: nueva-version-security-plugin-para-sonarqube-2-3
 cover: /img/thumbs/2020-08-10-new-release-security-2_3-thumb.png
 ---
 
-**bitegarden** team is proud to announce the release of [**bitegarden Security 2.3**](/es/sonarqube-security).
+**bitegarden** team is proud to announce the release of [**bitegarden Security 2.3**](/sonarqube-security).
 
 This version includes:
 
