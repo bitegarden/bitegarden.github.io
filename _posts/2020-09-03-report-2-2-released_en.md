@@ -12,11 +12,11 @@ cover: /img/thumbs/2020-09-03-new-release-report-2_2-thumb.gif
 
 This version includes:
 
--- a new section in the evidence reports with details of the **Security HotSpots**
+-- a new section in the issues breakdown reports with details of the **Security HotSpots**
 
 -- the report indicates the lines where the **Security HotSpots** have been detected.
 
-In addition, the bug that prevented generating the report for projects with more than 10,000 pieces of evidence has been solved.
+In addition, the bug that prevented generating the report for projects with more than 10,000 issues has been solved.
 
 **Enjoy the most complete version ever!**
 

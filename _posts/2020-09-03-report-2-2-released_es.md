@@ -14,7 +14,7 @@ En **bitegarden** no paramos, y damos la bienvenida a la versión 2.2 de [**bite
 
 -- en el informe se detallan las líneas de código donde se han detectado los HotSpots de Seguridad para facilitarte el trabajo.
 
-Además  está solucionado el bug que impedía generar el informe para proyectos con más de 10.000 evidencias.
+Además está solucionado el bug que impedía generar el informe para proyectos con más de 10.000 evidencias.
 
 **¡Disfruta de la versión más completa que nunca!**
 
