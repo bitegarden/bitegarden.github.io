@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: CWE / SANS Top 25 2020 incluido en el Security Plugin 2.4
+title: CWE / SANS Top 25 2020 incluido en Security 2.4
 description: Estamos orgullosos de anunciar que la nueva versión del complemento de seguridad para SonarQube incluye el último estándar de los CWE/SANS Top 25 Most Dangerous Software Errors.
 
 permalink: security-plugin-para-sonarqube-cwe-sans-top-25-2020
