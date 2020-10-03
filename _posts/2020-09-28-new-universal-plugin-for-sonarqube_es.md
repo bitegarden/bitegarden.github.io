@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: Universal Plugin para SonarQube
+title: Universal Plugin Manager para SonarQube
 description: Administra tus plugins directamente desde SonarQube
 
 permalink: nuevo-universal-plugin-para-sonarqube
@@ -8,7 +8,7 @@ english: new-universal-plugin-for-sonarqube
 cover: /img/thumbs/2020-09-29-new-universal-plugin-for-sonarqube-thumb.jpg
 ---
 
-El **Universal Plugin para SonarQube** te proporciona una interfaz user-friendly para **administrar** tus plugins directamente desde SonarQube. 
+El **Universal Plugin Manager para SonarQube** te proporciona una interfaz user-friendly para **administrar** tus plugins directamente desde SonarQube. 
 <br>
 <br>
 <center><a href="/es/sonarqube-upm" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Descarga Gratis ></a></center>

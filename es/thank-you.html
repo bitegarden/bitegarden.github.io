@@ -1,6 +1,6 @@
 ---
 layout: page_es
-title: Gracias
+title: Gracias por descargar nuestros plugins
 permalink: /es/thank-you
 ---
 
@@ -10,34 +10,92 @@ permalink: /es/thank-you
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Descarga Completada</h1>
-          <h4>Gracias por descargar nuestro plugin para SonarQube</h4>
+          <h1>¡Gracias por descargar nuestros productos!</h1>
+          <h4>Tu descarga se abrirá en una nueva ventana del navegador.</h4>
+          <h4>Si ocurre algún problema puedes intentarlo a través de este <a href="#" id="direct-link" target="_blank">enlace directo</a></h4>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
 <section style="padding-top: 40px; padding-bottom: 40px">
   <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="block">
-        <h1>
-          Support
-        </h1>
-        <p>Si tiene alguna pregunta durante la evaluación o está buscando ayuda, rellena nuestro <a href="/es/contact">formulario de contacto </a>.</p>
-        <p>¡Te atenderemos encantados!</p>
-
-        <br>
-<center><a href="/es/blog" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px"> Go to the Blog </a></center>
-<br>
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1 text-center">
+        <div class="block">
+          <h1>
+            Instalación
+          </h1>
+          <p>
+            Acabas de descargar un fichero "jar" que contiene el plugin.
+          </p>
+          <p>
+            Utiliza <a href="/sonarqube-upm">bitegarden UPM</a> para instalarlo directamente desde la interfaz de administración o copia el fichero jar en la carpeta de plugins de <strong>SonarQube&trade;</strong>:
+          </p>
+          <pre>$SONAR_HOME/extensions/plugins/</pre>
+          <p>
+            Reinicia <strong>SonarQube&trade;</strong> y disfruta de la nueva funcionalidad.
+          </p>
+          <p>
+            Nuestros plugins comerciales incluyen una licencia de evaluación para dos semanas. No tienes que configurar nada para empezar a evaluarlos.
+          </p>
+          <p>
+            Dependiendo del plugin puede que necesites ejecutar un nuevo análisis para procesar todos los datos.
+          </p>
+          <p>
+            <strong>Encontrarás las funcionalidades principales de los plugins en la sección "<em>More...</em>" en la barra de menú global o de proyecto.</strong>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-1 text-center">
+      </div>
+      <div class="col-md-5 text-center">
+        <div class="block">
+          <h1>
+            Solicita Soporte
+          </h1>
+          <p>¿Tienes alguna duda mientras evalúas nuestro producto? ¿Has encontrado un bug en nuestros plugins o quieres
+            sugerirnos una mejora? Abre un ticket en nuestro <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Jira Service Desk</a>
+            y contactaremos contigo a la mayor brevedad posible.
+          </p>
+          <p>
+            <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank" class="btn btn-primary btn-call-to-action fancybox">Solicitar Soporte > </a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
+
+{% include newsletter-banner_es.html %}
+
+<div class="post-area">
+
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    {% for post in site.posts limit:6 %}
+    {% if post.path contains '_es' %}
+    <div class="col-md-2">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row">
+          {% if post.cover %}
+          <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
+          {% endif %}
+        </div>
+        <div class="row">
+          <h3>{{ post.title }}</h3>
+          <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-1">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
 
 
@@ -50,4 +108,15 @@ permalink: /es/thank-you
   </div>
 </section>
 
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var refinedLink = window.location.search.substr(9);
+    var link = refinedLink.substr(0, refinedLink.length - 3);
+    if (link) {
+      document.getElementById('direct-link').href=link;
+    }
+  });
+</script>
 

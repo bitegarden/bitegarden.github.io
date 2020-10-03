@@ -1,0 +1,36 @@
+<script type="text/javascript">
+function getInputValue(id) {
+	return document.getElementsByName(id)[0].value;
+}
+
+$("#download-form").submit(function(e) {
+    e.preventDefault();
+    var productName    = getInputValue("productName");
+    var productVersion = getInputValue("productVersion");
+    var productFileExt = 'jar';
+    var customerEmail    = getInputValue("customerEmail");
+		var customerName     = getInputValue("customerName");
+		var customerSurnames = getInputValue("customerSurnames");
+		var customerCompany  = getInputValue("customerCompany");
+		var agreement  = document.getElementById("agreement");
+
+    if ( productName && productVersion && customerEmail && customerName && customerSurnames && customerCompany && agreement.checked ) {
+
+      var url = 'https://marketplace.bitegarden.com/download/productArtifact?';
+          url += 'productName=' + productName;
+          url += '&productVersion=' + productVersion;
+          url += '&productFileExt=' + productFileExt;
+          url += '&customerEmail=' + customerEmail;
+          url += '&customerName=' + customerName;
+          url += '&customerSurnames=' + customerSurnames;
+          url += '&customerCompany=' + customerCompany;
+
+      window.open(url, '_blank');
+      {% if page.path contains '_en' %}
+      window.location='/thank-you?link="'+url+'"';
+      {% else %}
+      window.location='/es/thank-you?link="'+url+'"';
+      {% endif %}
+    }
+});
+</script>

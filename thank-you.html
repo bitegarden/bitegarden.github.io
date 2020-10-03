@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download completed
+title: Thank you for downloading our plugins
 permalink: /thank-you
 ---
 
@@ -10,34 +10,91 @@ permalink: /thank-you
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Download Completed</h1>
-          <h4>Thanks for downloading our plugin for SonarQube </h4>
+          <h1>Thanks for downloading!</h1>
+          <h4>Your download will open on a new page.</h4>
+          <h4>If you have any problem try using this <a href="#" id="direct-link" target="_blank">direct link</a></h4>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
 <section style="padding-top: 40px; padding-bottom: 40px">
   <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1 text-center">
           <div class="block">
-        <h1>
-          Support
-        </h1>
-        <p>If you have any questions during the evaluation or are looking for help, just <a href="/contact">contact us</a>.</p>
-        <p>We are always happy to help.</p>
-
-        <br>
-<center><a href="/blog" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px"> Go to the Blog > </a></center>
-<br>
+            <h1>
+              Installation Guide
+            </h1>
+            <p>
+              You have downloaded a "jar" file containing the plugin.
+            </p>
+            <p>
+              Use <a href="/sonarqube-upm">bitegarden UPM</a> to install the plugin directly from the administration user interface or copy jar file into <strong>SonarQube&trade;</strong> plugins folder:
+            </p>
+            <pre>$SONAR_HOME/extensions/plugins/</pre>
+            <p>
+              Restart <strong>SonarQube&trade;</strong> server and enjoy the new features.
+            </p>
+            <p>
+              Commercial plugins include an embedded trial license for two weeks for evaluation. You don't need to setup anything.
+            </p>
+            <p>
+              Depending on the plugin you might need to run a new analysis to compute the data.
+            </p>
+            <p>
+              <strong>You will find main features for the plugins under the "<em>More...</em>" section in global or project spaces menus</strong>
+            </p>
+          </div>
+        </div>
+      <div class="col-md-1 text-center">
       </div>
+      <div class="col-md-5 text-center">
+            <div class="block">
+              <h1>
+                Ask for Support
+              </h1>
+              <p>Do you have any questions during your trial period? Did you find a bug in our plugins or you want
+                to suggest an improvement? Open a ticket in our <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Jira Service Desk</a> and we will answer you as soon as possible.
+              </p>
+              <p>
+                <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank" class="btn btn-primary btn-call-to-action fancybox">Request Support > </a>
+              </p>
+            </div>
+       </div>
     </div>
-  </div>
 </div>
 </section>
+
+{% include newsletter-banner.html %}
+
+<div class="post-area">
+
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    {% for post in site.posts limit:6 %}
+    {% if post.path contains '_en' %}
+    <div class="col-md-2">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row">
+          {% if post.cover %}
+          <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
+          {% endif %}
+        </div>
+        <div class="row">
+          <h3>{{ post.title }}</h3>
+          <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-1">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
 
 
@@ -50,4 +107,15 @@ permalink: /thank-you
   </div>
 </section>
 
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var refinedLink = window.location.search.substr(9);
+    var link = refinedLink.substr(0, refinedLink.length - 3);
+    if (link) {
+      document.getElementById('direct-link').href=link;
+    }
+  });
+</script>
 

@@ -5,6 +5,7 @@ description: Fill all the information to download bitegarden Universal Plugin Ma
 permalink: /sonarqube-upm-trial-form
 ---
 
+
 <section style="padding-top: 40px; padding-bottom: 20px; border: 1px dotted #ddd;">
   <div class="container">
     <div class="row">
@@ -69,7 +70,7 @@ permalink: /sonarqube-upm-trial-form
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <div id="success"></div>
                 <div class="block">
-                  <button type="submit" style="background-color: #5cb85c" class="btn btn-success btn-lg">Submit</button>
+                  <button id="download-button" type="submit" style="background-color: #5cb85c" class="btn btn-success btn-lg">Submit</button>
                 </div>
               </div>
             </div>
@@ -80,3 +81,6 @@ permalink: /sonarqube-upm-trial-form
     </div>
   </div>
 </section>
+
+{% include download.html %}
+
