@@ -21,8 +21,8 @@ permalink: /thank-you
 
 <section style="padding-top: 40px; padding-bottom: 40px">
   <div class="container">
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1 text-center">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
           <div class="block">
             <h1>
               Installation Guide
@@ -37,29 +37,33 @@ permalink: /thank-you
             <p>
               Restart <strong>SonarQube&trade;</strong> server and enjoy the new features.
             </p>
-            <p>
-              Commercial plugins include an embedded trial license for two weeks for evaluation. You don't need to setup anything.
-            </p>
+             
             <p>
               Depending on the plugin you might need to run a new analysis to compute the data.
             </p>
             <p>
-              <strong>You will find main features for the plugins under the "<em>More...</em>" section in global or project spaces menus</strong>
+              <strong>You will find main features for the plugins under the "<em>More...</em>" section in global or project spaces menus.</strong>
             </p>
+
+            <br>
+              <p><strong>NOTE</strong>: The plugin <span style="text-decoration:underline"><strong>includes the trial license for 2 weeks for evaluation</strong></span>. You don't have to setup anything else.</p>
+            
           </div>
         </div>
-      <div class="col-md-1 text-center">
       </div>
-      <div class="col-md-5 text-center">
-            <div class="block">
+  </div>
+
+<hr>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
               <h1>
-                Ask for Support
+                Need help?
               </h1>
-              <p>Do you have any questions during your trial period? Did you find a bug in our plugins or you want
-                to suggest an improvement? Open a ticket in our <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Jira Service Desk</a> and we will answer you as soon as possible.
-              </p>
-              <p>
-                <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank" class="btn btn-primary btn-call-to-action fancybox">Request Support > </a>
+              <p>If have any questions during the trial period or you want to suggest an improvement, feel free to open a ticket in our <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Jira Service Desk</a> and we will answer you as soon as possible.</p>
+              <p> We're always happy to help!
               </p>
             </div>
        </div>
@@ -67,13 +71,29 @@ permalink: /thank-you
 </div>
 </section>
 
+<div style="    background: #4b4955; color:#fff">
 {% include newsletter-banner.html %}
+</div>
 
 <div class="post-area">
 
+ <div class="container" style="text-align:center; padding-bottom: 40px">
+  <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Latest News
+              </h1>
+          </div>
+      </div>
+  </div>
+ </div>
+
   <div class="row">
     <div class="col-md-2">
+
     </div>
+
     {% for post in site.posts limit:6 %}
     {% if post.path contains '_en' %}
     <div class="col-md-2">
@@ -83,9 +103,9 @@ permalink: /thank-you
           <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
           {% endif %}
         </div>
-        <div class="row">
-          <h3>{{ post.title }}</h3>
-          <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <div class="row" >
+          <h4 style="color:#666">{{ post.title }}</h4>
+           <p class="post-date" style="font-size:13px">{{ post.date | date: "%B %-d, %Y" }}</p>
         </div>
       </a>
     </div>
