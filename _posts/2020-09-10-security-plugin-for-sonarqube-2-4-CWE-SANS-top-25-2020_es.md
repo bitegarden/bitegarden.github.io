@@ -19,7 +19,7 @@ Ahora el Plugin puede realizar la **verificación de cumplimiento** siguiendo el
 
 El Security Plugin, al igual que con el estándar OWASP, mostrará una página en el espacio del proyecto con toda la información relacionada con el CWE Top 25 de 2020, incluyendo rating, vulnerabilidades, hotspots, etc.
 
-<ins>[DESCUBRE TODAS LAS CARACTERÍSTICAS >>](/es/sonarqube-security-trial-form)</ins>
+<ins>[DESCUBRE TODAS LAS CARACTERÍSTICAS >>](/es/sonarqube-security)</ins>
 
 <br>
 <center><a href="/es/sonarqube-security"><img src="/img/posts/2020-09-10-security-plugin-for-sonarqube-2-4-CWE-SANS-top-25-2020.png" alt="Dale un vistazo al CWE/SANS Top 25 Most Dangerous Software Errors incluido en el Security Plugin para SonarQube" width="100%"></a></center>
