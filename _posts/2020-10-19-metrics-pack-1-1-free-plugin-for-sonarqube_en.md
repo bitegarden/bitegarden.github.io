@@ -9,13 +9,16 @@ cover: /img/thumbs/2020-10-19-metrics-pack-1-1-free-plugin-for-sonarqube-thumb.j
 ---
 
 
-Download the new version of the **free plugin for SonarQube** [**Metrics Pack 1.1**](/sonarqube-metrics-pack). Now you will get additional information in your SonarQube analysis.
+Download the new version of the **free plugin for SonarQube** [**Metrics Pack 1.1**](/sonarqube-metrics-pack). Now you 
+will get additional information in your SonarQube analysis.
 
-[Metrics Pack](/sonarqube-metrics-pack) returns to SonarQube metrics such as the RCI (Rules Compliance Index), and values on the dead code or the total technical debt ratio.
+[Metrics Pack](/sonarqube-metrics-pack) returns to SonarQube metrics such as the RCI (Rules Compliance Index), 
+and values on the dead code or the total technical debt ratio.
 
 ## What's new
 
-This version includes the ability to establish the values of the severity weights with decimal numbers in the calculation of the rule compliance index and allows to calculate the number of associated evidence.
+This version includes the ability to establish the values of the severity weights with decimal numbers to compute rule compliance index 
+and upgrades the dead code metric to include all the new rules in latest SonarQube versions.
 <br>
 <br>
 <center><a href="/sonarqube-metrics-pack" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Download ></a></center>
