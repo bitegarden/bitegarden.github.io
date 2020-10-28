@@ -1,11 +1,11 @@
 ---
 layout: post_es
-title:  Report Plugin 2.5 para SonarQube
+title:  Report Plugin 2.4 para SonarQube
 description: Descarga el informe en PDF o personaliza el tuyo
 
-permalink: nuevo-report-plugin-para-sonarqube-2-5
-english: new-report-plugin-for-sonarqube-for-sonarqube-2-5
-cover: /img/thumbs/2020-10-27-report-plugin-for-sonarqube-2-5_es-thumb.jpg
+permalink: nuevo-report-plugin-para-sonarqube-2-4
+english: new-report-plugin-for-sonarqube-for-sonarqube-2-4
+cover: /img/thumbs/2020-10-27-report-plugin-for-sonarqube-2-4_es-thumb.jpg
 ---
 
 Ya está dispnible el nuevo [**Report Plugin para SonarQube**](/es/sonarqube-report) para generar tu **informes** preferido directamente desde SonarQube. 
@@ -21,7 +21,7 @@ Tu decides si quieres un informe en PDF limpio y minimalista o generar tu propio
 
 Desglose de evidencias por tipo y severidad en la nueva página de resumen.
 
-<img src="/img/posts/2020-10-27-report-plugin-for-sonarqube-2-5-view.png" width="30%" alt="Nueva vista">
+<img src="/img/posts/2020-10-27-report-plugin-for-sonarqube-2-4-view.png" width="30%" alt="Nueva vista">
 
 ## Bugs
 
