@@ -17,19 +17,19 @@ You decide if you want a clean and minimalist PDF report or generate your own re
 <br>
 
 
-## New functionality
+## New feature
 
-Breakdown of evidence by type and severity on the new summary page.
+Issues Breakdown by type and severity on the summary page:
 
 <img src="/img/posts/2020-10-27-report-plugin-for-sonarqube-2-4-view.png" width="30%" alt="New view">
 
-## Bugs
+## Bugs fixed
 
 With this version we solve the existing problems:
 
--- value of lines of code
+-- Lines of Code was displaying "lines" instead of "ncloc"
 
--- issue of when a rule had no description and could fail
+-- Report failed if issues found on a rule with no description
 
 <br/>
 <a href="/sonarqube-report" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Tell me more about the Report Plugin > </a>
