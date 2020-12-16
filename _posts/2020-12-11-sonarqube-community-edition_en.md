@@ -31,7 +31,7 @@ This amazing tool helps developers create cleaner code as they work.
 
 In **bitegarden** we want to help companies around the world develop better and more secure software. And we do it by **extending Sonarqube functionalities**, from SAST solutions (Static Application Security Testing) using OWASP, to project reports and quality methodologies such as SQALE.
 
-The **TOP 3 most downloaded**:
+The **TOP 3 best SonarQube Plugins**:
 
 
 -- <a href="https://www.bitegarden.com/sonarqube-report"><span style="font-weight: 900; color: #1eaa5d;">Report Plugin</span></a>: **export the SonarQube report** quickly and easily. Executive report in PDF or custom report (ODT) available.
