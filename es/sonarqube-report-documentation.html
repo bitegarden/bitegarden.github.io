@@ -13,7 +13,8 @@ trial: /es/sonarqube-report-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Report Plugin for SonarQube&trade;</h1>
-          <p>Genere su informe de proyecto a partir de una plantilla ODT totalmente personalizable </p>
+          <p>Descarga un informe en PDF limpio y minimalista<br>
+            o genere su propio informe de proyecto a partir de una plantilla ODT totalmente personalizable</p>
         </div>
       </div>
     </div>
@@ -55,7 +56,7 @@ trial: /es/sonarqube-report-trial-form
             </li>
             <li>Pega la clave de la licencia y guarda</li>
           </ol>
-          <p>Se requiere lanzar un nuevo análisis para poder descargar el informe personalizado ODT.</p>
+          <p>No se requiere lanzar un nuevo análisis para poder descargar los informes.</p>
 
           <p class="center-text">
             <a class="btn btn-default btn-call-to-action fancybox" href="/es/sonarqube-report-trial-form">Probar</a>
@@ -75,6 +76,12 @@ trial: /es/sonarqube-report-trial-form
           </p>
           <p>
             - <strong>Resumen ejecutivo en PDF</strong>: un sencillo y limpio informe con toda la información en una sola página.<br>
+            - <strong>Informe de resumen de evidencias en PDF</strong>: ste informe en PDF extiende el informe ejecutivo
+            con el resumen de las evidencias detectadas por regla (una página por regla). Incluye métricas generales y
+            de código nuevo, y un resumen de evidencias detectadas por regla.<br>
+            - <strong>Resumen ejecutivo en PDF</strong>: Este informe en PDF extiende el informe resumen de evidencias
+            con el detalle de todas las evidencias detectadas por regla. Incluye métricas generales y de código nuevo,
+            y todas las evidencias detectadas por regla.<br>
             - <strong>Informe personalizado con Open Document (ODT)</strong>: un informe personalizado creado utilizando una plantilla que puedes
             modificar para crear nuevos informes.
           </p>
@@ -86,7 +93,7 @@ trial: /es/sonarqube-report-trial-form
           <p class="text-center">Página de Gestión de Informes proporcionada por el plugin</p>
           <p></p>
 
-          <h3>Personaliza tu plantilla de proyecto</h3>
+          <h3>Personaliza tu plantilla Open Document (ODT) de proyecto</h3>
           <hr>
           <p>Crea tu plantilla personalizada y configura el plugin para poder usarla a través de la configuración de
             administración</p>
@@ -94,10 +101,10 @@ trial: /es/sonarqube-report-trial-form
             por defecto</a> para ver un ejemplo de como utilizarla.</p>
           <p>Report Plugin for SonarQube&trade; te permite configurar la plantilla de manera global o por proyecto.
             Además, las plantillas se proveen a través de URLs, por lo que no es obligatorio tener acceso a la máquina
-            donde SonarQube&trade; está corriendo</p>
+            donde SonarQube&trade; está ejecutándose.</p>
 
           <p></p>
-          <h3>Configuración de informes personalizados</h3>
+          <h3>Configuración de informes Open Document (ODT) personalizados</h3>
           <hr>
 
           <p>La creación de un informe personalizado reside en la configuración de la plantilla. La plantilla es un <a
@@ -124,7 +131,7 @@ trial: /es/sonarqube-report-trial-form
               <code>[/#if]</code><br>
             </li>
           </ul>
-          <p>Debe tener cuidado con cómo OpenOffice genera las plantillas. A menudo sucede que las expresiones no se
+          <p>Debe tener cuidado con cómo OpenOffice/LibreOffice genera las plantillas. A menudo sucede que las expresiones no se
             guardan como un solo elemento. Para solucionar esto, debemos hacer clic en "borrar formato directo"
             (seleccionar texto y hacer clic con el botón derecho).</p>
           <p>Tenga en cuenta que, para que funcione correctamente, todas las expresiones deben estar bien formadas y
@@ -134,9 +141,18 @@ trial: /es/sonarqube-report-trial-form
           <h3>Variables disponibles para el diseño de informes</h3>
           <hr>
           <p>
-            Las variables disponibles son todas las métricas de SonarQube para el proyecto, donde los guiones ('-') han
-            sido reemplazados por subrayados ('_') y otras variables generales como son: <code>project_name</code>,
-            <code>project_description</code>, <code>analysis_date</code> y <code>analysis_version</code>.
+            Las variables disponibles son todas las métricas existentes en SonarQube para el proyecto, donde los guiones ('-') han
+            sido reemplazados por subrayados ('_').
+          </p>
+          <p>Además, puedes utilizar estas variables para introducir metadatos del proyecto:<br>
+            <code>project_name</code><br>
+            <code>project_key</code><br>
+            <code>project_version</code><br>
+            <code>analysis_date</code><br>
+            <code>branch_name</code><br>
+          </p>
+          <p>
+            Comprueba la <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">plantilla por defecto</a> para ver ejemplos de como funciona.
           </p>
         </div>
       </div>
