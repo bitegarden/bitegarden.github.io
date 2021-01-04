@@ -12,9 +12,9 @@ This new [**version 2.5 of the Report Plugin for SonarQube**](/sonarqube-report)
 
 ### What's New in the Version 2.5
 
-- The use of variables with certain metadata is allowed: name of the branch, version, name and key of the project, and date of analysis.
+-- The use of variables with certain metadata is allowed: name of the branch, version, name and key of the project, and date of analysis.
 
-- The use of enhanced variables is allowed for the use of millisecond metrics (MILLISEC).
+-- The use of enhanced variables is allowed for the use of millisecond metrics (MILLISEC).
 To do this, simply use the variable for the metric by adding the suffix “duration” (for example, for the test_execution_time metric you can use **test_execution_time_duration**).
 
 
