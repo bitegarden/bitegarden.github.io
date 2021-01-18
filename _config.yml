@@ -27,6 +27,7 @@ disqus_account: bitegarden
 # Build settings
 markdown: kramdown
 permalink: :title
+future: false
 
 # Google analytics
 ga_tracking_id: "UA-118019346-1"
