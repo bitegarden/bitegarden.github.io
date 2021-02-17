@@ -10,7 +10,7 @@ cover: /img/thumbs/2021-02-16-sqale-method-and-technical-debt-under-control-new-
 
 Are you ready to manage your technical debt? The version 1.3.1 of the [**SQALE Plugin for SonarQube**](/sonarqube-sqale) is now available.
 
-Thanks to your feedback, our team has been able to improve the Plugin by adding the following new features.
+Thanks to your feedback, our team has improved the SQALE Plugin by adding the following new features.
 
 ## New features
 
