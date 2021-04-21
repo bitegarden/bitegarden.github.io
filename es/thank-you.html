@@ -12,7 +12,7 @@ permalink: /es/thank-you
         <div class="block">
           <h1>¡Gracias por descargar nuestros productos!</h1>
           <h4>Tu descarga se abrirá en una nueva ventana del navegador.</h4>
-          <h4>Si ocurre algún problema puedes intentarlo a través de este <a href="#" id="direct-link" target="_blank">enlace directo</a></h4>
+          <h4>Si ocurre algún problema puedes intentarlo a través de este <a href="#" id="direct-link" target="_blank">enlace directo</a>.</h4>
         </div>
       </div>
     </div>
@@ -21,16 +21,16 @@ permalink: /es/thank-you
 
 <section style="padding-top: 40px; padding-bottom: 40px">
   <div class="container">
-    <div class="row">
-      <div class="col-md-5 col-md-offset-1 text-center">
-        <div class="block">
-          <h1>
-            Instalación
-          </h1>
-          <p>
-            Acabas de descargar un fichero "jar" que contiene el plugin.
-          </p>
-          <p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <h1>
+              Instalación
+            </h1>
+            <p>
+              Acabas de descargar un fichero "jar" que contiene el plugin.
+            </p>
+            <p>
             Utiliza <a href="/sonarqube-upm">bitegarden UPM</a> para instalarlo directamente desde la interfaz de administración o copia el fichero jar en la carpeta de plugins de <strong>SonarQube&trade;</strong>:
           </p>
           <pre>$SONAR_HOME/extensions/plugins/</pre>
@@ -46,57 +46,155 @@ permalink: /es/thank-you
           <p>
             <strong>Encontrarás las funcionalidades principales de los plugins en la sección "<em>More...</em>" en la barra de menú global o de proyecto.</strong>
           </p>
+          </div>
         </div>
       </div>
-      <div class="col-md-1 text-center">
-      </div>
-      <div class="col-md-5 text-center">
-        <div class="block">
-          <h1>
-            Solicita Soporte
-          </h1>
-          <p>¿Tienes alguna duda mientras evalúas nuestro producto? ¿Has encontrado un bug en nuestros plugins o quieres
+  </div>
+</section>
+
+<section id="help" style="padding-top: 40px; padding-bottom: 60px; background: #4b4955; color:#fff">
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Solicita Soporte
+              </h1>
+              <p>¿Tienes alguna duda mientras evalúas nuestro producto? ¿Has encontrado un bug en nuestros plugins o quieres
             sugerirnos una mejora? Abre un ticket en nuestro <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Jira Service Desk</a>
             y contactaremos contigo a la mayor brevedad posible.
           </p>
           <p>
-            <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank" class="btn btn-primary btn-call-to-action fancybox">Solicitar Soporte > </a>
-          </p>
-        </div>
-      </div>
+              <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Solicitar Soporte</a>
+            </div>
+       </div>
     </div>
-  </div>
+</div>
 </section>
 
-{% include newsletter-banner_es.html %}
 
-<div class="post-area">
-
+<section id="plugins-area" style="padding-top: 40px; padding-bottom: 60px;">
+ <div class="container" style="text-align:center; padding-bottom: 40px">
   <div class="row">
-    <div class="col-md-2">
-    </div>
-    {% for post in site.posts limit:6 %}
-    {% if post.path contains '_es' %}
-    <div class="col-md-2">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="row">
-          {% if post.cover %}
-          <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
-          {% endif %}
-        </div>
-        <div class="row">
-          <h3>{{ post.title }}</h3>
-          <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-1">
-    </div>
-    {% endif %}
-    {% endfor %}
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Otros plugins que te pueden interesar...
+              </h1>
+          </div>
+      </div>
   </div>
-</div>
+ </div>
 
+ <!-- Security Downloads -->
+ <div class="container">
+      <div class="col-md-1">
+        <a href="/sonarqube-security">
+          <img width=100px src="/img/portfolio/sonarqube-security.png" alt="SonarQube Security Logo">
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="/sonarqube-security">
+          <h3>Security Plugin for SonarQube&trade;</h3>
+        </a>
+        <p>Proporciona información sobre el cumplimiento de estándares de seguridad de tus proyectos (OWASP, CWE) incluyendo el factor de riesgo y las vulnerabilidades por categorías.</p>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a class="btn btn-default btn-call-to-action fancybox" href="/sonarqube-security-trial-form">Probar</a>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a target="_blank" class="btn btn-primary btn-call-to-action fancybox"
+           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6CFXPKQY8MMUC">Comprar</a>
+      </div>
+    <!--Overview-->
+            <div class="row">
+      <div class="col-md-12">
+        <h1>&nbsp;</h1>
+      </div>
+    </div>
+      <div class="col-md-1">
+        <a href="/sonarqube-overview">
+          <img width=90px src="/img/portfolio/sonarqube-overview.png" alt="SonarQube Overview Report Logo">
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="/sonarqube-overview">
+          <h3>Overview Report Plugin for SonarQube&trade;</h3>
+        </a>
+        <p>Permite la agrupación de proyectos en SonarQube™ para tener una vista general del estado de calidad de código de toda la instancia, o de agrupaciones de la misma.</p>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a class="btn btn-default btn-call-to-action fancybox" href="/sonarqube-overview-trial-form">Probar</a>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a target="_blank" class="btn btn-primary btn-call-to-action fancybox"
+           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5Q9KFFT9LBJRE">Comprar</a>
+      </div>
+      <!--SQALE-->
+          <div class="row">
+      <div class="col-md-12">
+        <h1>&nbsp;</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+        <a href="/sonarqube-sqale">
+          <img width=90px src="/img/portfolio/sonarqube-sqale.png" alt="SonarQube SQALE Logo">
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="/sonarqube-sqale">
+          <h3>SQALE Plugin for SonarQube&trade;</h3>
+        </a>
+        <p>El método SQALE permite gestionar la deuda técnica de nuestros proyectos y conocer que características de nuestro código acumulan más deuda. Con SQALE Plugin for SonarQube™ podrás aplicar esta metodología y medir mejor la dedua técnica usando SonarQube™.</p>
+        <p>SQALE Plugin for SonarQube™está catalogado como official SQALE tool para la gestión de la deuda técnica.</p>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a class="btn btn-default btn-call-to-action fancybox" href="/sonarqube-sqale-trial-form">Probar</a>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a target="_blank" class="btn btn-primary btn-call-to-action fancybox"
+           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V49PHQUXEB2VY">Comprar</a>
+      </div>
+    </div>
+    <!--Report-->
+        <div class="row">
+      <div class="col-md-12">
+        <h1>&nbsp;</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+        <a href="/sonarqube-report">
+          <img width=90px src="/img/portfolio/sonarqube-report.png" alt="SonarQube Report Logo">
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="/sonarqube-report">
+          <h3>Report Plugin for SonarQube&trade;</h3>
+        </a>
+        <p>Genera un informe ejecutivo en PDF de tu proyecto o descarga un informe personalizado a través de una plantilla Open Document (ODT).</p>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a class="btn btn-default btn-call-to-action fancybox" href="/sonarqube-report-trial-form">Probar</a>
+      </div>
+      <div class="col-md-1">
+        <h4>&nbsp;</h4>
+        <a target="_blank" class="btn btn-primary btn-call-to-action fancybox"
+           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCTW5937XWCJS">Comprar</a>
+      </div>
+    </div>
+    
+    </div>
+</section>
 
 
 <section id="update-center-description">
