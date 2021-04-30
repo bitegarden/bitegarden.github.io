@@ -39,7 +39,7 @@
   margin: 0 0 60px;
   background-color: #fff;
   text-align: center;
-  height: 350px;
+  height: 500px;
 }
 .modPriceBox ul {
   margin-left: 0;
@@ -123,3 +123,6 @@
     display: block;
 }
 
+.col-md-3 {
+    width: 25%
+  }
