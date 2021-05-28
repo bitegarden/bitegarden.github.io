@@ -81,8 +81,12 @@ trial: sonarqube-project-tag-trial-form
           </div>
           <p>With this plugin you will be able to tag a project automatically in SonarQube&trade;:</p>
           <p><strong>Set tag through command line property</strong>: you just need to add this property
-            "-Dbitegarden.project.tag=YOUR_TAG" to any of your scanners and the plugin
-            will get the information and will store it in SonarQube&trade;.
+            <pre>-Dbitegarden.project.tag=yourtag</pre> to any of your scanners and the plugin
+            will get the information and will store it in SonarQube&trade;.</p>
+          <p>
+            Please, note that SonarQube&trade; tags accept only the characters:
+            <pre>a-z, 0-9, '+', '-', '#', '.'</pre>
+          </p>
 
           <p><strong>In admin settings, launch the process to tag all the projects</strong>: once your projects are
             analyzed using the property,

@@ -6,7 +6,7 @@ permalink: /es/sonarqube-project-tag
 trial: /es/sonarqube-project-tag-trial-form
 ---
 
-<section id="global-header-product">
+<section id="global-header-product" xmlns="http://www.w3.org/1999/html">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -79,8 +79,12 @@ trial: /es/sonarqube-project-tag-trial-form
           </div>
           <p>Para automatizar la creación de etiquetas en SonarQube&trade;:</p>
           <p><strong>Escribe la etiqueta a través de una propiedad de línea de comando</strong>: solo tienes que añadir
-            esta propiedad "-Dbitegarden.project.tag=YOUR_TAG" a cualquiera de tus scanners y el plugin
-            captará la información y la guardará en SonarQube&trade;.
+            esta propiedad <pre>-Dbitegarden.project.tag=yourtag</pre> a cualquiera de tus scanners y el plugin
+            captará la información y la guardará en SonarQube&trade;.</p>
+          <p>
+            Es importante saber que las etiquetas en SonarQube&trade; solo aceptan los siguientes caracteres:
+            <pre>a-z, 0-9, '+', '-', '#', '.'</pre>
+          </p>
 
           <p><strong>En la configuración del administrador, lanza el proceso para etiquetar todos los proyectos</strong>:
             una vez que tus proyectos han sido analizados usando la propiedad, puedes lanzar el proceso que etiquetará
