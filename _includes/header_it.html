@@ -14,31 +14,31 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/es/">
+            <a class="navbar-brand" href="/it/">
               <img style="max-height: 100%;" src="{{ site.baseurl }}/img/logo.svg" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/es/">Inicio</a></li>
-                <li><a href="{{ site.baseurl }}/es/products">SonarQube™ Plugins</a></li>
-                <li><a href="{{ site.baseurl }}/es/downloads">Descargas</a></li>
-                <li><a href="{{ site.baseurl }}/es/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/es/contact">Contacto</a></li>
+                <li><a href="{{ site.baseurl }}/it/">Inicio</a></li>
+                <li><a href="{{ site.baseurl }}/it/products">SonarQube™ Plugins</a></li>
+                <li><a href="{{ site.baseurl }}/it/downloads">Descargas</a></li>
+                <li><a href="{{ site.baseurl }}/it/blog">Blog</a></li>
+                <li><a href="{{ site.baseurl }}/it/contact">Contacto</a></li>
 
                 {% if page.trial %}
                 <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="{{ page.trial }}"><span style="color: white;font-weight: bold;text-transform: uppercase">Prueba ahora</span></a></div></li>
                 {% else %}
-                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="/es/downloads"><span style="color: white;font-weight: bold;text-transform: uppercase">Prueba ahora</span></a></div></li>
+                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="/it/downloads"><span style="color: white;font-weight: bold;text-transform: uppercase">Prueba ahora</span></a></div></li>
                 {% endif %}
 
-                {% if page.path contains '_es' %}
+                {% if page.path contains '_it' %}
                 <li><a href="{{ site.baseurl }}{{ page.english }}">EN</a></li>
-                <!--li><a href="{{ site.baseurl }}{{ page.italian }}">IT</a></li-->
+                <li><a href="{{ site.baseurl }}{{ page.spanish }}">ES</a></li>
                 {% else %}
-                <li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/" }}">EN</a></li>
-                <!--li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/it/" }}">IT</a></li-->
+                <li><a href="{{ site.baseurl }}{{ page.url | replace: "/it/", "/" }}">EN</a></li>
+                <li><a href="{{ site.baseurl }}{{ page.url | replace: "/it/", "/es/" }}">ES</a></li>
                 {% endif %}
               </ul>
             </div><!-- /.navbar-collapse -->

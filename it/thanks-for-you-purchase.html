@@ -1,0 +1,135 @@
+---
+layout: page_it
+title: Thanks for your purchase
+permalink: /it/thanks-for-your-purchase
+---
+
+<!-- Slider Start -->
+<section id="global-header-downloads">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>¡Gracias por su compra!</h1>          
+          <h4>Acabamos de recibir su pago por el complemento bitegarden.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 40px; padding-bottom: 40px">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <h3>
+              Cómo recibir la licencia
+            </h3>
+            <p>Para generar la clave de licencia necesitamos:</p>
+             <ul>
+             <li>- <strong>información de la empresa </strong> para generar la factura (nombre de la empresa, dirección, número de IVA, ...)</li>
+             <br/>
+             <li>- el <strong> ID de servidor </strong> de su instancia de SonarQube</li>
+           </ul>
+           <br/>
+             <p>Tan pronto como nos envíe la información le enviaremos la clave de licencia y la factura.</p>
+             <br/>
+
+<center><a href="http://bitegarden.atlassian.net/servicedesk/customer/portal/1" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Envía solicitud</a></center>
+
+            <br>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+<hr>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h2>
+                ¿Dónde está mi Server ID?
+              </h2>
+             <p>Su Server ID  se utiliza para identificar de forma única su instancia de SonarQube. Se encuentra en la página <strong> Administración > Sistema </strong> en la sección <strong>Información del sistema</strong>.
+            </p>
+            <img src="/img/SonarQube-server-id.png" atl="SonarQube Server ID info">
+            <br/>
+            <br/>
+            </div>
+       </div>
+    </div>
+</div>
+</section>
+
+<div style="    background: #4b4955; color:#fff">
+{% include newsletter-banner_it.html %}
+</div>
+
+<div class="post-area">
+
+ <div class="container" style="text-align:center; padding-bottom: 40px">
+  <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Ultimas novedades
+              </h1>
+          </div>
+      </div>
+  </div>
+ </div>
+
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+
+    {% for post in site.posts limit:6 %}
+    {% if post.path contains '_it' %}
+    <div class="col-md-2">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row">
+          {% if post.cover %}
+          <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
+          {% endif %}
+        </div>
+        <div class="row" >
+          <h4 style="color:#666">{{ post.title }}</h4>
+           <p class="post-date" style="font-size:13px">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-1">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+<section id="update-center-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var refinedLink = window.location.search.substr(9);
+    var link = refinedLink.substr(0, refinedLink.length - 3);
+    if (link) {
+      document.getElementById('direct-link').href=link;
+    }
+  });
+</script>
+

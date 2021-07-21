@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+              <img style="max-height: 100%;" src="{{ site.baseurl }}/img/logo.svg" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,8 +35,10 @@
 
                 {% if page.path contains '_en' %}
                 <li><a href="{{ site.baseurl }}{{ page.spanish }}">ES</a></li>
+                <!-- li><a href="{{ site.baseurl }}{{ page.italian }}">IT</a></li-->
                 {% else %}
                 <li><a href="{{ site.baseurl }}/es{{ page.url }}">ES</a></li>
+                <!--li><a href="{{ site.baseurl }}/it{{ page.url }}">IT</a></li-->
                 {% endif %}
               </ul>
             </div><!-- /.navbar-collapse -->

@@ -1,0 +1,49 @@
+---
+layout: page_it
+title: Blog
+permalink: /it/blog/
+---
+<!-- Slider Start -->
+<section id="global-header-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>SonarQube&trade; Plugins, noticias sobre calidad de código y mucho más</h1>
+          <p>No te pierdas las últimas novedades del ecosistema SonarQube&trade; </p>
+          <a class="btn btn-default btn-call-to-action fancybox"
+          href="/it/newsletter-signup-form">Suscribirse</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+
+{% if post.path contains '_it' %}
+<div class="post-area">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <div class="col-md-2">
+        {% if post.cover %}
+        <img style="width: 100%;" alt="Portada de {{ post.title }}" src="{{ post.cover }}" />
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        <strong>{{ post.title }}</strong>
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <p>
+          {{ post.description }}
+        </p>
+      </div>
+    </a>
+    <div class="col-md-2">
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% include newsletter-banner_it.html %}
