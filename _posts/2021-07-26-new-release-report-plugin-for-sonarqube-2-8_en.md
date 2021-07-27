@@ -13,9 +13,9 @@ We have released the new version (2.8) of the [Report Plugin for SonarQube](/son
 
 ## New features
 
-- The user will have a counter that will indicate when the plugin will expire and will have the possibility to renew or request a quote directly from the main panel.
+-- The user will have a counter that will indicate when the plugin will expire and will have the possibility to renew or request a quote directly from the main panel.
 
-- To improve the user experience, we have added a request button to access support and request help.
+-- To improve the user experience, we have added a request button to access support and request help.
 
 <hr>
 
@@ -29,6 +29,6 @@ Plugin to export SonarQube reports quickly and easily, directly from the user in
 
 
 ---
-** <span style = "color: green"> bitegarden </span> team **
+**<span style = "color: green"> bitegarden </span> team**
 
 _Helping companies to develop better software_
