@@ -21,16 +21,16 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/it/">Inicio</a></li>
-                <li><a href="{{ site.baseurl }}/it/products">SonarQube™ Plugins</a></li>
-                <li><a href="{{ site.baseurl }}/it/downloads">Descargas</a></li>
+                <li><a href="{{ site.baseurl }}/it/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/it/products">Plugins per SonarQube™</a></li>
+                <li><a href="{{ site.baseurl }}/it/downloads">Download</a></li>
                 <li><a href="{{ site.baseurl }}/it/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/it/contact">Contacto</a></li>
+                <li><a href="{{ site.baseurl }}/it/contact">Contattaci</a></li>
 
                 {% if page.trial %}
-                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="{{ page.trial }}"><span style="color: white;font-weight: bold;text-transform: uppercase">Prueba ahora</span></a></div></li>
+                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="{{ page.trial }}"><span style="color: white;font-weight: bold;text-transform: uppercase">Prova gratuita</span></a></div></li>
                 {% else %}
-                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="/it/downloads"><span style="color: white;font-weight: bold;text-transform: uppercase">Prueba ahora</span></a></div></li>
+                <li><div class="block"><a class="btn btn-primary btn-call-to-action fancybox" href="/it/downloads"><span style="color: white;font-weight: bold;text-transform: uppercase">Prova gratuita</span></a></div></li>
                 {% endif %}
 
                 {% if page.path contains '_it' %}
