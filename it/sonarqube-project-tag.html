@@ -1,7 +1,7 @@
 ---
 layout: page_it
-title: Project Tag Plugin for SonarQube
-description: Automatiza la creación de tags y el etiquetado en SonarQube
+title: Project Tag Plugin per SonarQube
+description: Automatizza la creazione e l'etichettatura dei tag in SonarQube
 permalink: /it/sonarqube-project-tag
 trial: /it/sonarqube-project-tag-trial-form
 ---
@@ -11,9 +11,9 @@ trial: /it/sonarqube-project-tag-trial-form
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Project Tag Plugin for SonarQube&trade;</h1>
-          <p>Crea y asocia SonarQube™ tags de manera automática</p>
-          <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROBAR</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">COMPRAR</a>
+          <h1>Project Tag Plugin per SonarQube&trade;</h1>
+          <p>Crea e associa automaticamente i tag SonarQube ™</p>
+          <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROVA GRATUITA</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">COMPRA ORA</a>
 
         </div>
       </div>
@@ -27,29 +27,26 @@ trial: /it/sonarqube-project-tag-trial-form
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h3>Etiqueta tus proyectos de manera automática</h3>
+            <h3>Tagga automaticamente i tuoi progetti</h3>
             <hr>
           </div>
-          <p>¿Alguna vez has tratado de automatizar el on-boarding de proyectos en SonarQube&trade; usando
-            etiquetas?</p>
+          <p>Hai mai provato ad automatizzare l'onboarding del tuo progetto utilizzando i tag in SonarQube™?</p>
 
           <p>
-            SonarQube&trade; tiene una potente gestión de etiquetas/tags en el espacio de proyectos, pero la única
-            manera de crear nuevas etiquetas es a través del propio sonar y de manera manual.
-            Crear etiquetas manualmente es muy difícil cuando tienes muchos proyectos. Con nuestro plugin, podrás
-            configurar etiquetas de proyecto de forma fácil y automática. Simplemente proporciona la etiqueta a través
-            de una propiedad de línea de comando en tu análisis y el plugin hará el resto.
+            SonarQube&trade; ha una potente gestione di tags nello spazio del progetto, ma l'unico modo per creare nuovi tag è tramite SonarQube stesso e manualmente.</p> 
+            <p>
+              Creare etichette manualmente è molto difficile quando si hanno molti progetti. Con il <strong>Porject Tag Plugin per SonarQube</strong>, puoi configurare facilmente e automaticamente i tags del progetto. </p>
+              <p>
+                Fornisci semplicemente il tag tramite una proprietà della riga di comando nella tua analisi e il plug-in farà il resto.
           </p>
           <p>
-            Cuando ya tienes metadatos del proyecto, querrás usarlo durante el análisis del proyecto (en tu herramienta
-            de CI como Jenkins). Todo está automatizado y la etiqueta del proyecto se configura utilizando los metadatos
-            y está disponible lo antes posible.
+            Se disponi già di metadati del progetto, vorrai utilizzarli durante l'analisi del progetto (nel tuo strumento CI come Jenkins). Tutto è automatizzato e il tag del progetto è impostato utilizzando i metadati ed è subito disponibile.
           </p>
 
           <p class="center-text">
-            <a class="btn btn-default btn-call-to-action fancybox" href="/it/sonarqube-project-tag-trial-form">Probar</a>
+            <a class="btn btn-default btn-call-to-action fancybox" href="/it/sonarqube-project-tag-trial-form">PROVA GRATUITA</a>
             <a target="_blank" class="btn btn-primary btn-call-to-action fancybox"
-               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CS2ECSJW77SJW">Comprar</a>
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CS2ECSJW77SJW">COMPRA ORA</a>
           </p>
 
         </div>
@@ -75,27 +72,25 @@ trial: /it/sonarqube-project-tag-trial-form
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h3>Uso y configuración</h3>
+            <h3>Utilizzo e configurazione</h3>
             <hr>
           </div>
-          <p>Para automatizar la creación de etiquetas en SonarQube&trade;:</p>
-          <p><strong>Escribe la etiqueta a través de una propiedad de línea de comando</strong>: solo tienes que añadir
-            esta propiedad <pre>-Dbitegarden.project.tag=yourtag</pre> a cualquiera de tus scanners y el plugin
-            captará la información y la guardará en SonarQube&trade;.</p>
+          <p>Con questo plugin sarai in grado di taggare automaticamente un progetto in SonarQube™:</p>
           <p>
-            Es importante saber que las etiquetas en SonarQube&trade; solo aceptan los siguientes caracteres:
+            <strong>Imposta tag tramite la proprietà della riga di comando:</strong> attraverso l'aggiunta di questa proprietà
+            <pre>-Dbitegarden.project.tag=yourtag</pre> 
+          a uno qualsiasi dei tuoi scanner e il plugin catturerà le informazioni e le salverà in SonarQube ™.</p>
+          <p>
+            È importante sapere che i tag in SonarQube ™ accettano solo i seguenti caratteri:
             <pre>a-z, 0-9, '+', '-', '#', '.'</pre>
           </p>
 
-          <p><strong>En la configuración del administrador, lanza el proceso para etiquetar todos los proyectos</strong>:
-            una vez que tus proyectos han sido analizados usando la propiedad, puedes lanzar el proceso que etiquetará
-            los proyectos por ti. Ve a Administration -> Configuration -> Project Tag y lánzalo </p>
+          <p><strong>Nelle impostazioni di amministrazione, avvia il processo per taggare tutti i progetti:</strong> una volta che i tuoi progetti sono stati analizzati utilizzando la proprietà, puoi avviare il processo che taggherà i progetti per te. Vai a Administration -> Configuration -> Project Tag e avvialo </p>
 
-          <p><strong>Las etiquetas de sistema y las personalizadas se conservan</strong>: el proceso no eliminará
-            ninguna etiqueta y solo agregará la etiqueta utilizada durante el análisis.</p>
+          <p><strong>Le etichette di sistema e personalizzate vengono conservate:</strong> il processo non rimuoverà alcuna etichetta e aggiungerà solo l'etichetta utilizzata durante l'analisi.</p>
 
           <p class="center-text">
-            <a class="btn btn-default fancybox price-button" target="_blank" href="/pdf/products/IT-sonarqube-project-tag-plugin-data-sheet.pdf">Descarga Ficha de Producto</a>
+            <a class="btn btn-default fancybox price-button" target="_blank" href="/pdf/products/sonarqube-project-tag-plugin-data-sheet.pdf">Scarica la scheda prodotto del Project Tag Plugin</a>
           </p>
 
         </div>
@@ -110,7 +105,7 @@ trial: /it/sonarqube-project-tag-trial-form
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Empieza a etiquetar proyectos de manera inteligente</h2><br><br>
+          <h2>Inizia a taggare tutti i tuoi progetti!</h2><br><br>
         </div>
       </div>
     </div>
@@ -121,22 +116,22 @@ trial: /it/sonarqube-project-tag-trial-form
       <div class="col-md-3" style="width: 34%!important;">
         <div class="mod modPriceBox ">
           <div class="info" style="padding-top: 30px">
-            <h3 style="color:#000; text-transform: uppercase;">Pruébalo</h3>
+            <h3 style="color:#000; text-transform: uppercase;">Prova gratuita</h3>
             <p class="desc"></p>
             <p class="price">
-              <span class="number">Licencia de evaluación</span>
+              <span class="number">Licenza di prova</span>
             </p>
           </div>
           <div class="features">
             <ul>
-              <li class="">Licencia de evaluación de 14 días</li>
-              <li class="even">Tras completar el formulario descargarás el fichero que incluye la clave de evaluación</li>
-              <li class="">Usando este formulario descargarás la versión compatible con la LTS, visita
-                <a href="downloads">descargas</a> para otras versiones
+              <li class="">Licenza di prova di 14 giorni</li>
+              <li class="even">Dopo aver compilato il modulo potrai scaricare il file che <span style="text-decoration: underline"><strong>include</strong></span> la licenza di prova</li>
+              <li class="">Compilando il modulo potrai scaricare la versione compatibile con LTS, visita la pagina di 
+                <a href="downloads">download</a> per altre versioni
               </li>
             </ul>
           </div>
-          <a class="btn btn-default fancybox price-button" href="sonarqube-project-tag-trial-form" style="text-transform: uppercase;">Pruébalo Gratis</a>
+          <a class="btn btn-default fancybox price-button" href="sonarqube-project-tag-trial-form" style="text-transform: uppercase;">PROVA GRATUITA</a>
         </div>
       </div>
       <div class="col-md-2">
@@ -144,29 +139,29 @@ trial: /it/sonarqube-project-tag-trial-form
       <div class="col-md-3" style="width: 34%!important;">
         <div class="mod modPriceBox featured">
           <div class="info" style="padding-top: 30px">
-            <h3 style="color:#000; text-transform: uppercase;">Comprar</h3>
+            <h3 style="color:#000; text-transform: uppercase;">COMPRARE</h3>
             <p class="desc"></p>
             <p class="price">
-              <span class="number">150 €/año</span>
+              <span class="number">150 €/anno</span>
             </p>
           </div>
           <div class="features">
             <ul>
-              <li class="">Por instancia de SonarQube&trade;</li>
-              <li class="even">Incluye actualizaciones y soporte</li>
-              <li class="">Al comprar el plugin aceptas los <a
-                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">términos y condiciones</a></li>
-              <li class="even">No te olvides de incluir tu email. Enviaremos la licencia a esa dirección de correo</li>
+              <li class="">Per instanza di SonarQube&trade;</li>
+              <li class="even">Include aggiornamenti e supporto tecnico</li>
+              <li class="">Comprando il plugin accetti <a
+                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">termini e condizioni</a></li>
+              <li class="even"><strong>Assicurati di inserire la tua email correttamente per ricevere la licenza</strong></li>
             </ul>
           </div>
           <div id="payment-options">
-            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">MÉTODO DE PAGO</p>
+            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">METODO DI PAGAMENTO</p>
             <p>
             <a class="btn btn-primary fancybox"
-               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CS2ECSJW77SJW" target="_blank" style="padding:10px 30px;">TARJETA CRÉDITO O PAYPAL</a>
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CS2ECSJW77SJW" target="_blank" style="padding:10px 30px;">CARTA DI CREDITO O PAYPAL</a>
                </p>
                <p>
-               <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 22px;">TRANSFERENCIA BANCARIA</a>
+               <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 22px;">BONIFICO BANCARIO</a>
              </p>
           </div>
         </div>
