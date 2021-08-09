@@ -35,10 +35,10 @@
 
                 {% if page.path contains '_es' %}
                 <li><a href="{{ site.baseurl }}{{ page.english }}">EN</a></li>
-                <!--li><a href="{{ site.baseurl }}{{ page.italian }}">IT</a></li-->
+                <li><a href="{{ site.baseurl }}{{ page.italian }}">IT</a></li>
                 {% else %}
                 <li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/" }}">EN</a></li>
-                <!--li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/it/" }}">IT</a></li-->
+                <li><a href="{{ site.baseurl }}{{ page.url | replace: "/es/", "/it/" }}">IT</a></li>
                 {% endif %}
               </ul>
             </div><!-- /.navbar-collapse -->
