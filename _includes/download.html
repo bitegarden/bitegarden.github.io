@@ -26,11 +26,26 @@ $("#download-form").submit(function(e) {
           url += '&customerCompany=' + customerCompany;
 
       window.open(url, '_blank');
-      {% if page.path contains 'es/' %}
-      window.location='/es/thank-you?link="'+url+'"';
+
+      {% if page.path contains 'sonarcloud' %}
+        {% if page.path contains 'es/' %}
+        window.location='/es/thank-you-sonarcloud?link="'+url+'"';
+        {% elsif page.path contains 'it/' %}
+        window.location='/it/thank-you-sonarcloud?link="'+url+'"';
+        {% else %}
+        window.location='/thank-you-sonarcloud?link="'+url+'"';
+        {% endif %}
       {% else %}
-      window.location='/thank-you?link="'+url+'"';
+        {% if page.path contains 'es/' %}
+        window.location='/es/thank-you?link="'+url+'"';
+        {% elsif page.path contains 'it/' %}
+        window.location='/it/thank-you?link="'+url+'"';
+        {% else %}
+        window.location='/thank-you?link="'+url+'"';
+        {% endif %}
       {% endif %}
+
+
     }
 });
 </script>

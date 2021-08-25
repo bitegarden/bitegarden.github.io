@@ -1,0 +1,135 @@
+---
+layout: page
+title: Thanks for your purchase for SonarCloud
+permalink: /it/thanks-for-your-purchase-sonarcloud
+---
+
+<!-- Slider Start -->
+<section id="global-header-downloads">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Thanks for your purchase!</h1>          
+          <h4>We have just received your payment for the bitegarden product for SonarCloud&trade;.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 40px; padding-bottom: 40px">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <h3>
+              How to receive your license?
+            </h3>
+            <p>In order to generate the license key we need:</p>
+             <ul>
+             <li>- <strong>company information</strong> to generate the invoice (company name, address, VAT number, …)</li>
+             <br/>
+             <li>- the <strong>organization key</strong> from SonarCloud</li>
+           </ul>
+           <br/>
+             <p>As soon as you send us the information we will send you the license key and the invoice.</p>
+             <br/>
+
+<center><a href="http://bitegarden.atlassian.net/servicedesk/customer/portal/1" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Send your request</a></center>
+
+            <br>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+<hr>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <h2>
+              Where is my SonarCloud&trade; organization key?
+            </h2>
+            <p>Your organization key is used to uniquely identify your SonarCloud plan.</p>
+            <p>It is located in the main page on the right side under your user profile avatar</p>
+            <img width="100%" src="/img/SonarCloud-organization-key.png" atl="SonarQube Organization Key info">
+            <br/>
+            <br/>
+            </div>
+       </div>
+    </div>
+</div>
+</section>
+
+<div style="    background: #4b4955; color:#fff">
+{% include newsletter-banner.html %}
+</div>
+
+<div class="post-area">
+
+ <div class="container" style="text-align:center; padding-bottom: 40px">
+  <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Latest News
+              </h1>
+          </div>
+      </div>
+  </div>
+ </div>
+
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+
+    {% for post in site.posts limit:6 %}
+    {% if post.path contains '_en' %}
+    <div class="col-md-2">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row">
+          {% if post.cover %}
+          <img style="width: 100%;" alt="{{ post.title }} cover" src="{{ post.cover }}" />
+          {% endif %}
+        </div>
+        <div class="row" >
+          <h4 style="color:#666">{{ post.title }}</h4>
+           <p class="post-date" style="font-size:13px">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-1">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+<section id="update-center-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var refinedLink = window.location.search.substr(9);
+    var link = refinedLink.substr(0, refinedLink.length - 3);
+    if (link) {
+      document.getElementById('direct-link').href=link;
+    }
+  });
+</script>
+
