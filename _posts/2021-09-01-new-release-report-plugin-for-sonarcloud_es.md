@@ -18,7 +18,7 @@ Ahorrarás todo el tiempo necesario para generar informes sobre la calidad y la 
 
 **¡Obtén tu prueba gratuita y comienza a descargar tus informes de SonarCloud ahora mismo!**
 
-<a href = "/sonarcloud-report # product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Inicia tu prueba gratuita > </a>
+<a href = "/sonarcloud-report#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Inicia tu prueba gratuita > </a>
 
 <br/>
 
@@ -33,7 +33,7 @@ Si necesita más información sobre las funciones o cómo empezar, consulte la p
 
 ### Report Plugin para SonarQube
 
-¿Usas SonarQube? El Report Plugin también está disponible para SonarQube, descarga ahora tu [versión de prueba gratuita](/sonarqube-report#product-block-center).
+¿Necesitas la versión para SonarQube? El Report Plugin también está disponible para SonarQube, descarga ahora tu [versión de prueba gratuita](/sonarqube-report#product-block-center).
 <br>
 
 <br>
