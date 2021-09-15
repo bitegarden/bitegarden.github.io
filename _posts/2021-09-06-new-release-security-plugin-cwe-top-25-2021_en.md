@@ -5,6 +5,8 @@ description: The CWE Top 25 compliance report now available in PDF.
 
 permalink: cwe-top-25-2021-included-security-plugin-for-sonarqube
 spanish: cwe-top-25-2021-incluido-security-plugin-para-sonarqube
+italian: cwe-top-25-2021-incluso-security-plugin-per-sonarqube
+
 cover: /img/thumbs/2021-09-06-new-release-security-plugin-cwe-top-25-2021-thumb.png
 ---
 We have published version 2.6 of the [Security Plugin for SonarQube](sonarqube-security) that allows to know the fulfillment of the security standards (OWASP, CWE/SANS).
