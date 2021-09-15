@@ -5,6 +5,8 @@ description: Ventajas de usar SonarQube
 
 permalink: 6-razones-utilizar-sonarqube
 english: 6-reasons-why-use-sonarqube
+italian: 6-ragioni-utilizzare-sonarqube
+
 cover: /img/thumbs/2021-03-16-6-reasons-why-you-should-use-SonarQube.png
 ---
 
