@@ -5,6 +5,8 @@ description: Easily download the pdf report of your SonarCloud projects. Our mos
 
 permalink: new-report-plugin-for-sonarcloud-free-trial
 spanish: nuevo-report-plugin-para-sonarcloud-prueba-gratis
+italian: nuovo-report-plugin-per-sonarcloud-provalo-gratis
+
 cover: /img/thumbs/2021-09-01-new-release-report-plugin-for-sonarcloud-free-trial-thumb.png
 ---
 

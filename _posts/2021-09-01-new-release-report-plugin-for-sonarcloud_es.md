@@ -5,6 +5,8 @@ description: Descarga fácilmente el informe de tus proyectos de SonarCloud en P
 
 permalink: nuevo-report-plugin-para-sonarcloud-prueba-gratis
 english: new-report-plugin-for-sonarcloud-free-trial
+italian: nuovo-report-plugin-per-sonarcloud-provalo-gratis
+
 cover: /img/thumbs/2021-09-01-new-release-report-plugin-for-sonarcloud-free-trial-thumb.png
 ---
 
