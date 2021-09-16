@@ -3,8 +3,10 @@ layout: post_es
 title: Genera un informe PDF de la calidad de tu código con SonarQube&trade;
 description: Diferentes formas de generar informes de tus datos de la calidad del código en SonarQube&trade;
 
-english: generate-code-quality-pdf-report-sonarqube
 permalink: genera-informe-pdf-calidad-codigo-sonarqube
+english: generate-code-quality-pdf-report-sonarqube
+italian: esportare-report-pdf-qualita-codice-sonarqube
+
 cover: /img/thumbs/2020-07-31-generate-pdf-report-with-sonarqube.png
 ---
 
