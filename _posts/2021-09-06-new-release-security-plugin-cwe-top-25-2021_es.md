@@ -5,6 +5,8 @@ description: El informe en PDF del cumplimiento del estándar CWE Top 25 ahora d
 
 permalink: cwe-top-25-2021-incluido-security-plugin-para-sonarqube
 english: cwe-top-25-2021-included-security-plugin-for-sonarqube
+italian: cwe-top-25-2021-incluso-security-plugin-per-sonarqube
+
 cover: /img/thumbs/2021-09-06-new-release-security-plugin-cwe-top-25-2021-thumb.png
 ---
 
