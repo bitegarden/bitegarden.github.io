@@ -83,7 +83,7 @@ Include:
 
 Include sia i valori globali che le informazioni sul periodo di perdita (codice nuovo o modificato).
 
-<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO RESUMEN EJECUTIVO ></a>
+<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">GUARDA L'ESEMPIO ></a>
 
 ## Issues Breakdown Summary Report (PDF)
 
