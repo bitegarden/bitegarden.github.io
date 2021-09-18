@@ -5,6 +5,8 @@ description: Different ways to generate code quality reports in SonarQube&trade;
 
 permalink: generate-code-quality-pdf-report-sonarqube
 spanish: genera-informe-pdf-calidad-codigo-sonarqube
+italian: esportare-report-pdf-qualita-codice-sonarqube
+
 cover: /img/thumbs/2020-07-31-generate-pdf-report-with-sonarqube.png
 ---
 
