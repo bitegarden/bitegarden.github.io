@@ -5,6 +5,8 @@ description: La versión opensource y gratuita de Sonarqube.
 
 permalink: community-edition-de-sonarqube-y-todos-los-plugins-disponibles
 english: sonarqube-community-edition-and-all-the-plugins-availables
+italian: community-edition-di-sonarqube-e-i-plugins-disponibili
+
 cover: /img/thumbs/2020-12-11-sonarqube-community-edition-thumb.png
 ---
 
@@ -40,7 +42,7 @@ Los **TOP 3 más descargados**:
 -- <a href="https://www.bitegarden.com/es/sonarqube-report"><span style="font-weight: 900; color: #1eaa5d;">Overview Report Plugin</span></a>: Permite tener una **visión agregada** de las métricas de dos o más proyectos de Sonarqube. Con este plugin podrás agrupar distintos proyectos, obteniendo así una mejor perspectiva del estado de calidad del software en la organización.
 
 <br>
-<center><a href="https://www.bitegarden.com/es/products/" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:18px">Descubre todos los plugins para Sonarqube y pruébalos por 30 días > </a></center>
+<center><a href="https://www.bitegarden.com/es/products/" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:18px">Descubre todos los plugins para Sonarqube y pruébalos por 14 días > </a></center>
 <br>
 
 <br>
