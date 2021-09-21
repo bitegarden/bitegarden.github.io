@@ -1,7 +1,7 @@
 ﻿---
 layout: post_it
 title: Gestione della qualità del codice con SonarQube
-description: Come migliorare il controllo della qualità dei progetti con SonarQube
+description: Come migliorare il controllo della qualità dei progetti con SonarQube.
 
 permalink: gestione-qualita-codice-con-sonarqube
 english: static-code-analysis-with-sonarqube
