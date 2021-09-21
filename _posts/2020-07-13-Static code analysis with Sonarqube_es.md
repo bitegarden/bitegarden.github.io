@@ -5,6 +5,8 @@ description: Invertir en el control de la **calidad de los proyectos** significa
 
 permalink: analisis-estatico-del-codigo-con-sonarqube
 english: static-code-analysis-with-sonarqube
+italian: gestione-qualita-codice-con-sonarqube
+
 cover: /img/thumbs/2020-07-13-static-code-analysis-using-sonarqube-thumb.png
 ---
 
