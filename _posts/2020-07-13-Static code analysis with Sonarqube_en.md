@@ -5,6 +5,8 @@ description: Investing in the quality control of projects means analyzing the co
 
 permalink: static-code-analysis-with-sonarqube
 spanish: analisis-estatico-del-codigo-con-sonarqube
+italian: gestione-qualita-codice-con-sonarqube
+
 cover: /img/thumbs/2020-07-13-static-code-analysis-using-sonarqube-thumb.png
 ---
 Investing in the **quality control of projects** means analyzing the code throughout the process and thereby including code reviews in workflows to maintain high quality.
