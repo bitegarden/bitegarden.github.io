@@ -5,6 +5,9 @@ description: The opensource and free version of Sonarqube.
 
 permalink: sonarqube-community-edition-and-all-the-plugins-availables
 spanish: community-edition-de-sonarqube-y-todos-los-plugins-disponibles
+italian: community-edition-di-sonarqube-e-i-plugins-disponibili
+
+
 cover: /img/thumbs/2020-12-11-sonarqube-community-edition-thumb.png
 ---
 
