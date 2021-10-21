@@ -5,6 +5,8 @@ description: How to quantify the quality of a software and build a high quality 
 
 permalink: how-to-develop-high-quality-software-sonarqube
 spanish: como-costruir-software-de-alta-calidad-sonarqube
+italian: come-sviluppare-software-alta-qualita-sonarqube
+
 cover: /img/posts/2021-05-14-how-to-develop-high-quality-software-with-sonarqube-thumb.png
 ---
 
