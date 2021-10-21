@@ -37,7 +37,7 @@ Internal changes are also included to improve dependencies.
 
 ## Download the new version
 
-The Security Plugin is now available for download through the [Update Center](/downloads/#call-to-action) or from the [Download page](/download).
+The Security Plugin is now available for download through the [Update Center](/downloads/#call-to-action) or from the [Download page](/downloads).
 
 **Get your free trial and improve your code security today!**
 
