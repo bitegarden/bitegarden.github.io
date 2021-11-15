@@ -5,6 +5,8 @@ description: What is technical debt, how to measure and control with SonarQube.
 
 permalink: how-to-evaluate-technical-debt-sonarqube
 spanish: como-evaluar-deuda-tecnica-sonarqube
+italian: come-valutare-debito-tecnico-sonarqube
+
 cover: /img/posts/2021-04-15-how-to-evaluate-technical-debt-sonarqube-1.png
 ---
 
