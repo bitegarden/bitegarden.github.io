@@ -5,6 +5,8 @@ description: Qué es la deuda técnica, cómo medirla y controlarla con SonarQub
 
 permalink: como-evaluar-deuda-tecnica-sonarqube
 english: how-to-evaluate-technical-debt-sonarqube
+italian: come-valutare-debito-tecnico-sonarqube
+
 cover: /img/posts/2021-04-15-how-to-evaluate-technical-debt-sonarqube-1.png
 ---
 
