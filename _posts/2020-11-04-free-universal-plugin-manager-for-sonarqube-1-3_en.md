@@ -5,6 +5,8 @@ description: The plugin to govern all your SonarQube plugins
 
 permalink: universal-plugin-manager-1-3-for-sonarqube-free
 spanish: universal-plugin-manager-1-3-para-sonarqube-gratuito
+italian: universal-plugin-manager-1-3-gratuito-per-sonarqube
+
 cover: /img/thumbs/2020-11-04-free-universal-plugin-manager-for-sonarqube-1-3-thumb.png
 ---
 
