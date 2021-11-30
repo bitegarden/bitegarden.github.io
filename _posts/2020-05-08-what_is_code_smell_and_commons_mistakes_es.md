@@ -5,6 +5,8 @@ description: Un 'code smell', también conocido como 'mala práctica', en el ám
 
 english: what-is-code-smell-and-common-mistakes
 permalink: que-es-un-code-smell-y-errores-comunes
+italian: cosa-sono-code-smell-e-errori-comuni-nel-codice
+
 cover: /img/thumbs/Thumb-what-is-code-smell-mistakes.jpg
 ---
 
