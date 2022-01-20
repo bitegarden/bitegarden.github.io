@@ -5,6 +5,8 @@ description: SonarQube™ se ha convertido en la herramienta de inspección cont
 
 english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
+italian: come-trovare-vulnerabilita-nel-codice
+
 cover: /img/thumbs/Thumb-how-to-detect-vulnerabilities-in-your-code.jpg
 ---
 

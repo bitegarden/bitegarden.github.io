@@ -5,6 +5,8 @@ description: SonarQube™ has become the most powerful continuous inspection and
 
 permalink: how-to-detect-vulnerabilities-in-your-code
 spanish: como-detectar-vulnerabilidades-en-el-codigo
+italian: come-trovare-vulnerabilita-nel-codice
+
 cover: /img/thumbs/Thumb-how-to-detect-vulnerabilities-in-your-code.jpg
 ---
 
