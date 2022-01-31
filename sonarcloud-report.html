@@ -1,7 +1,7 @@
 ---
 layout: page
 title: bitegarden Report for SonarCloud
-description: This plugin is able to generate PDF reports SonarCloud projects. These reports collect metrics of your project in SonarCloud and present it in PDF documents.
+description: This plugin is able to generate PDF or excel reports from SonarCloud projects. These reports collect metrics of your project in SonarCloud and present it in PDF or excel documents.
 permalink: /sonarcloud-report
 trial: sonarcloud-report-trial-form
 ---
@@ -12,7 +12,7 @@ trial: sonarcloud-report-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Report Generation for SonarCloud&trade;</h1>
-          <p>Generate your project report in PDF from SonarCloud&trade;</p>
+          <p>Generate your project report in PDF or excel from SonarCloud&trade;</p>
           <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">TRY NOW</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">BUY NOW</a>
         </div>
       </div>
@@ -31,7 +31,7 @@ trial: sonarcloud-report-trial-form
             <h3>Generate code quality and security reports from SonarCloud&trade;</h3>
             <hr>
             <p>
-              Ever needed to generate a PDF report from a SonarCloud&trade; project? Would you like to be able to nicely export just the
+              Ever needed to generate a PDF or excel report from a SonarCloud&trade; project? Would you like to be able to nicely export just the
               information you need to?</p> 
             </p>
           </div>
@@ -47,7 +47,7 @@ trial: sonarcloud-report-trial-form
           <h4>THE QUALITY OF YOUR PROJECT ALWAYS UNDER CONTROL</h4>
           <p>
             <strong>bitegarden Report for SonarCloud&trade;</strong> saves much of the time it takes to generate status
-            reports on the quality and security of your projects. You will be able to download a PDF report of your project
+            reports on the quality and security of your projects. You will be able to download a PDF or excel report of your project
             in a few seconds, when you want, with all the information of the project at that moment.
           </p>
 
@@ -94,6 +94,7 @@ trial: sonarcloud-report-trial-form
             - <strong>SonarCloud&trade; executive summary report</strong> in PDF with all the code quality metrics in just one single page<br>
             - <strong>SonarCloud&trade; issues breakdown summary report</strong> in PDF with the executive summary and a summary of all the issues found<br>
             - <strong>SonarCloud&trade; issues breakdown full report</strong> in PDF with all the issues found<br>
+            - <strong>SonarCloud&trade; executive summary and issues breakdown report</strong> in excel with all the issues found<br>
           </p>
           <div>
             <h3>Additional options</h3>
@@ -101,9 +102,9 @@ trial: sonarcloud-report-trial-form
           </div>
           <p>PDF generation includes additional customizations: </p>
           <p>
-            - Support for <strong>branches</strong>: generate PDF reports for any of your project branches.<br>
+            - Support for <strong>branches</strong>: generate PDF or excel reports for any of your project branches.<br>
             - Support for <strong>all SonarCloud&trade; languages and technologies</strong>.<br>
-            - Support for <strong>custom footer logo</strong> to add your organization logo.<br>
+            - Support for <strong>custom footer logo</strong> to add your organization logo. (Only PDF)<br>
           </p>
         </div>
       </div><!-- .col-md-6 close -->
@@ -156,15 +157,18 @@ Mandatory properties:
            report.type = 0 (executive summary) Default value
                          1 (issues summary)
                          2 (full issues breakdown)
+                         3 (excel report)
 
 Optional properties:
 
          sonar.branch = the branch where we will get the information for the report (default is main branch)
-  disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
-     disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
-           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+* disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
+   * disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
+         * footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
           user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
                output = File name for the generated report
+
+* Properties only supported on PDF report
 ...</pre></p>
           <p>
             All the properties should be passed to the command line app using Java system properties with "-D" or using a custom properties file.

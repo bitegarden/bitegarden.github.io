@@ -12,7 +12,7 @@ trial: /it/sonarcloud-report-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Scarica i Report da SonarCloud&trade;</h1>
-          <p>I report del tuoi progetti in PDF da SonarCloud</p>
+          <p>I report del tuoi progetti in PDF o Excel da SonarCloud</p>
           <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROVA GRATUITA</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">ACQUISTA ORA</a>
         </div>
       </div>
@@ -31,7 +31,7 @@ trial: /it/sonarcloud-report-trial-form
             <h3>Scarica i report di SonarCloud in PDF</h3>
             <hr>
             <p>
-              Hai mai avuto bisogno di generare un report PDF da SonarCloud&trade;? Ti piacerebbe essere in grado di esportare bene solo il
+              Hai mai avuto bisogno di generare un report PDF o Excel da SonarCloud&trade;? Ti piacerebbe essere in grado di esportare bene solo il
                informazioni di cui hai bisogno? <strong></p>
           </div>
           <p>Il bitegarden Report Plugin per SonarCloud&trade;</strong> è quello di cui hai bisogno.
@@ -93,16 +93,17 @@ trial: /it/sonarcloud-report-trial-form
             - <strong>SonarCloud&trade; report riepilogativo</strong> in PDF con tutte le metriche di qualità in un'unica pagina.<br>
             - <strong>SonarCloud&trade; issues breakdown report riepilogativo</strong> in PDF con il riepilogo esecutivo e un riepilogo di tutti gli issues trovati.<br>
             - <strong>SonarCloud&trade; issues breakdown report completo</strong> in PDF con tutti gli issues trovati.<br>
+            - <strong>SonarCloud&trade; issues report completo</strong> in excel con tutti gli issues trovati.<br>
           </p>
           <div>
             <h3>Opzioni aggiuntive</h3>
             <hr>
           </div>
-          <p>La generazione dei PDF include le seguenti customizzazioni: </p>
+          <p>La generazione dei PDF y excel include le seguenti customizzazioni: </p>
           <p>
             - Supporto per i <strong>branches</strong>: genera reports in PDF per ognuno dei project branches.<br>
             - Supporto per <strong>tutto SonarCloud&trade; linguaggi e tecnologie.</strong><br>
-            - Supporto per <strong>la customizzazione del footer logo</strong> per aggiungere il logo della tua azienda.<br>
+            - Supporto per <strong>la customizzazione del footer logo</strong> per aggiungere il logo della tua azienda.(solo PDF)<br>
           </p>
         </div>
       </div><!-- .col-md-6 close -->
@@ -133,7 +134,7 @@ trial: /it/sonarcloud-report-trial-form
           <h4>GUIDA RAPIDA: CREARE PDF DI PROGETTI IN SONARCLOUD ™</h4>
           <br/>
           <p>
-            Qui una breve guida per generare PDF reports da SonarCloud&trade;.
+            Qui una breve guida per generare PDF o excel reports da SonarCloud&trade;.
           </p>
           <p>
             Dopo aver <a href="/it/sonarcloud-report-trial-form">scaricato</a> il plugin troverai un file eseguibile ".jar" .
@@ -155,15 +156,18 @@ Mandatory properties:
            report.type = 0 (executive summary) Default value
                          1 (issues summary)
                          2 (full issues breakdown)
+                         3 (excel report)
 
 Optional properties:
 
          sonar.branch = the branch where we will get the information for the report (default is main branch)
-  disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
-     disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
-           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+* disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
+   * disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
+        *  footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
           user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
                output = File name for the generated report
+
+* Properties only supported on PDF report
 ...</pre></p>
           <p>
             Tutti le proprietà si possono ottenre attraverso la linea di comando come argomenti utilizzando "-D" o attraverso un file di configurazione personalizzato.
