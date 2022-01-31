@@ -12,7 +12,7 @@ trial: /es/sonarcloud-report-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Genera Informes en SonarCloud&trade;</h1>
-          <p>Genera informes en PDF para tus proyectos analizados en SonarCloud&trade;</p>
+          <p>Genera informes en PDF o excel para tus proyectos analizados en SonarCloud&trade;</p>
           <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROBAR</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">COMPRAR</a>
         </div>
       </div>
@@ -37,7 +37,7 @@ trial: /es/sonarcloud-report-trial-form
                 Lo que necesitas es el <strong>bitegarden Report for SonarCloud&trade;</strong>.
             </p>          
             <p>
-            Este plugin (o mejor dicho, aplicación de línea de comandos) incluye informes PDF predefinidos que proporcionan
+            Este plugin (o mejor dicho, aplicación de línea de comandos) incluye informes PDF y excel predefinidos que proporcionan
             información muy clara sobre la <strong>calidad y seguridad del código de tu proyecto</strong> alojado en SonarCloud&trade;.</p>
             <H4>TIPOS DE INFORMES DISPONIBLE</h4>
             <p>
@@ -49,7 +49,7 @@ trial: /es/sonarcloud-report-trial-form
             <strong>bitegarden Report for SonarCloud&trade;</strong> ahorra mucho tiempo cuando tienes que generar documentación
             del estado de la calidad y seguridad del código de tu proyecto en un informe.</p> 
             <p>
-              Podrás descargar un informe en PDF
+              Podrás descargar un informe en PDF o excel
             en segundos, siempre que lo necesites, con toda la información del proyecto en ese momento. </p>
             <p>
               Si lo prefieres puedes
@@ -101,16 +101,17 @@ trial: /es/sonarcloud-report-trial-form
             - <strong>Informe ejecutivo de tu proyecto en SonarCloud&trade;</strong> en PDF con todas las métricas en una sola página.<br>
             - <strong>Informe de resumen de evidencias de SonarCloud&trade;</strong> en PDF que incluye el resumen ejecutivo y el resumen de todas las evidencias detectadas.<br>
             - <strong>Informe completo de evidencias de SonarCloud&trade;</strong> en PDF con todo el detalle de todas las evidencias detectadas.<br>
+            - <strong>Informe ejecutivo y de evidencias de SonarCloud&trade;</strong> en excel con todo el detalle de todas las evidencias detectadas.<br>
           </p>
           <div>
             <h3>Opciones adicionales</h3>
             <hr>
           </div>
-          <p>La generación de PDF incluye algunas opciones adicionales para personalizar el informe: </p>
+          <p>La generación de PDF y excel incluye algunas opciones adicionales para personalizar el informe: </p>
           <p>
             - Soporte a <strong>ramas</strong>: permite generar informes PDF para cualquiera de tus ramas del proyecto.<br>
             - Soporte a <strong>todos los lenguajes y tecnologías de SonarCloud&trade;</strong>.<br>
-            - Soporte para un <strong>logo personalizado al pie de página</strong> y así incluir el logo de tu organización.<br>
+            - Soporte para un <strong>logo personalizado al pie de página</strong> y así incluir el logo de tu organización.(Sólo PDF)<br>
           </p>
         </div>
       </div><!-- .col-md-6 close -->
@@ -139,14 +140,14 @@ trial: /es/sonarcloud-report-trial-form
           </p>
           <br/>
           <p>
-            <h4 style="text-transform: uppercase;">guía rápida: genera PDFs de proyectos en SonarCloud&trade;</h4>
+            <h4 style="text-transform: uppercase;">guía rápida: genera PDFs o excel de proyectos en SonarCloud&trade;</h4>
           </p>
           <br/>
           <p>
             Una vez que hayas <a href="/sonarcloud-report-trial-form">descargado</a> el producto tendrás un fichero "jar" auto ejecutable.
           </p>
           <p>
-            Simplemente ubicalo en tu sistema de ficheros y ejecuta el jar con la opción "--help" para ver todas las opciones disponibles:
+            Simplemente ubícalo en tu sistema de ficheros y ejecuta el jar con la opción "--help" para ver todas las opciones disponibles:
             <pre>java -jar bitegarden-sonarcloud-report.jar --help</pre>
           </p>
           <p>
@@ -162,15 +163,18 @@ Mandatory properties:
            report.type = 0 (executive summary) Default value
                          1 (issues summary)
                          2 (full issues breakdown)
+                         3 (excel report)
 
 Optional properties:
 
          sonar.branch = the branch where we will get the information for the report (default is main branch)
-  disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
-     disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
-           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+* disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
+   * disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
+         * footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
           user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
                output = File name for the generated report
+
+* Properties only supported on PDF report
 ...</pre></p>
           <p>
             Todas las propiedades pueden proporcionarse a través de la línea de comandos como argumentos del sistema usando "-D" o a través de un fichero
