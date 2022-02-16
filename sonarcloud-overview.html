@@ -1,0 +1,299 @@
+---
+layout: page
+title: bitegarden Overview Report for SonarCloud
+description: Provides a big picture of your SonarCloud organization with all the aggregated measures in a single PDF report
+permalink: /sonarcloud-overview
+trial: sonarcloud-overview-report-trial-form
+---
+
+<section id="global-header-product">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Overview Report for SonarCloud&trade;</h1>
+          <p>Provides a big picture of your SonarCloud&trade; organization with all the aggregated measures in a single PDF report</p>
+          <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">TRY NOW</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">BUY NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="main-feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h3>Code Quality Overview for SonarCloud&trade;</h3>
+            <hr>
+            <p>
+              We love SonarCloud&trade;... We have lots of projects... but... what about your whole organization? what about a
+              team? what about a specific portfolio of projects? Did you ever though about getting a big picture?
+            </p>
+          </div>
+          <p>With this command line app you will be able to generate an overview of all the
+            aggregated quality metrics for all the projects, or groups of projects with the same project tag.
+          </p>
+          <p>On a single page you will get executive summary of all aggregated metrics and rating distributions.</p>
+          <p>You will be able to see total number of bugs, vulnerabilities, hotspots and code smells, along with size metrics,
+            duplications or coverage.</p>
+          <p>
+            This plugin (command line application) is bundled with a PDF predefined report that provide clear information
+            about <strong>code quality and security of your whole organization</strong>.</p>
+          <p class="center-text">
+            <br>
+            <a class="btn btn-default btn-call-to-action fancybox" href="sonarcloud-overview-trial-form">TRY IT FREE</a>
+            <a class="btn btn-primary btn-call-to-action fancybox"
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLASLB6VN9XUL">BUY NOW</a>
+          </p>
+          <p>
+            <br>
+            Are you looking for overview report generation for SonarQube&trade; on-premise edition? Check out
+            <a href="/sonarqube-overview"><strong>bitegarden Overview Report for SonarQube&trade;</strong>.</a>
+          </p>
+             <a 
+               href="/sonarqube-overview" style="text-decoration: underline!important;">Discover the Overview Report Plugin for SonarQube&trade; ></a>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img width="100%" src="/img/sonarcloud-overview/bitegarden-overview-sonarcloud-sample.png" />
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="feature-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Features</h3>
+            <hr>
+          </div>
+          <p>
+            Main features include:
+          </p>
+          <p>
+            - <strong>Java Command Line Tool</strong> that can be used standalone or integrated into your CI/CD tool to automatically generate the report.<br>
+            - <strong>SonarCloud&trade; overview all projects report</strong> in PDF with aggregated quality metrics, rating distributions, and reliability, security, security review and maintainability summary sections<br>
+            - <strong>SonarCloud&trade; overview projects by tag report</strong> in PDF with aggregated metrics for a given set of project tags, along with rating distributions and sections<br>
+          </p>
+          <div>
+            <h3>Additional options</h3>
+            <hr>
+          </div>
+          <p>PDF generation includes additional customizations: </p>
+          <p>
+            - Support for user locale English (es) and Spanish (es)<br>
+            - Support for <strong>all SonarCloud&trade; languages and technologies</strong>.<br>
+            - Support for <strong>custom footer logo</strong> to add your organization logo.<br>
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img width="100%" src="/img/sonarcloud-overview/bitegarden-overview-sonarcloud-sections.png" />
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="usage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Getting Started</h3>
+            <hr>
+          </div>
+          <p>
+            <strong>bitegarden Overview Report for SonarCloud&trade;</strong> requires at least Java 8 to run.
+          </p>
+          <br/>
+          <h4>Quick Guide: generate PDF overview reports from SonarCloud™</h4>
+          <br/>
+          <p>
+            Here you have a quick usage guide to generate PDF reports for your organization in SonarCloud&trade;.
+          </p>
+          <p>
+            Once you have <a href="/sonarcloud-overview-trial-form">downloaded</a> the product you will have an auto executable "jar" file.
+          </p>
+          <p>
+            Just put it anywhere in your filesystem and run the jar with --help option to see all the available options:
+            <pre>java -jar bitegarden-sonarcloud-overview-report.jar --help</pre>
+          </p>
+          <p>
+            You will get something like this:
+          </p>
+          <p>
+          <pre>...
+Mandatory properties:
+
+           sonar.token = your user token to authenticate against SonarCloud.
+                         It is recommended to generate a token for this app.
+
+ sonar.organizationKey = the SonarCloud organization to generate the report from.
+
+
+Optional properties:
+
+    sonar.projectTags = Comma separated list of project tags to use for the report (i.e: team1,team2)
+           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+                        If image height is bigger than 25px it will be resized.
+          user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
+               output = File name for the generated report
+
+...</pre></p>
+          <p>
+            All the properties should be passed to the command line app using Java system properties with "-D" or using
+            a custom properties file.
+          </p>
+          <p>
+            If you use a custom properties file you should run the application with the "config.file" parameter and
+            provide the path to the properties file:
+            <pre>java <strong>-Dconfig.file=myoverviewconfig.properties</strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
+          </p>
+          <p>
+            If you just want to pass the required parameters through system properties use "-D" arguments when running
+            the report:
+            <pre>java <strong>-Dsonar.token=mytoken -Dsonar.organizationKey=myorg </strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
+          </p>
+          <p>
+            If a property is defined in both locations (file and command line args) the command line property will override
+            the property in the file. This way you can have a generic configuration file with the common properties (sonar.token, sonar.organizationKey, ...)
+            and then use command line args for specific properties like sonar.projectTags.
+          </p>
+        </div>
+        <div>
+          <h3>Running the report with a license key</h3>
+          <hr>
+        </div>
+        <p>
+          By default when you download the product you will be able to use it during 14 days. Once your evaluation is finished, you
+          will need to purchase the product and get a valid license key.
+        </p>
+        <p>
+          The license key will be provided as a text file. In order to use this license file you must set the property "license.file" in your
+          configuration file (or through command line args) with the path of your license file.
+        </p>
+        <p>
+          The license key is bound to your organization key.
+        </p>
+        <p>
+          This is a sample running a licensed product using a command line argument:
+        </p>
+        <p>
+          <pre>java -Dconfig.file=myoverviewreport.properties <strong>-Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
+        </p>
+        <p>
+          It is up to you to include the "license.file" property in your configuration file or use it as a command line argument with "-D".
+        </p>
+        <div>
+          <h3>Troubleshooting and Support</h3>
+          <hr>
+        </div>
+        <p>
+          If your SonarCloud™ organization has hundreds of projects the report generation may be slow. We must gathered
+          all the information from SonarCloud™ to generate the PDF file. Thank you for your patient!
+        </p>
+        <p>
+          When you run the report all the information for both the license and the configuration will be displayed
+          on the standard output.
+        </p>
+        <p>
+          If you have any problem please open a support request in our <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">customer portal</a> and we will
+          be happy to help you find a solution.
+        </p>
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Request Support</a>        
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+
+<div style="padding: 40px 0"></div>
+
+<section id="product-block-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Get your SonarCloud&trade; reports right now!</h2><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox ">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">Free Trial</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">Evaluation license</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">14 days evaluation license</li>
+              <li class="even">After submitting the form your download will start including an embedded trial key</li>
+            </ul>
+          </div>
+          <div>
+            <a class="btn btn-default fancybox price-button" href="sonarcloud-overview-trial-form" style="text-transform: uppercase;">Download and Try</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox featured">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">Buy License</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">850 €/year</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Per SonarCloud&trade; organization</li>
+              <li class="even">Including upgrading and support.</li>
+              <li class="">When you purchase the producct you agree with <a
+                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">terms and conditions</a>.
+              </li>
+              <li class="even">Don't forget to include your email. We will send the license to that email.</li>
+            </ul>
+          </div>
+          <div id="payment-options">
+            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">Payment method</p>
+            <p>
+            <a class="btn btn-primary fancybox"
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLASLB6VN9XUL" target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
+               </p>
+               <p>
+               <a href="/bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 60px;">BANK TRANSFER</a>
+             </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+
+</section>
