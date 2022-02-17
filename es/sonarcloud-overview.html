@@ -3,7 +3,7 @@ layout: page_es
 title: bitegarden Overview Report for SonarCloud
 description: Plugin para SonarCloud para agregar proyectos y tener una visión global sobre las métricas de calidad del código de la organización.
 permalink: /es/sonarcloud-overview
-trial: /es/sonarcloud-overview-report-trial-form
+trial: /es/sonarcloud-overview-trial-form
 ---
 
 <section id="global-header-product">
@@ -83,20 +83,19 @@ trial: /es/sonarcloud-overview-report-trial-form
             Las principales funcionalidades incluyen:
           </p>
           <p>
-            - <strong>Herramienta Java de línea de comandos:</strong>puede ser utilizada de forma independiente o integrada en tu herramienta CI/CD para generar automáticamente el informe.<br>
+            - <strong>Herramienta Java de línea de comandos: </strong>puede ser utilizada de forma independiente o integrada en tu herramienta CI/CD para generar automáticamente el informe.<br>
             - <strong>Informe de tu organización en SonarCloud&trade;</strong> en PDF con toda la información agregada, distribuciones, y resúmenes de evidencias para fiabilidad, seguridad y mantenibilidad.<br>
-            - <strong>Informe de tu organización en SonarCloud&trade;</strong> en PDF con toda la información agregada, distribuciones, y resúmenes de evidencias para fiabilidad, seguridad y mantenibilidad.<br>
-            - <strong>SonarCloud&trade; overview projects by tag report</strong> in PDF with aggregated metrics for a given set of project tags, along with rating distributions and sections<br>
+            - <strong>Informe de un conjunto de proyectos en SonarCloud&trade;</strong> en PDF a partir de un listado de tags de proyectos, con toda la información agregada, distribuciones, y resúmenes de evidencias para fiabilidad, seguridad y mantenibilidad.<br>
           </p>
           <div>
-            <h3>Additional options</h3>
+            <h3>Opciones adicionales</h3>
             <hr>
           </div>
-          <p>PDF generation includes additional customizations: </p>
+          <p>La generación de PDF incluye algunas opciones adicionales para personalizar el informe: </p>
           <p>
-            - Support for user locale English (es) and Spanish (es)<br>
-            - Support for <strong>all SonarCloud&trade; languages and technologies</strong>.<br>
-            - Support for <strong>custom footer logo</strong> to add your organization logo.<br>
+            - Soporte para localización en inglés (en) y en español (es)<br>
+            - Soporte a <strong>todos los lenguajes y tecnologías de SonarCloud&trade;</strong>.<br>
+            - Soporte para un <strong>logo personalizado al pie de página</strong> y así incluir el logo de tu organización.<br>
           </p>
         </div>
       </div><!-- .col-md-6 close -->
@@ -117,27 +116,24 @@ trial: /es/sonarcloud-overview-report-trial-form
       <div class="col-md-12 col-sm-12">
         <div class="block">
           <div>
-            <h3>Getting Started</h3>
+            <h3>Primeros pasos</h3>
             <hr>
           </div>
           <p>
-            <strong>bitegarden Overview Report for SonarCloud&trade;</strong> requires at least Java 8 to run.
+            <strong>bitegarden Overview Report for SonarCloud&trade;</strong> requiere Java 8 o superior.
           </p>
           <br/>
-          <h4>Quick Guide: generate PDF overview reports from SonarCloud™</h4>
+          <h4>Guía rápida: genera un informe PDF de tu organización de SonarCloud&trade;</h4>
           <br/>
           <p>
-            Here you have a quick usage guide to generate PDF reports for your organization in SonarCloud&trade;.
+            Una vez que hayas <a href="sonarcloud-overview-trial-form">descargado</a> el producto tendrás un fichero "jar" auto ejecutable.
           </p>
           <p>
-            Once you have <a href="/sonarcloud-overview-trial-form">downloaded</a> the product you will have an auto executable "jar" file.
+          Simplemente ubícalo en tu sistema de ficheros y ejecuta el jar con la opción "--help" para ver todas las opciones disponibles:
+          <pre>java -jar bitegarden-sonarcloud-overview-report.jar --help</pre>
           </p>
           <p>
-            Just put it anywhere in your filesystem and run the jar with --help option to see all the available options:
-            <pre>java -jar bitegarden-sonarcloud-overview-report.jar --help</pre>
-          </p>
-          <p>
-            You will get something like this:
+            El resultado debería mostrarte todas las opciones disponibles:
           </p>
           <p>
           <pre>...
@@ -159,51 +155,54 @@ Optional properties:
 
 ...</pre></p>
           <p>
-            All the properties should be passed to the command line app using Java system properties with "-D" or using
-            a custom properties file.
+            Todas las propiedades pueden proporcionarse a través de la línea de comandos como argumentos del sistema usando "-D" o a través de un fichero
+            de configuración personalizado.
           </p>
           <p>
-            If you use a custom properties file you should run the application with the "config.file" parameter and
-            provide the path to the properties file:
+            Si utilizas un fichero de configuración personalizado deberás ejecutar la aplicación con el argumento "-Dconfig.file" proporcionando la ruta a tu fichero
+            de propiedades con la configuración:
             <pre>java <strong>-Dconfig.file=myoverviewconfig.properties</strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
           </p>
           <p>
-            If you just want to pass the required parameters through system properties use "-D" arguments when running
-            the report:
+            Si lo prefieres puedes pasar todas las opciones a través de la línea de comandos con "-D":
             <pre>java <strong>-Dsonar.token=mytoken -Dsonar.organizationKey=myorg </strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
           </p>
           <p>
-            If a property is defined in both locations (file and command line args) the command line property will override
-            the property in the file. This way you can have a generic configuration file with the common properties (sonar.token, sonar.organizationKey, ...)
-            and then use command line args for specific properties like sonar.projectTags.
+            Si una opción está definida en ambos sitios (un fichero de configuración y un argumento por línea de comandos) se usará
+            el valor proporcionado en la línea de comandos. De esta forma puedes tener un fichero de configuración común con las propiedades
+            compartidas (como por ejemplo sonar.token, sonar.organizationKey, ...) y después simplemente usar los argumentos para
+            las opciones concretas como es "sonar.projectTags", por ejemplo.
           </p>
         </div>
         <div>
-          <h3>Running the report with a license key</h3>
+          <h3>Generando un informe usando clave de licencia</h3>
           <hr>
         </div>
         <p>
-          By default when you download the product you will be able to use it during 14 days. Once your evaluation is finished, you
-          will need to purchase the product and get a valid license key.
+          Por defecto cuando descargas el producto podrás utilizar durante 14 días en modo evaluación. Una vez que la
+          evaluación haya terminado, necesitarás adquirir el producto y obtener un clave de licencia válida.
         </p>
         <p>
-          The license key will be provided as a text file. In order to use this license file you must set the property "license.file" in your
-          configuration file (or through command line args) with the path of your license file.
+          La clave de licencia se proporciona en un fichero de texto. Para usar este fichero de licencia debes establecer
+          la propiedad "license.file" con la ruta hasta el fichero de licencia en tu fichero de configuración (o a través
+          de un argumento por línea de comandos).
         </p>
         <p>
-          The license key is bound to your organization key.
+          La licencia está ligada a la clave de tu organización.
         </p>
         <p>
-          This is a sample running a licensed product using a command line argument:
+          Aquí tienes un ejemplo para generar un informe usando una licencia del producto a través de un argumento por línea
+          de comandos:
         </p>
         <p>
           <pre>java -Dconfig.file=myoverviewreport.properties <strong>-Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-sonarcloud-overview-report.jar</pre>
         </p>
         <p>
-          It is up to you to include the "license.file" property in your configuration file or use it as a command line argument with "-D".
+          Está en tus manos decidir si quieres incluir la propiedad "license.file" en tu fichero de configuración o usarla a través de
+          un argumento por línea de comandos con "-D".
         </p>
         <div>
-          <h3>Troubleshooting and Support</h3>
+          <h3>Soporte y resolución de problemas</h3>
           <hr>
         </div>
         <p>
@@ -211,14 +210,15 @@ Optional properties:
           all the information from SonarCloud™ to generate the PDF file. Thank you for your patient!
         </p>
         <p>
-          When you run the report all the information for both the license and the configuration will be displayed
-          on the standard output.
+          Cuando generes los informes el producto de mostrará toda la información con tu configuración y con la información
+          de la licencia por la salida estándar.
         </p>
         <p>
-          If you have any problem please open a support request in our <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">customer portal</a> and we will
-          be happy to help you find a solution.
+          Si tienes algún problema por favor crea una petición de soporte en nuestro
+          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">centro de soporte</a> y
+          estaremos encantados de ayudarte a encontrar una solución.
         </p>
-        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Request Support</a>        
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Solicita Soporte</a>
       </div><!-- .col-md-6 close -->
     </div>
   </div>
@@ -232,7 +232,7 @@ Optional properties:
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Get your SonarCloud&trade; reports right now!</h2><br><br>
+          <h2>¡Genera informes de tu organización de SonarCloud&trade; desde ya!</h2><br><br>
         </div>
       </div>
     </div>
@@ -242,20 +242,21 @@ Optional properties:
       <div class="col-md-3" style="width: 34%!important;">
         <div class="mod modPriceBox ">
           <div class="info" style="padding-top: 30px">
-            <h3 style="color:#000; text-transform: uppercase;">Free Trial</h3>
+            <h3 style="color:#000; text-transform: uppercase;">PRUÉBALO</h3>
             <p class="desc"></p>
             <p class="price">
-              <span class="number">Evaluation license</span>
+              <span class="number">Licencia de evaluación</span>
             </p>
           </div>
           <div class="features">
             <ul>
-              <li class="">14 days evaluation license</li>
-              <li class="even">After submitting the form your download will start including an embedded trial key</li>
+              <li class="">Licencia de evaluación de 14 días</li>
+              <li class="even">Después de completar el formulario comenzará la descarga, que incluye
+                una clave interna de evaluación</li>
             </ul>
           </div>
           <div>
-            <a class="btn btn-default fancybox price-button" href="sonarcloud-overview-trial-form" style="text-transform: uppercase;">Download and Try</a>
+            <a class="btn btn-default fancybox price-button" href="sonarcloud-report-trial-form" style="text-transform: uppercase;">PRUÉBALO GRATIS</a>
           </div>
         </div>
       </div>
@@ -264,7 +265,7 @@ Optional properties:
       <div class="col-md-3" style="width: 34%!important;">
         <div class="mod modPriceBox featured">
           <div class="info" style="padding-top: 30px">
-            <h3 style="color:#000; text-transform: uppercase;">Buy License</h3>
+            <h3 style="color:#000; text-transform: uppercase;">COMPRAR</h3>
             <p class="desc"></p>
             <p class="price">
               <span class="number">850 €/year</span>
@@ -272,22 +273,21 @@ Optional properties:
           </div>
           <div class="features">
             <ul>
-              <li class="">Per SonarCloud&trade; organization</li>
-              <li class="even">Including upgrading and support.</li>
-              <li class="">When you purchase the producct you agree with <a
-                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">terms and conditions</a>.
-              </li>
-              <li class="even">Don't forget to include your email. We will send the license to that email.</li>
+              <li class="">Por organización de SonarCloud&trade;</li>
+              <li class="even">Incluye actualizaciones y soporte.</li>
+              <li class="">Al comprar el producto aceptas los <a
+                    href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">términos y condiciones</a></li>
+              <li class="even">No te olvides de incluir tu email. Enviaremos la licencia a esa dirección de correo</li>
             </ul>
           </div>
           <div id="payment-options">
-            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">Payment method</p>
+            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">MÉTODO DE PAGO</p>
             <p>
             <a class="btn btn-primary fancybox"
-               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLASLB6VN9XUL" target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
+               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLASLB6VN9XUL" target="_blank" style="padding:10px 30px;">TARJETA DE CRÉDITO / PAYPAL</a>
                </p>
                <p>
-               <a href="/bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 60px;">BANK TRANSFER</a>
+               <a href="/bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 40px;">TRANSFERENCIA BANCARIA</a>
              </p>
           </div>
         </div>
