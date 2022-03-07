@@ -120,11 +120,96 @@ trial: sonarqube-report-trial-form
           </p>
           <p>
             You can also use the following metadata variables:<br>
-            <code>project_name</code><br>
-            <code>project_key</code><br>
-            <code>project_version</code><br>
-            <code>analysis_date</code><br>
-            <code>branch_name</code><br>
+            <h4>Variables</h4>
+            <code>project_name</code>: SonarQube project,app or portfolio name<br>
+            <code>project_key</code>: SonarQube project,app or portfolio key<br>
+            <code>project_version</code>: SonarQube project,app or portfolio version<br>
+            <code>analysis_date</code>: SonarQube project or app analysis date<br>
+            <code>branch_name</code>: SonarQube project or app branch name<br>
+            <code>project_quality_gate_id</code>: SonarQube project,app or portfolio Quality Gate id<br>
+            <code>project_quality_gate_name</code>: SonarQube project,app or portfolio Quality Gate name<br>
+            <code>project_quality_gate_is_default</code>: Return true if SonarQube project,app or portfolio Quality Gate is default or false if not <br><br>
+
+            <h4>Lists</h4>
+            <code>issues_breakdown</code>: List with all issues sorted by severity and count
+          <ul>
+            <li class="col-xs-12">
+              <code>severity</code>: Issue severity
+            </li>
+            <li class="col-xs-12">
+              <code>ruleMessage</code>: Rule message info
+            </li>
+            <li class="col-xs-12">
+              <code>type</code>: Issue type (Bug, Vulnerability, Code Smell)
+            </li>
+            <li class="col-xs-12">
+              <code>ruleLanguageName</code>: Issue language (Java, Javascript,...)
+            </li>
+            <li class="col-xs-12">
+              <code>issueCount</code>: Total issues for specific rule
+            </li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>Example:
+            <pre>
+              [#list issues_breakdown as issue]
+                  Severity  : ${issue.severity}
+                  Rule      : ${issue.ruleMessage}
+                  Type      : ${issue.type}
+                  Language  : ${issue.ruleLanguageName}
+                  Issues    : ${issue.issueCount}
+              [/#list]</pre>
+          </ul>
+          <br>
+          <h4>Objects</h4>
+          <code>quality_gate_details</code>
+          <ul>
+            <li class="col-xs-12">
+              <code>status</code>: Project Quality Gate Status
+            </li>
+            <li class="col-xs-12">
+              <code>conditions</code>: List with Quality Gate Conditions
+              <ul>
+                <li class="col-xs-12">
+                  <code>message</code>: Condition message
+                </li>
+                <li class="col-xs-12">
+                  <code>value</code>: Condition actual value
+                </li>
+                <li class="col-xs-12">
+                  <code>status</code>: Condition status
+                </li>
+                <li class="col-xs-12">
+                  <code>threshold</code>: Condition threshold configured
+                </li>
+                <li class="col-xs-12">
+                <code>comparator</code>: Condition comparator type (&gt;,&lt;,=,≠)
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          Example:
+          <pre>
+            Project status: ${quality_gate_details}
+            Conditions: [#list quality_gate_details.conditions as condition]
+                                Condition message   : ${condition.message}
+                                Condition value     : ${condition.value}
+                                Condition status    : ${condition.status}
+                                Condition threshold : ${condition.threshold}
+                                Condition comparator: ${condition.comparator}
+            [#/list]
+          </pre>
           </p>
           <p>
            Check out the <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">default template</a> to see how it works.

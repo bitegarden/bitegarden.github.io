@@ -145,11 +145,95 @@ trial: /es/sonarqube-report-trial-form
             sido reemplazados por subrayados ('_').
           </p>
           <p>Además, puedes utilizar estas variables para introducir metadatos del proyecto:<br>
-            <code>project_name</code><br>
-            <code>project_key</code><br>
-            <code>project_version</code><br>
-            <code>analysis_date</code><br>
-            <code>branch_name</code><br>
+          <h4>Variables</h4>
+          <code>project_name</code>: Nombre del proyecto, app o portfolio de SonarQube<br>
+          <code>project_key</code>: Clave del proyecto, app o portfolio de SonarQube<br>
+          <code>project_version</code>: Versión del proyecto, app o portfolio de SonarQube<br>
+          <code>analysis_date</code>: Fecha de análisis del proyecto o app de SonarQube<br>
+          <code>branch_name</code>: Nombre de la rama del proyecto o app de SonarQube<br>
+          <code>project_quality_gate_id</code>: Identificador del Quality Gate del proyecto, app o portfolio de SonarQube<br>
+          <code>project_quality_gate_name</code>: Nombre del Quality Gate del proyecto, app o portfolio de SonarQube<br>
+          <code>project_quality_gate_is_default</code>: Devuelve true si el Quality Gate del proyecto, app o portfolio de SonarQube es el de por defecto o false si no lo es<br><br>
+          <h4>Listas</h4>
+          <code>issues_breakdown</code>:  Lista con todas las issues ordenadas por severidad y cantidad
+          <ul>
+            <li class="col-xs-12">
+              <code>severity</code>: Severidad de la issue
+            </li>
+            <li class="col-xs-12">
+              <code>ruleMessage</code>: Mensaje de la regla
+            </li>
+            <li class="col-xs-12">
+              <code>type</code>: Tipo de Issue (Bug, Vulnerability, Code Smell)
+            </li>
+            <li class="col-xs-12">
+              <code>ruleLanguageName</code>: Lenguaje de la Issue (Java, Javascript,...)
+            </li>
+            <li class="col-xs-12">
+              <code>issueCount</code>: Total de issues por regla
+            </li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>Ejemplo:
+            <pre>
+              [#list issues_breakdown as issue]
+                  Severity  : ${issue.severity}
+                  Rule      : ${issue.ruleMessage}
+                  Type      : ${issue.type}
+                  Language  : ${issue.ruleLanguageName}
+                  Issues    : ${issue.issueCount}
+              [/#list]</pre>
+          </ul>
+          <br>
+          <h4>Objectos</h4>
+          <code>quality_gate_details</code>
+          <ul>
+            <li class="col-xs-12">
+              <code>status</code>: Estado del Quality Gate del proyecto
+            </li>
+            <li class="col-xs-12">
+              <code>conditions</code>: Lista con las condiciones del Quality Gate
+              <ul>
+                <li class="col-xs-12">
+                  <code>message</code>: Mensaje de la condición
+                </li>
+                <li class="col-xs-12">
+                  <code>value</code>: Valor actual de la condición
+                </li>
+                <li class="col-xs-12">
+                  <code>status</code>: Estado de la condición
+                </li>
+                <li class="col-xs-12">
+                  <code>threshold</code>: Threshold de la condición configurado
+                </li>
+                <li class="col-xs-12">
+                  <code>comparator</code>: Tipo de comparador de la condición comparator type (&gt;,&lt;,=,≠)
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          Example:
+          <pre>
+            Project status: ${quality_gate_details}
+            Conditions: [#list quality_gate_details.conditions as condition]
+                                Condition message   : ${condition.message}
+                                Condition value     : ${condition.value}
+                                Condition status    : ${condition.status}
+                                Condition threshold : ${condition.threshold}
+                                Condition comparator: ${condition.comparator}
+            [#/list]
+          </pre>
           </p>
           <p>
             Comprueba la <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">plantilla por defecto</a> para ver ejemplos de como funciona.
