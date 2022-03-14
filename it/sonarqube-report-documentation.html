@@ -200,6 +200,9 @@ trial: /it/sonarqube-report-trial-form
                 <li class="col-xs-12">
                   <code>comparator</code>: Tipo di comparatore di condizioni (&gt;,&lt;,=,≠)
                 </li>
+                <li class="col-xs-12">
+                  <code>type</code>: Tipo di condizione (RATING,PERCENTAGE,NUMBER)
+                </li>
               </ul>
             </li>
           </ul>
@@ -220,6 +223,7 @@ trial: /it/sonarqube-report-trial-form
                                 Stato della condizione      : ${condition.status}
                                 Soglia di condizione        : ${condition.threshold}
                                 Comparatore di condizioni   : ${condition.comparator}
+                                Tipo di condizioni          : ${condition.type}
             [#/list]
           </pre>
           </p>
