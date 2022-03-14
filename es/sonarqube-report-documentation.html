@@ -210,7 +210,10 @@ trial: /es/sonarqube-report-trial-form
                   <code>threshold</code>: Threshold de la condición configurado
                 </li>
                 <li class="col-xs-12">
-                  <code>comparator</code>: Tipo de comparador de la condición comparator type (&gt;,&lt;,=,≠)
+                  <code>comparator</code>: Tipo de comparador de la condición(&gt;,&lt;,=,≠)
+                </li>
+                <li class="col-xs-12">
+                  <code>type</code>: Tipo de condición (RATING,PERCENTAGE,NUMBER)
                 </li>
               </ul>
             </li>
@@ -232,6 +235,7 @@ trial: /es/sonarqube-report-trial-form
                                 Condition status    : ${condition.status}
                                 Condition threshold : ${condition.threshold}
                                 Condition comparator: ${condition.comparator}
+                                Condition type      : ${condition.type}
             [#/list]
           </pre>
           </p>

@@ -188,6 +188,9 @@ trial: sonarqube-report-trial-form
                 <li class="col-xs-12">
                 <code>comparator</code>: Condition comparator type (&gt;,&lt;,=,≠)
                 </li>
+                <li class="col-xs-12">
+                  <code>type</code>: Condition type (RATING,PERCENTAGE,NUMBER)
+                </li>
               </ul>
             </li>
           </ul>
@@ -208,6 +211,7 @@ trial: sonarqube-report-trial-form
                                 Condition status    : ${condition.status}
                                 Condition threshold : ${condition.threshold}
                                 Condition comparator: ${condition.comparator}
+                                Condition type      : ${condition.type}
             [#/list]
           </pre>
           </p>
