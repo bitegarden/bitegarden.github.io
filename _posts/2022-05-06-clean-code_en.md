@@ -4,8 +4,8 @@ title: Mind, writting and happiness
 description: Statistics show that developers who work with cleaner code feel in better working conditions, are happier and as a consequence produce more.
 
 permalink: clean-code
-spanish: clean-code-es
-italian: clean-code-it
+spanish: clean-code_es
+italian: clean-code_it
 
 cover: /img/thumbs/2022-05-06-clean-code-thumb.png
 ---
