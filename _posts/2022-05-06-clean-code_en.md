@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mind, writting and happiness
+title: Mind, writing and happiness
 description: Statistics show that developers who work with cleaner code feel in better working conditions, are happier and as a consequence produce more.
 
 permalink: clean-code
