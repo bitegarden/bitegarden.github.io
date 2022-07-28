@@ -143,19 +143,33 @@ trial: /it/sonarcloud-overview-trial-form
           <pre>...
 Mandatory properties:
 
-           sonar.token = your user token to authenticate against SonarCloud.
-                         It is recommended to generate a token for this app.
+                 sonar.token = your user token to authenticate against SonarCloud.
+                               It is recommended to generate a token for this app.
 
- sonar.organizationKey = the SonarCloud organization to generate the report from.
+       sonar.organizationKey = the SonarCloud organization to generate the report from.
 
 
 Optional properties:
 
-    sonar.projectTags = Comma separated list of project tags to use for the report (i.e: team1,team2)
-           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
-                        If image height is bigger than 25px it will be resized.
-          user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
-               output = File name for the generated report
+           sonar.projectTags = Comma separated list of project tags to use for the report (i.e: team1,team2)
+
+     sonar.projectExclusions = Comma separated list of project to exclude from the report (i.e: pkey1,pkey2)
+
+ hotspotsBySeverity.disabled = Default is false. If you don't need hotspots by severity section you may want to disable this.
+                               Setting it to true will improve performance but hotspot by severity section will not be available.
+
+             activity.period = Defines the dates to generate activity section and project breakdown differential values
+                               0 (since first analysis) Default value
+                               1 (since six months ago)
+                               2 (since last month)
+                               YYYY-MM-DD (since specified date)
+
+                  footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+                               If image height is bigger than 25px it will be resized.
+
+                 user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
+
+                      output = File name for the generated report
 
 ...</pre></p>
           <p>
