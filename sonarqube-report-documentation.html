@@ -78,12 +78,11 @@ trial: sonarqube-report-trial-form
             information. Includes overall metrics and new code metrics along with all the issues by rule information.<br>
             - <strong>Custom Open Document (ODT) Report</strong>: a custom report created using an Open Document template that you can modify.
           </p>
-          <p></p>
+
           <div class="text-center">
             <img style="width:80%;" src="img/sonarqube-report/bitegarden-report-management.png" alt="report management section">
           </div>
           <p class="text-center">Report Management page provided by bitegarden Report Plugin</p>
-          <p></p>
 
           <h3>Customize your Open Document (ODT) Report template</h3>
           <hr>
@@ -92,7 +91,7 @@ trial: sonarqube-report-trial-form
           <p>
             Report Plugin for SonarQube&trade; allows you to configure the template file globally or at project level. Besides,
             the templates are provided through URLs, so it is not mandatory to have access to the machine where SonarQube&trade; is running.</p>
-          <p></p>
+
           <h3>Custom Open Document (ODT) Report configuration</h3>
           <hr>
 
@@ -111,98 +110,95 @@ trial: sonarqube-report-trial-form
           </ul>
           <p>You have to be careful with how OpenOffice generates the templates. It happens oftenly that expressions are not saved as a single element. To fix this, we need to click on "clear direct formatting" (select text and click right button).</p>
           <p>Notice that, in order to work properly, all the expressions must be well formed and have to be evaluable.</p>
-          <p></p>
 
           <h3>Available metadata variables for the ODT template</h3>
           <hr>
           <p>The available variables to be used in your template are all the SonarQube available metrics for the project, where the
             hyphens ('-') have been replaced with underlines ('_').
           </p>
-          <p>
-            You can also use the following metadata variables:<br>
-            <h4>Variables</h4>
+          <p>You can also use the following metadata variables:</p>
+
+          <h4>Variables</h4>
+
+          <p style="margin-top: -20px;">
             <code>project_name</code>: SonarQube project,app or portfolio name<br>
             <code>project_key</code>: SonarQube project,app or portfolio key<br>
             <code>project_version</code>: SonarQube project,app or portfolio version<br>
             <code>analysis_date</code>: SonarQube project or app analysis date<br>
+            <code>project_analysis_id</code>: SonarQube project or app analysis id<br>
             <code>branch_name</code>: SonarQube project or app branch name<br>
             <code>project_quality_gate_id</code>: SonarQube project,app or portfolio Quality Gate id<br>
             <code>project_quality_gate_name</code>: SonarQube project,app or portfolio Quality Gate name<br>
-            <code>project_quality_gate_is_default</code>: Return true if SonarQube project,app or portfolio Quality Gate is default or false if not <br><br>
+            <code>project_quality_gate_is_default</code>: Return true if SonarQube project,app or portfolio Quality Gate is default or false if not <br>
+          </p>
 
-            <h4>Lists</h4>
+          <p style="margin: 10px;"></p>
+          <h4>Lists</h4>
+
+          <p style="margin-top: -20px;">
             <code>issues_breakdown</code>: List with all issues sorted by severity and count
-          <ul>
-            <li class="col-xs-12">
-              <code>severity</code>: Issue severity
-            </li>
-            <li class="col-xs-12">
-              <code>ruleMessage</code>: Rule message info
-            </li>
-            <li class="col-xs-12">
-              <code>type</code>: Issue type (Bug, Vulnerability, Code Smell)
-            </li>
-            <li class="col-xs-12">
-              <code>ruleLanguageName</code>: Issue language (Java, Javascript,...)
-            </li>
-            <li class="col-xs-12">
-              <code>issueCount</code>: Total issues for specific rule
-            </li>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>Example:
-            <pre>
-              [#list issues_breakdown as issue]
-                  Severity  : ${issue.severity}
-                  Rule      : ${issue.ruleMessage}
-                  Type      : ${issue.type}
-                  Language  : ${issue.ruleLanguageName}
-                  Issues    : ${issue.issueCount}
-              [/#list]</pre>
-          </ul>
-          <br>
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>severity</code>: Issue severity
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>ruleMessage</code>: Rule message info
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>type</code>: Issue type (Bug, Vulnerability, Code Smell)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>ruleLanguageName</code>: Issue language (Java, Javascript,...)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>issueCount</code>: Total issues for specific rule
+          </p>
+
+          <br>Example:
+          <pre>
+            [#list issues_breakdown as issue]
+
+                Severity  : ${issue.severity}
+                Rule      : ${issue.ruleMessage}
+                Type      : ${issue.type}
+                Language  : ${issue.ruleLanguageName}
+                Issues    : ${issue.issueCount}
+
+            [/#list]
+          </pre>
+
+          <p style="margin: 10px;"></p>
           <h4>Objects</h4>
-          <code>quality_gate_details</code>
-          <ul>
-            <li class="col-xs-12">
-              <code>status</code>: Project Quality Gate Status
-            </li>
-            <li class="col-xs-12">
-              <code>conditions</code>: List with Quality Gate Conditions
-              <ul>
-                <li class="col-xs-12">
-                  <code>message</code>: Condition message
-                </li>
-                <li class="col-xs-12">
-                  <code>value</code>: Condition actual value
-                </li>
-                <li class="col-xs-12">
-                  <code>status</code>: Condition status
-                </li>
-                <li class="col-xs-12">
-                  <code>threshold</code>: Condition threshold configured
-                </li>
-                <li class="col-xs-12">
-                <code>comparator</code>: Condition comparator type (&gt;,&lt;,=,≠)
-                </li>
-                <li class="col-xs-12">
-                  <code>type</code>: Condition type (RATING,PERCENTAGE,NUMBER)
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          Example:
+          <p style="margin-top: -20px;">
+            <code>quality_gate_details</code>
+          </p>
+
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>status</code>: Project Quality Gate Status
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>conditions</code>: List with Quality Gate Conditions
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>message</code>: Condition message
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>value</code>: Condition actual value
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>status</code>: Condition status
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>threshold</code>: Condition threshold configured
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>comparator</code>: Condition comparator type (&gt;,&lt;,=,≠)
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>type</code>: Condition type (RATING,PERCENTAGE,NUMBER)
+          </p>
+
+          <br>Example:
           <pre>
             Project status: ${quality_gate_details}
             Conditions: [#list quality_gate_details.conditions as condition]
@@ -214,7 +210,55 @@ trial: sonarqube-report-trial-form
                                 Condition type      : ${condition.type}
             [#/list]
           </pre>
+          <p>
+            <code>sonarqube_project</code>
           </p>
+
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>key</code>:  SonarQube project, app or portfolio key
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>name</code>:  SonarQube project, app or portfolio name
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>lastAnalysis</code>: SonarQube project last analysis date (Only on projects)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>version</code>: SonarQube project version (Only on projects)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierKey</code>: SonarQube project, app or portfolio qualifier key (TRK, APP, VM, SVW)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierName</code>: SonarQube project, app or portfolio qualifier name (PROJECT, APPLICATION, PORTFOLIO)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierTranslated</code>: SonarQube project, app or portfolio qualifier translated (Project, Application, Portfolio)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>qualityGateStatus</code>: SonarQube project, app or portfolio quality gate (OK, ERROR, NONE)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>branchName</code>: SonarQube Project Branch name
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>isMainBranch</code>: Define if selected branch is main or not (true, false)
+            <i><strong>Note:</strong> Values are strings not booleans</i>
+          </p>
+
+          <br>Example:
+          <pre>
+            Project Key: ${sonarqube_project.key}
+            Project Name: ${sonarqube_project.name}
+            Project Last Analysis: ${sonarqube_project.lastAnalysis}
+            Project Version: ${sonarqube_project.version}
+            Project Qualifier Key: ${sonarqube_project.sonarQubeQualifierKey}
+            Project Qualifier Name: ${sonarqube_project.sonarQubeQualifierName}
+            Project Qualifier Translated: ${sonarqube_project.sonarQubeQualifierTranslated}
+            Project Quality Gate: ${sonarqube_project.qualityGateStatus}
+            Project Branch Name: ${sonarqube_project.branchName}
+            Is Main Branch: ${sonarqube_project.isMainBranch}
+          </pre>
           <p>
            Check out the <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">default template</a> to see how it works.
           </p>

@@ -84,7 +84,7 @@ trial: /it/sonarqube-report-trial-form
 
           <p></p>
           <div class="text-center">
-            <img style="width:80%;" src="/img/sonarqube-report/bitegarden-report-management.png" alt="Scaricare un report da SonarQube management section">
+            <img style="width:80%;" src="/img/sonarqube-report/bitegarden-report-management.png" alt="Scaricare un report da SonarQube management section"/>
           </div>
           <p class="text-center">Pagina di gestione dei reports generata dal Report Plugin per SonarQube</p>
           <p></p>
@@ -131,90 +131,86 @@ trial: /it/sonarqube-report-trial-form
             Le variabili disponibili sono tutte le metriche esistenti in SonarQube per il progetto, i trattini ('-') vengono sostituiti dai trattini bassi ('_').
           </p>
           <p>Inoltre, puoi utilizzare queste variabili per inserire i metadati del progetto:
-          <br>
+
           <h4>Variabili</h4>
+
+          <p style="margin-top: -20px;">
             <code>project_name</code>: Nome del progetto, dell'app o del portfolio SonarQube<br>
             <code>project_key</code>: Chiave del progetto SonarQube, dell'app o del portfolio<br>
             <code>project_version</code>: Progetto SonarQube, versione app o portfolio<br>
             <code>analysis_date</code>: Data di analisi del progetto SonarQube o dell'app<br>
+            <code>project_analysis_id</code>: ID del progetto SonarQube o dell'analisi dell'app<br>
             <code>branch_name</code>: Nome del progetto SonarQube o del ramo dell'app<br>
             <code>project_quality_gate_id</code>: Nome del progetto SonarQube o del ramo dell'app<br>
             <code>project_quality_gate_name</code>: Nome del progetto SonarQube, dell'app o del portfolio Quality Gate<br>
             <code>project_quality_gate_is_default</code>: Restituisce true se il progetto SonarQube, l'app o il portfolio Quality Gate è predefinito o false in caso contrario <br><br>
+          </p>
 
+          <p style="margin: 10px;"></p>
           <h4>Elenchi</h4>
-          <code>issues_breakdown</code>: Elenco con tutti i problemi ordinati per gravità e conteggio
-          <ul>
-            <li class="col-xs-12">
-              <code>severity</code>: Gravità del problema
-            </li>
-            <li class="col-xs-12">
-              <code>ruleMessage</code>: Informazioni sul messaggio della regola
-            </li>
-            <li class="col-xs-12">
-              <code>type</code>: Tipo di problema (Bug, Vulnerability, Code Smell)
-            </li>
-            <li class="col-xs-12">
-              <code>ruleLanguageName</code>: Linguaggio di emissione (Java, Javascript,...)
-            </li>
-            <li class="col-xs-12">
-              <code>issueCount</code>: Problemi totali per una regola specifica
-            </li>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>Esempio:
-            <pre>
+
+          <p style="margin-top: -20px;">
+            <code>issues_breakdown</code>: Elenco con tutti i problemi ordinati per gravità e conteggio
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>severity</code>: Gravità del problema
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>ruleMessage</code>: Informazioni sul messaggio della regola
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>type</code>: Tipo di problema (Bug, Vulnerability, Code Smell)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>ruleLanguageName</code>: Linguaggio di emissione (Java, Javascript,...)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>issueCount</code>: Problemi totali per una regola specifica
+          </p>
+
+          <br>Esempio:
+          <pre>
               [#list issues_breakdown as issue]
                   Gravità     : ${issue.severity}
                   Regola      : ${issue.ruleMessage}
                   Tipo        : ${issue.type}
                   Lingua      : ${issue.ruleLanguageName}
                   Questioni   : ${issue.issueCount}
-              [/#list]</pre>
-          </ul>
-          <br>
+              [/#list]
+          </pre>
+
+          <p style="margin: 10px;"></p>
           <h4>Oggetti</h4>
-          <code>quality_gate_details</code>
-          <ul>
-            <li class="col-xs-12">
-              <code>status</code>: Stato del cancello di qualità del progetto
-            </li>
-            <li class="col-xs-12">
-              <code>conditions</code>: Elenco con le condizioni di Quality Gate
-              <ul>
-                <li class="col-xs-12">
-                  <code>message</code>: Messaggio di condizione
-                </li>
-                <li class="col-xs-12">
-                  <code>value</code>: Condizione valore effettivo
-                </li>
-                <li class="col-xs-12">
-                  <code>status</code>: Stato della condizione
-                </li>
-                <li class="col-xs-12">
-                  <code>threshold</code>: Soglia condizione configurata
-                </li>
-                <li class="col-xs-12">
-                  <code>comparator</code>: Tipo di comparatore di condizioni (&gt;,&lt;,=,≠)
-                </li>
-                <li class="col-xs-12">
-                  <code>type</code>: Tipo di condizione (RATING,PERCENTAGE,NUMBER)
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          Example:
+          <p style="margin-top: -20px;">
+            <code>quality_gate_details</code>
+          </p>
+
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>status</code>: Stato del cancello di qualità del progetto
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>conditions</code>: Elenco con le condizioni di Quality Gate
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>message</code>: Messaggio di condizione
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>value</code>: Condizione valore effettivo
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>status</code>: Stato della condizione
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>threshold</code>: Soglia condizione configurata
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>comparator</code>: Tipo di comparatore di condizioni (&gt;,&lt;,=,≠)
+          </p>
+          <p style="margin-left: 40px; margin-top: -35px;">
+            <code>type</code>: Tipo di condizione (RATING,PERCENTAGE,NUMBER)
+          </p>
+
+          <br>Example:
           <pre>
             Stato del progetto: ${quality_gate_details}
             Condizioni: [#list quality_gate_details.conditions as condition]
@@ -226,7 +222,57 @@ trial: /it/sonarqube-report-trial-form
                                 Tipo di condizioni          : ${condition.type}
             [#/list]
           </pre>
+
+          <p>
+            <code>sonarqube_project</code>
           </p>
+
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>key</code>: chiave del progetto, dell'app o del portfolio SonarQube
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>name</code>: nome del progetto, dell'app o del portfolio SonarQube
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>lastAnalysis</code>: data dell'ultima analisi del progetto SonarQube (solo sui progetti)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>versione</code>: versione del progetto SonarQube (solo su progetti)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierKey</code>: chiave del qualificatore di progetti, app o portfolio SonarQube (TRK, APP, VM, SVW)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierName</code>: nome del qualificatore del progetto, dell'app o del portfolio SonarQube (PROGETTO, APPLICAZIONE, PORTFOLIO)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>sonarQubeQualifierTranslated</code>: qualificatore di progetto, app o portfolio SonarQube tradotto (progetto, applicazione, portfolio)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>qualityGateStatus</code>: progetto SonarQube, app o portfolio quality gate (OK, ERROR, NONE)
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>branchName</code>: nome della filiale del progetto SonarQube
+          </p>
+          <p style="margin-left: 20px; margin-top: -35px;">
+            <code>isMainBranch</code>: Definisci se il ramo selezionato è principale o meno (true, false)
+            <i><strong>Nota:</strong> i valori sono stringhe non booleane</i>
+          </p>
+
+          <br>Esempio:
+          <pre>
+            Chiave del progetto: ${sonarqube_project.key}
+            Nome progetto: ${sonarqube_project.name}
+            Ultima analisi del progetto: ${sonarqube_project.lastAnalysis}
+            Versione progetto: ${sonarqube_project.version}
+            Chiave qualificatore progetto: ${sonarqube_project.sonarQubeQualifierKey}
+            Nome qualificatore progetto: ${sonarqube_project.sonarQubeQualifierName}
+            Qualificatore di progetto tradotto: ${sonarqube_project.sonarQubeQualifierTranslated}
+            Porta di qualità del progetto: ${sonarqube_project.qualityGateStatus}
+            Nome del ramo del progetto: ${sonarqube_project.branchName}
+            È il ramo principale: ${sonarqube_project.isMainBranch}
+          </pre>
+
           <p>
             Dai un'occhiata al <a href="https://www.bitegarden.com/resources/sonarqube-report/default-template.odt">modello predefinito</a> per vedere un esempio di come funziona.
           </p>
