@@ -79,10 +79,19 @@ trial: /it/sonarqube-report-trial-form
             de código nuevo, y un resumen de evidencias detectadas por regla.<br>
             - <strong>Full Issue Breakdown PDF Report</strong>: questo report in PDF estende l'Issues summary breakdown con tutte le informazioni sui problemi. Include metriche generali e nuove metriche del codice insieme a tutti i problemi basati sulle regole.
             <br>
+            - <strong>Excel Report</strong>: Questo report Excel contiene tutte le informazioni per il tuo progetto.
             - <strong>Custom Open Document (ODT) Report</strong>: un report personalizzato generato da un modello Open Document che è possibile modificare.
           </p>
 
-          <p></p>
+          <div class="important-info-box">
+            <strong>Importante:</strong> La generazione di PDF richiede che i font siano installati sul server che ospita SonarQube.
+            Sui server Windows, questo è un dato di fatto. Tuttavia, questo non è sempre il caso dei server Linux.
+            Occorre garantire quanto segue:<br>
+            <div style="margin-left: 40px;">
+              <span>- Fontconfig è installato sul server che ospita SonarQube</span><br>
+              <span>- Un pacchetto di font FreeType è installato sul server SonarQube. I pacchetti esatti disponibili variano a seconda della distribuzione, ma un pacchetto comunemente usato è libfreetype6</span>
+            </div>
+          </div>
           <div class="text-center">
             <img style="width:80%;" src="/img/sonarqube-report/bitegarden-report-management.png" alt="Scaricare un report da SonarQube management section"/>
           </div>

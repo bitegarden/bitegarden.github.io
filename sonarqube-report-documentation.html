@@ -76,9 +76,19 @@ trial: sonarqube-report-trial-form
             issues by rule summary information..<br>
             - <strong>Full Issue Breakdown PDF Report</strong>: extends issues summary breakdown with all issues
             information. Includes overall metrics and new code metrics along with all the issues by rule information.<br>
+            - <strong>Excel Report</strong>: This excel report contains all the information for your project.
+            Includes the executive summary as well as all the full issues breakdown.<br>
             - <strong>Custom Open Document (ODT) Report</strong>: a custom report created using an Open Document template that you can modify.
           </p>
-
+          <div class="important-info-box">
+            <strong>Important:</strong> Generating PDF requires that fonts be installed on the server hosting SonarQube.
+              On Windows servers, this is a given. However, this is not always the case for Linux servers.
+            The following should be ensured:<br>
+            <div style="margin-left: 40px;">
+              <span>- Fontconfig is installed on the server hosting SonarQube</span><br>
+              <span>- A package of FreeType fonts is installed on the SonarQube server. The exact packages available will vary by distribution, but a commonly used package is libfreetype6</span>
+            </div>
+          </div>
           <div class="text-center">
             <img style="width:80%;" src="img/sonarqube-report/bitegarden-report-management.png" alt="report management section">
           </div>
