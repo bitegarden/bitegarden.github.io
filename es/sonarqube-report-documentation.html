@@ -81,9 +81,21 @@ trial: /es/sonarqube-report-trial-form
             - <strong>Resumen ejecutivo en PDF</strong>: Este informe en PDF extiende el informe resumen de evidencias
             con el detalle de todas las evidencias detectadas por regla. Incluye métricas generales y de código nuevo,
             y todas las evidencias detectadas por regla.<br>
+            - <strong>Informe Excel</strong>: Este informe en excel contiene toda la información importante para tu proyecto.
+            Incluye el resumen ejecutivo así como todas las evidencias detectadas por las distintas reglas.<br>
             - <strong>Informe personalizado con Open Document (ODT)</strong>: un informe personalizado creado utilizando una plantilla que puedes
             modificar para crear nuevos informes.
           </p>
+
+          <div class="important-info-box">
+            <strong>Importante:</strong> La generación de PDF requiere que las fuentes estén instaladas en el servidor SonarQube.
+            En los servidores de Windows, esto es un hecho. Sin embargo, este no es siempre el caso de los servidores Linux.
+            Se debe asegurar lo siguiente:<br>
+            <div style="margin-left: 40px;">
+              <span>- Fontconfig está instalado en el servidor que aloja SonarQube</span><br>
+              <span>- El paquete de fuentes FreeType está instalado en el servidor de SonarQube. Los paquetes exactos disponibles variarán según la distribución, pero un paquete de uso común es libfreetype6</span>
+            </div>
+          </div>
 
           <div class="text-center">
             <img style="width:80%;" src="/img/sonarqube-report/bitegarden-report-management.png" alt="report management section"/>

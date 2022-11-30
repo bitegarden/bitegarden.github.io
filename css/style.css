@@ -126,3 +126,14 @@
 .col-md-3 {
     width: 25%
   }
+
+.important-info-box {
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #f7f7f7;
+  border: 1px solid #1d192c;
+  border-radius: 5px;
+  padding: 15px;
+  color: black;
+}
