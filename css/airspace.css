@@ -6,15 +6,17 @@
  * 
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
 	Common Css
+	font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Inter, 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, 'Roboto', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -58,7 +60,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: Inter, 'Volkhov', serif;
   font-style: italic;
   color: #666;
 }
@@ -119,7 +121,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -129,9 +131,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 /*--
 	wrapper Start
@@ -469,7 +471,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header-product .block h1 {
   font-weight: 100;
   font-size: 45px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
@@ -807,17 +809,17 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   padding-bottom: 15px;
 }
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
