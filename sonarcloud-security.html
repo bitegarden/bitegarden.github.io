@@ -1,7 +1,7 @@
 ---
 layout: page
 title: bitegarden Security Assessment for SonarCloud
-description: This plugin is able to generate several security assessment PDF reports from SonarCloud projects, including OWASP Top 10 and CWE Top 25.
+description: This plugin is able to generate several security assessment PDF reports from SonarCloud projects, including OWASP Top 10, CWE Top 25 or OWASP ASVS
 permalink: /sonarcloud-security
 trial: sonarcloud-security-trial-form
 ---
@@ -12,7 +12,7 @@ trial: sonarcloud-security-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Security Report for SonarCloud&trade;</h1>
-          <p>Provides information about security standards (OWASP Top 10, CWE SANS Top 25) including risk factor and
+          <p>Provides information about security standards (OWASP Top 10, CWE SANS Top 25, OWASP ASVS) including risk factor and
             security vulnerabilities and hotspots in PDF report from SonarCloud&trade;</p>
           <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">TRY NOW</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">BUY NOW</a>
         </div>
@@ -33,7 +33,7 @@ trial: sonarcloud-security-trial-form
             <hr>
           </div>
           <p>
-            Based on <strong>OWASP Top 10</strong> and <strong>CWE SANS Top 25</strong> security standards,
+            Based on <strong>OWASP Top 10</strong>,<strong>OWASP ASVS</strong> and <strong>CWE SANS Top 25</strong> security standards,
             <strong>Security Report for SonarCloud&trade;</strong> gathers the list of vulnerabilities detected in your
             issues in SonarCloud&trade;, letting you know the security level and compliance of the whole project in PDF reports.
           </p>
@@ -70,6 +70,17 @@ trial: sonarcloud-security-trial-form
             <a href="https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html" target="_blank">CWE Top 25 2020</a> and
             <a href="https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html" target="_blank">CWE Top 25 2019</a>.
           </p>
+          <br>
+          <h4>Generate OWASP ASVS PDF report from SonarCloud&trade;</h4>
+          <p>
+            The OWASP Application Security Verification Standard is a list of application security requirements or tests
+            that can be used by architects, developers, testers, security professionals, tool vendors, and consumers
+            to define, build, test and verify secure applications.
+          </p>
+          <p>
+            <strong>bitegarden Security Report for SonarCloud&trade;</strong> supports PDF generation for <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank">OWASP ASVS</a>.
+          </p>
+          <br>
 
 
           <p class="center-text">
@@ -153,7 +164,7 @@ trial: sonarcloud-security-trial-form
             <hr>
           </div>
           <p>
-            <strong>bitegarden Security Report for SonarCloud&trade;</strong> requires Java 8 to run.
+            <strong>bitegarden Security Report for SonarCloud&trade;</strong> requires Java 8 or later.
           </p>
           <br/>
           <h4>How to generate PDF security reports for projects in SonarCloud™</h4>
@@ -188,6 +199,7 @@ Optional properties:
                         cwe-top-25-2021
                         cwe-top-25-2020
                         cwe-top-25-2019
+                        owasp-asvs
 
          sonar.branch = the branch where we will get the information for the report (default is main branch)
            footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
