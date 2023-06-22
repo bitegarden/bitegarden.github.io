@@ -12,6 +12,7 @@ permalink: /it/contact/
       <div class="col-md-12">
         <div class="block">
           <h1>Contattaci</h1>
+          <p>Compila il formulario e chiedici ciò di cui hai bisogno.</p>
         </div>
       </div>
     </div>
@@ -22,29 +23,49 @@ permalink: /it/contact/
 <section id="contact-form">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <div class="container">
-          <div class="row">
+      <div class="block">
+        <form action="https://formspree.io/xdoeordr" method="POST" name="sentMessage" id="contactForm" novalidate>
           <div class="col-md-3 col-sm-12">
           </div>
           <div class="col-md-6 col-sm-12">
-            <h2>Scrivici</h2>
-        <p>Compila il formulario e chiedici ciò di cui hai bisogno.<br/> 
-        </p>
-        <!--Hubspot IT Contact Form-->
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-  region: "na1",
-  portalId: "7258923",
-  formId: "ea3a2260-5a62-49b9-823d-a17a0c2c6379"
-});
-</script>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="name" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Per favore inserisci il tuo nome.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="email" name="_replyto" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Per favore scrivi il tuo indirizzo email.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div>
+              <input type="text" name="_gotcha" style="display:none"/>
+            </div>
+            <div class="row control-group">
+              <div class="form-group-2 col-xs-12 floating-label-form-group controls">
+                <textarea name="_message" class="form-control" rows="3" placeholder="Messaggio" id="message" required
+                          data-validation-required-message="Per favore, scrivi un messaggio."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <p><strong>bitegarden</strong> si impegna a rispettare la tua privacy e utilizzeremo le tue informazioni solo per fornirti info su prodotti e contenuti che possano interessarti.</p>
+                <input type="checkbox" name="agreement" class="form-check-input" id="agreement" value="accept" required data-validation-required-message="Si prega di leggere e accettare l'informativa sulla privacy e i termini e condizioni">
+                <label class="form-check-label" for="agreement">Ho letto e accetto la <a href="https://www.bitegarden.com/privacy-policy" target="_blank">privacy policy</a> e <a href="https://www.bitegarden.com/pdf/bitegarden-terms-and-conditions.pdf" target="_blank">termini e condizioni</a></label>
+              </div>
+            </div>
+            <div id="success"></div>
+            <div class="block">
+              <button type="submit" class="btn btn-success btn-lg">Invia messaggio</button>
+            </div>
+          </div>
+        </form>
 
       </div>
     </div>
+
   </div>
-</div>
-</div>
-</div>
 </section>

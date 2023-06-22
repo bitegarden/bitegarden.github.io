@@ -4,24 +4,118 @@ title: Richiesta di pagamento tramite bonifico bancario dei plugins per SonarQub
 permalink: /it/bank-transfer-request
 ---
 
-<section style="padding-top: 40px; padding-bottom: 40px">
+<section style="padding-top: 40px;">
   <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="block">
             <h1>Richiesta di pagamento tramite bonifico bancario</h1>
-            <p>Compila il formulario e in meno di 24 ore ti invieremo le informazioni necessarie per eseguire il bonifico.</p> 
-            <!--Bank Request IT-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-  region: "na1",
-  portalId: "7258923",
-  formId: "a70bee0c-20e9-4006-8b90-f6fb2234bcf9"
-});
-</script>
-</div>
-</div>
-</div>
-</div>
+            <p>Compila il formulario e in meno di 24 ore ti invieremo le informazioni necessarie per eseguire il bonifico.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- contact form start -->
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <form action="https://formspree.io/f/meqwyyjw" method="POST" name="sales-quote-form" id="sales-quote-form" novalidate>
+          <div class="col-md-2 col-sm-12">
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="name" class="form-control" placeholder="Nome*" id="name" required
+                       data-validation-required-message="Per favore inserisci il tuo nome.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="email" name="_replyto" class="form-control" placeholder="Email*" id="email" required
+                       data-validation-required-message="Per favore scrivi il tuo indirizzo email.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="organization" class="form-control" placeholder="Azienda*" id="organization" required
+                       data-validation-required-message="Inserisci il nome della tua azienda.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="address" class="form-control" placeholder="Indirizzo*" id="address" required
+                       data-validation-required-message="Inserisci l'indirizzo postale della tua azienda.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div>
+              <p>Seleziona i prodotti che desideri acquistare:</p>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-report-sonarqube" class="form-check-input" id="bitegarden-sonarqube-report" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-report">bitegarden Report for SonarQube&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-report-sonarcloud" class="form-check-input" id="bitegarden-sonarcloud-report" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarcloud-report">bitegarden Report for SonarCloud&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-security-sonarqube" class="form-check-input" id="bitegarden-sonarqube-security" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-security">bitegarden Security for SonarQube&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-security-sonarcloud" class="form-check-input" id="bitegarden-sonarcloud-security" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarcloud-security">bitegarden Security for SonarCloud&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-overview-sonarqube" class="form-check-input" id="bitegarden-sonarqube-overview" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-overview">bitegarden Overview Report for SonarQube&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-overview-sonarcloud" class="form-check-input" id="bitegarden-sonarcloud-overview" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarcloud-overview">bitegarden Overview Report for SonarCloud&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-rating-sonarqube" class="form-check-input" id="bitegarden-sonarqube-rating" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-rating">bitegarden Rating Report for SonarQube&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-sqale-sonarqube" class="form-check-input" id="bitegarden-sonarqube-sqale" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-sqale">bitegarden SQALE for SonarQube&trade;</label>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="padding-bottom: 0px">
+                <input type="checkbox" name="request-project-tag-sonarqube" class="form-check-input" id="bitegarden-sonarqube-project-tag" value="yes">
+                <label class="form-check-label" for="bitegarden-sonarqube-project-tag">bitegarden Project Tag for SonarQube&trade;</label>
+              </div>
+            </div>
+            <div>
+              <input type="text" name="_gotcha" style="display:none"/>
+            </div>
+            <div class="row control-group">
+              <div class="form-group-2 col-xs-12 floating-label-form-group controls" style="padding-top: 30px">
+                <textarea name="notes" class="form-control" rows="3" placeholder="Immettere ulteriori informazioni se necessario" id="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <p><strong>bitegarden</strong> si impegna a rispettare la tua privacy e utilizzeremo le tue informazioni solo per fornirti info su prodotti e contenuti che possano interessarti.</p>
+                <input type="checkbox" name="agreement" class="form-check-input" id="agreement" value="accept" required data-validation-required-message="Si prega di leggere e accettare l'informativa sulla privacy e i termini e condizioni">
+                <label class="form-check-label" for="agreement">Ho letto e accetto la <a href="https://www.bitegarden.com/privacy-policy" target="_blank">privacy policy</a> e <a href="https://www.bitegarden.com/pdf/bitegarden-terms-and-conditions.pdf" target="_blank">termini e condizioni</a></label>
+              </div>
+            </div>
+            <div id="success"></div>
+            <div class="block">
+              <button type="submit" class="btn btn-success btn-lg">Richiesta</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
