@@ -9,7 +9,7 @@ italian: sqale-nuovo-endpoint-e-compatibilita-con-pull-request-1-6
 cover: /img/thumbs/2023-08-02-sqale-new-endpoint-and-pull-request.png
 ---
 
-Are you ready to manage your technical debt? The version 1.3.1 of the [**SQALE Plugin for SonarQube**](/sonarqube-sqale) is now available.
+Are you ready to manage your technical debt? The version 1.6 of the [**SQALE Plugin for SonarQube**](/sonarqube-sqale) is now available.
 
 Thanks to your feedback, our team has improved the SQALE Plugin by adding the following new features.
 
