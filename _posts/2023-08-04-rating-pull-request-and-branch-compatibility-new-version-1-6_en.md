@@ -5,7 +5,7 @@ description: New compatibilities for the RATING REPORT plugin for SonarQube
 
 permalink: rating-compatibility-with-pull-request-and-branches-1-6
 spanish: rating-compatibilidad-con-pull-request-y-ramas-1-6
-italian: sqale-nuovo-endpoint-e-compatibilita-con-pull-request-1-6
+italian: rating-compatibilita-per-pull-request-e-branches-1-6
 cover: /img/thumbs/2023-08-04-rating-compatibility-pull-request-and-branches.png
 ---
 
