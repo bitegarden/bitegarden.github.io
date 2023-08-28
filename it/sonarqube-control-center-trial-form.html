@@ -1,8 +1,8 @@
 ---
 layout: page_it
-title: Download Overview Report for SonarCloud
-description: Compila tutti i campi per scaricare il Overview Report per SonarCloud. Il file include la licenza gratuita di prova per 14 giorni.
-permalink: /it/sonarcloud-overview-trial-form
+title: Scarica il Control Center for SonarQube
+description: Compila tutti i campi per scaricare Control Center per SonarQube. Il file include la licenza gratuita di prova per 14 giorni.
+permalink: /it/sonarqube-control-center-trial-form
 ---
 
 <section style="padding-top: 40px; padding-bottom: 20px; border: 1px dotted #ddd;">
@@ -10,9 +10,9 @@ permalink: /it/sonarcloud-overview-trial-form
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <div class="block text-center">
-          <h1>Overview Report for SonarCloud&trade;</h1>
-          <p>Compila tutti i campi per scaricare il prodotto.</p>
-          <p style="font-weight:bold">Il prodotto include una licenza gratuita di prova valida per 14 giorni.</p>
+          <h1>Control Center for SonarQube&trade;</h1>
+          <p>Compila il form per scaricare il plugin.</p>
+          <p>Il plugin include una licenza gratuita di prova valida per 14 giorni.</p>
         </div>
       </div>
     </div>
@@ -25,36 +25,36 @@ permalink: /it/sonarcloud-overview-trial-form
     <div class="row">
       <div class="block">
         <form action="https://marketplace.bitegarden.com/download/productArtifact" method="get" name="download-form" id="download-form" novalidate>
-          <input type="text" name="productName" value="bitegarden-sonarcloud-overview-report" hidden>
+          <input type="text" name="productName" value="bitegarden-sonarqube-control-center" hidden>
           <input type="text" name="productFileExt" value="jar" hidden>
           <div class="col-md-3 col-sm-12">
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <input type="email" name="customerEmail" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Per favore, inserisci la tua email.">
+                <input type="email" name="customerEmail" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Inserisci la tua email.">
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <input type="text" name="customerName" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Per favore, inserisci il tuo nome.">
+                <input type="text" name="customerName" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Inserisci il tuo nome">
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <input type="text" name="customerSurnames" class="form-control" placeholder="Cognome *" id="surname" required data-validation-required-message="Per favore, inserisci il tuo cognome.">
+                <input type="text" name="customerSurnames" class="form-control" placeholder="Cognome *" id="surname" required data-validation-required-message="Inserisci il tuo cognome.">
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <input type="text" name="customerCompany" class="form-control" placeholder="Azienda *" id="company" required data-validation-required-message="Per favore, inserisci il nome della tua azienda">
+                <input type="text" name="customerCompany" class="form-control" placeholder="Azienda *" id="company" required data-validation-required-message="Inserisci la tua azienda.">
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label for="version">Versione</label>
                 <select class="form-control" name="productVersion" id="version">
-                  <option value="1.4.1">1.4.1 (con supporto per SonarCloud&trade;)</option>
+                  <option value="1.0">1.0 (con supporto per SonarQube&trade; 7.9, 8.9, 9.9 (LTS) y 10.x (LATEST) )</option>
                 </select>
               </div>
             </div>
@@ -74,6 +74,7 @@ permalink: /it/sonarcloud-overview-trial-form
               </div>
             </div>
           </div>
+
         </form>
       </div>
     </div>
