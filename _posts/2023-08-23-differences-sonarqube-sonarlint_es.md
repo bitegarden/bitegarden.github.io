@@ -6,7 +6,7 @@ description: Te explicamos cuáles son las principales diferencias entre SonarQu
 permalink: diferencias-sonarqube-sonarlint
 english: differences-sonarqube-sonarlint
 italian: differenze-sonarqube-sonarlint
-cover: /img/thumbs/2023-08-23-differences-sonarqube-sonarlint.png
+cover: /img/posts/2023-08-23-differences-sonarqube-sonarlint.png
 ---
 
 La tecnología de Sonar ha facilitado la **productividad y eficiencia de los equipos de desarrollo** gracias al lanzamiento de herramientas como SonarQube y Sonarlint. Estos dos analizadores de código estático examinan de forma periódica todas las líneas de un proyecto, pero… ¿Cuáles son las diferencias entre SonarQube y Sonarlint? Sigue leyendo que te lo vamos a explicar.
