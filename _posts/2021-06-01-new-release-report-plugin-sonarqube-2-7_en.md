@@ -32,7 +32,7 @@ Happy coding!
 
 If you also want to generate reports quickly and easily, try the Report Plugin for SonarQube for free for 14 days.
 
-<a href = "en / sonarqube-report-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 18px;text-transform: uppercase; "> download now </a>
+<a href = "/sonarqube-report-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 18px;text-transform: uppercase; "> download now </a>
 <br>
 
 <br>

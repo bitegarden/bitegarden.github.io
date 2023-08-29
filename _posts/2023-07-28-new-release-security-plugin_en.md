@@ -23,7 +23,7 @@ We have released version 2.16 of the Security Plugin for SonarQube that allows t
 
 ## Download the new version
 
-The Security Plugin is now available for download via the [Universal Plugin Manager](/en/sonarqube-upm) or from the [product download](/en/sonarqube-security-trial-form) page.
+The Security Plugin is now available for download via the [Universal Plugin Manager](/sonarqube-upm) or from the [product download](/sonarqube-security-trial-form) page.
 **Get your free trial and verify your code today!**
 
 <a href = "/sonarqube-security#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Start your free trial> </a>

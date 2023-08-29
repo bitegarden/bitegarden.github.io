@@ -10,7 +10,7 @@ cover: /img/thumbs/Thumb-export-owasp-report-pdf.jpg
 
 Estamos muy contentos de presentar nuestra nueva versión (2.1) de [**Security Plugin for SonarQube&trade;**](https://www.bitegarden.com/es/sonarqube-security).
 
-Esta nueva versión se centra en exportar datos en PDF de la misma forma que hicimos con [**Report Plugin for Sonarqube&trade;**](/report-2-0-released_es). 
+Esta nueva versión se centra en exportar datos en PDF de la misma forma que hicimos con [**Report Plugin for Sonarqube&trade;**](/report-2-0-released). 
 
 Nos pedíais que exportáramos a PDF toda la información de OWASP de tu proyecto y hemos creado un informe maravilloso para poder hacerlo.
 
