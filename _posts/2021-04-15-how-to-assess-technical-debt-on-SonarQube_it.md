@@ -62,7 +62,7 @@ Ad esempio, se si parla di un debito tecnico del 10%, significa che, se il proge
 
 ## Controllare il debito tecnico con SonarQube
 
-[**SonarQube**](www.sonarqube.org) attribuisce grande importanza al monitoraggio del debito tecnico.
+[SonarQube](https://www.sonarsource.com/products/sonarqube/) attribuisce grande importanza al monitoraggio del debito tecnico.
 
 Tanto che lo utilizza come uno dei suoi tre indicatori principali che sono: **affidabilità, sicurezza e manutenibilità**.
 

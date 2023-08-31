@@ -48,7 +48,7 @@ La adopción de la integración continua permite:
 
 -- Tener siempre lista la última versión de la aplicación, libre de errores de compilación y con todas las pruebas superadas (**Entrega Continua**).
 
-También es posibile tener monitorear la **[deuda técnica](https://www.bitegarden.com/como-evaluar-deuda-tecnica-SonarQube&trade;) acumulada**. La **[deuda técnica](https://www.bitegarden.com/como-evaluar-deuda-tecnica-sonarqube)** se refiere al tiempo empírico necesario para resolver los informes de SonarQube&trade;. Normalmente esto no requiere la introducción de una tarea específica para resolver las alertas. 
+También es posibile tener monitorear la **[deuda técnica](https://www.bitegarden.com/como-evaluar-deuda-tecnica-sonarqube) acumulada**. La deuda técnica se refiere al tiempo empírico necesario para resolver los informes de SonarQube&trade;. Normalmente esto no requiere la introducción de una tarea específica para resolver las alertas. 
 
 Gracias a su facilidad, el equipo aprende rápidamente a navegar por el panel de SonarQube&trade; y a analizar u ordenar los problemas por prioridad.
 
