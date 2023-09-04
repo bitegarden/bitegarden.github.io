@@ -7,7 +7,7 @@ permalink: nueva-version-security-plugin-new-endpoints-2-15
 english: new-release-security-plugin-nuevos-endpoints-2-15
 italian: nuova-versione-security-plugin-nuovos-endpoints-2-15
 
-cover: /img/posts/2023-07-25-security-plugin-cwe-measures.png
+cover: /img/posts/2023-07-25-new-release-security-plugin-nuevos-endpoints-2-15.png
 ---
 
 Hemos publicado la versión 2.15 del Security Plugin para SonarQube que permite conocer el cumplimiento de los estándares de seguridad (OWASP, CWE/SANS).
