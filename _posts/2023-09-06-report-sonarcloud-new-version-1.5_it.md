@@ -1,13 +1,13 @@
 ---
 layout: post_it
-title: 'Rapporto per SonarCloud 1.15: Aggiunta la nuova pagina degli Hotspot recensiti!'
+title: 'Rapporto per SonarCloud 1.5: Aggiunta la nuova pagina degli Hotspot recensiti!'
 description: La nuova versione include una nuova pagina che mostra gli hotspot recensiti.
 
-permalink: report-sonarcloud-nuova-versione-1-15
-spanish: report-sonarcloud-nueva-version-1-15
-english: report-sonarcloud-new-version-1-15
+permalink: report-sonarcloud-nuova-versione-1-5
+spanish: report-sonarcloud-nueva-version-1-5
+english: report-sonarcloud-new-version-1-5
 
-cover: /img/posts/2023-09-06-bitegarden-sonarcloud-report-1-15.pngg
+cover: /img/posts/2023-09-06-bitegarden-sonarcloud-report-1-5.png
 ---
 
 Abbiamo una nuova versione del [bitegarden Report per SonarCloud](/sonarcloud-report)!
