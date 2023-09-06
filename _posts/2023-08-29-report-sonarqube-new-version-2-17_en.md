@@ -20,7 +20,7 @@ This version adds a new page where is shown the reviewed hotspots, their resolut
 ### Download the latest version
 The Report for SonarQube Plugin is now available for download via the [Universal Plugin Manager](/sonarqube-upm) or from the [product download](/sonarqube-report-trial-form) page.
 
-**Get your free trial and verify your code in Pull Requests today!**
+**Get your free trial and verify your code today!**
 
 <a href = "/sonarqube-report#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> Start your free trial > </a>
 
