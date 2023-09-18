@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_it
 title: 'Rapporto sulla sicurezza per SonarCloud 1.3: aggiunta la CWE Top 25 del 2023'
 description: La nuova versione include un nuovo Top delle vulnerabilità più comuni.
 
