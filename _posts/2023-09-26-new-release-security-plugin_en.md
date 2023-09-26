@@ -7,7 +7,7 @@ permalink: new-release-security-plugin-pull-request-compatibility-2-18
 spanish: nueva-version-security-plugin-pull-request-compatibilidad-2-18
 italian: nuova-versione-security-plugin-pull-request-compatibilita-2-18
 
-cover: /img/posts/2023-07-28-security-plugin-pull-request.png
+cover: /img/posts/2023-09-26-new-bitegarden-sonarqube-security-plugin.png
 ---
 
 We have released version 2.18 of the Security Plugin for SonarQube that allows to activate the email notifications when a scan its finished.

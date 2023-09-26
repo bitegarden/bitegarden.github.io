@@ -7,7 +7,7 @@ permalink: nueva-version-security-plugin-pull-request-compatibilidad-2-18
 english: new-release-security-plugin-pull-request-compatibility-2-18
 italian: nuova-versione-security-plugin-pull-request-compatibilita-2-18
 
-cover: /img/posts/2023-07-28-security-plugin-pull-request.png
+cover: /img/posts/2023-09-26-new-bitegarden-sonarqube-security-plugin.png
 ---
 
 Hemos sacado la nueva versión 2.18!
