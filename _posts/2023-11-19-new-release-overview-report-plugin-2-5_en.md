@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New versión! Overview Report Plugin For SonarQube 2.5'
+title: 'New version! Overview Report Plugin For SonarQube 2.5'
 description: See the new functionality we launched with this update . 
 
 permalink: new-release-overview-report-plugin-2-5
