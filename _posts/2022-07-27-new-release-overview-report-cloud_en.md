@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Overview Report for SonarCloud 1.2: health rating, differential values, and quality gates'
+title: 'Overview Report for SonarCloud 1.2'
 description: This new version includes amazing new features to improve the information available in the report
 
 permalink: new-release-overview-report-sonarcloud-1-2

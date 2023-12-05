@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Report Plugin For SonarQube 2.17: Added Reviewed Hotspots new Page'
+title: 'Report Plugin For SonarQube 2.17'
 description: The new version includes a new page showing the reviewed hotspots.
 
 permalink: report-sonarqube-new-version-2-17

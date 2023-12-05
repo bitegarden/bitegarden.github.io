@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: ¡OWASP Application Security Verification Standard para SonarQube&trade; disponible!
+title: Disponible el OWASP Application Security Verification Standard para SonarQube
 description: El plugin Security incluye soporte para el estándar OWASP ASVS con un informe completo con el cumplimiento de los requisitos en tu instancia de SonarQube&trade;
 
 english: support-for-owasp-asvs-standard-security-plugin-for-sonarqube
