@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: 'Overview Report para SonarCloud 1.2: estado de salud, valores diferenciales y umbral de calidad'
+title: 'Overview Report para SonarCloud 1.2'
 description: Esta nueva versión incluye nuevas funcionalidades para mejorar los informes generados 
 
 english: new-release-overview-report-sonarcloud-1-2

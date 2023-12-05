@@ -10,7 +10,7 @@ italian: universal-plugin-manager-1-3-gratuito-per-sonarqube
 cover: /img/thumbs/2020-11-04-free-universal-plugin-manager-for-sonarqube-1-3-thumb.png
 ---
 
-The new [**Universal Plugin Manager for SonarQube**](/en/sonarqube-upm) is available. Now you can manage your plugins from the main SonarQube panel.
+The new [**Universal Plugin Manager for SonarQube**](/sonarqube-upm) is available. Now you can manage your plugins from the main SonarQube panel.
 <br>
 <br>
 <center><a href="/sonarqube-upm-trial-form" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Try Now ></a></center>

@@ -36,7 +36,7 @@ Ver de forma rápida y sencilla el resumen del estado de tus proyectos. Si esta 
 <br/>
 <br/>
 
-You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/en/sonarqube-overview). 
+You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/sonarqube-overview). 
 <br>
 <br>
 
@@ -49,7 +49,7 @@ Si necesitas conocer de forma detallada el **cumplimiento de seguridad** de los 
 <br/>
 <br/>
 
-You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/en/sonarqube-security). 
+You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/sonarqube-security). 
 <br>
 <br>
 
@@ -62,7 +62,7 @@ You can **try this plugin** by downloading it via [this link](https://www.bitega
 <br/>
 <br/>
 
-You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/en/sonarqube-project-tag). 
+You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/sonarqube-project-tag). 
 <br>
 <br>
 
@@ -75,10 +75,10 @@ Filtrar proyectos y ejecutar acciones masivas. Estas son las principales funcion
 <br/>
 <br/>
 
-You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/en/sonarqube-control-center). 
+You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/sonarqube-control-center). 
 
 
-This is a selection of our plugins for SonarQube. If you want to know more options, you can visit [this page](https://www.bitegarden.com/en/products/) where you can consult them all. Feel free to contact us at [contact](https://www.bitegarden.com/en/contact/). 
+This is a selection of our plugins for SonarQube. If you want to know more options, you can visit [this page](https://www.bitegarden.com/products/) where you can consult them all. Feel free to contact us at [contact](https://www.bitegarden.com/contact/). 
 
 ---
 **<span style="color: green">bitegarden</span> team**

@@ -1,5 +1,5 @@
 ---
-layout: post_es
+layout: post
 title: 'Plugin to maintain software quality'
 description: Hablamos de ISO 25000, el método SQALE y nuestro plugin para SonarQube.
 
