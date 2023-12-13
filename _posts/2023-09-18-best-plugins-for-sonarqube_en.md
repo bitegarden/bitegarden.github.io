@@ -23,7 +23,7 @@ If what you are looking for is ***generating reports on the quality and security
 <br/>
 <br/>
 
-You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/en/sonarqube-report). 
+You can **try this plugin** by downloading it via [this link](https://www.bitegarden.com/sonarqube-report). 
 <br>
 <br>
 
