@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bitegarden Premium Pack
-description: Download all plugins for SonarQube or SonarCloud
+title: bitegarden All Products Premium Pack Download for SonarQube
+description: Download all plugins for SonarQube
 ---
 
 <section style="padding-top: 40px; padding-bottom: 20px; border: 1px dotted #ddd;">
@@ -9,9 +9,9 @@ description: Download all plugins for SonarQube or SonarCloud
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <div class="block text-center">
-          <h1>All Products Premium Pack</h1>
-          <p>Gain access to all of the amazing bitegarden products in one place.</p>
-          <p>Download includes a valid license key for 14 days.</p>
+          <h1>All Products Premium Pack for SonarQube&trade;</h1>
+          <p>Gain access to all of the amazing bitegarden products for SonarQube in one place.</p>
+          <p>Download the zip package with the jar files and copy them to your extensions/plugins folder.</p>
         </div>
       </div>
     </div>
@@ -51,10 +51,8 @@ description: Download all plugins for SonarQube or SonarCloud
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label for="version">Instance</label>
                 <select class="form-control" name="productVersion" id="version">
-                  <option value="SonarQube">SonarQube</option>
-                  <option value="SonarCloud">SonarCloud</option>
+                  <option value="1.0">zip file containing all products with support for SonarQube&trade; (LTS/LATEST)</option>
                 </select>
               </div>
             </div>
@@ -75,9 +73,13 @@ description: Download all plugins for SonarQube or SonarCloud
             </div>
           </div>
         </form>
+        <div class="progress hide" id="progress_bar">
+          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-{% include download.html %}
+{% include download-package-sonarqube.html %}

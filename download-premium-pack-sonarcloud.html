@@ -1,0 +1,85 @@
+---
+layout: page
+title: bitegarden All Products Premium Pack Download for SonarCloud
+description: Download all plugins for SonarCloud
+---
+
+<section style="padding-top: 40px; padding-bottom: 20px; border: 1px dotted #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block text-center">
+          <h1>All Products Premium Pack for SonarCloud&trade;</h1>
+          <p>Gain access to all of the amazing bitegarden products for SonarCloud in one place.</p>
+          <p>Download the zip package with the jar files to be used as standalone command line applications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact form start -->
+<section id="trial-form">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <form action="https://marketplace.bitegarden.com/download/productArtifact" method="get" name="download-form" id="download-form" novalidate>
+          <input type="text" name="productName" value="bitegarden-premium-pack-sonarqube" hidden>
+          <input type="text" name="productFileExt" value="jar" hidden>
+          <div class="col-md-3 col-sm-12">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="email" name="customerEmail" class="form-control" placeholder="Email Address *" id="email" required data-validation-required-message="Please enter your email address.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerName" class="form-control" placeholder="First Name *" id="name" required data-validation-required-message="Please enter your first name.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerSurnames" class="form-control" placeholder="Last Name *" id="surname" required data-validation-required-message="Please enter your last name.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerCompany" class="form-control" placeholder="Organization *" id="company" required data-validation-required-message="Please enter your organization name.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <select class="form-control" name="productVersion" id="version">
+                  <option value="1.0">zip file containing all products with support for SonarCloud&trade;</option>
+                </select>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <p><strong>bitegarden</strong> is committed to respecting your privacy, and we’ll use your information to provide products, services and content that may be of interest to you.</p>
+                <input type="checkbox" name="agreement" class="form-check-input" id="agreement" value="accept" required data-validation-required-message="Please agree with privacy policy and terms and conditions">
+                <label class="form-check-label" for="agreement">I agree to bitegarden <a href="https://www.bitegarden.com/privacy-policy" target="_blank">privacy policy</a> and <a href="https://www.bitegarden.com/pdf/bitegarden-terms-and-conditions.pdf" target="_blank">terms and conditions</a></label>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <div id="success"></div>
+                <div class="block">
+                  <button type="submit" style="background-color: #5cb85c" class="btn btn-success btn-lg">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="progress hide" id="progress_bar">
+          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include download-package-sonarcloud.html %}
