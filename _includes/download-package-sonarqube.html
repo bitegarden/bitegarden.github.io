@@ -1,81 +1,45 @@
 <script type="text/javascript">
-function getInputValue(id) {
-	return document.getElementsByName(id)[0].value;
-}
+  function getInputValue(id) {
+    return document.getElementsByName(id)[0].value;
+  }
 
-function urlToPromise(url) {
-    return new Promise(function(resolve, reject) {
-        JSZipUtils.getBinaryContent(url, function (err, data) {
-            if(err) {
-                reject(err);
-            } else {
-                resolve(data);
-            }
-        });
-    });
-}
+  $("#download-form").submit(function(e) {
+      e.preventDefault();
+      var customerEmail    = getInputValue("customerEmail");
+      var customerName     = getInputValue("customerName");
+      var customerSurnames = getInputValue("customerSurnames");
+      var customerCompany  = getInputValue("customerCompany");
+      var agreement  = document.getElementById("agreement");
 
-$("#download-form").submit(function(e) {
-    e.preventDefault();
+      if ( customerEmail && customerName && customerSurnames && customerCompany && agreement.checked ) {
 
-    const productPackage = new Map();
+        var url = 'http://package-downloader.bitegarden.com/get-sonarqube-package?';
+            url += 'customerEmail=' + customerEmail;
+            url += '&customerName=' + customerName;
+            url += '&customerSurnames=' + customerSurnames;
+            url += '&customerCompany=' + customerCompany;
 
-    productPackage.set('bitegarden-sonarqube-overview-report', '2.6');
-    productPackage.set('bitegarden-sonarqube-report', '2.19.1');
-    productPackage.set('bitegarden-sonarqube-security', '2.18');
-    productPackage.set('bitegarden-sonarqube-sqale', '1.6.3');
-    productPackage.set('bitegarden-sonarqube-project-tag-plugin', '1.3');
-    productPackage.set('bitegarden-sonarqube-rating-report', '1.6.1');
-    productPackage.set('bitegarden-sonarqube-control-center', '1.0.2');
-    productPackage.set('bitegarden-sonarqube-upm', '1.6.4');
-    productPackage.set('bitegarden-sonarqube-metrics-plugin', '1.2');
+        window.open(url, '_blank');
 
-    var productNames   =  productPackage.keys;
-    var productFileExt = 'jar';
-    var customerEmail    = getInputValue("customerEmail");
-	var customerName     = getInputValue("customerName");
-	var customerSurnames = getInputValue("customerSurnames");
-	var customerCompany  = getInputValue("customerCompany");
-	var agreement  = document.getElementById("agreement");
+        {% if page.path contains 'sonarcloud' %}
+          {% if page.path contains 'es/' %}
+          window.location='/es/thank-you-sonarcloud?link="'+url+'"';
+          {% elsif page.path contains 'it/' %}
+          window.location='/it/thank-you-sonarcloud?link="'+url+'"';
+          {% else %}
+          window.location='/thank-you-sonarcloud?link="'+url+'"';
+          {% endif %}
+        {% else %}
+          {% if page.path contains 'es/' %}
+          window.location='/es/thank-you?link="'+url+'"';
+          {% elsif page.path contains 'it/' %}
+          window.location='/it/thank-you?link="'+url+'"';
+          {% else %}
+          window.location='/thank-you?link="'+url+'"';
+          {% endif %}
+        {% endif %}
 
-    if ( customerEmail && customerName && customerSurnames && customerCompany && agreement.checked ) {
 
-        var zip = new JSZip();
-
-        for (const [key, value] of productPackage.entries()) {
-          var url = 'https://marketplace.bitegarden.com/download/productArtifact?';
-          url += 'productName=' + key;
-          url += '&productVersion=' + value;
-          url += '&productFileExt=' + productFileExt;
-          url += '&customerEmail=' + customerEmail;
-          url += '&customerName=' + customerName;
-          url += '&customerSurnames=' + customerSurnames;
-          url += '&customerCompany=' + customerCompany;
-
-          var filename = key + '-' + value + '.jar';
-          zip.file(filename, urlToPromise(url), {binary:true});
-        }
-
-        // when everything has been downloaded, we can trigger the dl
-        zip.generateAsync({type:"blob"}, function updateCallback(metadata) {
-            var msg = "progression : " + metadata.percent.toFixed(2) + " %";
-            if(metadata.currentFile) {
-                msg += ", current file = " + metadata.currentFile;
-            }
-            showMessage(msg);
-            updatePercent(metadata.percent|0);
-        })
-            .then(function callback(blob) {
-
-                // see FileSaver.js
-                saveAs(blob, "bitegarden-premium-pack-sonarqube.zip");
-
-                showMessage("done !");
-            }, function (e) {
-                showError(e);
-            });
-
-        return false;
-    }
-});
+      }
+  });
 </script>
