@@ -1,6 +1,6 @@
 ---
 layout: post_it
-title: Nuova versione di SonarQube&trade; Security!
+title: Nuova versione di Security Plugin for SonarQube!
 description: La sezione ISO5055 di Plugin di sicurezza include ora la ripartizione CWE superata e non supportata.
 
 permalink: nuova-versione-sonarqube-security-2-19

@@ -35,7 +35,8 @@ Un code smell è un **problema che rende il codice** difficile da capire. Nell'i
 
 Va ricordato nell'ultima release di **SonarQube 10.3**, Sonar ha annunciato che questi tipi di issues **diventano obsoleti**. Quindi nei nuovi aggiornamenti i problemi saranno ora evidenziati con gli attributi di Clean Code e le qualità del software interessate. 
 
-Ricorda che se hai bisogno di ulteriori informazioni, puoi contattarci tramite questo [modulo](/it/contact.html)
+Ricorda che se hai bisogno di ulteriori informazioni, puoi contattarci tramite questo [modulo](https://www.bitegarden.com/it/contact/).
+
 ---
 **<span style="color: green">bitegarden</span> team**
 
