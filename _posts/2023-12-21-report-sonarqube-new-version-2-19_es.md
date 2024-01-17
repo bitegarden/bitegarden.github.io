@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: 'Report Plugin Para SonarQube 2.19'
+title: '¡Nueva versión! Report Plugin Para SonarQube 2.19'
 description: Lanzamos una nueva versión que incluye nuevas formas de generar los reportes.
 
 permalink: report-sonarqube-nueva-version-2-19
