@@ -5,7 +5,7 @@ description: We explain what is a bug, a vulnerability and a code smell
 
 permalink: issue-types-sonarqube
 spanish: tipos-issue-sonarqube
-italiano: tipo-di-issue-sonarqube
+italian: tipo-di-issue-sonarqube
 
 cover: /img/posts/2023-12-02-issue-types-sonarqube_en.png 
 ---
@@ -35,7 +35,7 @@ A code smell is a problem that makes the **code difficult to understand**. In th
 
 Remember in the last release of **SonarQube 10.3**, Sonar announced that these types of issues **are obsolete**. So in new updates problems will now be enhanced with Clean Code attributes and affected software qualities. 
 
-If you need  more information, you can contact with us via [this form](/contact)
+If you need  more information, you can contact with us via [this form](https://www.bitegarden.com/contact/)
 
 
 ---

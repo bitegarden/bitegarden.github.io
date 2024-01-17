@@ -1,7 +1,7 @@
 ---
 layout: post
-title: New SonarQube&trade; Security Version!
-description: Security Plugin ISO5055 section, now includes Passed and Not Supported CWE Breakdown.
+title: New Security Plugin for SonarQube Version!
+description: Security Plugin ISO5055 section now includes Passed and Not Supported CWE Breakdown.
 
 permalink: new-version-sonarqube-security-2-19
 spanish: nueva-version-sonarqube-security-2-19
