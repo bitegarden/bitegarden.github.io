@@ -5,7 +5,7 @@ description: Te explicamos qué es un bug, una vulnerabilidad y un code smell
 
 permalink: tipos-issue-sonarqube
 english: issue-types-sonarqube
-italiano: tipo-di-issue-sonarqube
+italian: tipo-di-issue-sonarqube
 
 cover: /img/posts/2023-12-02-issue-types-sonarqube_en.png 
 ---
@@ -35,7 +35,7 @@ Un code smell es un problema que hace que el **código sea dificil de entender**
 
 Hay que recordar en la **última release de SonarQube 10.3**, Sonar anunció que estos tipos de issues quedarán **obsoletos**. Por lo que en nuevas actualizaciones las issues ahora estarán realacionadas con los atributos de Clean Code y las cualidades de software afectadas. 
 
-Si necesitas más información sobre SonarQube, puedes contactar con nosotros a través de este [formulario](/es/contact.html).
+Si necesitas más información sobre SonarQube, puedes contactar con nosotros a través de este [formulario](https://www.bitegarden.com/es/contact/).
 
 
 ---
