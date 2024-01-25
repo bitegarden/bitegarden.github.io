@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Security Report For SonarCloud 1.4: Added new Fields!'
-description: The new version includes extra customizable field to your reports.
+title: 'New version! Security Report For SonarCloud 1.4'
+description: The new version includes the option to add additional customizable fields for your security reports.
 
 permalink: security-sonarcloud-new-version-1-4
 spanish: security-sonarcloud-nueva-version-1-4
@@ -10,36 +10,33 @@ italian: security-sonarcloud-nuova-versione-1-4
 cover: /img/posts/2024-01-12-bitegarden-sonarcloud-security-1-4_ENG.png
 ---
 
-We have released a new version (1.4) of the Security Plugin for SonarCloud&trade;.
+We have more updates! We have released a new version (1.4) of the **Security Report for SonarCloud**.
 
-**The version adds two new fields for PDF Reports.**
+This release gives you the option to add **two new fields** in PDF reports.
 
-<br >
+This update has its origin in that some of the users asked us if we could put some extra fields...And here they are!
 
-Some people asked us if we could put some extra fields...
-And here they are!
+Now you can put a customizable **tag** with the **description you want**. In the image below you have an example. As you will see we have added an extra field called *Optional extra label* and with the description *Bitegarden Realese Test*
 
-Now you can put a customizable label, with its own description:
-
-<img width="100%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png">
 
 <div class="text-center">OWASP ASVS Example with new Field</div>
-
 <br>
 
-### New features and changes:
-- Added extra customizable label.
-- Added extra customizable description.
+## Video about the new functionality: 
+Here’s a video for you to see how you can run the new feature: 
 
-<br> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvR28epSjAc?si=hn_sDN7QNoHmN5cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
-### Download the latest version
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-security-trial-form) page.
+## Download the latest version
+You can download the Security Report for SonarCloud via [this link](https://www.bitegarden.com/sonarcloud-security).
+<br>
 
-**Get your free trial and verify your code today!**
+## 20% discount on all products
+Take advantage of this offer: Download all SonarCloud plugins with a 20% discount. 
 
-<a href = "/sonarcloud-security#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> Start your free trial > </a>
-
+<a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJTTUS7YVC8M2" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> See offer ></a>
 <br/>
 
 ---
