@@ -200,27 +200,29 @@ trial: sonarcloud-security-trial-form
           <pre>...
 Mandatory properties:
 
-          sonar.token = your user security token to authenticate against SonarCloud.
-                        It is recommended to generate a new token for this app.
-     sonar.projectKey = the project key from SonarCloud. You can find it in SonarCloud project information
-sonar.organizationKey = the SonarCloud organization the project belongs to
+                      sonar.token = your user security token to authenticate against SonarCloud.
+                                    It is recommended to generate a new token for this app.
+                 sonar.projectKey = the project key from SonarCloud. You can find it in SonarCloud project information
+            sonar.organizationKey = the SonarCloud organization the project belongs to
 
-Optional properties:
+          Optional properties:
 
-          report.type = owasp-top-10-2021 (default value)
-                        owasp-top-10-2017
-                        cwe-top-25-2022
-                        cwe-top-25-2021
-                        cwe-top-25-2020
-                        cwe-top-25-2019
-                        owasp-asvs
+                      report.type = owasp-top-10-2021 (default value)
+                                    owasp-top-10-2017
+                                    cwe-top-25-2022
+                                    cwe-top-25-2021
+                                    cwe-top-25-2020
+                                    cwe-top-25-2019
+                                    owasp-asvs
+                                    iso-5055
 
-         sonar.branch = the branch where we will get the information for the report (default is main branch)
-           footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
-          user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
-               output = File name for the generated report
-          report.optional.label = Extra optional label (To display optional label, its required optional value too, else, it won't be rendered)
-          report.optional.value = Description for the optional value
+                     sonar.branch = the branch where we will get the information for the report (default is main branch)
+                       footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+                      user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
+                           output = File name for the generated report
+            report.optional.label = Extra optional label (To display optional label, its required optional value too, else, it won't be rendered)
+            report.optional.value = Description for the optional value
+disable.iso5055.not.supported.cwe = If you want to show Not Supported CWE, change that option to false (default is true)
 
 ...</pre></p>
           <p>
