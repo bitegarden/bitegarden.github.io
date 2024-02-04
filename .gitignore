@@ -87,3 +87,5 @@ Gemfile.lock
 *.iml
 *.ipr
 .idea/
+
+Gemfile
