@@ -52,4 +52,4 @@ descriptions:
     desc: "Posts talking about plugins."
 # PayPal backend endpoint
 paypal:
-  backendUrl: http://localhost:8888
+  backendUrl: https://store.bitegarden.com
