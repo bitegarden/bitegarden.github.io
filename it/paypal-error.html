@@ -1,0 +1,97 @@
+---
+layout: page_it
+title: Errore durante l'elaborazione dell'acquisto con PayPal
+description: Si è verificato un errore durante l'elaborazione dell'acquisto con PayPal
+permalink: /it/paypal-error
+---
+
+<!-- Slider Start -->
+<section id="global-header-downloads">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Ups! Ci dispiace! </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 40px; padding-bottom: 40px">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block text-center">
+            <h2>
+              Si è verificato un errore durante l'elaborazione della transazione!<br>
+            </h2>
+            <h2>
+              <strong>Transaction ID:</strong> <span id="paypal-transaction-id"></span>
+            </h2>
+            <h2>
+              <strong>Status Error:</strong> <span id="paypal-status-error"></span>
+            </h2>
+          </div>
+        </div>
+      <div class="col-md-1 text-center">
+      </div>
+      <div class="col-md-5 text-center">
+            <div class="block">
+  </div>
+</section>
+
+<section id="help" style="padding-top: 40px; padding-bottom: 60px; background: #4b4955; color:#fff">
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+              <h1>
+                Ho bisogno di aiuto?
+              </h1>
+              <p>Prova a ripetere l'ordine di acquisto. Se l'errore persiste, apri una richiesta di supporto sul nostro <a href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">portale</a> e ti risponderemo il prima possibile.
+              </p>
+              <p>
+              </p>
+              <p class="text-center">
+                <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1" target="_blank">Apri richiesta di supporto</a>
+              </p>
+            </div>
+       </div>
+    </div>
+</div>
+</section>
+
+<section id="update-center-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const paypalId = urlParams.get('paypal-transaction-id');
+    const paypalError = urlParams.get('paypal-status-error');
+    if (paypalId) {
+      document.getElementById('paypal-transaction-id').textContent=paypalId;
+    }
+    else {
+      document.getElementById('paypal-transaction-id').textContent="non trovato";
+    }
+    if (paypalError) {
+      document.getElementById('paypal-status-error').textContent=paypalError;
+    }
+    else {
+      document.getElementById('paypal-status-error').textContent="non trovato";
+    }
+  });
+</script>
+
