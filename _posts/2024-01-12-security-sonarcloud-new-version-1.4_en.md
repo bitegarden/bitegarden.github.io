@@ -18,7 +18,7 @@ This update has its origin in that some of the users asked us if we could put so
 
 Now you can put a customizable **tag** with the **description you want**. In the image below you have an example. As you will see we have added an extra field called *Optional extra label* and with the description *Bitegarden Realese Test*
 
-<img width="80%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png" alt="SonarCloud Security">
 
 <div class="text-center">OWASP ASVS Example with new Field</div>
 <br>

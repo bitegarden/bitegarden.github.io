@@ -18,7 +18,7 @@ Questo aggiornamento ha la sua origine in quanto alcuni degli utenti ci hanno ch
 
 Ora puoi inserire una **etichetta personalizzabile** e la **descrizione che desideri**. Nell'immagine seguente ne hai un esempio. Come vedrai abbiamo aggiunto un campo extra chiamato *Optional extra label* e con la descrizione *Bitegarden Realese Test*
 
-<img width="80%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-12-bitegarden-sonarcloud-security-1-4.png" alt="SonarCloud Security">
 
 <div class="text-center">Esempio di OWASP ASVS con nuovi campi</div>
 <br>
