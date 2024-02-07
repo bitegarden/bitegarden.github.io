@@ -26,7 +26,7 @@ Ora puoi inserire una **etichetta personalizzabile** e la **descrizione che desi
 ## Video sulla nuova funzionalità: 
 Poi ti **lasciamo un video** per vedere come puoi eseguire la nuova funzionalità: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HvR28epSjAc?si=hn_sDN7QNoHmN5cU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvR28epSjAc?si=hn_sDN7QNoHmN5cU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 
 ## Scarica la nuova versione
