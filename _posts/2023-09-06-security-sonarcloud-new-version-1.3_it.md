@@ -26,7 +26,7 @@ La Top 25 CWE del 2023 incorpora anche dati aggiornati sui punti deboli relativi
 record nel set di dati che fanno parte del Known Exploited della Cybersecurity and Infrastructure Security Agency (CISA)
 Catalogo delle vulnerabilità (KEV).
 
-<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png">
+<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png" alt="CWE TOP 25 2023">
 <div class="text-center">Top 25 CWE 2023 da MITRE</div>
 <br>
 
