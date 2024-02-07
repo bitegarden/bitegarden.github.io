@@ -42,8 +42,8 @@ redirect_from:
 
           <p class="center-text">
             <a class="btn btn-default btn-call-to-action fancybox" href="/it/sonarqube-overview-trial-form">PROVA GRATUITA</a>
-            <a class="btn btn-primary btn-call-to-action fancybox"
-               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5Q9KFFT9LBJRE">ACQUISTA ORA</a>
+            <a class="btn btn-primary btn-call-to-action fancybox" referrerpolicy="unsafe-url"
+               href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-sonarqube-overview-report&platform=sonarqube">ACQUISTA ORA</a>
           </p>
 
         </div>
@@ -317,8 +317,8 @@ redirect_from:
           <div id="payment-options">
             <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">METODO DI PAGAMENTO</p>
             <p>
-            <a class="btn btn-primary fancybox"
-               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5Q9KFFT9LBJRE"  target="_blank" style="padding:10px 30px;">CARTA DI CREDITO O PAYPAL</a>
+            <a class="btn btn-primary fancybox" referrerpolicy="unsafe-url"
+               href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-sonarqube-overview-report&platform=sonarqube"  target="_blank" style="padding:10px 30px;">CARTA DI CREDITO O PAYPAL</a>
                </p>
                <p>
                <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 22px;">BONIFICO BANCARIO</a>

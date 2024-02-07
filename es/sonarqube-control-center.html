@@ -42,7 +42,7 @@ trial: /es/sonarqube-control-center-trial-form
           </p>
           <p class="center-text">
             <a class="btn btn-default btn-call-to-action fancybox" href="/es/sonarqube-control-center-trial-form">PROBAR</a>
-            <a class="btn btn-primary btn-call-to-action fancybox" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YNE7D3FVXQ9PY">COMPRAR</a>
+            <a referrerpolicy="unsafe-url" class="btn btn-primary btn-call-to-action fancybox" href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-sonarqube-control-center&platform=sonarqube">COMPRAR</a>
           </p>
         </div>
       </div><!-- .col-md-6 close -->
@@ -152,8 +152,8 @@ trial: /es/sonarqube-control-center-trial-form
           <div id="payment-options">
             <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">MÉTODO DE PAGO</p>
             <p>
-              <a class="btn btn-primary fancybox"
-                 href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YNE7D3FVXQ9PY"  target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
+              <a class="btn btn-primary fancybox" referrerpolicy="unsafe-url"
+                 href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-sonarqube-control-center&platform=sonarqube"  target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
             </p>
             <p>
               <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 22px;">TRANSFERENCIA BANCARIA</a>
