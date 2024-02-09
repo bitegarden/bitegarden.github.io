@@ -26,7 +26,7 @@ The 2023 CWE Top 25 also incorporates updated weakness data for recent Common Vu
 records in the dataset that are part of Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited
 Vulnerabilities Catalog (KEV).
 
-<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png">
+<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png" alt="CWE TOP 25 2023">
 <div class="text-center">2023 CWE Top 25 from MITRE</div>
 <br>
 
@@ -42,7 +42,7 @@ The Report for SonarCloud is now available for download via [product download](/
 
 **Get your free trial and verify your code today!**
 
-<a href = "/sonarcloud-security#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> Start your free trial > </a>
+<a href = "/sonarcloud-security#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> Start your free trial> </a>
 
 <br/>
 

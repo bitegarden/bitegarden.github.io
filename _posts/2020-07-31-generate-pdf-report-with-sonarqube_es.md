@@ -1,6 +1,6 @@
 ﻿---
 layout: post_es
-title: Genera un informe PDF de la calidad de tu código con SonarQube&trade;
+title: Genera un informe PDF de la calidad de tu código con SonarQube
 description: Diferentes formas de generar informes de tus datos de la calidad del código en SonarQube&trade;
 
 permalink: genera-informe-pdf-calidad-codigo-sonarqube
@@ -10,35 +10,38 @@ italian: esportare-report-pdf-qualita-codice-sonarqube
 cover: /img/thumbs/2020-07-31-generate-pdf-report-with-sonarqube.png
 ---
 
-SonarQube&trade; es una herramienta hecho por desarrolladores para desarrolladores. Proporciona todo lo 
-necesario para escribir código limpio y seguro desde el primer momento y gestionar la deuda técnica para que
+SonarQube es una herramienta **hecha por desarrolladores para desarrolladores**. Proporciona todo lo 
+necesario para escribir código limpio y seguro desde el primer momento y, además, te permite gestionar la deuda técnica para que
 tu desarrollo sea sostenible. 
 
 ¿Pero qué ocurre si quieres explotar los datos y generar algún informe de calidad de los proyectos? En este sentido 
-SonarQube&trade; no ofrece por defecto ninguna gestión informes sencilla, si bien puedes usar la API web para desarrollarlos tu 
- mismo, en la mayoría de ocasiones lo que se busca es algo más rápido y sencillo.
+**SonarQube no ofrece** por defecto ninguna gestión informes sencilla. Puedes usar la API web para desarrollarlos tu 
+mismo, pero en la mayoría de ocasiones lo que se busca es algo más rápido y sencillo.
  
-# ¿Cómo generar PDFs de forma sencilla?
+<h2>¿Cómo generar PDFs de forma sencilla en SonarQube?</h2>
 
-Con nuestro producto [bitegarden Report for SonarQube&trade;](/es/sonarqube-report) se pueden generar estos informes 
-de la manera más sencilla posible. 
+Con nuestro producto [bitegarden Report for SonarQube](/es/sonarqube-report) se pueden generar estos informes 
+fácilmente. 
 
 Desde el espacio de proyecto en la opción ___"More..."___ encontrarás una sección que te proporciona todos los informes que
 necesitas, desde un resumen ejecutivo hasta un informe con todas las evidencias encontradas. Basta con descargar el informe
 deseado pulsando en el botón de descarga correspondiente.
 
-![Gestión de informes](/img/sonarqube-report/bitegarden-report-management_es.png){:width="100%" .center-image}
+En la siguiente imagen te mostramos una captura de pantalla de nuestra instancia de SonarQube para que puedas encontrar este aspecto: 
 
-# Configura un logo personalizado
+![Gestión de informes](/img/sonarqube-report/bitegarden-report-management_es.png){:width="100%" .center-image}
+<br>
+
+<h3>Configura un logo personalizado</h3>
 
 Por defecto el plugin usará el logo de bitegarden en el pie de cada página, pero si lo necesitas, puedes cambiarlo
-desde la configuración del plugin para que se utilice el logotipo de tu organización o incluso el logotipo de tu proyecto.
+desde la **configuración del plugin** para que se utilice el logotipo de tu organización o incluso el logotipo de tu proyecto.
 
-Si quieres cambiar el logotipo para todos los informes de instancia de SonarQube&trade; tan solo tienes que ir a la 
+Si quieres cambiar el logotipo para todos los informes de instancia de SonarQube tan solo tienes que ir a la 
 configurcación general del plugin a nivel global (___Administration -> General Settings___) y usar la URL del logo que
 quieras que aparezca en el pie de página:
 
----
+Aquí te dejamos una captura de pantalla para que veas dónde puedes cambiar el logotipo y el resultado final con un ejemplo: 
 
 ![Gestión de informes](/img/sonarqube-report/bitegarden-report-logo-global-settings.png){:width="100%" .center-image}
 
@@ -46,31 +49,27 @@ quieras que aparezca en el pie de página:
     Configuración del logotipo del pie de página
 </p>
 
---- 
 
 ![Ejemplo de informe con logotipo personalizado](/img/posts/2020-07-31-bitegarden-report-logo-sample.png){:width="100%" .center-image}
 
 <p class="center-text">
     Ejemplo de informe con logotipo personalizado
 </p>
+<br>
 
----
-
-# Diferentes informes, diferentes objetivos
+<h3>Diferentes informes, diferentes objetivos</h3>
 
 Cada persona del equipo puede requerir un tipo de informe distinto. Inicialmente pensábamos que ciertos roles de los equipos
-accederían a SonarQube&trade; para ver los detalles de las evidencias pero la experiencia nos dice que esto no es así, y
+accederían a SonarQube para ver los detalles de las evidencias pero la experiencia nos dice que esto no es así, y
 que existen muchos roles que no acceden a la herramienta y por tanto, necesitan trabajar con informes extraídos y en otro
 formato distinto.
+<br>
+<br>
 
-## Informe con resumen ejecutivo (PDF)
-
----
+<h3>Informe con resumen ejecutivo (PDF)</h3>
 
 **Objetivo**: poder determinar de un vistazo si el proyecto cumple o no con las condiciones de calidad así como los principales
 valores para cada una de las dimensiones de calidad analizadas
-
----
 
 De este informe [ya hablamos en su momento](/nueva-version-report-2-0) cuando liberamos la versión 2.0 del plugin. Se 
 trata de un informe en una única página con toda la información importante de la calidad del código de nuestro proyecto, 
@@ -86,16 +85,14 @@ que incluye:
 
 Incluye tanto los valores globales como la información en el periodo de fuga (código nuevo o modificado). 
 
-<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO RESUMEN EJECUTIVO ></a>
+<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf?resource=apache:airflow" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO RESUMEN EJECUTIVO ></a>
+<br>
+<br>
 
 ## Informe resumen de evidencias (PDF)
 
----
-
 **Objetivo**: conocer un resumen de evidencias de nuestro proyecto (más frecuentes, más severas) y un resumen por regla
 con las principales evidencias detectadas (fichero, línea, mensaje) 
-
----
 
 Este informe está disponible a partir de la versión 2.1 e incluye la página de resumen ejecutivo y añade nuevas páginas
 al informe:
@@ -112,16 +109,14 @@ con una pequeña descripción y un listado con un resumen de evidencias detectad
 El informe permite tener un mayor nivel de detalle para poder remitirse a equipos externos que no puedan ver la herramienta 
 o como informe de auditoría de un proyecto, donde quieran mostrarse las principales evidencias.  
 
-<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf_issues_breakdown?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO RESUMEN EVIDENCIAS ></a>
+<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf_issues_breakdown?resource=apache:airflow" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO RESUMEN EVIDENCIAS ></a>
+<br>
+<br>
 
 ## Informe completo de evidencias (PDF)
 
----
-
 **Objetivo**: conocer el detalle completo de evidencias de nuestro proyecto
 
----
-  
 Este informe es el más completo (y el más "grande") ya que incluye toda la información de los informes anteriores pero 
 en lugar de un resumen de una página por regla, se muestran todas las evidencias detectadas. Si una regla tiene 50 evidencias
 el informe incluirá la localización de las 50 evidencias (fichero, línea, y mensaje de error).
@@ -129,16 +124,14 @@ el informe incluirá la localización de las 50 evidencias (fichero, línea, y m
 Este informe permite disponer de TODA la información de la calidad del código del proyecto para entregar a quién pueda
 corresponder la revisión del cumplimiento de la calidad del código.
 
-<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf_full_issues_breakdown?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO COMPLETO EVIDENCIAS ></a>
+<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/pdf_full_issues_breakdown?resource=apache:airflow" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO COMPLETO EVIDENCIAS ></a>
+<br>
+<br>
 
 ## Informe de métricas personalizado (ODT)
 
----
-
 **Objetivo**: crear informes de métricas con aspecto completamente personalizado que además se puedan editar posteriormente
 para incluir información manual 
-
----
   
 Este tipo de informe se crea a partir de una plantilla Open Document (documento ODT).
 
@@ -149,9 +142,9 @@ La definición de la plantilla se basa en el uso de FreeMarker como variables in
 sustituirá las variables por los valores reales del proyecto según las métricas de SonarQube&trade;. Más información sobre
 como utilizarlo [aquí](/es/sonarqube-report-documentation).
 
-<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/odt?resource=apache:airflow&branch=master" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO OPEN DOCUMENT ></a>
-
---- 
+<a href="http://sonarqube.bitegarden.com/api/bitegarden/report/odt?resource=apache:airflow" target="_blank" class="btn btn-primary btn-call-to-action fancybox">VER EJEMPLO OPEN DOCUMENT ></a>
+<br>
+<br>
 
 ### Descubre más ejemplos...
 

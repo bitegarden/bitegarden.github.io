@@ -17,7 +17,7 @@ This release adds to ISO5055 Report a breakdown of Failed, Passed and Not Suppor
 Also, we added the possibility to enable/disable the Not Passed CWE in the **ISO 5055 PDF Report**.
 
 
-<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png" alt="New ISO 5055">
 
 <div class="text-center">ISO5055 Report example (new version)</div>
 <br>
