@@ -36,7 +36,7 @@ You can download the Security Report for SonarCloud via [this link](https://www.
 ## 20% discount on all products
 Take advantage of this offer: Download all SonarCloud plugins with a 20% discount. 
 
-<a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJTTUS7YVC8M2" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> See offer ></a>
+<a referrerpolicy="unsafe-url" href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-sonarcloud-premium-pack&platform=sonarcloud" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> See offer ></a>
 <br/>
 
 ---

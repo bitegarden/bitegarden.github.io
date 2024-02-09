@@ -50,3 +50,6 @@ social:
 descriptions:
   - cat: plugins
     desc: "Posts talking about plugins."
+# PayPal backend endpoint
+paypal:
+  backendUrl: https://store.bitegarden.com
