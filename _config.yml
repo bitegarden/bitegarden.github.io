@@ -51,8 +51,8 @@ social:
 # Category descriptions (for archive pages)
 
 description:
-  - cat: plugins
-  - description: "Posts talking about plugins."
+cat: plugins
+description: "Posts talking about plugins."
 
 # PayPal backend endpoint
 paypal:
