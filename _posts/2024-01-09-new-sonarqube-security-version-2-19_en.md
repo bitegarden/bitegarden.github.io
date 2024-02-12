@@ -33,7 +33,7 @@ In this video you will see the **new features** of the Security Plugin for Sonar
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hh8z8Jfdxtw?si=eor1LnbY8H78Sncx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### What can ISO 2055 do for you?
+### What can ISO 5055 do for you?
 
 International standards ensure that the products and services you use daily are **safe, reliable, and of high quality**. If you want to learn more about it, go to official [ISO 5055 page](https://www.iso.org/standard/80623.html) 
 
