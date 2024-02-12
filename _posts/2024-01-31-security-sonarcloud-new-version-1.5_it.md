@@ -17,7 +17,7 @@ Questa versione aggiunge al report ISO5055 una suddivisione dei CWE non riusciti
 Inoltre, abbiamo aggiunto la possibilità di attivare/disattivare il CWE non superato nel **Rapporto PDF ISO 5055**.
 
 
-<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png" alt="BEW ISO 5055">
 
 <div class="text-center">Esempio di rapporto ISO5055 (nuova versione)</div>
 <br>

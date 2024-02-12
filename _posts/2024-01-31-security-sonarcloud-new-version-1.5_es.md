@@ -17,7 +17,7 @@ Esta versión añade al Informe ISO5055 un desglose de CWE Fallidos, Pasados y N
 Además, hemos añadido la posibilidad de activar/desactivar el CWE No Pasado en el **Informe ISO 5055 PDF**.
 
 
-<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png">
+<img width="80%" src="/img/sonarcloud-security/2024-01-31-new-iso5055-breakdown-example.png" alt="NEW ISO 5055">
 
 <div class="text-center">Ejemplo de informe ISO5055 (nueva versión)</div>
 <br>

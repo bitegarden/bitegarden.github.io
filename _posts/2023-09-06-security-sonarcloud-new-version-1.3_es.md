@@ -29,7 +29,7 @@ Infraestructura y Ciberseguridad (CISA) y su Catálogo de vulnerabilidades (KEV)
 
 <br>
 
-<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png">
+<img width="100%" src="/img/posts/2023-09-04-cwe-top-25-2023.png" alt="CWE TOP 25 2023">
 <div class="text-center">2023 CWE Top 25 de MITRE</div>
 <br>
 
