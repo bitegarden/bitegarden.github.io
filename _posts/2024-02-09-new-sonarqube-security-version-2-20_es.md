@@ -10,12 +10,28 @@ italian: nuova-versione-sonarqube-security-2-20
 cover: /img/posts/2024-02-09-bitegarden-sonarqube-security-version-2-20_ES.png
 ---
 
-Hemos lanzado la versión 2.20 del [Security Plugin for SonarQube&trade;](sonarqube-security)!
-<br />
-Esta nueva versión añade ISO5055 un
-**Desglose de Reglas** filtrado por CWEs fallidos para obtener más información sobre estos en el reporte web.
+Lanzamos la **versión 2.20** del [Security Plugin for SonarQube](sonarqube-security)!
+<br/>
 
-<img src="/img/sonarqube-security/2024-02-09-new-version-sonarqube-security-iso5055-breakdown.png" alt="New breakdown table" width="100%" />
+Esta nueva versión añade en el report de la ISO 5055 un **desglose de reglas** filtrado por CWEs fallidos para obtener más información sobre estos en el reporte web.
+
+A continución te mostramos dos imagenes del antes y el después de esta release. La primera imagen hace referencia al listado que se obtiene en la **versión anterior**. 
+
+<img src="/img/sonarqube-security/security-plugin-sonarqube-2-19.png" alt="New breakdown table" width="100%" />
+<br/>
+<br/>
+
+La siguiente imagen **ya incluye la actualización 2.20** del Security Plugin for SonarQube: 
+<br/>
+<br/>
+
+<img src="/img/sonarqube-security/security-plugin-sonarqube-2-20.png" alt="New breakdown table" width="100%" />
+
+A continuación te mostramos un video para que puedas ver cómo obtener este reporte: 
+<br/>
+<br/>
+
+<iframe width="660" height="415" src="https://www.youtube.com/embed/Uaknq-stUmc?si=Bg0ehyHUo8wpoM91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Descarga la nueva versión
 
