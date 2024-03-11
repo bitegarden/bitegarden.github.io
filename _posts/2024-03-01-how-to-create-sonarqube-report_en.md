@@ -28,14 +28,14 @@ Once you have finished the installation process you will be able to see your **f
 
 Access any project you want. In this example we will see below, we access the project called **WebGoat** and click on *More > Reporting (this will appear when we have installed the Report Plugin for SonarQube)*.
 
-<img width="90%" src="img\sonarqube-report\report-plugin-sonarqube-reporting.png" alt="WebGoat SonarQube">
+<img width="90%" src="/img/sonarqube-report/report-plugin-sonarqube-reporting.png" alt="WebGoat SonarQube">
 <br>
 <br>
 
 In the next screen you will see that you have generated **reports in PDF, ODT and Excel**, ready for download.
 <br>
 <br>
-<img width="90%" src="img\sonarqube-report\report-plugin-sonarqube-reports-pdf-odt-excel.png" alt="WebGoat SonarQube">
+<img width="90%" src="/img/sonarqube-report/report-plugin-sonarqube-reports-pdf-odt-excel.png" alt="WebGoat SonarQube">
 <br>
 <br>
 

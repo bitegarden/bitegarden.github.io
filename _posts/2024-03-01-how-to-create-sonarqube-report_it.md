@@ -27,14 +27,14 @@ Una volta completato il processo di installazione, potrai visualizzare i tuoi **
 
 Accedi al progetto che desideri. In questo esempio, si accede al progetto denominato **WebGoat** e si fa clic su *More > Reporting (questo apparirà dopo aver installato il Report Plugin for SonarQube)*.
 
-<img width="90%" src="img\sonarqube-report\report-plugin-sonarqube-reporting.png" alt="WebGoat SonarQube">
+<img width="90%" src="/img/sonarqube-report/report-plugin-sonarqube-reporting.png" alt="WebGoat SonarQube">
 <br>
 <br>
 
 Nella schermata successiva vedrai che hai già generato i **reports in PDF, ODT ed Excel**, pronti per il download.
 <br>
 <br>
-<img width="90%" src="img\sonarqube-report\report-plugin-sonarqube-reports-pdf-odt-excel.png" alt="WebGoat SonarQube">
+<img width="90%" src="/img/sonarqube-report/report-plugin-sonarqube-reports-pdf-odt-excel.png" alt="WebGoat SonarQube">
 <br>
 <br>
 
