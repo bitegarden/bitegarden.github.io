@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New version! Security Plugin for SonarQube 2.19
-description: Security Plugin ISO5055 section now includes Passed and Not Supported CWE Breakdown.
+description: We launched a new version that includes new ways to generate reports with disaggregated information of Bugs, Vulnerabilities, Code Smells and Hubspots
 
 permalink: new-version-sonarqube-security-2-19
 spanish: nueva-version-sonarqube-security-2-19
