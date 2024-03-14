@@ -1,7 +1,7 @@
 ---
 layout: post_es
 title: Nueva versión! Security Plugin for SonarQube 2.19
-description: La sección ISO 5055 del Security Plugin de SonarQube ahora incluye el desglose de CWE aprobados y no soportados.
+description: The ISO 5055 section of SonarQube’s Security Plugin now includes the breakdown of approved and unsupported CWEs.
 
 permalink: nueva-version-sonarqube-security-2-19
 english: new-version-sonarqube-security-2-19

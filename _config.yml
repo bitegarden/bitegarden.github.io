@@ -15,9 +15,6 @@ keep_files:
 
 # Site settings
 title: bitegarden - Plugins for SonarQube and SonarCloud
-email: team@bitegarden.com
-description: Plugins for SonarQube and SonarCloud
-subtitle: "Helping companies to build better software"
 url: "https://www.bitegarden.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
@@ -49,10 +46,9 @@ social:
     - https://www.linkedin.com/company/bitegarden/
 
 # Category descriptions (for archive pages)
-
-description:
-cat: plugins
-description: "Posts talking about plugins."
+descriptions:
+  - cat: plugins
+    desc: "Posts talking about plugins."
 
 # PayPal backend endpoint
 paypal:

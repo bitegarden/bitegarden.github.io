@@ -1,7 +1,7 @@
 ---
 layout: post_it
 title: 'Nuova versione! Plugin Report per SonarQube 2.19'
-description: La nuova versione include nuove modalità di generazione dei rapporti.
+description: Lancio di una nuova versione che include nuovi modi per generare report con informazioni dettagliate su bug, vulnerabilità, Code Smells e Hubspots
 
 permalink: report-sonarqube-nuova-versione-2-19
 spanish: report-sonarqube-nueva-version-2-19
