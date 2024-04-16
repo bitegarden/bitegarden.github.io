@@ -47,7 +47,7 @@ Como todos sabemos, el tiempo es dinero. Y poder revertir este tiempo en otros p
 
 Como nuestro objetivo es simplificarle las cosas, te ofrecemos **14 días de prueba gratis** para que puedas probar el [bitegarden Report for SonarCloud](/es/sonarcloud-report) y evaluar su utilidad en tu trabajo.
 
-Después del período de prueba, el costo es de solo 300€ por año y por cuenta de SonarCloud. También puedes aprovecharte de la oferta de un [20% de descuento](https://www.bitegarden.com/downloads/) en la adquisición de todos los productos para SonarCloud. 
+Después del período de prueba, el costo es de solo 300€ por año y por cuenta de SonarCloud. También puedes aprovecharte de la oferta de un [20% de descuento](https://www.bitegarden.com/es/downloads/) en la adquisición de todos los productos para SonarCloud. 
 
 ¿A qué estas esperando? ¡Corre a probarlo!
 

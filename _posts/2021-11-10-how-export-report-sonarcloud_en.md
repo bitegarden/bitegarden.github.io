@@ -37,7 +37,7 @@ And if you want to do even more: include a step in your continuous integration c
 
 Since our goal is to make it easy for you, we want to give you a **free 14-day trial** so that you can try out the [**bitegarden Report for SonarCloud**](/sonarcloud-report), and evaluate its usefulness in your work for yourself.
 
-After the trial period, the cost is only € 250 per year and per SonarCloud account.
+After the trial period, the cost is only €300 per year and on behalf of SonarCloud. You can also take advantage of the offer of a [20% discount](https://www.bitegarden.com/downloads/) when purchasing all products for SonarCloud. 
 
 What are you waiting for? Run to try it!
 
