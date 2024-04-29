@@ -36,6 +36,10 @@ Oltre alla possibilità di configurare (sia a livello globale che a livello di p
 
 <img src="/img/posts/2024-04-26-new-sonarqube-report-version-2-20.png" alt="new Report page" width="80%">
 
+In questo video puoi vedere quest'ultima release:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ftyokQNjog?si=m-uzt9RepU0m6OUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Scarica la nuova versione
 
 Il plugin per la sicurezza è ora disponibile per il download tramite [Universal Plugin Manager](/it/sonarqube-upm) o dalla pagina [download del prodotto](/it/sonarqube-report-trial-form).

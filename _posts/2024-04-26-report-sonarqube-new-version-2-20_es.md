@@ -35,8 +35,11 @@ Y se añade un selector de qué se va a mostrar en el informe que descargues:
 A demás de poder configurar (tanto a nivel global como a nivel de proyecto) que estará habilitado por defecto!
 
 
-
 <img src="/img/posts/2024-04-26-new-sonarqube-report-version-2-20.png" alt="new Report page" width="80%">
+
+En este video puedes ver esta última release: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ftyokQNjog?si=m-uzt9RepU0m6OUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Descarga la nueva versión
 
