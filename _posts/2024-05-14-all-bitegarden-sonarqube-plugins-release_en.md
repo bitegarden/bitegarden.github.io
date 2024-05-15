@@ -19,14 +19,14 @@ Below is a list of the plugins that have been modified:
 
 
 
-- Bitegarden Universal Plugin Manager.
-- Bitegarden Sqale Plugin.
-- Bitegarden Overview Report for SonarQube.
-- Bitegarden Security Plugin for SonarQube.
-- Bitegarden Project Tag for SonarQube.
-- Bitegarden Control Center for SonarQube.
-- Bitegarden Rating Report for SonarQube.
-- Bitegarden Report for SonarQube.
+- bitegarden Universal Plugin Manager.
+- bitegarden Sqale Plugin.
+- bitegarden Overview Report for SonarQube.
+- bitegarden Security Plugin for SonarQube.
+- bitegarden Project Tag for SonarQube.
+- bitegarden Control Center for SonarQube.
+- bitegarden Rating Report for SonarQube.
+- bitegarden Report for SonarQube.
 
 ---
 **<span style="color: green">bitegarden</span> team**
