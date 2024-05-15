@@ -6,7 +6,7 @@ description: UI adattata alle nuove versioni di SonarQube.
 permalink: aggiornamento-di-tutti-i-plugin-bitegarden-sonarqube
 spanish: todos-los-plugin-sonarqube-bitegarden-actualizados
 english: all-bitegarden-sonarqube-plugins-update
-cover: /img/posts/2024-05-14-new-sonarqube-control-center-version-1-1_ENG.png
+cover: /img/posts/2024-05-14-bitegarden-suite-update_IT.png
 ---
 
 SonarQube ha apportato una modifica all'aspetto dell'interfaccia; pertanto, abbiamo adattato i plugin per allinearli meglio al nuovo stile delle ultime versioni del popolare software di analisi statica del codice. Questo aggiornamento migliora l'ottimizzazione dell'esperienza utente e aumenta l'efficienza nel processo di sviluppo software.
