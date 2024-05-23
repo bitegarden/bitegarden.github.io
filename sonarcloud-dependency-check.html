@@ -3,7 +3,7 @@ layout: page
 title: bitegarden Dependency Check for SonarCloud
 description: This product will allow you to import the information from your Dependecy Check to your SonarCloud instance
 permalink: /sonarcloud-dependency-check
-trial: 
+trial: /sonarcloud-dependency-check-trial-form
 ---
 
 <section id="global-header-product">
@@ -60,12 +60,163 @@ trial:
 
 <div style="padding: 40px 0"></div>
 
+<section id="feature-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Características</h3>
+            <hr>
+          </div>
+          <p>Currently SonarCloud does not support the <strong>Dependency Check</strong>solution. 
+            So if you want to use it, the only option is to use SonarQube.
+          <br>
+          <br>
+          However, thanks to our <strong>bitegarden Dependency Check for SonarCloud</strong> 
+          you can use it in your SonarCloud instance. All you have to do is:
+          <br>
+          <br>
+          - <strong>Analyze your projects with Dependecy Check</strong> as you have always done. <br><br>
+
+          - Use our product to <strong>convert the </strong> file that generates the Dependency Check (JSON or XML) to the format 
+          required by SonarCloud.<br><br>
+          
+          - <strong>Import it to SonarCloud</strong> and check for vulnerabilities without leaving your instance. <br><br>
+          
+          Below is documentation explaining how to import vulnerabilities into your SonarCloud analysis, including the file 
+          generated using the <strong>sonar.externalIssuesReportPaths</strong> parameter.
+          <br>
+          <br>
+          <a href="https://docs.sonarsource.com/sonarcloud/enriching/generic-issue-data/#import">Access the documentation here.</a> 
+          <br>
+          <br>
+
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img width="100%" src="/img/sonarcloud-dependency-check/sonarcloud-dependency-check-trial-issues.png" alt="Issues SonarCloud" />
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<section id="usage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>First steps</h3>
+            <hr>
+          </div>
+          <p>
+            <strong>bitegarden Dependecy Check for SonarCloud&trade;</strong> requires Java 8 or higher.
+          </p>
+          <br/>
+          <h4>Quick Guide: generate a file with the vulnerabilities of a Dependency Check report for your SonarCloud&trade project;</h4>
+          <br/>
+          <p>
+          Once you’ve <a href="sonarcloud-dependency-check-trial-form">downloaded</a> the product will have an auto executable "jar" file.
+          </p>
+          <p>
+          Simply place it in your file system and run the jar with the "-help" option to see all available options:
+          <pre>java -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+          The result should show you all available options:
+          </p>
+          <p>
+          <pre>...
+
+bitegarden Dependency Check for SonarCloud (1.0). Copyright (C) 2024 bitegarden. All rights reserved. www.bitegarden.com
+ 
+Loading properties from command line (-Dname=value)... if found, it will override configuration file properties
+No configuration found.
+bitegarden Dependency Check for SonarCloud. Command Line usage:
+
+java -Dconfig.file=PATH_TO_CONFIG_FILE -Dlicense.file=PATH_TO_LICENSE_FILE ... -jar bitegarden-dependency-check-for-sonarcloud-1.0.jar
+
+  config.file = path to properties file including all the parameters required to generate the reports. 
+                This is optional. You can set all the properties through command line args using -DpropertyName=propertyValue
+                Note that if you use a config file and command line arguments, arguments will override config file
+ 
+  license.file = path to file with your license key provided by bitegarden.
+                  By default a 14 days trial version will be used if license file is not provided
+
+Mandatory properties:
+
+        dependency.check.file = path to Dependency-Check file. Compatible formats (JSON and XML)
+        sonar.organizationKey = your organization key used to create license.
+         
+Optional properties:
+
+        vulnerabilities.file.path = path to project file to add new vulnerabilities in SonarCloud
+        output = File name for the generated report (Without .json extension)
+
+...</pre></p>
+          <p>
+            All properties can be provided through the command line as system arguments using "-D" or through a file
+            custom configuration.
+          </p>
+          <p>
+            If you use a custom configuration file you must run the application with the argument "-Dconfig.file" providing the path to your file
+            of properties with the configuration:
+            <pre>java <strong> -Dconfig.file=config.properties </strong> -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+            If you prefer you can pass all options through the command line with "-D":
+            <pre>java <strong> -Ddependency.check.file=vulnerabilities.json</strong> -Dsonar.organitzationKey=bitegarden -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+            If an option is defined on both sites (one configuration file and one argument per command line), the value provided on the command line will be used. 
+            This way you can have a common configuration file with shared properties (such as sonar.organizationKey) and then simply use the arguments 
+            for specific options such as "dependency.check.file", for example.
+          </p>
+        </div>
+        <div>
+          <h3>Using license key</h3>
+          <hr>
+        </div>
+        <p>
+          By default when you download the product you can use for 14 days in evaluation mode. 
+          Once the evaluation is complete, you will need to purchase the product and obtain a valid license key.
+          The license key is provided in a text file. To use this license file you must set 
+          the "license.file" property with the path to the license file in your configuration file (or via a command line argument).
+          
+          The license is tied to your organization’s key.
+
+          Here’s an example to generate a report using a product license via a command line argument:
+          
+          <pre>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+        </p>
+        <div>
+          <div>
+          <h3>Support and resolution of problems</h3>
+          <hr>
+        </div>
+        <p>
+          If you have any problems please create a support request on our
+          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">support center</a> and
+          we will be happy to help you find a solution.
+        </p>
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Requests support</a>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
 <section id="product-block-center">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Get your Dependecy Check for SonarCloud right now!</h2><br><br>
+          <h2>Get your Dependency Check for SonarCloud right now!</h2><br><br>
         </div>
       </div>
     </div>
@@ -88,7 +239,7 @@ trial:
             </ul>
           </div>
           <div>
-            <a class="btn btn-default fancybox price-button" href="" style="text-transform: uppercase;">Download and Try</a>
+            <a class="btn btn-default fancybox price-button" href="/sonarcloud-dependency-check-trial-form.html" style="text-transform: uppercase;">Download and Try</a>
           </div>
         </div>
       </div>
@@ -100,7 +251,7 @@ trial:
             <h3 style="color:#000; text-transform: uppercase;">Buy License</h3>
             <p class="desc"></p>
             <p class="price">
-              <span class="number">XXX €/year</span>
+              <span class="number">450 €/year</span>
             </p>
           </div>
           <div class="features">
@@ -117,7 +268,7 @@ trial:
             <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">Payment method</p>
             <p>
             <a class="btn btn-primary fancybox" referrerpolicy="unsafe-url"
-               href="" target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
+               href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-dependency-check-for-sonarcloud&platform=sonarcloud" target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
                </p>
                <p>
                <a href="/bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 60px;">BANK TRANSFER</a>
