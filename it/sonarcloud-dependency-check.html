@@ -1,0 +1,281 @@
+---
+layout: page_it
+title: bitegarden Dependency Check for SonarCloud
+description: Questo prodotto ti permetterà di importare le informazioni del tuo Dependecy Check nella tua istanza SonarCloud
+permalink: /it/sonarcloud-dependency-check
+trial: /it/sonarcloud-dependency-check-trial-form
+---
+
+<section id="global-header-product">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Dependency Check for SonarCloud</h1>
+          <p>Sincronizza le informazioni Dependency Check con il tuo SonarCloud</p>
+          <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROVA GRATUITA</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">ACQUISTA ORA</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="main-feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h3>Sincronizza le informazioni Dependency Check con il tuo SonarCloud</h3>
+            <hr>
+            <p>Vuoi importare informazioni utili da Dependency Check nella tua istanza SonarCloud?</p> 
+          </div>
+          <p><strong>bitegarden Dependency Check for SonarCloud</strong> è quello di cui hai bisogno.
+            <br>
+            <br>
+            Grazie a questo prodotto bitegarden potrai convertire le informazioni registrate in DC e importarle nella tua istanza di SonarCloud.
+            <br>
+            <br> 
+            Ora è possibile avere le informazioni complete di analisi del codice in un unico luogo, centralizzare le informazioni e sarà più facile sviluppare codice di qualità e sicuro. </p>
+
+          <p class="center-text">
+            <br>
+            <a class="btn btn-default btn-call-to-action fancybox" href="/it/sonarcloud-dependency-check-trial-form.html">PROVA</a>
+            <a class="btn btn-primary btn-call-to-action fancybox" referrerpolicy="unsafe-url"
+               href="/it/sonarcloud-dependency-check-trial-form.html">ACQUISTA ORA</a>
+          </p>
+
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img width="100%" src="/img/sonarcloud-dependency-check/sonarcloud-dependency-check-logo.png" alt="Dependecy Check for SonarCloud"/>
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Funzionalità</h3>
+            <hr>
+          </div>
+          Attualmente SonarCloud non supporta la soluzione <strong>Dependency Check</strong>. 
+          Quindi, se vuoi usarlo, l'unica opzione è utilizzare SonarQube.
+          <br>
+          <br>
+          Tuttavia, grazie al nostro prodotto <strong>bitegarden Dependency Check for SonarCloud</strong> 
+          Puoi utilizzarlo nella tua istanza di SonarCloud. Tutto quello che devi fare è: 
+          <br>
+          <br>
+          - <strong>Analizza i tuoi progetti con Dependecy Check</strong> come hai sempre fatto. <br><br>
+
+          - Utilizza il nostro prodotto per <strong>convertire il file</strong> che genera il Dependency Check (JSON o XML) nel formato 
+          che richiede SonarCloud.<br><br>
+          
+          - <strong>Importa in SonarCloud</strong> e visualizza le vulnerabilità senza lasciare l'istanza. <br><br>
+          
+          Ecco la documentazione che spiega come importare le vulnerabilità nella scansione di SonarCloud, incluso il file 
+          generato utilizzando il parametro <strong>sonar.externalIssuesReportPaths</strong>.
+          <br>
+          <br>
+          <a href="https://docs.sonarsource.com/sonarcloud/enriching/generic-issue-data/#import">Accedi alla documentazione qui.</a> 
+          <br>
+          <br>
+
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <img width="100%" src="/img/sonarcloud-dependency-check/sonarcloud-dependency-check-trial-issues.png" alt="Issues SonarCloud" />
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<section id="usage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Primi passi</h3>
+            <hr>
+          </div>
+          <p>
+            <strong>bitegarden Dependecy Check for SonarCloud&trade;</strong> richiede Java 8 o superiore.
+          </p>
+          <br/>
+          <h4>Guida rapida: genera un file con le vulnerabilità di un report Dependency Check per il tuo progetto SonarCloud&trade;</h4>
+          <br/>
+          <p>
+            Una volta che hai <a href="/it/sonarcloud-dependency-check-trial-form">scaricato</a> il prodotto avrà un file "jar" auto eseguibile.
+          </p>
+          <p>
+          Basta inserirlo nel file system ed eseguire il jar con l'opzione "--help" per vedere tutte le opzioni disponibili:
+          <pre>java -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+          Il risultato dovrebbe mostrarti tutte le opzioni disponibili:
+          </p>
+          <p>
+          <pre>...
+
+bitegarden Dependency Check for SonarCloud (1.0). Copyright (C) 2024 bitegarden. All rights reserved. www.bitegarden.com
+ 
+Loading properties from command line (-Dname=value)... if found, it will override configuration file properties
+No configuration found.
+bitegarden Dependency Check for SonarCloud. Command Line usage:
+
+java -Dconfig.file=PATH_TO_CONFIG_FILE -Dlicense.file=PATH_TO_LICENSE_FILE ... -jar bitegarden-dependency-check-for-sonarcloud-1.0.jar
+
+  config.file = path to properties file including all the parameters required to generate the reports. 
+                This is optional. You can set all the properties through command line args using -DpropertyName=propertyValue
+                Note that if you use a config file and command line arguments, arguments will override config file
+ 
+  license.file = path to file with your license key provided by bitegarden.
+                  By default a 14 days trial version will be used if license file is not provided
+
+Mandatory properties:
+
+        dependency.check.file = path to Dependency-Check file. Compatible formats (JSON and XML)
+        sonar.organizationKey = your organization key used to create license.
+         
+Optional properties:
+
+        vulnerabilities.file.path = path to project file to add new vulnerabilities in SonarCloud
+        output = File name for the generated report (Without .json extension)
+...</pre></p>
+          <p>
+            Tutte le proprietà possono essere fornite tramite la riga di comando come argomenti di sistema usando "-D" o tramite un file
+            di configurazione personalizzata.
+          </p>
+          <p>
+            Se si utilizza un file di configurazione personalizzato, è necessario eseguire l'applicazione con l'argomento "-Dconfig.file" fornendo il percorso del file
+            di proprietà con la configurazione:
+            <pre>java <strong> -Dconfig.file=config.properties </strong> -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+            Se preferisci puoi passare tutte le opzioni tramite la riga di comando con "-D":
+            <pre>java <strong> -Ddependency.check.file=vulnerabilities.json</strong> -Dsonar.organitzationKey=bitegarden -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+          </p>
+          <p>
+            Se un'opzione è definita in entrambi i siti (un file di configurazione e un argomento per riga di comando) verrà utilizzato il valore fornito nella riga di comando. 
+            In questo modo puoi avere un file di configurazione comune con le proprietà condivise (come sonar.organizationKey) e poi semplicemente usare gli argomenti 
+            per le opzioni specifiche come ad esempio "dependency.check.file".
+          </p>
+        </div>
+        <div>
+          <h3>Utilizzando la chiave di licenza</h3>
+          <hr>
+        </div>
+        <p>
+          Per impostazione predefinita, quando scarichi il prodotto puoi utilizzarlo per 14 giorni in modalità di valutazione. 
+          Al termine della valutazione, dovrai acquistare il prodotto e ottenere una chiave di licenza valida.
+          La chiave di licenza è fornita in un file di testo. Per usare questo file di licenza devi impostare 
+          la proprietà "license.file" con il percorso al file di licenza nel file di configurazione (o tramite un argomento per riga di comando).
+          
+          La licenza è legata alla chiave della tua organizzazione.
+
+          Ecco un esempio per generare un report utilizzando una licenza di prodotto tramite un argomento per riga di comando:
+          
+          <pre>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE -jar bitegarden-dependency-check-for-sonarcloud.jar --help</pre>
+        </p>
+        <div>
+          <div>
+          <h3>Supporto e risoluzione dei problemi</h3>
+          <hr>
+        </div>
+        <p>
+          In caso di problemi, si prega di creare una richiesta di supporto nel nostro
+          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">centro di supporto</a> e
+          Saremo felici di aiutarti a trovare una soluzione.
+        </p>
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Sollecita Supporto</a>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="product-block-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Scaria Dependecy Check for SonarCloud ahora!</h2><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox ">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">POVA GRATUIRA</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">Licenza di prova</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Licenza di prova di 14 giorni</li>
+              <li class="even">Dopo aver compilato il modulo potrai scaricare il file che include la licenza di prova</li>
+            </ul>
+          </div>
+          <div>
+            <a class="btn btn-default fancybox price-button" href="/it/sonarcloud-dependency-check-trial-form.html" style="text-transform: uppercase;">PROVA GRATUITA</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox featured">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">Acquistare licenza</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">450 €/year</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Per istanza di SonarQube™</li>
+              <li class="even">Include aggiornamenti e supporto tecnico.</li>
+              <li class="">Comprando il plugin accetti
+                <a href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">termini e condizione</a>.
+              </li>
+              <li class="even">Assicurati di inserire la tua email correttamente per ricevere la licenza</li>
+            </ul>
+          </div>
+          <div id="payment-options">
+            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">METODO DI PAGAMENTO</p>
+            <p>
+              <a class="btn btn-primary fancybox" referrerpolicy="unsafe-url"
+              href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-dependency-check-for-sonarcloud&platform=sonarcloud" target="_blank" style="padding:10px 30px;">CARTA DI CREDITO / PAYPAL</a>
+              </p>
+              <p>
+              <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 40px;">BONIFICO BANCARIO</a>
+             </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+
+</section>

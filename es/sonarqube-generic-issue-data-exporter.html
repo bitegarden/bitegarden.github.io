@@ -1,0 +1,194 @@
+---
+layout: page_es
+title: Generic Issue Data Exporter for SonarQube
+description: Utiliza las reglas personalizadas de SonarQube en tu instancia de SonarCloud
+permalink: /es/sonarqube-generic-issue-data-exporter
+trial: /es/sonarqube-generic-issue-data-exporter-trial-form
+---
+
+<section id="global-header-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                  <h1>Generic Issue Data Exporter for SonarQube&trade;</h1>
+                  <p>Usa las reglas personalizadas de SonarQube en tu instancia de SonarCloud</p>
+                  <br/>
+                  <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">PROBAR</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title" id="portfolio-generic-issue">
+            <h3>Analiza tus proyectos en SonarCloud con las reglas de SonarQube</h3>
+            <hr>
+            <p>
+              ¿Quieres aumentar la calidad y seguridad de tu código? ¿Te gustaría utilizar las reglas de SonarQube
+              para analizar tus proyectos de SonarCloud? Ahora ya lo podrás hacer gracias a nuestro producto bitegarden 
+              Generic Issue Data Exporter for SonarQube.</p>
+            </div>
+            <p>Este producto te permitirá aprovechar las <strong>reglas personalizadas de SonarQube en tu instancia de SonarCloud</strong>.
+              De esta forma podrás aprovechar el potencial de SonarQube en tu instancia de SonarCloud.</p>
+
+            <p>Si eres usuario de SonarCloud pero quieres aumentar el número de reglas personalizadas para analizar tus proyectos
+            con este producto podrás importar fácilmente la información que te ofrece SonarQube a tu instancia de SonarCloud. 
+            De esta forma, podrás <strong>consultar el análisis realizado por las reglas de SonarQube</strong> sin salir de tu instancia de SonarCloud.</p> 
+
+          <p class="center-text">
+            <a class="btn btn-default btn-call-to-action fancybox" href="/es/sonarqube-generic-issue-data-exporter-trial-form.html">PRUEBA GRATUITA</a>
+            <a referrerpolicy="unsafe-url" class="btn btn-primary btn-call-to-action fancybox" href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-generic-issue-data-exporter-for-sonarqube&platform=sonarqube">COMPRAR AHORA</a>
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block center-text">
+          <br><br><br>
+        </div>
+        <div class="block center-text">
+          <img src="/img/sonarqube-generic-issue/sonarqube-generic-issue-scheme.png" alt="Generic Issue Data Exporter for SonarQube">
+        </div>
+        <div class="block center-text">
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="usage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+          <div>
+            <h3>Primeros pasos</h3>
+            <hr>
+          </div>
+          <p>
+            <strong>bitegarden Generic Issue Data Exporter for SonarQube&trade;</strong> requiere Java 8 o superior.
+          </p>
+          <p>
+            Si utilizas un fichero de configuración personalizado deberás ejecutar la aplicación con el argumento "-Dconfig.file" proporcionando la ruta a tu fichero
+            de propiedades con la configuración:
+            <pre>java <strong> -Dconfig.file=config.properties</strong> -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
+          </p>
+          <p>
+            Si una opción está definida en ambos sitios (un fichero de configuración y un argumento por línea de comandos) se usará el valor proporcionado en la línea de comandos. 
+            De esta forma puedes tener un fichero de configuración común con las propiedades compartidas (como por ejemplo sonar.organizationKey) y después simplemente usar los argumentos 
+            para las opciones concretas como es “dependency.check.file”, por ejemplo.
+          </p>
+        </div>
+        <div>
+          <h3>Usando clave de licencia</h3>
+          <hr>
+        </div>
+        <p>
+          Por defecto cuando descargas el producto podrás utilizar durante 14 días en modo evaluación. 
+          Una vez que la evaluación haya terminado, necesitarás adquirir el producto y obtener un clave de licencia válida.
+          La clave de licencia se proporciona en un fichero de texto. Para usar este fichero de licencia debes establecer 
+          la propiedad “license.file” con la ruta hasta el fichero de licencia en tu fichero de configuración (o a través de un argumento por línea de comandos).
+          
+          La licencia está ligada a la clave de tu organización.
+
+          Aquí tienes un ejemplo para generar un informe usando una licencia del producto a través de un argumento por línea de comandos:
+          
+          <pre><strong>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
+        </p>
+        <div>
+          <div>
+          <h3>Soporte y resolución de problemas</h3>
+          <hr>
+        </div>
+        <p>
+          Si tienes algún problema por favor crea una petición de soporte en nuestro
+          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">centro de soporte</a> y
+          estaremos encantados de ayudarte a encontrar una solución.
+        </p>
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Solicita Soporte</a>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 40px 0"></div>
+
+<section id="product-block-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>¡Obtén el potencial de SonarQube en tu instancia de SonarCloud  ya!</h2><br><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox ">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">Pruébalo</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">Licencia de evaluación</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Licencia de evaluación de 14 días</li>
+              <li class="even">Tras completar el formulario descargarás el fichero que incluye la clave de evaluación</li>
+              <li class="">Usando este formulario descargarás la versión compatible con la LTS, visita
+                <a href="/es/downloads">descargas</a> para otras versiones
+              </li>
+            </ul>
+          </div>
+           <a class="btn btn-default fancybox price-button" href="/es/sonarqube-generic-issue-data-exporter-trial-form.html" style="text-transform: uppercase;">Pruébalo Gratis</a>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3" style="width: 34%!important;">
+        <div class="mod modPriceBox featured">
+          <div class="info" style="padding-top: 30px">
+            <h3 style="color:#000; text-transform: uppercase;">Comprar</h3>
+            <p class="desc"></p>
+            <p class="price">
+              <span class="number">250 €/año</span>
+            </p>
+          </div>
+          <div class="features">
+            <ul>
+              <li class="">Por instancia de SonarQube&trade;</li>
+              <li class="even">Incluye actualizaciones y soporte</li>
+              <li class="">Al comprar el plugin aceptas los <a
+                      href="{{ site.baseurl }}/pdf/bitegarden-terms-and-conditions.pdf">términos y condiciones</a></li>
+              <li class="even">No te olvides de incluir tu email. Enviaremos la licencia a esa dirección de correo</li>
+            </ul>
+          </div>
+          <div id="payment-options">
+            <p style="color:#000;text-transform: uppercase;font-size:16px;font-weight: bold;">MÉTODO DE PAGO</p>
+            <p>
+            <a class="btn btn-primary fancybox" referrerpolicy="unsafe-url"
+               href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-generic-issue-data-exporter-for-sonarqube&platform=sonarqube"  target="_blank" style="padding:10px 30px;">CREDIT CARD OR PAYPAL</a>
+               </p>
+               <p>
+               <a href="bank-transfer-request" class="btn btn-primary fancybox" style="padding:10px 22px;">TRANSFERENCIA BANCARIA</a>
+             </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+</section>
+
