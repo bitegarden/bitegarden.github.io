@@ -33,6 +33,10 @@ In questa versione, è stato incluso un endpoint che permette di notificare gli 
 
 È stata implementata una piccola patch per risolvere il problema della sovrapposizione delle email tra diversi progetti quando c'erano più di un worker configurato nel compute engine. Questo miglioramento garantisce che le notifiche vengano inviate correttamente senza mescolare i destinatari tra diversi progetti.
 
+#### Avviso
+
+Pertanto, dato che abbiamo un endpoint per questo, la funzionalità precedente è stata contrassegnata come “deprecata” per mantenere solo il nuovo endpoint. Verrà rimossa nelle versioni future.
+
 <br />
 
 ## Scarica la nuova versione

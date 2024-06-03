@@ -30,6 +30,10 @@ En esta versión, se ha incluido un endpoint que permite notificar a los usuario
 
 <img src="/img/sonarqube-report/bitegarden-report-sonarqube-email-endpoint.png" width="100%" alt="endpoint">
 
+#### Advertencia
+
+Por tanto, al tener un endpoint para ello, se ha marcado como "deprecated" la funcionalidad anterior para solo quedarnos con el nuevo endpoint. Se eliminará en siguientes versiones. 
+
 ## Parche Aplicado
 
 Se ha implementado un pequeño parche para resolver el problema de cruce de correos entre diferentes proyectos cuando existían más de un worker configurado en el compute engine. Esta mejora asegura que las notificaciones se envíen correctamente sin mezclar destinatarios entre proyectos distintos.

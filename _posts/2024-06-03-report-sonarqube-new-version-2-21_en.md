@@ -33,6 +33,9 @@ In this version, an endpoint has been included that allows notifying the desired
 
 A small patch has been implemented to resolve the issue of email crossovers between different projects when there were more than one worker configured in the compute engine. This improvement ensures that notifications are sent correctly without mixing recipients between different projects.
 
+#### Advice
+
+Therefore, as we have an endpoint for this, the previous functionality has been marked as ‘deprecated’ in order to keep only the new endpoint. It will be removed in future versions.
 <br />
 
 ### Download the latest version
