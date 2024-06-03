@@ -7,7 +7,7 @@ permalink: report-sonarqube-new-version-2-21
 spanish: report-sonarqube-nueva-version-2-21
 italian: report-sonarqube-nuova-versione-2-21
 
-cover: /img/posts/2024-04-26-bitegarden-report-new-version-2-21_ENG.png
+cover: /img/posts/2024-06-03-bitegarden-report-new-version-2-21_ENG.png
 ---
 
 We have a new version of the [Report Plugin for SonarQube](/sonarqube-report). This is **version 2.21** which brings several new features!
