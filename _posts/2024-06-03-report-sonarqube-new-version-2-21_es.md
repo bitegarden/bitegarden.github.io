@@ -10,9 +10,7 @@ italian: report-sonarqube-nuova-versione-2-21
 cover: /img/posts/2024-06-03-bitegarden-report-new-version-2-21_ES.png
 ---
 
-Tenemos nueva versión del [Report Plugin for SonarQube](/sonarqube-report). Se trata de la **versión 2.21** que trae varias novedades!
-
-Esta versión añade algunos campos nuevos a los reportes, como nos habiais pedido. A partir de ahora, se podrá ver: 
+Tenemos nueva versión del [Report Plugin for SonarQube](/sonarqube-report). Se trata de la **versión 2.21** que trae varias novedades! Esta versión añade algunos campos nuevos a los reportes, como nos habiais pedido. A partir de ahora, se podrá ver: 
 
 - **Líneas de código**: Ahora se puede visualizar el número total de líneas de código analizadas.
 - **Fecha de descarga**: Se ha añadido la fecha en que se descargó el reporte.
@@ -20,9 +18,17 @@ Esta versión añade algunos campos nuevos a los reportes, como nos habiais pedi
 
 <br/>
 
+Puedes ver este lanzamiento en nuestro tutorial: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WZyxHv-Z6tM?si=Dxvwg6NZ7lE2awAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br/>
+
 ## Mejora en la Notificación de Correos
 
 Anteriormente, el plugin permitía configurar una lista de correos para que fueran notificados después de cada análisis. Sin embargo, esto estaba generando problemas para algunos clientes y afectaba los tiempos del análisis al darle más trabajo al compute engine.
+
+<br/>
 
 #### Solución Implementada
 
@@ -30,15 +36,21 @@ En esta versión, se ha incluido un endpoint que permite notificar a los usuario
 
 <img src="/img/sonarqube-report/bitegarden-report-sonarqube-email-endpoint.png" width="100%" alt="endpoint">
 
+<br/>
+
 #### Advertencia
 
 Por tanto, al tener un endpoint para ello, se ha marcado como "deprecated" la funcionalidad anterior para solo quedarnos con el nuevo endpoint. Se eliminará en siguientes versiones. 
+
+<br/>
 
 ## Parche Aplicado
 
 Se ha implementado un pequeño parche para resolver el problema de cruce de correos entre diferentes proyectos cuando existían más de un worker configurado en el compute engine. Esta mejora asegura que las notificaciones se envíen correctamente sin mezclar destinatarios entre proyectos distintos.
 
 <br />
+
+<br/>
 
 ## Descarga la nueva versión
 

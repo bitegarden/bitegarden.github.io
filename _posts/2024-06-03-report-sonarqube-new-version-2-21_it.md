@@ -19,6 +19,12 @@ Questa versione aggiunge alcuni nuovi campi ai report, come richiesto. D'ora in 
 
 <br/>
 
+Puoi vedere questa versione nel nostro tutorial: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WZyxHv-Z6tM?si=Dxvwg6NZ7lE2awAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br/>
+
 ## Miglioramento nelle Notifiche Email
 
 In precedenza, il plugin permetteva di configurare una lista di email da notificare dopo ogni analisi. Tuttavia, questo stava causando problemi per alcuni clienti e influenzava i tempi di analisi aggiungendo più lavoro al compute engine.

@@ -19,9 +19,15 @@ This version adds some new fields to the reports, as you requested. From now on,
 
 <br/>
 
+You can see this release in our tutorial: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WZyxHv-Z6tM?si=Dxvwg6NZ7lE2awAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Improvement in Email Notifications
 
 Previously, the plugin allowed configuring a list of emails to be notified after each analysis. However, this was causing issues for some clients and affecting the analysis times by adding more work to the compute engine.
+
+<br/>
 
 #### Implemented Solution
 
@@ -29,10 +35,13 @@ In this version, an endpoint has been included that allows notifying the desired
 
 <img src="/img/sonarqube-report/bitegarden-report-sonarqube-email-endpoint.png" width="100%" alt="endpoint">
 
+<br/>
+
 ## Applied Patch
 
 A small patch has been implemented to resolve the issue of email crossovers between different projects when there were more than one worker configured in the compute engine. This improvement ensures that notifications are sent correctly without mixing recipients between different projects.
 
+<br/>
 #### Advice
 
 Therefore, as we have an endpoint for this, the previous functionality has been marked as ‘deprecated’ in order to keep only the new endpoint. It will be removed in future versions.
@@ -42,6 +51,7 @@ Therefore, as we have an endpoint for this, the previous functionality has been 
 The Report for SonarQube Plugin is now available for download via the [Universal Plugin Manager](/sonarqube-upm) or from the [product download](/sonarqube-report-trial-form) page.
 
 Remember, if you don’t already have this plugin you can **download it and try it for free**. 
+<br>
 <br>
 
 <a href = "/sonarqube-report#product-block-center" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text -transform : uppercase; "> Start your free trial > </a>
