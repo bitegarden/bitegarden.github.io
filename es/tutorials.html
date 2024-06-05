@@ -75,6 +75,57 @@ permalink: /es/tutorials/
   </div>
 </section>
 
+<style>
+  .custom-container {
+      background-color: #1EAA5D;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      max-width: 800px;
+      margin: 20px auto;
+      display: flex;
+      align-items: center;
+  }
+  .custom-container h1, .custom-container p {
+      color: white;
+  }
+  .video-container {
+      flex: 1;
+  }
+  .text-container {
+      flex: 1;
+      padding-left: 20px;
+  }
+  @media (max-width: 768px) {
+      .custom-container {
+          flex-direction: column;
+          text-align: center;
+      }
+      .text-container {
+          padding-left: 0;
+          padding-top: 20px;
+      }
+  }
+</style>
+
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="col-md-12">
+          <div class="custom-container">
+              <div class="video-container">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WZyxHv-Z6tM?si=p0Cn843naWQ5G8Zb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+              </div>
+              <div class="text-container">
+                  <h1>Report Plugin for SonarQube 2.21</h1>
+                  <p class="mt-3">Último lanzamiento! Añadimos la información de total de líneas de código, fecha de descarga y la versión de SonarQube utilizada al informe en PDF.  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 <section id="portfolio-work">
   <div class="container">
     <div class="row">
@@ -108,14 +159,14 @@ permalink: /es/tutorials/
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-            <h2>Security Report SonarCloud 1.14</h2>
+            <h2>Overview Report for SonarQube 2.5</h2>
             <br>
-            <iframe width="500" height="255" src="https://www.youtube.com/embed/HvR28epSjAc?si=hymhraWLZu5-cYU6" title="Security Report for SonarCloud 1.14" 
+            <iframe width="500" height="255" src="https://www.youtube.com/embed/hIqCQ68tYW0?si=vfELZOS0LBkvbPNL" title="Overview Report for SonarQube" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Más posibilidades de personalización. Ya puedes añadir dos nuevos campos en tus reportes.</p> 
+            <p>Ahora podrás generar y descargar un informe en PDF desde las páginas de grupos y etiquetas.</p> 
             </p> 
         </div>
-      </div><!-- .col-md-6 close -->
+      </div>
 
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -124,24 +175,6 @@ permalink: /es/tutorials/
             <iframe width="500" height="255" src="https://www.youtube.com/embed/Hh8z8Jfdxtw?si=t9IGovxv8tdzB-V9" title="Security Plugin for SonarQube 2.19" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>Ahora se muestran los CWE 'Not supported' y 'Passed' como desglose.</p> 
-        </div>
-      </div><!-- .col-md-6 close -->
-      
-    </div>
-  </div>
-</section>
-
-<section id="portfolio-work">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-            <h2>Overview Report for SonarQube 2.5</h2>
-            <br>
-            <iframe width="500" height="255" src="https://www.youtube.com/embed/hIqCQ68tYW0?si=vfELZOS0LBkvbPNL" title="Overview Report for SonarQube" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Ahora podrás generar y descargar un informe en PDF desde las páginas de grupos y etiquetas.</p> 
-            </p> 
         </div>
       </div><!-- .col-md-6 close -->
       
