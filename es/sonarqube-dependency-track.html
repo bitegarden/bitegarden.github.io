@@ -27,10 +27,10 @@ trial: /es/sonarqube-dependency-track-trial-form
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title" id="portfolio-generic-issue">
-            <h3>Conoce el análisis de tu instancia de Dependency Track desde SonarQube</h3>
+            <h3>Conoce el análisis de vulnerabilidades de Dependency Track desde SonarQube</h3>
             <hr>
             <p>
-              ¿Quieres consultar el número de vulnerabilidades de tu código? ¿Te gustaría consultar la información de tu Dependency Track
+              ¿Quieres consultar el número de vulnerabilidades de tu código? ¿Te gustaría revisar la información de tu instancia de Dependency Track
               sin abandonar SonarQube? Ahora ya lo puedes hacer gracias a nuestro producto bitegarden 
               Dependency Track for SonarQube.</p>
             </div>
@@ -38,7 +38,9 @@ trial: /es/sonarqube-dependency-track-trial-form
              Para ello, hemos diseñado una tarjeta de vista que te resume el número de vulnerabilidades y los componentes de un proyecto en concreto, acompañados 
              de su 'Risk Socore' correspondiente. </p>
 
-            <p>Además, también encontrarás fácilmente el <strong>de vulnerabilidades, desglosado por el grado de gravedad y el tipo de vulnerabilidad</strong>.</p> 
+            <p>Además, también encontrarás fácilmente el listado <strong>de vulnerabilidades, desglosado por el grado de gravedad y el tipo de vulnerabilidad</strong>.</p> 
+
+            <p>¿Quieres ver cómo funciona este producto?. ¡Descargalo aquí!</p>
 
           <p class="center-text">
             <a class="btn btn-default btn-call-to-action fancybox" href="/es/sonarqube-dependency-track-trial-form.html">PRUEBA GRATUITA</a>
@@ -49,71 +51,18 @@ trial: /es/sonarqube-dependency-track-trial-form
       <div class="col-md-6 col-sm-12">
         <div class="block center-text">
           <br><br><br>
+          <br><br><br>
         </div>
         <div class="block center-text">
           <img src="/img/sonarqube-dependency-track/dependency-track-sonarqube-project.png" alt="Dependency Track for SonarQube">
         </div>
+        <br><br><br>
         <br><br><br>
         <div class="block center-text">
           <img src="/img/sonarqube-dependency-track/dependency-track-sonarqube-issues.png" alt="Dependency Track for SonarQube">
         </div>
         <div class="block center-text">
         </div>
-      </div><!-- .col-md-6 close -->
-    </div>
-  </div>
-</section>
-
-<section id="usage">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="block">
-          <div>
-            <h3>Primeros pasos</h3>
-            <hr>
-          </div>
-          <p>
-            <strong>bitegarden Dependency Track for SonarQube&trade;</strong> requiere Java 8 o superior.
-          </p>
-          <p>
-            Si utilizas un fichero de configuración personalizado deberás ejecutar la aplicación con el argumento "-Dconfig.file" proporcionando la ruta a tu fichero
-            de propiedades con la configuración:
-            <pre>java <strong> -Dconfig.file=config.properties</strong> -jar bitegarden-dependency-track-sonarqube.jar --help</pre>
-          </p>
-          <p>
-            Si una opción está definida en ambos sitios (un fichero de configuración y un argumento por línea de comandos) se usará el valor proporcionado en la línea de comandos. 
-            De esta forma puedes tener un fichero de configuración común con las propiedades compartidas (como por ejemplo sonar.organizationKey) y después simplemente usar los argumentos 
-            para las opciones concretas como es “dependency.check.file”, por ejemplo.
-          </p>
-        </div>
-        <div>
-          <h3>Usando clave de licencia</h3>
-          <hr>
-        </div>
-        <p>
-          Por defecto cuando descargas el producto podrás utilizar durante 14 días en modo evaluación. 
-          Una vez que la evaluación haya terminado, necesitarás adquirir el producto y obtener un clave de licencia válida.
-          La clave de licencia se proporciona en un fichero de texto. Para usar este fichero de licencia debes establecer 
-          la propiedad “license.file” con la ruta hasta el fichero de licencia en tu fichero de configuración (o a través de un argumento por línea de comandos).
-          
-          La licencia está ligada a la clave de tu organización.
-
-          Aquí tienes un ejemplo para generar un informe usando una licencia del producto a través de un argumento por línea de comandos:
-          
-          <pre><strong>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-dependency-track-sonarqube.jar --help</pre>
-        </p>
-        <div>
-          <div>
-          <h3>Soporte y resolución de problemas</h3>
-          <hr>
-        </div>
-        <p>
-          Si tienes algún problema por favor crea una petición de soporte en nuestro
-          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">centro de soporte</a> y
-          estaremos encantados de ayudarte a encontrar una solución.
-        </p>
-        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Solicita Soporte</a>
       </div><!-- .col-md-6 close -->
     </div>
   </div>

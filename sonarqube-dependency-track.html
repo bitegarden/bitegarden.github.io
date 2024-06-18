@@ -27,10 +27,10 @@ trial: /sonarqube-dependency-track-trial-form
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title" id="portfolio-code-quality-overview">
-            <h3>Know the analysis of your Dependency Track instance from SonarQube</h3>
+            <h3>Learn about Dependency Track vulnerability analysis from SonarQube</h3>
             <hr>
             <p>
-              Do you want to check the number of vulnerabilities in your code? Would you like to check your Dependency Track information
+              Want to check the number of vulnerabilities in your code? Would you like to review your Dependency Track instance information
               without leaving SonarQube? Now you can do it thanks to our bitegarden product 
               Dependency Track for SonarQube.</p>
             </div>
@@ -38,7 +38,9 @@ trial: /sonarqube-dependency-track-trial-form
              To do this, we have designed a view card that summarizes the number of vulnerabilities and components of a particular project, accompanied by 
              of its corresponding 'Risk Socore'. </p>
 
-            <p>In addition, you will also easily find the <strong>vulnerability, broken down by severity and vulnerability type</strong>. </p> 
+            <p>In addition, you will also easily find the <strong>list of vulnerabilities, broken down by severity and vulnerability type</strong>. </p> 
+
+            <p>Want to see how this product works?. Download it here! </p>
 
 
             <p class="center-text">
@@ -50,10 +52,12 @@ trial: /sonarqube-dependency-track-trial-form
         <div class="col-md-6 col-sm-12">
           <div class="block center-text">
             <br><br><br>
+            <br><br><br>
           </div>
           <div class="block center-text">
             <img src="/img/sonarqube-dependency-track/dependency-track-sonarqube-project.png" alt="Dependency Track for SonarQube">
           </div>
+          <br><br><br>
           <br><br><br>
           <div class="block center-text">
             <img src="/img/sonarqube-dependency-track/dependency-track-sonarqube-issues.png" alt="Dependency Track for SonarQube">
@@ -64,59 +68,6 @@ trial: /sonarqube-dependency-track-trial-form
       </div>
     </div>
   </section>
-
-<section id="usage">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="block">
-          <div>
-            <h3>Getting Started</h3>
-            <hr>
-          </div>
-          <p>
-            <strong>bitegarden Dependency Track for SonarQube&trade;</strong> requires Java 8 to run. </p>
-          <p>
-            If you use a custom properties file you should run the application with the "config.file" parameter and provide the path to the properties file:
-
-            <pre>java<strong> -Dconfig.file=config.properties</strong> -jar bitegarden-dependency-track-for-sonarqube.jar --help</pre>
-          </p>
-          <p>
-            If a property is defined in both locations (file and command line args) the command line property will override the property in the file. 
-            This way you can have a generic configuration file with the common properties (sonar.token, sonar.organizationKey, report.type, ...) 
-            and then use command line args for specific properties like sonar.projectKey or sonar.branch.
-          </p>
-        </div>
-        <div>
-          <h3>Using a license key</h3>
-          <hr>
-        </div>
-        <p>
-          By default when you download the product you will be able to use it during 14 days. Once your evaluation is finished, you will need to purchase the product and get a valid license key.
-
-          The license key will be provided as a text file. In order to use this license file you must set the property "license.file" in your configuration file (or through command line args) with the path of your license file.
-          
-          This is a sample running a licensed product using a command line argument:
-          
-          <pre><strong>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-dependency-track-for-sonarqube.jar --help</pre>
-        </p>
-
-        <p>It is up to you to include the "license.file" property in your configuration file or use it as a command line argument with "-D".</p>
-        <div>
-          <div>
-          <h3>Troubleshooting and Support</h3>
-          <hr>
-        </div>
-        <p>
-          If you have any problems please create a support request on our
-          <a target="_blank" href="https:///bitegarden.atlassian.net/servicedesk/customer/portal/1">support centre</a> and
-          We will be happy to help you find a solution.
-        </p>
-        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Requests support</a>
-      </div><!-- .col-md-6 close -->
-    </div>
-  </div>
-</section>
 
 <div style="padding: 40px 0"></div>
  
