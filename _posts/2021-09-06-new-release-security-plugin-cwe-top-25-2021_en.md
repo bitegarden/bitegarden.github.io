@@ -11,7 +11,7 @@ cover: /img/thumbs/2021-09-06-new-release-security-plugin-cwe-top-25-2021-thumb.
 ---
 We have published version 2.6 of the [Security Plugin for SonarQube](sonarqube-security) that allows to know the fulfillment of the security standards (OWASP, CWE/SANS).
 
-The plugin incorporates for the first time the ability to download a PDF report of **compliance with the CWE Top 25 standard**, something that could be done before for the OWASP standard and that you have sued us in many cases. We have also updated the <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html" target=_blank> **CWE Top 25 standard to version 2021**</a> that has been published during the month of July 2021.
+The plugin incorporates for the first time the ability to download a PDF report of **compliance with the CWE Top 25 standard**, something that could be done before for the OWASP standard and that you have sued us in many cases. We have also updated the <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25" target=_blank> **CWE Top 25 standard to version 2021**</a> that has been published during the month of July 2021.
 
 Internal changes are also included to improve dependencies. 
 
