@@ -13,7 +13,7 @@ E' stata appena pubblicata la versione 2.6 del [Security Plugin for SonarQube](i
 
 Il plugin incorpora per la prima volta la possibilità di scaricare un rapporto PDF di **conformità allo standard CWE Top 25**, cosa che si poteva fare prima per lo standard OWASP e che ci avete richiesto in molti.
 
-Abbiamo anche aggiornato lo <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html" target=_blank> **CWE Top 25 standard alla versione 2021**</a> che è stata pubblicata nel luglio del 2021.
+Abbiamo anche aggiornato lo <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25" target=_blank> **CWE Top 25 standard alla versione 2021**</a> che è stata pubblicata nel luglio del 2021.
 
 Sono incluse anche modifiche interne per migliorare le dipendenze.
 
