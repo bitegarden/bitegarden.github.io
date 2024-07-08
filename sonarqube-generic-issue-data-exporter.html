@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Generic Issue Data Exporter for SonarQube
-description: Provides a big picture of your SonarQube instance with all the aggregated measures in a single view
+description: Export your SonarQube issues so that they can be easily imported into SonarCloud as external issues
 permalink: /sonarqube-generic-issue-data-exporter
 trial: /sonarqube-generic-issue-data-exporter-trial-form
 ---
 
-<section id="global-header-product">
+<section id="global-header-product" xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
                   <h1>Generic Issue Data Exporter for SonarQube&trade;</h1>
-                  <p>Use SonarQube custom rules in your SonarCloud instance</p>
+                  <p>Export your SonarQube&trade; issues in generic issue data format</p>
                   <br/>
                   <a class="btn btn-default fancybox price-button" href="#product-block-center" style="padding:10px 30px">TRY NOW</a>&nbsp;&nbsp;&nbsp; <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">BUY NOW</a>
                 </div>
@@ -26,90 +26,188 @@ trial: /sonarqube-generic-issue-data-exporter-trial-form
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <div class="section-title" id="portfolio-code-quality-overview">
-            <h3>Analyze your projects in SonarCloud with SonarQube rules</h3>
+          <div class="section-title" id="portfolio-generic-issue">
+            <h3>Export SonarQube&trade; findings</h3>
             <hr>
-            <p>
-              Want to increase the quality and security of your code? Would you like to use SonarQube rules
-              to analyze your SonarCloud projects? Now you can do it thanks to our bitegarden product 
-              Generic Issue Data Exporter for SonarQube.</p>
-            </div>
-            <p>This product will allow you to take advantage of SonarQube’s custom <strong>rules in your SonarCloud</strong>instance.
-              This way you can take advantage of the potential of SonarQube in your SonarCloud instance.</p>
+          </div>
+          <p>
+            When an analyzer is not officially supported in SonarQube&trade;, there is the possibility of importing the findings through a generic data format.
+          </p>
+          <p>
+            But what if you need to do the exact opposite?
+            What if you need to <strong>export already analyzed information</strong> from SonarQube&trade; with community plugins or because you have developed custom rules within the organization?
+          </p>
+          <p>
+            SonarCloud&trade; officially does not support custom rules nor does it officially allow third-party extensions that exist for SonarQube&trade;. What do we do if we want to take advantage of all the benefits of the cloud with SonarCloud&trade; without losing the additional capabilities of SonarQube&trade;?
+          </p>
+          <p>
+            <strong>Generic Issue Data Exporter</strong> allows you to export findings (<em>issues</em>) from a SonarQube&trade; instance in the generic data format, so that these data can later be imported into SonarCloud&trade; (or another SonarQube&trade; instance).
+          </p>
 
-            <p>If you are a SonarCloud user but want to increase the number of custom rules to analyze your projects
-            With this product you can easily import the information that SonarQube offers to your SonarCloud instance. 
-            In this way, you can <strong>consult the analysis made by SonarQube rules</strong> without leaving your SonarCloud instance.</p> 
-
-
-            <p class="center-text">
-              <a class="btn btn-default btn-call-to-action fancybox" href="/sonarqube-generic-issue-data-exporter-trial-form.html">TRY IT FREE</a>
-              <a referrerpolicy="unsafe-url" class="btn btn-primary btn-call-to-action fancybox" href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-generic-issue-data-exporter-for-sonarqube&platform=sonarqube">BUY NOW</a>
-            </p>
-          </div>
-        </div><!-- .col-md-6 close -->
-        <div class="col-md-6 col-sm-12">
-          <div class="block center-text">
-            <br><br><br>
-          </div>
-          <div class="block center-text">
-            <img src="/img/sonarqube-generic-issue/sonarqube-generic-issue-scheme.png" alt="Generic Issue Data Exporter for SonarQube">
-          </div>
-          <div class="block center-text">
-          </div>
-        </div><!-- .col-md-6 close -->
-      </div>
+          <p class="center-text">
+            <a class="btn btn-default btn-call-to-action fancybox" href="sonarqube-generic-issue-data-exporter-trial-form.html">TRY IT NOW</a>
+            <a referrerpolicy="unsafe-url" class="btn btn-primary btn-call-to-action fancybox" href="{{ site.paypal.backendUrl }}?pluginKey=bitegarden-generic-issue-data-exporter-for-sonarqube&platform=sonarqube">BUY NOW</a>
+          </p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block center-text">
+          <br><br><br>
+        </div>
+        <div class="block center-text">
+          <img src="/img/sonarqube-generic-issue/generic-issue-data-exporter-issues-on-sonarcloud.png" alt="Generic Issue Data Exporter for SonarQube">
+        </div>
+        <div class="block center-text">
+          <p class="center-text"><strong>Example of issues imported into SonarCloud&trade; from external engines</strong>&nbsp;&nbsp;<a href="https://sonarcloud.io/project/issues?resolved=false&id=external-analyzers-demo" target="_blank"><span class="ion-android-open"></span></a></p>
+        </div>
+      </div><!-- .col-md-6 close -->
     </div>
-  </section>
 
+    <div style="padding: 60px 0"></div>
+
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h3>Import results into SonarCloud&trade;</h3>
+            <hr>
+          </div>
+          <p>
+            This product will allow you to take advantage of the results of the analyses of <strong>third-party analyzer rules from SonarQube&trade;</strong> and <strong>custom rules from SonarQube&trade;</strong> and import them into your SonarCloud&trade; instance.
+          </p>
+          <p>
+            This way you can take advantage of existing capabilities in SonarQube&trade; and its extensions in the cloud, in your SonarCloud&trade; organization.
+          </p>
+          <p>
+            You will have all the detailed information about the rule in your analyzed project in SonarCloud&trade; just as you had it in SonarQube&trade;.
+          </p>
+          <p>
+            Remember that to import the issues you must use the following parameter in the analysis:
+          <pre>sonar.externalIssuesReportPaths</pre>
+          <p>
+          And configure it to read the file previously generated with the product.
+          </p>
+          <p>
+            You have more information on how to do this in the <a href="https://docs.sonarsource.com/sonarcloud/enriching/generic-issue-data/#import">official SonarCloud&trade; documentation</a>
+          </p>
+          <p>Generic Issue Data Exporter for SonarQube&trade; makes it easy for you to export data for a specific analysis engine (repository) or for a set of specific rules, according to your needs, and thus ensure that they are in the format required by SonarCloud&trade;</p>
+        </div>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block center-text">
+          <br><br><br>
+        </div>
+        <div class="block center-text">
+          <img src="/img/sonarqube-generic-issue/generic-issue-data-exporter-rule-description-on-sonarcloud.png" alt="Generic Issue Data Exporter for SonarQube">
+        </div>
+        <div class="block center-text">
+          <p class="center-text"><strong>Example of external issue information in SonarCloud&trade;</strong>&nbsp;&nbsp;<a href="https://sonarcloud.io/project/issues?open=AZBt9cIJ1NI8eNK-ER5j&id=external-analyzers-demo" target="_blank"><span class="ion-android-open"></span></a></p>
+        </div>
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+
+<div style="padding: 20px 0"></div>
 <section id="usage">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <div class="block">
           <div>
-            <h3>Getting Started</h3>
+            <h3>Quick Guide</h3>
             <hr>
           </div>
           <p>
-            <strong>bitegarden Generic Issue Data Exporter for SonarQube&trade;</strong> requires Java 8 to run. </p>
-          <p>
-            If you use a custom properties file you should run the application with the "config.file" parameter and provide the path to the properties file:
-
-            <pre>java <strong> -Dconfig.file=config.properties</strong> -jarbitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
+            <strong>bitegarden Generic Issue Data Exporter for SonarQube&trade;</strong> requires Java 8 or higher.
           </p>
           <p>
+            Once you have downloaded the product you will have a self-executable "jar" file.
+          </p>
+          <p>
+            Simply, place it in your file system and run the jar with the "--help" option to see all the available options:
+          </p>
+          <pre>java -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
+          <p>
+            As a result, you will get something like this:
+          </p>
+          <pre>
+...
+bitegarden Generic Issue Data Exporter for SonarQube. Command Line usage:
+
+java -Dconfig.file=PATH_TO_CONFIG_FILE -Dlicense.file=PATH_TO_LICENSE_FILE ... -jar bitegarden-sonarqube-generic-issue-data-exporter.jar
+
+              config.file = path to properties file including all the parameters required to export the data.
+                      This is optional. You can set all the properties through command line args using -DpropertyName=propertyValue
+                            Note that if you use a config file and command line arguments, arguments will override config file
+
+             license.file = path to file with your license key provided by bitegarden.
+                            By default a 14 days trial version will be used if license file is not provided
+
+       Mandatory properties:
+
+            sonar.project.key = the project key to export issues from
+               sonar.host.url = your SonarQube host URL.
+                  sonar.token = your user security token to authenticate against SonarQube.
+                                It is recommended to generate a new token for this app.
+        sonar.repository.keys = Rules repository keys list separated by comma to search issues.
+              sonar.rule.keys = Rules keys list separated by comma to search issues.
+                                (this parameter is required if repository key parameter is not provided)
+
+       Optional properties:
+
+                       output = File name for the generated report (without .json extension)
+...
+          </pre>
+
+          <p>
+            All the properties should be passed to the command line app using Java system properties with "-D" or using a custom properties file.
+          </p>
+          <p>
+            If you use a custom properties file you should run the application with the "config.file" parameter and provide the path to the properties file:
+          </p>
+          <pre>java <strong>-Dconfig.file=config.properties</strong> -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
+          <p>
+            If you just want to pass the required parameters through system properties use "-D" arguments when running the report:
+          </p>
+          <pre>java <strong>-Dsonar.project.key=MYPROJECTKEY -Dsonar.host.url=MYSONARURL -Dsonar.repository.keys=MYRULESREPOSITORY</strong> ... -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar</pre>
+          <p>
             If a property is defined in both locations (file and command line args) the command line property will override the property in the file. 
-            This way you can have a generic configuration file with the common properties (sonar.token, sonar.organizationKey, report.type, ...) 
-            and then use command line args for specific properties like sonar.projectKey or sonar.branch.
+            This way you can have a generic configuration file with the common properties (sonar.token, sonar.host.url, ...)
+            and then use command line args for specific properties like "sonar.project.key".
           </p>
         </div>
         <div>
-          <h3>Using a license key</h3>
+          <h3>Running the exporter with a license key</h3>
           <hr>
         </div>
         <p>
           By default when you download the product you will be able to use it during 14 days. Once your evaluation is finished, you will need to purchase the product and get a valid license key.
-
-          The license key will be provided as a text file. In order to use this license file you must set the property "license.file" in your configuration file (or through command line args) with the path of your license file.
-          
-          This is a sample running a licensed product using a command line argument:
-          
-          <pre><strong>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
         </p>
-
+        <p>
+          The license key will be provided as a text file. In order to use this license file you must set the property "license.file" in your configuration file (or through command line args) with the path of your license file.
+        </p>
+        <p>
+          The license key is bound to your SonarQube&trade; Server ID.
+        </p>
+        <p>
+          This is a sample running a licensed product using a command line argument:
+        </p>
+        <pre><strong>java -Dconfig.file=config.properties -Dlicense.file=PATH_TO_LICENSE_FILE</strong> -jar bitegarden-generic-issue-data-exporter-for-sonarqube.jar --help</pre>
         <p>It is up to you to include the "license.file" property in your configuration file or use it as a command line argument with "-D".</p>
         <div>
           <div>
           <h3>Troubleshooting and Support</h3>
           <hr>
         </div>
+          <p>
+            When you run the report all the information for both the license and the configuration will be displayed on the standard output.
+          </p>
         <p>
-          Si tienes algún problema por favor crea una petición de soporte en nuestro
-          <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">centro de soporte</a> y
-          estaremos encantados de ayudarte a encontrar una solución.
+          If you have any problems please create a support request on our  <a target="_blank" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">support center</a> and we will be happy to help you find a solution.
         </p>
-        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Solicita Soporte</a>
+        <a class="btn btn-default btn-call-to-action fancybox" href="https://bitegarden.atlassian.net/servicedesk/customer/portal/1">Request Support</a>
       </div><!-- .col-md-6 close -->
     </div>
   </div>
@@ -144,9 +242,6 @@ trial: /sonarqube-generic-issue-data-exporter-trial-form
             <ul>
               <li class="">14 days evaluation license</li>
               <li class="even">After submitting the form your download will start and it will include your trial key</li>
-              <li class="">By using this form you will download LTS compatible version, go to <a href="downloads">downloads</a>
-                for other supported versions
-              </li>
             </ul>
           </div>
           <a class="btn btn-default fancybox price-button" href="/sonarqube-generic-issue-data-exporter-trial-form.html" style="text-transform: uppercase;">Download and Try</a>
