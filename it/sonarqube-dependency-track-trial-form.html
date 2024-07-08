@@ -1,0 +1,85 @@
+---
+layout: page_it
+title: Scarica il Dependency Track for SonarQube
+description: Compila tutti i campi per scaricare gratuitamente il Dependency Track for SonarQube.
+permalink: /it/sonarqube-dependency-track-trial-form
+---
+
+<section style="padding-top: 40px; padding-bottom: 20px; border: 1px dotted #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block text-center">
+          <h1>Dependency Track for SonarQube&trade;</h1>
+          <p>Compila tutti i campi per scaricare il plugin.</p>
+          <p style="font-weight:bold">Il plugin è gratuito e non necessita di licenza per il suo utilizzo.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact form start -->
+<section id="trial-form">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <form action="https://marketplace.bitegarden.com/download/productArtifact" method="get" name="download-form" id="download-form" novalidate>
+          <input type="text" name="productName" value="bitegarden-dependency-track-for-sonarqube" hidden>
+          <input type="text" name="productFileExt" value="jar" hidden>
+          <div class="col-md-3 col-sm-12">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="email" name="customerEmail" class="form-control" placeholder="Email*" id="email" required data-validation-required-message="Inserisci la tua email.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerName" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Inserisci il tuo nome.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerSurnames" class="form-control" placeholder="Cognome *" id="surname" required data-validation-required-message="Inserisci il tuo cognome .">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <input type="text" name="customerCompany" class="form-control" placeholder="Azienda *" id="company" required data-validation-required-message="Inserisci la tua azienda.">
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label for="version">Versione</label>
+                <select class="form-control" name="productVersion" id="version">
+                  <option value="1.0.1">1.0.1 (con supporto per SonarQube&trade; 8.9, 9.9 (LTS), 10.x (LATEST) )</option>
+                </select>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <p><strong>bitegarden</strong> si impegna a rispettare la tua privacy e useremo le tue informazioni solo per fornire prodotti, servizi e contenuti che potrebbero interessarti.</p>
+                <input type="checkbox" name="agreement" class="form-check-input" id="agreement" value="accept" required data-validation-required-message="Per favore leggi e accetta la politica di privacy e termini  e condizioni.">
+                 <label class="form-check-label" for="agreement">Ho letto e accetto <a href="https://www.bitegarden.com/privacy-policy" target="_blank">privacy policy</a> e i <a href="https://www.bitegarden.com/pdf/bitegarden-terms-and-conditions.pdf" target="_blank">termini e condizioni.</a></label>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <div id="success"></div>
+                <div class="block">
+                  <button type="submit" style="background-color: #5cb85c" class="btn btn-success btn-lg">Inviare</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include download.html %}
