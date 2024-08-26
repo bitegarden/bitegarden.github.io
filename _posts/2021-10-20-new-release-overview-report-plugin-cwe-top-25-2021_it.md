@@ -21,7 +21,7 @@ Include anche correzioni per alcuni bug.
 <img src="https://www.bitegarden.com/img/sonarqube-overview/overview-branch-develop-sample.png" alt="Overview Report Plugin - Nuova funzionalità per i rami" width="100%">
 
 <center>
-<a href="http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all?branch=develop" target="_blank" style="text-decoration: underline!important;">Guarda la demo del ramo "Develop" >></a>
+<a href="https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all?branch=develop" target="_blank" style="text-decoration: underline!important;">Guarda la demo del ramo "Develop" >></a>
 </center>
 
 ## Scarica la nuova verseion

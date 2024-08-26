@@ -11,9 +11,9 @@ cover: /img/thumbs/Thumb-new-release-overview-report-plugin-for-sonarqube-2-0.jp
 
 The new **version 2.0 of the Overview Report Plugin** (compatible with SonarQube 7.9.x or higher) is now available.
 
-<a target="_blank" href="http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all">![http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all](/img/posts/2020-06-15-new-release-overview-report-plugin-for-sonarqube-2-0.jpg){:width="100%" .center-image}</a>
+<a target="_blank" href="https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all">![https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all](/img/posts/2020-06-15-new-release-overview-report-plugin-for-sonarqube-2-0.jpg){:width="100%" .center-image}</a>
 
-[See Overview Report Plugin in Action](http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all){:width="100%" .text-center}
+[See Overview Report Plugin in Action](https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all){:width="100%" .text-center}
 
 --- 
 
@@ -51,7 +51,7 @@ Your feedback helps us improve day by day, and this is why we have worked to giv
 
 In addition, from today we offer the possibility to see **[Overview Report Plugin](https://www.bitegarden.com/sonarqube-overview) in action** , specifically you can see:
 
--- [Overview All Projects for the whole instance](http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all)
+-- [Overview All Projects for the whole instance](https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all)
 
 -- [Overview for Customized Project Groups](http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_groups)
 

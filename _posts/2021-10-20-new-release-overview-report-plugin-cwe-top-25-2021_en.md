@@ -21,7 +21,7 @@ Also includes fixes to some bugs.
 <img src="https://www.bitegarden.com/img/sonarqube-overview/overview-branch-develop-sample.png" alt="Overview Report Plugin now is supporting branches" width="100%">
 
 <center>
-<a href="http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all?branch=develop" target="_blank" style="text-decoration: underline!important;">See Overview All Projects for developing branch >></a>
+<a href="https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all?branch=develop" target="_blank" style="text-decoration: underline!important;">See Overview All Projects for developing branch >></a>
 </center>
 
 ## Download the new version
