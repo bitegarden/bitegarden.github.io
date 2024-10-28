@@ -30,6 +30,10 @@ You can also download the CWE Top 25 On the Cusp report as a PDF file:<br/>
 
 <img src="/img/sonarqube-security/security-plugin-sonarqube-2-25_pdf.png" alt="New cwe report pdf" width="100%" />
 
+In this video you can view this new release: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8XEJHj3SuuE?si=gdoy_CYDVVNJ1iaN" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Download the new version
 
