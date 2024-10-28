@@ -33,7 +33,7 @@ You can also download the CWE Top 25 On the Cusp report as a PDF file:<br/>
 
 ## Download the new version
 
-Security Plugin for SonarQube 2.25 is now available for download through the [Universal Plugin Manager](/en/sonarqube-upm)  o desde la página de [descarga del producto](/en/sonarqube-security-trial-form).
+Security Plugin for SonarQube 2.25 is now available for download through the [Universal Plugin Manager](/sonarqube-upm)  o desde la página de [descarga del producto](/sonarqube-security-trial-form).
 
 If you haven't tried this plugin yet, remember you can do so **for free** through this button.
 

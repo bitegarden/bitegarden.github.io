@@ -29,7 +29,7 @@ Here you can see how a user can **select one or more hotspots** and add the same
 
 <br>
 
-If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/en/sonarqube-control-center-trial-form.html)
+If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/sonarqube-control-center-trial-form.html)
 
 ---
 **<span style="color: green">bitegarden</span> team**
