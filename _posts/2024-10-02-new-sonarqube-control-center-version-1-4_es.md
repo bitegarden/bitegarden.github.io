@@ -31,7 +31,7 @@ Aquí puedes ver cómo un usuario **podrá seleccionar uno o varios hotspots** y
 
 <br>
 
-En este video podras ver esta nuva funcionalidad: 
+En este video podras ver esta nueva funcionalidad: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vrGZIzwkI1U?si=FsCPPU-lTdPzbG6-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
