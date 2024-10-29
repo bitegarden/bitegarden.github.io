@@ -29,7 +29,11 @@ Here you can see how a user can **select one or more hotspots** and add the same
 
 <br>
 
-If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/en/sonarqube-control-center-trial-form.html)
+In this video you can view this new release: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vrGZIzwkI1U?si=FsCPPU-lTdPzbG6-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/sonarqube-control-center-trial-form.html)
 
 ---
 **<span style="color: green">bitegarden</span> team**

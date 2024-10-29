@@ -29,6 +29,10 @@ Qui puoi vedere come un utente può **selezionare uno o più hotspot** e aggiung
 
 <br>
 
+In questo video puoi vedere questa nuova funzionalità
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vrGZIzwkI1U?si=FsCPPU-lTdPzbG6-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Se non hai ancora provato questo prodotto nella tua istanza di SonarQube, puoi scaricare la versione gratuita attraverso [questo link](/it/sonarqube-control-center-trial-form.html)
 
 ---
