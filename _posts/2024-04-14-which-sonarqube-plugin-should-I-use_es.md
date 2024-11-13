@@ -1,7 +1,7 @@
 ---
 layout: post_es
-title: Quale plugin SonarQube dovrei usare...?
-description: Consulta la nostra mappa dei plugin SonarQube e scopri quale utilizzare in base alla tua posizione o necessità.
+title: ¿Qué plugin de SonarQube debería usar...?
+description: Consulta nuestro mapa de plugins de SonarQube
 
 permalink: que-plugin-sonarqube-debo-utilizar
 english: which-sonarqube-plugin-should-I-use
