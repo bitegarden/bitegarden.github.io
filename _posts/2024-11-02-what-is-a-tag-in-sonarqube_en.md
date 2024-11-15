@@ -56,7 +56,7 @@ If your goal is to tag projects in bulk you should follow the following steps on
 
 3 - Press the Bulk Actions -> Bulk Apply Tags button and select the tags you want to add to the selected projects.
 
-<img src="/img/sonarqube-project-tag/project-tag-administration.png" alt="Etiquetas en SonarQube" width="90%"/>
+<img src="/img/sonarqube-control-center\control-center-add-tags.png" alt="Tags in Control Center for SonarQube" width="90%"/>
 
 
 If you want to test this plugin on your instance, you can download it through [this link](/sonarqube-control-center)
