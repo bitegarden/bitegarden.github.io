@@ -43,6 +43,10 @@ Para acceder a esta nueva página deberás acceder al proyecto que quieras y des
 
 ¡Ya lo tienes configurado!
 
+Aquí te dejamos un video del producto: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZdshspf28I?si=R0jkGyeD7QdQYWkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Si quieres probar este producto, puedes descargarlo de forma gratuita a través de la [página de producto](/es/sonarqube-quality-gates-board-trial-form).
 
 ---
