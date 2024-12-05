@@ -12,7 +12,7 @@ cover: /img/posts/2024-12-02-universal-plugin-manager-sonarqube-new-version-1-7_
 
 ¡Novedades para nuestro **Universal Plugin Manager for SonarQube**!
 
-En esta **version 1-7**, el equipo de desarrollo de bitegarden ha añadido una nueva funcionalidad. Se trata de una **nueva sección llamada 'Marketplace'** en la que podrás buscar plugins de terceros. Cuando clicas en esa sección podrás buscar los productos a través de un listado que te aparecerá o podrás encontrarlos gracias a una **nueva barra de buscador**. 
+En esta **version 1.7**, el equipo de desarrollo de bitegarden ha añadido una nueva funcionalidad. Se trata de una **nueva sección llamada 'Marketplace'** en la que podrás buscar plugins de terceros. Cuando clicas en esa sección podrás buscar los productos a través de un listado que te aparecerá o podrás encontrarlos gracias a una **nueva barra de buscador**. 
 
 Aquí te dejamos una imagen de cómo era el Universal Plugin Manager for SonarQube hasta ahora. 
 
