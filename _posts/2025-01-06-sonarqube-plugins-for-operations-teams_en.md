@@ -24,9 +24,9 @@ SonarQube plugins are extensions that **expand the functionalities of this code 
 
 - **SQALE Plugin for SonarQube**: This plugin brings a software quality model that was previously present in SonarQube. It focuses on technical debt and helps meet ISO 25000 standards.
 
-All these plugins are available for instances of SonarQube Server [formerly known as SonarQube](https://www.sonarsource.com/es/products/sonarqube/)
+All these plugins are available for instances of SonarQube Server [formerly known as SonarQube](https://www.sonarsource.com/products/sonarqube/)
 
-Remember, you can try all of these products on your instance by downloading them through [this link](/products.html).
+Remember, you can try all of these products on your instance by downloading them through [this link](/products).
 
 
 ---
