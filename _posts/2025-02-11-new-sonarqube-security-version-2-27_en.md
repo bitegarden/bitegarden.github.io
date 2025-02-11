@@ -1,13 +1,13 @@
 ---
 layout: post
 title: New version! Security Plugin for SonarQube 2.27
-description: New section for the CWE Top 25 On the Cusp report
+description: New options for the OWASP ASVS report
 
 permalink: new-version-sonarqube-security-2-27
 spanish: nueva-version-sonarqube-security-2-27
 italian: nuova-versione-sonarqube-security-2-27
 
-cover: /img/posts/2024-10-11-bitegarden-sonarqube-security-version-2-27_EN.png
+cover: /img/posts/2025-02-11-new-sonarqube-security-version-2-27_EN.png
 ---
 
 We released the **version 2.27** of [Security Plugin for SonarQube](sonarqube-security)!
