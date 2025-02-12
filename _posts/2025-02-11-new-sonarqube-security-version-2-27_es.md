@@ -13,7 +13,7 @@ cover: /img/posts/2025-02-11-new-sonarqube-security-version-2-27_ES.png
 Lanzamos la **versión 2.27** del [Security Plugin for SonarQube](/es/sonarqube-security)!
 <br/>
 
-Esta versión incluye nuevas opciones para el reporte ASVS. Ahora los usuarios podrán ver un informe tanto en la página del plugin como en PDF filtrato por niveles de los requisitos. Estas opciones las puedes configurar desde la pestaña **Administration -> bitegarden Security -> OWASP ASVS**.
+Esta versión incluye nuevas opciones para el reporte ASVS. Ahora los usuarios podrán ver un informe tanto en la página del plugin como en PDF filtrado por niveles de los requisitos. Estas opciones las puedes configurar desde la pestaña **Administration -> bitegarden Security -> OWASP ASVS**.
 
 Aquí te dejamos una imagen para que veas estas nuevas opciones: 
 
