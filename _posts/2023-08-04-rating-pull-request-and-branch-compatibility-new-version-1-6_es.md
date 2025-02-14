@@ -9,7 +9,7 @@ italian: rating-compatibilita-per-pull-request-e-branches-1-6
 cover: /img/thumbs/2023-08-04-rating-compatibility-pull-request-and-branches.png
 ---
 
-Ya está disponible la versión 1.6 del [**Rating Report Plugin para SonarQube**](/es/sonarqube-rating.html) para obtener la calificación de características en un informe adicional a las de SonarQube.
+Ya está disponible la versión 1.6 del [**Rating Report Plugin para SonarQube**](/es/sonarqube-rating) para obtener la calificación de características en un informe adicional a las de SonarQube.
 
 Gracias a vuestro feedback nuestro team ha podido mejorar el Plugin añadiendo la siguientes novedades.
 

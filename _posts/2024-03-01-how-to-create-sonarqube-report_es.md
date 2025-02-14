@@ -15,11 +15,11 @@ Si quieres **exportar informes de los resultados** de los análisis de los proye
 
 <h2>Paso 1: Descargar el Report Plugin for SonarQube</h2>
 
-Para empezar tendrás que **descargar el Report Plugin for SonarQube** a través de [este enlace](/es/sonarqube-report.html). Por si no lo conoces, se trata de nuestro producto que te permite generar de forma automática los informes de los proyectos de SonarQube. 
+Para empezar tendrás que **descargar el Report Plugin for SonarQube** a través de [este enlace](/es/sonarqube-report). Por si no lo conoces, se trata de nuestro producto que te permite generar de forma automática los informes de los proyectos de SonarQube. 
 
-Te recordamos que tienes una **versión gratuita de 14 días de prueba** para que veas como funciona. También tenemos este mismo producto para SonarQube, que lo puedes descargar a través de [este enlace](/es/sonarcloud-report.html)
+Te recordamos que tienes una **versión gratuita de 14 días de prueba** para que veas como funciona. También tenemos este mismo producto para SonarQube, que lo puedes descargar a través de [este enlace](/es/sonarcloud-report)
 
-Por otro lado, te dejamos [aquí](/es/sonarqube-report-documentation.html) las instrucciones de instalación. Verás que es muy sencillo completar este paso.
+Por otro lado, te dejamos [aquí](/es/sonarqube-report-documentation) las instrucciones de instalación. Verás que es muy sencillo completar este paso.
 
 
 <h2>Paso 2: Generar los informes</h2>
@@ -39,7 +39,7 @@ En la siguiente pantalla verás que ya tienes generados los **reports en PDF, OD
 <br>
 <br>
 
-Además, desde la [release 2.19](/report-sonarqube-nueva-version-2-19.html) el Report Plugin for SonarQube incluye informes con solo **información de Bugs, Vulnerabilidades y Code Smells** y otro con información **sobre HotSpots**. 
+Además, desde la [release 2.19](/report-sonarqube-nueva-version-2-19) el Report Plugin for SonarQube incluye informes con solo **información de Bugs, Vulnerabilidades y Code Smells** y otro con información **sobre HotSpots**. 
 <br>
 <br>
 

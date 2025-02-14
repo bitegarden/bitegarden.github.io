@@ -15,11 +15,11 @@ Se vuoi **esportare i rapporti dei risultati** delle analisi dei progetti SonarQ
 
 <h2>Passo 1: Scaricare il Report Plugin per SonarQube</h2>
 
-Per iniziare dovrai **scaricare il Report Plugin for SonarQube** tramite [questo link](/it/sonarqube-report.html). Se non lo conosci, questo è il nostro prodotto che ti consente di generare automaticamente i report dei progetti SonarQube. 
+Per iniziare dovrai **scaricare il Report Plugin for SonarQube** tramite [questo link](/it/sonarqube-report). Se non lo conosci, questo è il nostro prodotto che ti consente di generare automaticamente i report dei progetti SonarQube. 
 
-Ti ricordiamo che hai una **versione di prova gratuita di 14 giorni** per vedere come funziona. Abbiamo anche questo stesso prodotto per SonarQube, che puoi scaricare tramite [questo link](/it/sonarcloud-report.html)
+Ti ricordiamo che hai una **versione di prova gratuita di 14 giorni** per vedere come funziona. Abbiamo anche questo stesso prodotto per SonarQube, che puoi scaricare tramite [questo link](/it/sonarcloud-report)
 
-D'altra parte, ti lasciamo [qui](/it/sonarqube-report-documentation.html) le istruzioni di installazione. Vedrai che è molto semplice completare questo passaggio.
+D'altra parte, ti lasciamo [qui](/it/sonarqube-report-documentation) le istruzioni di installazione. Vedrai che è molto semplice completare questo passaggio.
 
 <h2>Passo 2: Generare report</h2>
 

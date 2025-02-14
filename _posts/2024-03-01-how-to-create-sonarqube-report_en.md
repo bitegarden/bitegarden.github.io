@@ -15,11 +15,11 @@ Si quieres **exportar informes de los resultados** de los análisis de los proye
 
 <h2>Step 1: Download the Report Plugin for SonarQube</h2>
 
-To get started you will have to **download the Report Plugin for SonarQube** through [this link](/sonarqube-report.html). In case you don’t know it, it’s our product that allows you to automatically generate reports of SonarQube projects. 
+To get started you will have to **download the Report Plugin for SonarQube** through [this link](/sonarqube-report). In case you don’t know it, it’s our product that allows you to automatically generate reports of SonarQube projects. 
 
-We remind you that you have a **free 14-day trial** to see how it works. We also have this same product for SonarQube, which you can download through [this link](/sonarcloud-report.html)
+We remind you that you have a **free 14-day trial** to see how it works. We also have this same product for SonarQube, which you can download through [this link](/sonarcloud-report
 
-On the other hand, we leave [here](/sonarqube-report-documentation.html) the installation instructions. You will see that it is very simple to complete this step.
+On the other hand, we leave [here](/sonarqube-report-documentation) the installation instructions. You will see that it is very simple to complete this step.
 
 
 <h2>Step 2: Generate reports</h2>
@@ -39,7 +39,7 @@ In the next screen you will see that you have generated **reports in PDF, ODT an
 <br>
 <br>
 
-In addition, since [release 2.19](/new-version-sonarqube-security-2-19.html) the Report Plugin for SonarQube includes reports with only **information of Bugs, Vulnerabilities and Code Smells**, and other information **about HotSpots**. 
+In addition, since [release 2.19](/new-version-sonarqube-security-2-19) the Report Plugin for SonarQube includes reports with only **information of Bugs, Vulnerabilities and Code Smells**, and other information **about HotSpots**. 
 <br>
 <br>
 

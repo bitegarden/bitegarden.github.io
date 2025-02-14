@@ -8,7 +8,7 @@ spanish: rating-compatibilidad-con-pull-request-y-ramas-1-6
 english: rating-compatibility-with-pull-request-and-branches-1-6
 cover: /img/thumbs/2023-08-04-rating-compatibility-pull-request-and-branches.png
 ---
-È ora disponibile la versione 1.6 del [**Plugin di valutazione per SonarQube**] (/sonarqube-rating.html) per ottenere la valutazione delle caratteristiche in un report aggiuntivo a quelli di SonarQube.
+È ora disponibile la versione 1.6 del [**Plugin di valutazione per SonarQube**] (/sonarqube-rating) per ottenere la valutazione delle caratteristiche in un report aggiuntivo a quelli di SonarQube.
 
 Grazie al vostro feedback, il nostro team è riuscito a migliorare il plugin aggiungendo le seguenti nuove funzionalità.
 
