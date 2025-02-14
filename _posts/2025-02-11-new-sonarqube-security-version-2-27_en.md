@@ -5,7 +5,7 @@ description: New options for the OWASP ASVS report
 
 permalink: new-version-sonarqube-security-2-27
 spanish: nueva-version-sonarqube-security-2-27
-italian: nuova-versione-sonarqube-security-2-27
+
 
 cover: /img/posts/2025-02-11-new-sonarqube-security-version-2-27_EN.png
 ---
