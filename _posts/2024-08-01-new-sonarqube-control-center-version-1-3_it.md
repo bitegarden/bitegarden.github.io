@@ -29,7 +29,7 @@ Qui puoi vedere come un utente **può selezionare uno o più utenti** e cambiare
 
 <br>
 
-Se non hai ancora provato questo prodotto nella tua istanza di SonarQube, puoi scaricare la versione gratuita tramite [questo link](/it/sonarqube-control-center-trial-form.html) 
+Se non hai ancora provato questo prodotto nella tua istanza di SonarQube, puoi scaricare la versione gratuita tramite [questo link](/it/sonarqube-control-center-trial-form) 
 
 ---
 **<span style="color: green">bitegarden</span> team**

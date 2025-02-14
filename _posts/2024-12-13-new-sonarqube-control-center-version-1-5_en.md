@@ -14,7 +14,7 @@ We have a new release of Control Center for SonarQube! In this article, we’ll 
 This new version includes a new area where you can filter through all the Users in the instance, whether by their name, login, external provider, or external identity.
 
 Additionally, we’ve added a search bar to make it easier to find the user you’re looking for!
-If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/sonarqube-control-center-trial-form.html)
+If you haven't tried this product in your SonarQube instance yet, you can download the free version through [this link](/sonarqube-control-center-trial-form)
 
 ---
 **<span style="color: green">bitegarden</span> team**
