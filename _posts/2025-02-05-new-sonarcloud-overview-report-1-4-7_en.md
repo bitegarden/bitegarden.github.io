@@ -10,7 +10,7 @@ cover: /img/posts/2025-02-05-new-sonarcloud-overview-report-1-4-7_en.png
 
 We have a new release for the Overview Report for SonarCloud! The **version 1.4.7** includes performance improvements and the elimination of the 'NaN is not a finite number" error when trying to paint ratings. 
 
-You can find all releases of this product in [this page](/sonarcloud-overview-versions.html) version history. 
+You can find all releases of this product in [this page](https://marketplace.bitegarden.com/product/bitegardenSonarCloudPortfolio) version history. 
 ---
 **<span style="color: green">bitegarden</span> team**
 

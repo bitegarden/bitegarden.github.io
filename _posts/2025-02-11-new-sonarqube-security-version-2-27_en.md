@@ -22,7 +22,7 @@ Here is an image to show you these new options:
 <br/>
 <br>
 
-On [this page](/sonarqube-security-versions) you can check the latest releases we have released. 
+On [this page](https://marketplace.bitegarden.com/product/bitegardenSecurity) you can check the latest releases we have launched. 
 
 
 ## Download the new version

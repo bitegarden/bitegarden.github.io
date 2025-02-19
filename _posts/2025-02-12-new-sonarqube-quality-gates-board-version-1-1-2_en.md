@@ -18,7 +18,7 @@ We remind you that this product adds a new page in the validation projects if th
 <br/>
 <br>
 
-The version history of this plugin can be found at [this page](/sonarqube-quality-gates-board-versions)
+The version history of this plugin can be found at [this page](https://marketplace.bitegarden.com/product/bitegardenQualityGatesBoard)
 
 ## Download the new version
 
