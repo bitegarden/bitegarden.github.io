@@ -19,7 +19,7 @@ Recordamos que este producto añade una nueva página en los proyectos para que 
 <br/>
 <br>
 
-El historial de versiones de este plugin lo puedes encontrar en [esta página](/es/sonarqube-quality-gates-board-versions)
+El historial de versiones de este plugin lo puedes encontrar en [esta página](https://marketplace.bitegarden.com/product/bitegardenQualityGatesBoard)
 
 
 ## Descargar la nueva versión

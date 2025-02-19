@@ -10,7 +10,7 @@ cover: /img/posts/2025-02-06-new-sonarqube-rating-report-1-6-8_es.png
 
 ¡Tenemos una nueva release para el Rating Report for SonarQube! La **versión 1.6.8** incluye mejoras de rendimiento y se ha solucionado un error en el que no se mostraba la rama correcta al acceder a la página de un proyecto. 
 
-Podrás encontrar todas las releases de este producto en [esta página](/es/sonarqube-rating-versions) de historial de versiones. 
+Podrás encontrar todas las releases de este producto en [esta página](https://marketplace.bitegarden.com/product/bitegardenRatingReport) de historial de versiones. 
 
 
 ---

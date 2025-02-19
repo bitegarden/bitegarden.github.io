@@ -22,7 +22,7 @@ Aquí te dejamos una imagen para que veas estas nuevas opciones:
 <br/>
 <br>
 
-En [esta página](/es/sonarqube-security-versions) puedes consultar las últimas versiones que hemos lanzado. 
+En [esta página](https://marketplace.bitegarden.com/product/bitegardenSecurity) puedes consultar las últimas versiones que hemos lanzado. 
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New Release! - Control Center for SonarQube 1.3
+title:  New version! - Control Center for SonarQube 1.3
 description: New functionality to manage users' identity providers. Don’t miss this article.  
 
 permalink: new-sonarqube-control-center-version-1-3
