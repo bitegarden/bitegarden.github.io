@@ -158,20 +158,18 @@ Mandatory properties:
                          1 (issues summary)
                          2 (full issues breakdown)
                          3 (excel report)
-                         4 (Vulnerabilities, Bugs and Code Smells summary report)
-                         5 (Security Hotspots summary report)
-                         6 (Vulnerabilities, Bugs and Code Smells breakdown report)
-                         7 (Security Hotspots breakdown report)
 
 Optional properties:
 
-         sonar.branch = the branch where we will get the information for the report (default is main branch)
-    sonar.pullRequest = the pull request where we will get information for the report
-* disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
-   * disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
-         * footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
-          user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
-               output = File name for the generated report
+               sonar.branch = the branch where we will get the information for the report (default is main branch)
+          sonar.pullRequest = the pull request where we will get information for the report
+      * disable.qualitygate = If you enable this option the quality gate status won't be displayed (default is false)
+                sonar.types = the issue types and security hotspots that you expect to retrieve in the selected report, default is all enabled
+sonar.types possible values = BUG,VULNERABILITY,CODE_SMELL,SECURITY_HOTSPOTS (Comma separated without spaces)
+         * disable.coverage = If you enable this option the coverage section in the summary page won't be displayed (default is false)
+               * footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
+                user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
+                     output = File name for the generated report
 
 * Properties only supported on PDF report
 ...</pre></p>
