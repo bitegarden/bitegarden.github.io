@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New Release! - Control Center for SonarQube™ 1.2
+title:  New version! - Control Center for SonarQube™ 1.2
 description: New Feature in Project Management!
 
 permalink: new-sonarqube-control-center-version-1-2

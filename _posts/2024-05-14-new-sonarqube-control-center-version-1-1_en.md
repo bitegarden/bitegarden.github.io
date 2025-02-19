@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New Release! - Control Center for SonarQube™ 1.1
+title:  New version! - Control Center for SonarQube™ 1.1
 description: New Feature in Control Center, to help Administrators with Permission Templates!
 
 permalink: new-sonarqube-control-center-version-1-1

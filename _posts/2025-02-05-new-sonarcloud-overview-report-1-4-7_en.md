@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Release! - Overview Report for SonarCloud 1.4.7
+title: New version! - Overview Report for SonarCloud 1.4.7
 description: New bug fix version
 
 permalink: new-sonarcloud-overview-report-1-4-7

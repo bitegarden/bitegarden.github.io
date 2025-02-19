@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: New release / Overview Report Plugin 2.0
+title: New version / Overview Report Plugin 2.0
 description:  The new version 2.0 of the Overview Report Plugin (compatible with SonarQube 7.9.x or higher) is now available with major improvements
 
 permalink: new-release-overview-report-plugin-for-sonarqube-2-0

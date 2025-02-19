@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Release! - Control Center for SonarQube 1.4  
+title: New version! - Control Center for SonarQube 1.4  
 description: New functionality to manage Hotspots that have been resolved without adding a comment. Don't miss this article.  
 
 permalink: new-sonarqube-control-center-version-1-4  

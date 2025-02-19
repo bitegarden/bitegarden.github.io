@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New release! Universal Plugin Manager 1.7
+title: new version! Universal Plugin Manager 1.7
 description: We added a new section to install third-party plugins. 
 
 permalink: new-release-unviersal-plugin-manager-1-7
