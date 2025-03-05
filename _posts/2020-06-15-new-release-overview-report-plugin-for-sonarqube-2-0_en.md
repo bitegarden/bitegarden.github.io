@@ -53,7 +53,7 @@ In addition, from today we offer the possibility to see **[Overview Report Plugi
 
 -- [Overview All Projects for the whole instance](https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_all)
 
--- [Overview for Customized Project Groups](http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_groups)
+-- [Overview for Customized Project Groups](https://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_groups)
 
 -- [Overview for Project Tags](http://sonarqube.bitegarden.com/extension/bitegardenPortfolio/overview_tags)
 
