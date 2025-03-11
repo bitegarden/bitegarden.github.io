@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¿Qué es un Quality Gate en SonarQube?
+title: What is a Quality Gate in SonarQube?
 description: We teach you to use the Quality Gates to guarantee the security and quality of your code
 
 permalink: what-is-quality-gate-sonarqube
