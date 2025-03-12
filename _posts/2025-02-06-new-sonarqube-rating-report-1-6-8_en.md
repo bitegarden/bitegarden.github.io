@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New version! - Rating Report for SonarQube 1.6.8
+title: New version! Rating Report for SonarQube 1.6.8
 description: New bug fix version and improvements
 
 permalink: new-sonarqube-rating-report-1-6-8

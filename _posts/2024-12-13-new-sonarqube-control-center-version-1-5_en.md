@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New version! - Control Center for SonarQube 1.5
+title: New version! Control Center for SonarQube 1.5
 description: New filters to User Management page!
 
 permalink: new-sonarqube-control-center-version-1-5
