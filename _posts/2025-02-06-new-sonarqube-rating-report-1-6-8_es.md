@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo lanzamiento! - Rating Report for SonarQube 1.6.8
+title:  ¡Nuevo lanzamiento! Rating Report for SonarQube 1.6.8
 description: Nueva release de corrección de errores y mejoras
 
 permalink: nuevo-sonarqube-rating-report-1-6-8

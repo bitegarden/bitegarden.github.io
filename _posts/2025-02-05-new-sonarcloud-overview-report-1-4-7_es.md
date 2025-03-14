@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo lanzamiento! - Overview Report for SonarCloud 1.4.7
+title:  ¡Nuevo lanzamiento! Overview Report for SonarCloud 1.4.7
 description: Nueva release de corrección de errores
 
 permalink: nuevo-sonarcloud-overview-report-1-4-7

@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo lanzamiento! - Control Center for SonarQube 1.5
+title:  ¡Nuevo lanzamiento! Control Center for SonarQube 1.5
 description: Nuevos filtros para la página User Management. 
 
 permalink: nuevo-sonarqube-control-center-version-1-5
