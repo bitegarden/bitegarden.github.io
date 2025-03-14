@@ -14,7 +14,7 @@ We have a new version of the **Security Plugin for SonarQube Server**. The **ver
 
 We remind you that this product offers a **report in which summarizes a list of vulnerabilities** allowing to know the degree of security compliance of the whole project visually. Here we leave you an example of the page that you can see inside the project. 
 
-<img width="100%" src="/img/sonarqube-security/sonarqube-security-assessment-owasp.png" alt="Report image of the Security Plugin for SonarQube Server">
+<img width="100%" src="/img/sonarqube-security/sonarqube-security-assessment-cwe-top-25-cusp.png" alt="Report image of the Security Plugin for SonarQube Server">
 
 <br>
 
