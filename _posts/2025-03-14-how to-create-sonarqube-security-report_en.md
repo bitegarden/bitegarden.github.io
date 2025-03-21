@@ -3,8 +3,8 @@ layout: post
 title: How to create a security report on SonarQube?
 description: Learn how to generate a PDF report on the status of your code based on security standards.
 
-permalink: how-to-create-soanrqube-security-report
-english: como-crear-informe-seguridad-sonarqube
+permalink: how-to-create-sonarqube-security-report
+spanish: como-crear-informe-seguridad-sonarqube
 
 
 cover: /img/posts/2025-03-14-how to-create-sonarqube-security-report_en.png
