@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: Nueva version! Security Report for SonarQube Cloud&trade; 1.7
+title: Nueva versión! Security Report for SonarQube Cloud&trade; 1.7
 description: Esta nueva versión incluye un nuevo informe sobre el CWE Top 25 On the Cusp. ¡Te lo contamos!
 
 permalink: nueva-version-sonarqube-cloud-security-version-1-7
