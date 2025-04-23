@@ -4,10 +4,10 @@ title: Cumple con el ENS fácilmente con el Report Plugin para SonarQube™
 description: Cumple con el ENS generando informes automáticos y auditables con Report Plugin for SonarQube™.
 
 permalink: esquema-seguridad-nacional-report-plugin-sonarqube
-english: spanish-national-security-report-plugin-sonarqube
+english: national-security-scheme-report-plugin-sonarqube
 
 
-cover: /img/posts/2025-04-22-spanish-national-security-report-plugin-sonarqube_es.png
+cover: /img/posts\2025-04-22-esquema-seguridad-nacional-report-plugin-sonarqube_es.png
 ---
 
 La seguridad de la información es un requisito fundamental en la transformación digital del sector público. En España, el Esquema Nacional de Seguridad (ENS) es el <strong>marco legal diseñado para proteger los sistemas y servicios</strong> que manejan datos públicos.
