@@ -7,7 +7,7 @@ permalink: national-security-scheme-report-plugin-sonarqube
 spanish: esquema-seguridad-nacional-report-plugin-sonarqube
 
 
-cover: /img/posts\2025-04-22-esquema-seguridad-nacional-report-plugin-sonarqube_en.png
+cover: /img/posts/2025-04-22-esquema-seguridad-nacional-report-plugin-sonarqube_en.png
 ---
 
 Information security is a core requirement in the digital transformation of the public sector. In Spain, the Esquema Nacional de Seguridad (ENS) is the legal <strong>framework designed to protect the systems and services</strong> that handle public data.
