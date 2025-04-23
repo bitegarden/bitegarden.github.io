@@ -82,7 +82,7 @@ Our <strong>Report Plugin for SonarQube™</strong>, allows you to generate cust
 
 - Facilitates internal and external audit reviews
 
-Complying with the <strong>National Security Framework (ENS)</strong> doesn’t have to be a complex task. With tools like Report Plugin for SonarQube™, you can ensure your code is secure, traceable, and well-documented — ready for any audit or review.
+Complying with the <strong>National Security Framework (ENS)</strong> doesn’t have to be a complex task. With tools like Report Plugin for SonarQube™, you can ensure your code is secure, traceable, and well documented ready for any audit or review.
 
 If you're looking for a smart way to streamline ENS compliance, try our [Plugin for SonarQube™](/sonarqube-report) and turn your project analysis into professional, audit-ready documentation.
 

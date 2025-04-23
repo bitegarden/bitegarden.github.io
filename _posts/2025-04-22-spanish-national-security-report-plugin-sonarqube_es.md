@@ -82,7 +82,7 @@ Nuestro <strong>Report Plugin for SonarQube™</strong> te permite generar infor
 
 - Facilita las auditorías internas y externas
 
-Cumplir con el <strong>Esquema Nacional de Seguridad (ENS)</strong> no tiene por qué ser una tarea compleja. Con herramientas como Report Plugin for SonarQube™, puedes asegurar que tu código sea seguro, trazable y esté correctamente documentado — listo para cualquier auditoría o revisión.
+Cumplir con el <strong>Esquema Nacional de Seguridad (ENS)</strong> no tiene por qué ser una tarea compleja. Con herramientas como el Report Plugin for SonarQube™, puedes asegurar que tu código sea seguro, trazable y esté correctamente documentado y listo para cualquier auditoría o revisión.
 
 Si estás buscando una forma inteligente de facilitar el cumplimiento del ENS, prueba nuestro [Plugin para SonarQube™](/es/sonarqube-report) y transforma tu análisis de proyectos en documentación profesional y lista para auditoría.
 
