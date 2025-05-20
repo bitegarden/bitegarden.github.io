@@ -32,7 +32,7 @@ One of the most powerful features of UPM is the dedicated section for **bitegard
 
 ➡ Install and update our tools **directly from within UPM**.
 
-➡ Easily **remove any plugin** you no longer need.
+➡ Easily **uninstall any plugin** you no longer need.
 
 In addition, the Universal Plugin Manager **includes an auto-update feature**. It will notify you when a new version is available, so your system stays up to date effortlessly.
 

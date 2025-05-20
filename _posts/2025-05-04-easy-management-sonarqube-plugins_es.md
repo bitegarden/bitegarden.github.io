@@ -33,14 +33,14 @@ Una de las funcionalidades más potentes de UPM es la sección dedicada a los pl
 
 ➡ Instalar y actualizar nuestras herramientas directamente desde UPM.
 
-➡ Eliminar plugins fácilmente si ya no los necesitas.
+➡ Desinstala plugins fácilmente si ya no los necesitas.
 
 Además, el **Universal Plugin Manager** se actualiza automáticamente, mostrándote notificaciones cuando hay nuevas versiones disponibles para mantener tu sistema siempre al día.
 
 
 <h2>¿Por qué elegir Universal Plugin Manager de bitegarden?</h2>
 
-A continuación, te contamos los beneficios con los que podras contar como 
+A continuación, te contamos los beneficios con los que podras contar: 
 
 ➡ Ahorra tiempo y reduce dependencias del equipo de operaciones.
 
