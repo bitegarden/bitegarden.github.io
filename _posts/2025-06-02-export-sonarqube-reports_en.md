@@ -22,7 +22,7 @@ With this plugin, you can:
 
 1. Download ready-to-share PDF reports. <br>
 
-2. Generate editable documents from custom ODT templates.   <br>
+2. Generate editable documents from custom ODT and XLSX templates.   <br>
 
 3. Save time preparing audit reports.   <br>
 
@@ -30,7 +30,7 @@ With this plugin, you can:
 
 While **SonarQube** provides a basic report to view a project’s quality status, many teams face limitations when it comes to customizing content or presenting information clearly and in a way that fits their needs.
 
-With the **Report Plugin for SonarQube™**, you can go one step further: generate clean, complete, and fully customizable executive reports in both PDF and ODT formats—aligned with your branding, style, or audit requirements.
+With the **Report Plugin for SonarQube™**, you can go one step further: generate clean, complete, and fully customizable executive reports in both PDF, XLSX and ODT formats—aligned with your branding, style, or audit requirements.
 
 Here you can see the difference between the two reports. 
 

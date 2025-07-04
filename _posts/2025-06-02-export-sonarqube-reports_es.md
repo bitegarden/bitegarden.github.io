@@ -22,7 +22,7 @@ Con este producto podrás:
 
 1. Descargar informes en PDF listos para compartir. <br> 
 
-2. Generar documentos editables a partir de plantillas personalizadas en formato ODT. <br>
+2. Generar documentos editables a partir de plantillas personalizadas en formato ODT y XLSX. <br>
 
 3. Ahorrar tiempo en la elaboración de reportes de auditoría. <br>
 
@@ -31,7 +31,7 @@ Con este producto podrás:
 
 Aunque **SonarQube ofrece un informe básico** para visualizar el estado de calidad del proyecto, muchos equipos encuentran limitaciones a la hora de personalizar el contenido o presentar la información de manera clara y adaptada a sus necesidades. 
 
-Con el **Report Plugin for SonarQube™**, puedes ir un paso más allá: generar informes ejecutivos limpios, completos y totalmente personalizables, tanto en formato PDF como ODT,que se ajusten a tu estilo, branding o requisitos de auditoría.
+Con el **Report Plugin for SonarQube™**, puedes ir un paso más allá: generar informes ejecutivos limpios, completos y totalmente personalizables, tanto en formato PDF, XLSX como ODT,que se ajusten a tu estilo, branding o requisitos de auditoría.
 
 Aquí puedes ver la diferencia entre los dos tipos de informes.
 
