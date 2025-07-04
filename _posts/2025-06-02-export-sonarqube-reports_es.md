@@ -1,7 +1,7 @@
 ---
 layout: post_es
 title: Genera informes personalizadas en SonarQube
-description: Exporta informes detallados de SonarQube en PDF u ODT. Crea resúmenes ejecutivos o listados completos de issues con un solo clic.
+description: Exporta informes detallados de SonarQube en PDF, ODT and XLSX. Crea resúmenes ejecutivos o listados completos de issues con un solo clic.
 
 permalink: exportar-sonarqube-reports
 english: export-sonarqube-plugins
