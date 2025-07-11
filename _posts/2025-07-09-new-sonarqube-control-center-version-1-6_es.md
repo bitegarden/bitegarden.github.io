@@ -30,7 +30,7 @@ Este plugin te permite:
 
 • Ver estadísticas agregadas por lenguaje, líneas de código o fecha de análisis.
 
-• Realizar acciones masivas como etiquetar, modificar o eliminar proyectos antiguos.
+• Realizar acciones masivas como etiquetar proyectos.
 
 • Gestionar usuarios y hotspots resueltos sin comentarios.
 
@@ -40,7 +40,7 @@ Si **gestionas una instancia de SonarQube™**, este plugin es imprescindible pa
 
 Si tienes el **Universal Plugin Manager for SonarQube Server™** (UPM) simplemente tendrás que darle al botón de actualizar. Si todavía no tienes el UPM este plugin puedes descargartelo desde [esta página](/es/sonarqube-upm). 
 
-Si todavía no pobrado el Control Center for SonarQube Server™ puedes descargar la prueba gratuita desde [este enlace](/sonarqube-control-center). 
+Si todavía no has pobrado el Control Center for SonarQube Server™ puedes descargar la prueba gratuita desde [este enlace](/sonarqube-control-center). 
 
 
 ---
