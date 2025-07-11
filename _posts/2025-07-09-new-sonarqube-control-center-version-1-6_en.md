@@ -30,7 +30,7 @@ This plugin allows you to:
 
 • View aggregated statistics by language, lines of code, or analysis date.
 
-• Perform bulk actions such as tagging and modifying projects.
+• Perform bulk actions like tagging projects.
 
 • Manage users and resolved hotspots without comments.
 
