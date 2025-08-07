@@ -10,15 +10,19 @@ cover: /img/posts/2025-07-30-new-sonarqube-control-center-version-1-7_en.png
 
 This new version comes with a major interface upgrade that will make managing your plugin’s features simpler, faster, and more organized.
 
-Up until **version 1.6**, the Control Center for SonarQube™ plugin had four separate pages for **Project Management, Permission Template Management, User Management and Hotspot Management**. With the new **version 1.7**, we’ve unified these sections into a single page with tabs, allowing you to navigate and perform administrative tasks much more efficiently.
+Up until **version 1.6**, the Control Center for SonarQube™ plugin had four separate pages for **Project Management, Permission Template Management, User Management and Hotspot Management**. 
+
+With the new **version 1.7**, we’ve unified these sections into a single page with tabs, allowing you to navigate and perform administrative tasks much more efficiently.
 
 Below you can see how the interface looked in previous versions compared to the new design after the update:
 
 <img width="50%" src="/img/sonarqube-control-center/sonarqube-control-center-1-6.png" alt="Version 1.6 Control Center for SonarQube">
+<br>
 Screenshot of the Control Center for SonarQube version 1.6
 <br>
 
 <img width="100%" src="/img/sonarqube-control-center/sonarqube-control-center-project-management.png" alt="Version 1.7 Control Center for SonarQube">
+<br>
 Screenshot of the new Control Center for SonarQube version 1.7
 <br>
 
