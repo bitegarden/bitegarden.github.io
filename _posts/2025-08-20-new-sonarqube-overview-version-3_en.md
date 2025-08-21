@@ -22,7 +22,7 @@ If your instance is in MQR Mode, the plugin automatically detects it and display
 #### Standard Experience
 If your instance is in Standard Experience, reports will be displayed in this mode by default.
 
-<img width="100%" src="/img/sonarqube-overview/sonarqube-overview-modo-standar.png" alt="Overview All projects Standard Mode">
+<img width="100%" src="/img/sonarqube-overview/sonarqube-overview-modo-standard.png" alt="Overview All projects Standard Mode">
 
 *Screenshot of the Overview All Projects page with Standard Mode enabled*  
 <br>
