@@ -9,7 +9,7 @@ cover: /img/posts/2025-08-20-new-sonarqube-overview-version-3_en.png
 ---
 
 ## Main highlights of the new version
-At bitegarden we have released a new version of the **Overview Report for SonarQube Server** plugin. This update includes support for reports in **MQR Mode (Multi-Quality Rule)**, opening the door to a much more complete view of project quality.
+At bitegarden we have released version 3.0 of the **Overview Report for SonarQube Server** plugin. This update includes support for reports in **MQR Mode (Multi-Quality Rule)**, opening the door to a much more complete view of project quality.
 
 #### MQR Mode
 If your instance is in MQR Mode, the plugin automatically detects it and displays the reports in that format.

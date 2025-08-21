@@ -9,7 +9,7 @@ cover: /img/posts/2025-08-20-new-sonarqube-overview-version-3_es.png
 ---
 
 ## Novedades principales de la nueva versión
-En bitegarden hemos publicado una nueva versión del plugin **Overview Report for SonarQube Server**. Esta actualización incluye soporte para reportes en **Modo MQR (Multi-Quality Rule)**, lo que abre la puerta a una visualización mucho más completa de la calidad de los proyectos.
+En bitegarden hemos publicado la versión del plugin **Overview Report for SonarQube Server 3.0**. Esta actualización incluye soporte para reportes en **Modo MQR (Multi-Quality Rule)**, lo que abre la puerta a una visualización mucho más completa de la calidad de los proyectos.
 
 #### Modo MQR
 Si tu instancia está en Modo MQR, el plugin lo reconoce de inmediato y muestra los reportes bajo ese formato.
