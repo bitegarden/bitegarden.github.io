@@ -36,7 +36,7 @@ A continuación, te mostramos un listado de beneficios que obtiene un desarrolla
 
 - **Escalabilidad**: Es un plugin perfecto para proyectos con muchas dependencias. <br>
 
-- **Fácil Configuración**: Conecta tu servidor de Dependency-Track en minutos. <br>
+- **Fácil Configuración**: Conecta tu servidor de Dependency-Track en segundos. <br>
 
 
 <h3>Preguntas frecuentes</h3>

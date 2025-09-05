@@ -34,7 +34,7 @@ Here’s a list of benefits developers get when working with this product:
 
 - **Scalability**: The perfect plugin for projects with many dependencies. <br>
 
-- **Easy Setup**: Connect your Dependency-Track server in minutes. <br>
+- **Easy Setup**: Connect your Dependency-Track server in seconds. <br>
 
 <h3>Frequently Asked Questions</h3>
 
