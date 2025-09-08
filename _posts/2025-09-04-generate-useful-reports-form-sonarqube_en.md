@@ -52,8 +52,8 @@ In a matter of seconds, you’ll have a professional document ready to share.
 
 <h2>Frequently Asked Questions (FAQ)</h2>
 
-**1. Can I use these plugins with any version of SonarQube?**
-Yes, both plugins are compatible with multiple SonarQube versions. You’ll find exact compatibility details on the download page for each version.
+**1. Can I use the Report Plugin for SonarQube Server with any version of SonarQube?**
+Yes, this plugin is compatible with multiple versions of SonarQube Server. You will find compatibility information on the download page. 
 
 **2. Can I customize reports with my logo and corporate branding?**
 Absolutely! You can customize both PDF and ODT reports, including logos, tables, text, and even custom cover pages.
