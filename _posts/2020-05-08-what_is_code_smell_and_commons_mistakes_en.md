@@ -46,4 +46,4 @@ Unfortunately, often these elements are not easy to fix and need a big effort or
   
 A good practice, for you and your team, is to start doing a continuous analysis of the code, in order to have continuous contributions to fix code smells and vulnerabilities instead of creating specific new processes to resolve it.  
   
-And if you are already using SonarQube and are looking for a tool to put your technical debt under control, let’s try [SQALE Plugin](https://www.bitegarden.com/sonarqube-sqale) that is listed as an [official SQALE tool](http://www.sqale.org/tools) to manage the technical debt.
+And if you are already using SonarQube and are looking for a tool to put your technical debt under control, let’s try [SQALE Plugin](https://www.bitegarden.com/sonarqube-sqale) that is listed as an official SQALE tool to manage the technical debt.

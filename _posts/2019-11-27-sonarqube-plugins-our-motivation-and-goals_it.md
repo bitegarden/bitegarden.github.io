@@ -37,7 +37,7 @@ Il metodo SQALE è focalizzato sulla gestione del **debito tecnico** (technical 
 
 <a href="/it/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">**PROVA GRATUITA PER 14 GIORNI >**</a>
 
-** Il plugin SQALE è riconosciuto come [strumento ufficiale](http://www.sqale.org/tools) per la gestione tecnica del debito tecnico.**
+** Il plugin SQALE è riconosciuto come per la gestione tecnica del debito tecnico.**
 
 ### [Overview Report Plugin per SonarQube™](https://www.bitegarden.com/it/sonarqube-overview)
 

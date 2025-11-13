@@ -34,7 +34,7 @@ El método SQALE esté centrado en la gestión de la deuda técnica y es conform
 
 <a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
-**El plugin de SQALE está [reconocido](http://www.sqale.org/tools) como herramienta oficial para gestión de la deuda técnica**
+**El plugin de SQALE está reconocido como herramienta oficial para gestión de la deuda técnica**
 
 \- [Overview Report Plugin for SonarQube™](https://www.bitegarden.com/es/sonarqube-overview) responde a una de las funcionalidades más demandadas: la capacidad de agrupar proyectos de SonarQube™ creando una o más carteras, para una mejor evaluación del estado general de la calidad del código en la organización.
 

@@ -37,7 +37,7 @@ Two great examples of the motivation behind bitegarden are SQALE and Overview Re
 used to be present on SonarQube™ previous versions. 
 The SQALE method is focused on Technical Debt management and it's compliant to ISO 25000, so not only our plugin fits 
 the needs of those who are missing SQALE on SonarQube™, but of those who are looking for a specific, certified and 
-effective methodology to improve software quality. **SQALE Plugin for SonarQube™ is [listed](http://www.sqale.org/tools) as an official SQALE tool 
+effective methodology to improve software quality. **SQALE Plugin for SonarQube™ is listed as an official SQALE tool 
 to manage your technical debt**. 
 
 <a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
