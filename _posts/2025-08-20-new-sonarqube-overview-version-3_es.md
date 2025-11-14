@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nueva versión del Overview Report for SonarQube™ Server ya disponible!
+title:  ¡Nueva versión del Overview Report for SonarQube&trade; Server ya disponible!
 description: Incluimos soporte para reportes en el Modo MQR
 
 permalink: nuevo-sonarqube-overview-version-3
@@ -39,7 +39,7 @@ El Modo MQR es ideal si tu organización ya trabaja con métricas de calidad ava
 El Standard Experience sigue siendo la mejor opción si prefieres reportes más simples y directos, o si tu equipo aún no utiliza MQR como estándar.
 
 ## Cómo actualizar el plugin Overview Report
-Si tienes el [Universal Plugin Manager for SonarQube Server™ (UPM)](//marketplace.bitegarden.com/product/bitegardenUniversalPluginManager) simplemente tendrás que darle al botón de actualizar en la administración de tu instancia.
+Si tienes el [Universal Plugin Manager for SonarQube Server&trade; (UPM)](//marketplace.bitegarden.com/product/bitegardenUniversalPluginManager) simplemente tendrás que darle al botón de actualizar en la administración de tu instancia.
 
 ---
 **<span style="color: green">bitegarden</span> team**

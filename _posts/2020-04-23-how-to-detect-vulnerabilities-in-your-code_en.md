@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: How to detect vulnerabilities in your code
-description: SonarQube™ has become the most powerful continuous inspection and static analysis tool. For a couple of years, the development team has focused on improving all those analysis characteristics associated with vulnerability detection and security standards, including OWASP, SANS, CWE, ... 
+description: SonarQube&trade; has become the most powerful continuous inspection and static analysis tool. For a couple of years, the development team has focused on improving all those analysis characteristics associated with vulnerability detection and security standards, including OWASP, SANS, CWE, ... 
 
 permalink: how-to-detect-vulnerabilities-in-your-code
 spanish: como-detectar-vulnerabilidades-en-el-codigo
@@ -12,22 +12,22 @@ cover: /img/thumbs/Thumb-how-to-detect-vulnerabilities-in-your-code.jpg
 
 ![How to detect vulnerabilities in your code - bitegarden](/img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg){:width="100%" .center-image}
 
-SonarQube™ has become the most powerful continuous inspection and static analysis tool.
+SonarQube&trade; has become the most powerful continuous inspection and static analysis tool.
 
 For a couple of years, the development team has focused on improving all those analysis characteristics 
 associated with vulnerability detection and security standards, including OWASP, SANS, CWE, ... 
-Now we can say that SonarQube™ is a SAST tool (Static Application Security Testing) .
+Now we can say that SonarQube&trade; is a SAST tool (Static Application Security Testing) .
 
 In addition, if we extend the tool with other Open Source components such as [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/), or 
 with our [security plugin](/sonarqube-security), we will further increase its capacity through Software Composition Analysis (SCA) 
 or by checking your code against Security Standards (OWASP Compliance). You can also extend the set of security rules 
 available through third-party tools like [Find Security Bugs](https://find-sec-bugs.github.io) using the [sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) plugin.
 
-But beyond all this, how do we detect vulnerabilities in the code with SonarQube™?
+But beyond all this, how do we detect vulnerabilities in the code with SonarQube&trade;?
 
 ## **Security issues:** Hotspots vs Vulnerabilities
 
-The SonarQube™ Quality Model has two different types of rules for security.
+The SonarQube&trade; Quality Model has two different types of rules for security.
 
 **Security Hotspots** have been introduced for security protections that have no direct impact on the overall application's 
 security. Most injection rules are vulnerabilities, for example, if a SQL injection is found, it is certain that a fix 
@@ -115,7 +115,7 @@ information in PDF that everyone can see how secure is your code:
 
 ## Conclusion
 
-SonarQube™ has improved its security engine and now the tool is playing in the Champions League the same way as
+SonarQube&trade; has improved its security engine and now the tool is playing in the Champions League the same way as
  other SAST tools. You can now tackle security issues with a sensible pattern led by the development team:
 
 1. Activating the rules that detect vulnerabilities and hotspots

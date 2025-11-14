@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo lanzamiento! - Control Center for SonarQube™ 1.2
+title:  ¡Nuevo lanzamiento! - Control Center for SonarQube&trade; 1.2
 description: ¡Nueva función en la sección Project Management!
 
 permalink: nuevo-sonarqube-control-center-version-1-2
@@ -9,7 +9,7 @@ italian: nuovo-sonarqube-control-center-version-1-2
 cover: /img/posts/2024-05-21-new-sonarqube-control-center-version-1-2_ES.png
 ---
 
-Nos complace anunciar una nueva versión de Control Center para SonarQube™, ahora con **EXPORTACIÓN** en CSV y XLS!
+Nos complace anunciar una nueva versión de Control Center para SonarQube&trade;, ahora con **EXPORTACIÓN** en CSV y XLS!
 
 <h2>¿Qué es el Control Center de SonarQube?</h2>
 

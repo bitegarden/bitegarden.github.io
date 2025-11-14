@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo producto! - Control Center para SonarQube™
+title:  ¡Nuevo producto! - Control Center para SonarQube&trade;
 description: Lanzamos un nuevo plugin que ofrece un mayor control sobre SonarQube para los administradores
 
 permalink: nuevo-producto-sonarqube-control-center

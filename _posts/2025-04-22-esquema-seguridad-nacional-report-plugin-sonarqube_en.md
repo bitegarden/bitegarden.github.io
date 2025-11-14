@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ENS compliance made easy with Report plugin for SonarQube™
-description: Meet ENS requirements with automated, audit-ready reports using Report Plugin for SonarQube™.
+title: ENS compliance made easy with Report plugin for SonarQube&trade;
+description: Meet ENS requirements with automated, audit-ready reports using Report Plugin for SonarQube&trade;.
 
 permalink: national-security-scheme-report-plugin-sonarqube
 spanish: esquema-seguridad-nacional-report-plugin-sonarqube
@@ -12,7 +12,7 @@ cover: /img/posts/2025-04-22-esquema-seguridad-nacional-report-plugin-sonarqube_
 
 Information security is a core requirement in the digital transformation of the public sector. In Spain, the Esquema Nacional de Seguridad (ENS) is the legal <strong>framework designed to protect the systems and services</strong> that handle public data.
 
-If you work with or for a government entity, compliance with the ENS is not optional. In this article, we explain what the ENS is, why it matters, and how our <strong>Report Plugin for SonarQube™</strong> can help you easily generate the technical documentation required for security audits and ENS compliance.
+If you work with or for a government entity, compliance with the ENS is not optional. In this article, we explain what the ENS is, why it matters, and how our <strong>Report Plugin for SonarQube&trade;</strong> can help you easily generate the technical documentation required for security audits and ENS compliance.
 
 <h2>What is the National Security Framework (ENS)?</h2>
 
@@ -42,9 +42,9 @@ These principles translate into a set of technical and organizational <strong>se
 
 - It’s a key requirement for public procurement and IT tenders.
 
-<h2>How does SonarQube™ support ENS compliance?</h2>
+<h2>How does SonarQube&trade; support ENS compliance?</h2>
 
-SonarQube™ is widely used in the public sector to:
+SonarQube&trade; is widely used in the public sector to:
 
 - Monitor and improve source code quality.
 
@@ -56,9 +56,9 @@ SonarQube™ is widely used in the public sector to:
 
 In the ENS context, this provides technical evidence that supports your Security Plan, Audit Reports, and Statement of Applicability.
 
-<h2>How report plugin for SonarQube™ helps with ENS compliance</h2>
+<h2>How report plugin for SonarQube&trade; helps with ENS compliance</h2>
 
-Our <strong>Report Plugin for SonarQube™</strong>, allows you to generate customizable, comprehensive reports in PDF and ODT formats, containing all the key data from your SonarQube™ project analysis.
+Our <strong>Report Plugin for SonarQube&trade;</strong>, allows you to generate customizable, comprehensive reports in PDF and ODT formats, containing all the key data from your SonarQube&trade; project analysis.
 
 <h3>What can you include in the reports?</h3>
 
@@ -82,9 +82,9 @@ Our <strong>Report Plugin for SonarQube™</strong>, allows you to generate cust
 
 - Facilitates internal and external audit reviews
 
-Complying with the <strong>National Security Framework (ENS)</strong> doesn’t have to be a complex task. With tools like Report Plugin for SonarQube™, you can ensure your code is secure, traceable, and well documented ready for any audit or review.
+Complying with the <strong>National Security Framework (ENS)</strong> doesn’t have to be a complex task. With tools like Report Plugin for SonarQube&trade;, you can ensure your code is secure, traceable, and well documented ready for any audit or review.
 
-If you're looking for a smart way to streamline ENS compliance, try our [Plugin for SonarQube™](/sonarqube-report) and turn your project analysis into professional, audit-ready documentation.
+If you're looking for a smart way to streamline ENS compliance, try our [Plugin for SonarQube&trade;](/sonarqube-report) and turn your project analysis into professional, audit-ready documentation.
 
 ---
 **<span style="color: green">bitegarden</span> team**

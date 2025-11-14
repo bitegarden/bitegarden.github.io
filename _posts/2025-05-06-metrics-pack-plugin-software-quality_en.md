@@ -16,13 +16,13 @@ And the best part? It’s a **free metrics pack for SonarQube**! In this article
 
 <h2>What does the Metrics Pack for SonarQube offer?</h2>
 
-The Metrics Pack for SonarQube™ plugin expands the available metrics in your instance, delivering indicators highly valued by development and quality teams, such as:
+The Metrics Pack for SonarQube&trade; plugin expands the available metrics in your instance, delivering indicators highly valued by development and quality teams, such as:
 
 **Rules Compliance Index**: An index based on the weight of detected issues and the number of lines of code in the project. <br>
 
 **Dead Code Issues**: A metric that reflects the number of issues related to dead code. You can customize the rules that apply to this metric from the plugin settings. <br>
 
-**Estimated Development Cost**: Have you ever thought about the cost of developing your code? With this metric—based on the estimated cost per line of code—you’ll be able to calculate the total estimated cost of your projects analyzed in SonarQube™. <br>
+**Estimated Development Cost**: Have you ever thought about the cost of developing your code? With this metric—based on the estimated cost per line of code—you’ll be able to calculate the total estimated cost of your projects analyzed in SonarQube&trade;. <br>
 
 **Total Technical Debt Ratio**: Unlike SonarQube’s standard metric, which calculates the technical debt ratio only based on code smells, this indicator gives you the full picture: it includes remediation costs for bugs, vulnerabilities, and code smells. <br>
 
@@ -38,7 +38,7 @@ Here are a few reasons why you should be using this plugin:
 -  Improve your reports and presentations on code health. <br>
 
 <br>
-Download it now from [this link](/sonarqube-metrics-pack.html){:target="_blank"} and unlock the full power of your SonarQube™ Server.
+Download it now from [this link](/sonarqube-metrics-pack.html){:target="_blank"} and unlock the full power of your SonarQube&trade; Server.
 
 
 ---

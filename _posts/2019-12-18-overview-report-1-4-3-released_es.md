@@ -21,7 +21,7 @@ Esta versión es principalmente una mejora interna y consiste en:
 
 Puedes tambien [configurar el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar de manera automática tu plugin. 
 
-¡Disfruta de la nueva versión de nuestro plugin para SonarQube™!
+¡Disfruta de la nueva versión de nuestro plugin para SonarQube&trade;!
 
 ![overview-logo](/img/portfolio/sonarqube-overview.png){: .center-image}
 

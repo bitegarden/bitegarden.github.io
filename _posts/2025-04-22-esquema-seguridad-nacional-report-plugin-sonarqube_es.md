@@ -1,7 +1,7 @@
 ---
 layout: post_es
-title: Cumple con el ENS fácilmente con el Report Plugin para SonarQube™
-description: Cumple con el ENS generando informes automáticos y auditables con Report Plugin for SonarQube™.
+title: Cumple con el ENS fácilmente con el Report Plugin para SonarQube&trade;
+description: Cumple con el ENS generando informes automáticos y auditables con Report Plugin for SonarQube&trade;.
 
 permalink: esquema-seguridad-nacional-report-plugin-sonarqube
 english: national-security-scheme-report-plugin-sonarqube
@@ -12,7 +12,7 @@ cover: /img/posts/2025-04-22-esquema-seguridad-nacional-report-plugin-sonarqube_
 
 La seguridad de la información es un requisito fundamental en la transformación digital del sector público. En España, el Esquema Nacional de Seguridad (ENS) es el <strong>marco legal diseñado para proteger los sistemas y servicios</strong> que manejan datos públicos.
 
-Si trabajas con o para una entidad gubernamental, el cumplimiento del ENS no es opcional. En este artículo, te explicamos qué es el ENS, por qué es importante y cómo nuestro <strong>Report Plugin for SonarQube™</strong> puede ayudarte a generar fácilmente la documentación técnica requerida para auditorías de seguridad y cumplimiento del ENS.
+Si trabajas con o para una entidad gubernamental, el cumplimiento del ENS no es opcional. En este artículo, te explicamos qué es el ENS, por qué es importante y cómo nuestro <strong>Report Plugin for SonarQube&trade;</strong> puede ayudarte a generar fácilmente la documentación técnica requerida para auditorías de seguridad y cumplimiento del ENS.
 
 <h2>¿Qué es el Esquema Nacional de Seguridad (ENS)?</h2>
 
@@ -42,9 +42,9 @@ Estos principios se traducen en un conjunto de <strong>medidas de seguridad téc
 
 - Es un requisito clave en licitaciones públicas y contratos tecnológicos.
 
-<h2>¿Cómo ayuda SonarQube™ al cumplimiento del ENS?</h2>
+<h2>¿Cómo ayuda SonarQube&trade; al cumplimiento del ENS?</h2>
 
-SonarQube™ es ampliamente utilizado en el sector público para:
+SonarQube&trade; es ampliamente utilizado en el sector público para:
 
 - Monitorizar y mejorar la calidad del código fuente.
 
@@ -56,9 +56,9 @@ SonarQube™ es ampliamente utilizado en el sector público para:
 
 En el contexto del ENS, esto aporta evidencia técnica que respalda tu Plan de Seguridad, Informes de Auditoría y Declaración de Aplicabilidad.
 
-<h2>¿Cómo ayuda Report Plugin for SonarQube™ al cumplimiento del ENS?</h2>
+<h2>¿Cómo ayuda Report Plugin for SonarQube&trade; al cumplimiento del ENS?</h2>
 
-Nuestro <strong>Report Plugin for SonarQube™</strong> te permite generar informes completos y personalizables en formato PDF y ODT, que contienen todos los datos clave del análisis de tus proyectos en SonarQube™.
+Nuestro <strong>Report Plugin for SonarQube&trade;</strong> te permite generar informes completos y personalizables en formato PDF y ODT, que contienen todos los datos clave del análisis de tus proyectos en SonarQube&trade;.
 
 <h3>¿Qué puedes incluir en los informes?</h3>
 
@@ -82,9 +82,9 @@ Nuestro <strong>Report Plugin for SonarQube™</strong> te permite generar infor
 
 - Facilita las auditorías internas y externas
 
-Cumplir con el <strong>Esquema Nacional de Seguridad (ENS)</strong> no tiene por qué ser una tarea compleja. Con herramientas como el Report Plugin for SonarQube™, puedes asegurar que tu código sea seguro, trazable y esté correctamente documentado y listo para cualquier auditoría o revisión.
+Cumplir con el <strong>Esquema Nacional de Seguridad (ENS)</strong> no tiene por qué ser una tarea compleja. Con herramientas como el Report Plugin for SonarQube&trade;, puedes asegurar que tu código sea seguro, trazable y esté correctamente documentado y listo para cualquier auditoría o revisión.
 
-Si estás buscando una forma inteligente de facilitar el cumplimiento del ENS, prueba nuestro [Plugin para SonarQube™](/es/sonarqube-report) y transforma tu análisis de proyectos en documentación profesional y lista para auditoría.
+Si estás buscando una forma inteligente de facilitar el cumplimiento del ENS, prueba nuestro [Plugin para SonarQube&trade;](/es/sonarqube-report) y transforma tu análisis de proyectos en documentación profesional y lista para auditoría.
 
 ---
 **<span style="color: green">bitegarden</span> team**

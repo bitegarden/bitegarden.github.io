@@ -21,7 +21,7 @@ We have released the new version (2.8) of the [Report Plugin for SonarQube](/son
 
 <hr>
 
-### Report Plugin for SonarQube™
+### Report Plugin for SonarQube&trade;
 
 Export your reports from SonarQube directly from the user interface and without any additional configuration!
 

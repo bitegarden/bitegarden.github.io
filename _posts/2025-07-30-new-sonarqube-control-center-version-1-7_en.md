@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We’re launching Control Center for SonarQube™ 1.7
+title: We’re launching Control Center for SonarQube&trade; 1.7
 description: New interface to better manage the plugin’s features.
 
 permalink: new-sonarqube-control-center-version-1-7
@@ -10,7 +10,7 @@ cover: /img/posts/2025-07-30-new-sonarqube-control-center-version-1-7_en.png
 
 This new version comes with a major interface upgrade that will make managing your plugin’s features simpler, faster, and more organized.
 
-Up until **version 1.6**, the Control Center for SonarQube™ plugin had four separate pages for **Project Management, Permission Template Management, User Management and Hotspot Management**. 
+Up until **version 1.6**, the Control Center for SonarQube&trade; plugin had four separate pages for **Project Management, Permission Template Management, User Management and Hotspot Management**. 
 
 With the new **version 1.7**, we’ve unified these sections into a single page with tabs, allowing you to navigate and perform administrative tasks much more efficiently.
 
@@ -28,12 +28,12 @@ Screenshot of the new Control Center for SonarQube version 1.7
 
 <h2>How can I update to the new version?</h2>
 
-If you already have the **Universal Plugin Manager for SonarQube Server™ (UPM) installed**, simply click the update button.
+If you already have the **Universal Plugin Manager for SonarQube Server&trade; (UPM) installed**, simply click the update button.
 If you don’t have the UPM yet, you can download it from [this page](/sonarqube-upm-trial-form).
 
 <h2>How can I download Control Center for SonarQube?</h2>
 
-If you haven’t tried Control Center for SonarQube Server™ yet, you can download it and start testing it in your instance from [this link](/sonarqube-control-center-trial-form).
+If you haven’t tried Control Center for SonarQube Server&trade; yet, you can download it and start testing it in your instance from [this link](/sonarqube-control-center-trial-form).
 
 ---
 **<span style="color: green">bitegarden</span> team**

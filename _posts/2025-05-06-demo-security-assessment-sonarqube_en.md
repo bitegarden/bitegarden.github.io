@@ -10,12 +10,12 @@ spanish: demostracion-security-assessment-sonarqube
 cover: /img/posts/2025-05-06-demo-security-assessment-sonarqube_en.png
 ---
 
-At **bitegarden**, we’ve developed **Security Assessment for SonarQube™**, a must-have plugin that gives you a clear and detailed view of your code’s security posture.
+At **bitegarden**, we’ve developed **Security Assessment for SonarQube&trade;**, a must-have plugin that gives you a clear and detailed view of your code’s security posture.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IPqITD-2G34?si=j_diq8Zx4IEEb8n2&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<h2>What is Security Assessment for SonarQube™?</h2>
+<h2>What is Security Assessment for SonarQube&trade;?</h2>
 
 This plugin provides a **comprehensive analysis** of your project's compliance with the most important security standards, offering reports based on:
 
@@ -25,17 +25,17 @@ CWE Top 25 On the Cusp <br>
 ISO 5055 <br>
 OWASP Top 10 <br>
 
-All this is presented **directly in your SonarQube™** instance in a simple, visual, and centralized interface.
+All this is presented **directly in your SonarQube&trade;** instance in a simple, visual, and centralized interface.
 
 <h2>Who is this plugin for?</h2>
 
-**Security Assessment for SonarQube™** is designed for:
+**Security Assessment for SonarQube&trade;** is designed for:
 
 **Development teams** who want to write secure code.
 
 **Quality managers** who need clear insights into product compliance.
 
-**SonarQube™ administrators** looking for a visual, efficient way to manage security assessments across projects.
+**SonarQube&trade; administrators** looking for a visual, efficient way to manage security assessments across projects.
 
 <h2>Try it now</h2>
 

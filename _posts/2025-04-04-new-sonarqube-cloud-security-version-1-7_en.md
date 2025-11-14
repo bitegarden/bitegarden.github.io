@@ -10,7 +10,7 @@ spanish: nueva-version-sonarqube-cloud-security-version-1-7
 cover: /img/posts/2025-04-04-new-sonarqube-cloud-security-version-1-7_en.png
 ---
 
-We have a new version of our product **Security Report for SonarQube Cloud™**! As part of our ongoing commitment to help you strengthen the security of your software, we are excited to announce a new feature in our plugin for SonarQube Cloud version.
+We have a new version of our product **Security Report for SonarQube Cloud&trade;**! As part of our ongoing commitment to help you strengthen the security of your software, we are excited to announce a new feature in our plugin for SonarQube Cloud version.
 
 We have launched **version 1.7**, which includes a new report. Specifically, you can now generate a PDF report that includes vulnerabilities classified as On the Cusp from the CWE Top 25.
 
@@ -20,7 +20,7 @@ The **CWE Top 25 On the Cusp** includes vulnerabilities ranked between positions
 
 <h2>Download the new version</h2>
 
-You can download this new version 1.7 from the [product page](/sonarcloud-security) of the **Security Plugin for SonarQube Cloud™**.
+You can download this new version 1.7 from the [product page](/sonarcloud-security) of the **Security Plugin for SonarQube Cloud&trade;**.
 
 ---
 **<span style="color: green">bitegarden</span> team**

@@ -55,5 +55,5 @@ resolverlo.
   
 Y si ya estás utilizando SonarQube y estás buscando mejorar la gestión de la deuda técnica de tu proyecto para tenerla
 bajo control, puedes extender su funcionalidad con [SQALE Plugin](https://www.bitegarden.com/sonarqube-sqale) que es una
-herramienta oficial que implementa el método [SQALE](http://www.sqale.org/tools) para gestionar la deuda.
+herramienta oficial que implementa el método SQALE para gestionar la deuda.
 
