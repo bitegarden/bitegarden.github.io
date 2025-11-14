@@ -10,25 +10,25 @@ spanish: gestion-facil-plugins-sonarqube
 cover: /img/posts/2025-05-04-easy-management-sonarqube-plugins_en.png
 ---
 
-Are you a SonarQube™ administrator? Then this article is for you. At bitegarden, we’ve developed a solution built by developers, for administrators: the **Universal Plugin Manager (UPM) for SonarQube™**. In this article, we’ll show you how this product can make your day-to-day plugin management tasks much easier.
+Are you a SonarQube&trade; administrator? Then this article is for you. At bitegarden, we’ve developed a solution built by developers, for administrators: the **Universal Plugin Manager (UPM) for SonarQube&trade;**. In this article, we’ll show you how this product can make your day-to-day plugin management tasks much easier.
 
 <h2>What is the Universal Plugin Manager?</h2>
 
-The Universal Plugin Manager (UPM) is an administration tool that **simplifies plugin management** within your SonarQube™ instance. It is designed to streamline plugin installation, updating, and removal, allowing administrators to manage everything from within the SonarQube™ administration interface — with no need to access the server file system.
+The Universal Plugin Manager (UPM) is an administration tool that **simplifies plugin management** within your SonarQube&trade; instance. It is designed to streamline plugin installation, updating, and removal, allowing administrators to manage everything from within the SonarQube&trade; administration interface — with no need to access the server file system.
 
-Traditionally, installing a custom plugin in SonarQube™ meant copying .jar files directly into the server's extensions/plugins folder, which required help from the operations team.
+Traditionally, installing a custom plugin in SonarQube&trade; meant copying .jar files directly into the server's extensions/plugins folder, which required help from the operations team.
 
 With our UPM plugin, you can save time by performing the **following actions**:
 
 ➡ Upload .jar files **directly** through the web interface.
 
-➡ Install any custom plugin or older version not available in the **SonarQube™ Marketplace**.
+➡ Install any custom plugin or older version not available in the **SonarQube&trade; Marketplace**.
 
 <h2>Featured bitegarden plugins</h2>
 
 One of the most powerful features of UPM is the dedicated section for **bitegarden-developed plugins**. From here, you can:
 
-➡ Browse all our plugins **compatible with SonarQube™**.
+➡ Browse all our plugins **compatible with SonarQube&trade;**.
 
 ➡ Install and update our tools **directly from within UPM**.
 

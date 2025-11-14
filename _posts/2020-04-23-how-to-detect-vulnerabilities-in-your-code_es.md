@@ -1,7 +1,7 @@
 ﻿---
 layout: post_es
 title: Cómo detectar vulnerabilidades en tu código
-description: SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SANS, CWE, ...
+description: SonarQube&trade; se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SANS, CWE, ...
 
 english: how-to-detect-vulnerabilities-in-your-code
 permalink: como-detectar-vulnerabilidades-en-el-codigo
@@ -12,11 +12,11 @@ cover: /img/thumbs/Thumb-how-to-detect-vulnerabilities-in-your-code.jpg
 
 ![Como detectar vulnerabilidades en el código - bitegarden](/img/posts/bitegarden-how_to_detect_vulnerabilities_in_your_code.jpg){:width="100%" .center-image}
 
-SonarQube™ se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. 
+SonarQube&trade; se ha convertido en la herramienta de inspección continua y análisis estático por excelencia. 
 
 Desde hace un par de años el equipo de desarrollo se ha centrado en mejorar todas aquellas características de análisis
 asociadas a la detección de vulnerabilidades y a los diferentes estándares de seguridad, incluyendo OWASP, SANS, CWE, ... 
-de forma que en estos momentos ya podemos decir que [SonarQube™ es una herramienta SAST](https://www.sonarqube.org/features/security/) 
+de forma que en estos momentos ya podemos decir que [SonarQube&trade; es una herramienta SAST](https://www.sonarqube.org/features/security/) 
 (Static Application Security Testing). 
 
 Además, si complementamos la herramienta con otros componentes Open Source como 
@@ -26,11 +26,11 @@ componentes (Software Composition Analysis, SCA) o nuevos informes de cumplimien
 el conjunto de reglas de seguridad disponible a través de herramientas como [Find Security Bugs](https://find-sec-bugs.github.io)
 usando el plugin [sonar-findbugs](https://github.com/spotbugs/sonar-findbugs).
 
-Pero más allá de todo esto, ¿cómo detectamos vulnerabilidades en el código con SonarQube™?
+Pero más allá de todo esto, ¿cómo detectamos vulnerabilidades en el código con SonarQube&trade;?
 
 ## **Evidencias de seguridad:** Hotspots vs Vulnerabilidades
 
-SonarQube™ diferencia dos tipos de evidencias relacionadas con la seguridad.
+SonarQube&trade; diferencia dos tipos de evidencias relacionadas con la seguridad.
 
 La principal diferencia es la **necesidad de una revisión** antes de decidir si se necesita aplicar una solución:
 
@@ -114,7 +114,7 @@ exportar toda la información en PDF con [nuestro plugin](/sonarqube-security) y
 
 ## Conclusiones
 
-SonarQube™ ha mejorado su [motor de seguridad](https://blog.sonarsource.com/what-is-taint-analysis) y ya juega en la misma 
+SonarQube&trade; ha mejorado su [motor de seguridad](https://blog.sonarsource.com/what-is-taint-analysis) y ya juega en la misma 
 liga que otras herramientas más especializadas. Empieza a revisar todos los problemas de seguridad en tu código:
 
 1. Activando las reglas que detectan vulnerabilidades y hotspots

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: News for code quality lovers
-description: SQALE plugin for SonarQube™ has new features to manage technical debt and we add two new sonar plugins to the family - Rating Report and Project Tag will boost usability of your tags in SonarQube™. It's all about sonarqube plugins development!
+description: SQALE plugin for SonarQube&trade; has new features to manage technical debt and we add two new sonar plugins to the family - Rating Report and Project Tag will boost usability of your tags in SonarQube&trade;. It's all about sonarqube plugins development!
 permalink: /news-for-code-quality-lovers
 spanish: /noticias-para-los-amantes-de-calidad-de-codigo
 cover: /img/thumbs/Thumb-news-for-quality-lovers.jpg
@@ -21,7 +21,7 @@ Do you need help defining an action plan to focus on the problems that matter? U
 
 ---
 
-### Introducing Project Tag Plugin for SonarQube™
+### Introducing Project Tag Plugin for SonarQube&trade;
 
 Creating tags manually is a very hard when you have a lot of projects. With our newest plugin you'll be able to set project tags in an easy and automatic way. Just provide the tag through a command line property in your analysis and the plugin will do the rest.
 
@@ -31,9 +31,9 @@ Your project onboarding it's going to be much more smooth...
 
 ---
 
-### Introducing Rating Report Plugin for SonarQube™
+### Introducing Rating Report Plugin for SonarQube&trade;
 
-SonarQube™ has a powerful quality model based on reliability, security and maintainability. But sometimes you need to know a little bit more... What about performance? And error handling? User experience?
+SonarQube&trade; has a powerful quality model based on reliability, security and maintainability. But sometimes you need to know a little bit more... What about performance? And error handling? User experience?
 
 With this plugin you will be able to get ratings for all those code quality characteristics by using the rule tags feature available in SonarQube.
 

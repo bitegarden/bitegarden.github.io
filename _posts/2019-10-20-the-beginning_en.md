@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Beginning
-description: This is our first blog post! A brief introduction to our SonarQube™ Marketplace project and the roadmap of our SonarQube™ plugins blog.
+description: This is our first blog post! A brief introduction to our SonarQube&trade; Marketplace project and the roadmap of our SonarQube&trade; plugins blog.
 spanish: /el-inicio
 permalink: /the-begginning 
 cover: /img/thumbs/Thumb-bitegarden-the-beginning.jpg
@@ -17,21 +17,21 @@ of code quality.
 
 We'll be writing (or at least trying) about: 
 
-\- **Our plugins**: new releases, roadmap, value and proposition. This is the best way of being up to date with SonarQube™ plugins. 
+\- **Our plugins**: new releases, roadmap, value and proposition. This is the best way of being up to date with SonarQube&trade; plugins. 
 
-\- **SonarQube™**: features, releseases, community, plugins...
+\- **SonarQube&trade;**: features, releseases, community, plugins...
 
 \- **Code Quality**: methodologies, QA teams, tools, DevOps and much more. 
 
-**bitegarden is all about SonarQube™ plugins. That's what we do and we are highly trained and specialised. That's why we 
+**bitegarden is all about SonarQube&trade; plugins. That's what we do and we are highly trained and specialised. That's why we 
 have a vast knownledge of sonar plugins that we want to share with the community.** 
 
 
-## SonarQube™ Plugins Marketplace
+## SonarQube&trade; Plugins Marketplace
 
-We also wanted to create a complete and always up-to-date SonarQube™ plugin directory, so all SonarQube™ plugins are available for everyone. That was one of our first projects: a SonarQube™ marketplace. 
+We also wanted to create a complete and always up-to-date SonarQube&trade; plugin directory, so all SonarQube&trade; plugins are available for everyone. That was one of our first projects: a SonarQube&trade; marketplace. 
 
-**You can  setup SonarQube™ update center to use our URL for updates. It includes SonarSource/SonarQube™ commercial/community plugins and bitegarden's plugins.** 
+**You can  setup SonarQube&trade; update center to use our URL for updates. It includes SonarSource/SonarQube&trade; commercial/community plugins and bitegarden's plugins.** 
 
 This is the best way to keep up to date with our plugins (and all the plugins in the marketplace as well).
 

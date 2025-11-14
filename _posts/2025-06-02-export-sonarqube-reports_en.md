@@ -12,11 +12,11 @@ cover: /img/posts/2025-06-02-export-sonarqube-reports_en.png
 
 Do you use SonarQube and need to export professional reports on your code quality? Not satisfied with the native report provided by SonarQube?
 
-Then the **Report Plugin for SonarQube™** by bitegarden is the tool you’ve been looking for.
+Then the **Report Plugin for SonarQube&trade;** by bitegarden is the tool you’ve been looking for.
 
-<h2>What is Report Plugin for SonarQube™?</h2>
+<h2>What is Report Plugin for SonarQube&trade;?</h2>
 
-The **Report Plugin for SonarQube™** is a professional plugin that allows you to export detailed and customizable reports on your code quality directly from the SonarQube™ interface. No complex setup. No external tools required.
+The **Report Plugin for SonarQube&trade;** is a professional plugin that allows you to export detailed and customizable reports on your code quality directly from the SonarQube&trade; interface. No complex setup. No external tools required.
 
 With this plugin, you can:
 
@@ -26,11 +26,11 @@ With this plugin, you can:
 
 3. Save time preparing audit reports.   <br>
 
-4. Export clear, clean, and professional information about the quality status of any project (and any branch) in your SonarQube™ instance.   <br>
+4. Export clear, clean, and professional information about the quality status of any project (and any branch) in your SonarQube&trade; instance.   <br>
 
 While **SonarQube** provides a basic report to view a project’s quality status, many teams face limitations when it comes to customizing content or presenting information clearly and in a way that fits their needs.
 
-With the **Report Plugin for SonarQube™**, you can go one step further: generate clean, complete, and fully customizable executive reports in PDF, XLSX, and ODT formats aligned with your branding, style, or audit requirements.
+With the **Report Plugin for SonarQube&trade;**, you can go one step further: generate clean, complete, and fully customizable executive reports in PDF, XLSX, and ODT formats aligned with your branding, style, or audit requirements.
 
 Here you can see the difference between the two reports. 
 
@@ -38,7 +38,7 @@ The first image shows a **report exported directly from SonarQube**:
 
 <img width="100%" src="/img/posts/report-sonarqube.png" alt="Report exported from SonarQube">  
 
-The next image shows the first page of a report **exported using the Report Plugin for SonarQube™**:
+The next image shows the first page of a report **exported using the Report Plugin for SonarQube&trade;**:
 
 <img width="100%" src="/img/posts/report-plugin-sonarqube-bitegarden.png" alt="Report exported from Report Plugin for SonarQube">  
 

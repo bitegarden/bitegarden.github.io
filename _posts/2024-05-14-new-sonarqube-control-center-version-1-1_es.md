@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title:  ¡Nuevo lanzamiento! - Centro de control para SonarQube™ 1.1
+title:  ¡Nuevo lanzamiento! - Centro de control para SonarQube&trade; 1.1
 description: ¡Nueva función en el Centro de control para ayudar a los administradores con las plantillas de permisos!
 
 permalink: nuevo-sonarqube-control-center-version-1-1
@@ -9,7 +9,7 @@ italian: nuovo-sonarqube-control-center-version-1-1
 cover: /img/posts/2024-05-14-new-sonarqube-control-center-version-1-1_ES.png
 ---
 
-Nos complace anunciar una nueva versión de Control Center para SonarQube™.
+Nos complace anunciar una nueva versión de Control Center para SonarQube&trade;.
 
 <h2>¿Qué es el Control Center de SonarQube?</h2>
 

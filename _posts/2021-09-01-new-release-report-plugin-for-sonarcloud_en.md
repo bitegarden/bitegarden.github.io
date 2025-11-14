@@ -35,7 +35,7 @@ If you need more information about the features or how to get started, please ch
 
 ### Report Plugins for SonarQube
 
-If you need to generate a report from SonarQube visit the page of the [bitegarden Report for SonarQube™](sonarqube-report) and get your [free trial for 14 days](/sonarqube-report#product-block-center).
+If you need to generate a report from SonarQube visit the page of the [bitegarden Report for SonarQube&trade;](sonarqube-report) and get your [free trial for 14 days](/sonarqube-report#product-block-center).
 
 
 ---

@@ -47,7 +47,7 @@ Yes, the plugin connects to your Dependency-Track server using an API key.
 **3. Is the plugin free?** <br>
 It offers a 14-day free trial. A full license costs €600 per year.
 
-Managing vulnerabilities and dependencies is key to maintaining your software’s security and quality. With Dependency Track for SonarQube™, you can **centralize all this information** within your SonarQube instance, avoiding the need to switch between tools and gaining a clear, visual view of your project’s risks.
+Managing vulnerabilities and dependencies is key to maintaining your software’s security and quality. With Dependency Track for SonarQube&trade;, you can **centralize all this information** within your SonarQube instance, avoiding the need to switch between tools and gaining a clear, visual view of your project’s risks.
 
 You can download and install this plugin in your instance through [this link](/sonarqube-dependency-track-trial-form).
 
