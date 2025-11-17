@@ -54,7 +54,7 @@ Per essere più chiari, nel video seguente ti mostriamo come creare questi repor
 <br>
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7u8YfUdp6uI?si=ihiFSC1nc-KjJAUX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ8RCEuCWW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 
 A proposito, abbiamo a disposizione un'offerta del **20% di sconto per il Pacchetto Premium bitegarden**, che include tutti i prodotti per SonarQube o per SonarCloud. Puoi approfittare di questa offerta attraverso la pagina [download prodotti](https://www.bitegarden.com/it/products/).
