@@ -53,7 +53,7 @@ Cada informe generado tiene un botón, así que únicamente tendrás que **clica
 
 Para que lo veas más claro, en el siguiente vídeo te mostramos cómo puedes crear estos informe de SonarQube y exportarlos en **PDF, plantilla editable ODT y/o Excel**. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7u8YfUdp6uI?si=ihiFSC1nc-KjJAUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ8RCEuCWW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Por cierto, tenemos disponible una oferta del **20% de descuento para el Pack Premium bitegarden**, que incluye todos los productos para SonarQube o para SonarCloud. Puedes aprovechar esta oferta a través de la página de [descarga de productos](https://www.bitegarden.com/es/products/)
 

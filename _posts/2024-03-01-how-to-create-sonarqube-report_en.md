@@ -55,7 +55,7 @@ To make it clearer, the following video shows how you can create these SonarQube
 <br>
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7u8YfUdp6uI?si=ihiFSC1nc-KjJAUX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ8RCEuCWW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 
 By the way, we have available an offer of **20% discount for the Premium Pack bitegarden**, which includes all products for SonarQube or SonarCloud. You can take advantage of this offer through the [product download page](https://www.bitegarden.com/products/). 
