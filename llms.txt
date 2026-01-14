@@ -1,0 +1,39 @@
+# www.bitegarden.com - Plugins for SonarQube and SonarCloud
+
+> bitegarden is a specialized software company dedicated to extending the capabilities of SonarQube and SonarCloud through innovative plugins and products. They help organizations worldwide develop better, more secure code by providing comprehensive tools for continuous code inspection, quality metrics analysis, and security assessment. 
+
+
+## Main pages
+
+[Plugings for SonarQube](https://www.bitegarden.com/): Explore plugins available for SonarQube Server and SonarQube Cloud.
+[Download plugins for SonarQube](https://www.bitegarden.com/downloads/): Access downloads for SonarQube plugins.
+[All plugings for SonarQube Server and SonarQube Cloud](https://www.bitegarden.com/products/): Browse all plugins compatible with both SonarQube Server and SonarQube Cloud.
+[Blog](https://www.bitegarden.com/blog/): Read articles and updates related to SonarQube plugins.
+[Tutorials for SonarQube plugins](https://www.bitegarden.com/tutorials/): Access step-by-step guides and tutorials for using SonarQube plugins.
+
+
+## Products
+
+- [Report for SonarQube™ Server](https://www.bitegarden.com/sonarqube-report): Generates a project report from a fully customizable ODT template or a predefined PDF/Excel report.
+- [Overview for SonarQube™ Server](https://www.bitegarden.com/sonarqube-overview): Provides a big picture of your SonarQube™ instance with all aggregated measures in a single view.
+- [Security Assessment for SonarQube™ Server](https://www.bitegarden.com/sonarqube-security): Provides information about security standards like OWASP, including risk factors, vulnerabilities, and categories.
+- [Control Center for SonarQube™ Server](https://www.bitegarden.com/sonarqube-control-center): Learn about the new admin interface for SonarQube™ administrators.
+- [Dependency Track for SonarQube™ Server](https://www.bitegarden.com/sonarqube-dependency-track): View Dependency Track vulnerabilities from your SonarQube™.
+- [Quality Gates Board for SonarQube™ Server](https://www.bitegarden.com/sonarqube-quality-gates-board): Provides a board in your project to check if a given set of quality gates is passed or failed.
+- [Generic Issue Data Exporter for SonarQube™ Server](https://www.bitegarden.com/sonarqube-generic-issue-data-exporter) : Allows importing SonarQube Server issues into your SonarQube Cloud instance.
+- [SQALE for SonarQube™ Server](https://www.bitegarden.com/sonarqube-sqale): Software quality assessment based on lifecycle expectations. Track technical debt using the SQALE method.
+- [Metrics Pack for SonarQube™ Server](https://www.bitegarden.com/sonarqube-metrics-pack): A new metrics pack to extend your SonarQube™ instance.
+- [Rating Report for SonarQube™ Server](https://www.bitegarden.com/sonarqube-rating): Brand new rating report using information from tags in SonarQube™.
+- [Project Tag for SonarQube™ Server](https://www.bitegarden.com/sonarqube-project-tag): Allows setting project tags during project analysis.
+- [Universal Plugin Manager for SonarQube™ Server](https://www.bitegarden.com/sonarqube-upm): Easy way to install plugins via the administration interface.
+- [Report for SonarQube™ Cloud](https://www.bitegarden.com/sonarcloud-report): Generate a PDF or Excel report from your SonarCloud™ project.
+- [Overview for SonarQube™ Cloud](https://www.bitegarden.com/sonarcloud-overview): Provides a big picture of your SonarCloud™ organization with all aggregated measures in a PDF report.
+- [Security Assessment for SonarQube™ Cloud](https://www.bitegarden.com/sonarcloud-security): Generate a PDF report to validate OWASP Top 10 or CWE Top 25 from your SonarCloud™ project.
+- [Dependency Check for SonarQube™ Cloud](https://www.bitegarden.com/sonarcloud-dependency-check): ync Dependency Check information with your SonarCloud™.
+
+## Support and Engagement
+
+- [Contact Us](https://www.bitegarden.com/contact) : The primary contact page for inquiries, support requests and custom development discussions.
+- [Newsletter Signup](https://www.bitegarden.com/newsletter-signup-form) : Subscribe to stay informed about the latest bitegarden product updates and feature releases. Regular subscribers receive exclusive information about new plugins and improvements to existing solutions.
+
+
