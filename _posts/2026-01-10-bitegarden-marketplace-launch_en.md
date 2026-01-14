@@ -3,8 +3,8 @@ layout: post
 title: We’re launching the bitegarden Marketplace in beta!
 description: A new marketplace to discover and download SonarQube Server and SonarQube Cloud plugins from bitegarden and third parties.
 
-spanish: marketplace-bitegarden-launch
-english: lanzamiento-marketplace-bitegarden
+permalink: marketplace-bitegarden-launch
+spanish: lanzamiento-marketplace-bitegarden
 
 
 cover: /img/posts/2026-01-10-bitegarden-marketplace-launch_en.png
