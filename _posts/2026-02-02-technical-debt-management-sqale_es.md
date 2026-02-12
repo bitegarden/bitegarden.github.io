@@ -14,7 +14,7 @@ La gestión de la **deuda técnica** es uno de los grandes desafíos para cualqu
 
 <h2>Qué hace el SQALE Plugin</h2>
 
-El **SQALE Plugin for SonarQube&trade; Server** reinstala un enfoque que muchos desarrolladores echaban de menos: el modelo SQALE, alineado con la norma ISO 25000, diseñado para medir y gestionar la calidad del código. Con él, podrás:
+El **SQALE Plugin for SonarQube&trade; Server** trae de vuelta un enfoque que muchos desarrolladores echaban de menos: el modelo SQALE, alineado con la norma ISO 25000, diseñado para medir y gestionar la calidad del código. Con él, podrás:
 
 Definir qué genera deuda técnica en tu proyecto. <br>
 
@@ -32,7 +32,8 @@ Además, el plugin incluye **dashboards y reportes** que muestran métricas clav
 <h2>Cómo permite gestionar la deuda técnica</h2>
 
 Gracias a SQALE, los equipos pueden tener una visión clara y estructurada de la deuda técnica:
-**Medición objetiva**: Cada error, vulnerabilidad o mal olor de código se traduce en días de deuda técnica y se categoriza según características como mantenibilidad, testabilidad, fiabilidad, seguridad, reusabilidad, portabilidad y eficiencia.
+
+**Medición objetiva**: Cada error, vulnerabilidad o *code smell* de código se traduce en días de deuda técnica y se categoriza según características como mantenibilidad, testabilidad, fiabilidad, seguridad, reusabilidad, portabilidad y eficiencia.
 
 **Priorización estratégica**: Los gráficos de ROI permiten decidir qué problemas resolver primero según su impacto real en el negocio.
 

@@ -14,7 +14,7 @@ Managing technical debt is one of the **biggest challenges** for any development
 
 <h2>What the SQALE Plugin does</h2>
 
-The **SQALE Plugin for SonarQube&trade; Server** reinstalls an approach many developers missed: the SQALE model, aligned with ISO 25000 standards, designed to measure and manage code quality. With it, you can:
+The **SQALE Plugin for SonarQube&trade; Server** brings back an approach many developers missed: the SQALE model, aligned with ISO 25000 standards, designed to measure and manage code quality. With it, you can:
 
 Define what **generates technical debt** in your project. <br>
 
