@@ -4,7 +4,7 @@ title: How to Automate Project Tagging with Project Tag for SonarQube™
 description: Automate project tagging in SonarQube with bitegarden’s Project Tag and maintain consistency in CI/CD without manual management.
 
 permalink: automate-sonarqube-project-tags-project-tag-plugin
-english: automatizar-etiquetas-proyectos-sonarqube-plugin-project-tag
+spanish: automatizar-etiquetas-proyectos-sonarqube-plugin-project-tag
 
 cover: /img/posts/2026-02-10-automate-sonarqube-project-tags-project-tag-plugin_en.png
 ---
