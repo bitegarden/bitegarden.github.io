@@ -13,7 +13,7 @@ cover: /img/thumbs/2020-11-04-free-universal-plugin-manager-for-sonarqube-1-3-th
 The new [**Universal Plugin Manager for SonarQube**](/sonarqube-upm) is available. Now you can manage your plugins from the main SonarQube panel.
 <br>
 <br>
-<center><a href="/sonarqube-upm-trial-form" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Try Now ></a></center>
+<center><a href="https://marketplace.bitegarden.com/download/download-form/59" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Try Now ></a></center>
 <br>
 
 
@@ -47,7 +47,7 @@ It shows a list of all the plugins that have been installed and that are not ava
 <a href="/sonarqube-upm"><img src="/img/posts/2020-11-04-free-universal-plugin-manager-for-sonarqube-1-3.png" width="100%" alt="New View"></a>
 <br>
 <br>
-<center><a href="/sonarqube-upm-trial-form" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Try Now ></a></center>
+<center><a href="https://marketplace.bitegarden.com/download/download-form/59" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">Try Now ></a></center>
 <br>
 
 <br>
