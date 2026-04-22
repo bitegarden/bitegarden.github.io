@@ -28,7 +28,7 @@ La gran novedad de esta versión es la incorporación de una **sección llamada 
 
 La vista de proyectos también evoluciona con dos capacidades clave:
 
-**Filtro de proyectos vacíos**: Ahora desde la sección Project Management peudes filtrar directamente para encontrar aquellos proyectos que no contienen datos, evitando exploraciones manuales innecesarias.
+**Filtro de proyectos vacíos**: Ahora desde la sección Project Management puedes filtrar directamente para encontrar aquellos proyectos que no contienen datos, evitando exploraciones manuales innecesarias.
 
 <img width="100%" src="/img/sonarqube-control-center/control-center-sonarqube-project-management-empty-projects.png" alt="Control Center SonarQube Empty projects">
 <br>
