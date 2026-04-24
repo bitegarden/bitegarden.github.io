@@ -35,7 +35,7 @@ En este video podrás ver esta nueva funcionalidad:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vrGZIzwkI1U?si=FsCPPU-lTdPzbG6-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](/es/sonarqube-control-center-trial-form) 
+Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](https://marketplace.bitegarden.com/download/download-form/60) 
 
 ---
 **<span style="color: green">bitegarden</span> team**

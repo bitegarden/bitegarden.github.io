@@ -29,7 +29,7 @@ Here you can see how a user **will be able to select one or more users** and cha
 
 <br>
 
-If you have not yet tested this product on your SonarQube instance, you can download the free version via [this link](/sonarqube-control-center-trial-form) 
+If you have not yet tested this product on your SonarQube instance, you can download the free version via [this link](https://marketplace.bitegarden.com/download/download-form/60) 
 
 ---
 **<span style="color: green">bitegarden</span> team**
