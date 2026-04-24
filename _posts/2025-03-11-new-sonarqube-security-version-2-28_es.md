@@ -19,7 +19,7 @@ Te recordamos que este producto ofrece un **informe en el que resumen una lista 
 
 ## Descarga la nueva versión
 
-**Security Plugin for SonarQube Server 2.28** ya está disponible para su descarga a través del [Universal Plugin Manager](/es/sonarqube-upm) o desde la página de [descarga del producto](/es/sonarqube-security-trial-form).
+**Security Plugin for SonarQube Server 2.28** ya está disponible para su descarga a través del [Universal Plugin Manager](/es/sonarqube-upm) o desde la página de [descarga del producto](https://marketplace.bitegarden.com/download/download-form/52).
 
 Si todavía no has probado este plugin, recuerda que puedes probarlo en tu instancia y de **forma gratuita** a través de este botón.
 

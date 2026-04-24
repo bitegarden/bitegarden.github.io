@@ -24,7 +24,7 @@ A través de la configuración del plugin puedes cambiar la imagen por defecto q
 informe en PDF. Puedes hacerlo a nivel global para todos los proyectos o incluso a nivel de proyecto. Esto te permite 
 dar un aspecto más personal a los informes y más acorde a la imagen de tu organización.
 
-<a href="/es/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
 **¡Disfruta de la nueva versión!**
 

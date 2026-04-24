@@ -40,7 +40,7 @@ Todo esto, directamente integrado en tu instancia de SonarQube&trade;, de forma 
 
 ¿Aún no lo has probado en tu instancia?
 
-Puedes descargar una versión de prueba desde el [siguiente enlace](/es/sonarqube-security-trial-form).
+Puedes descargar una versión de prueba desde el [siguiente enlace](https://marketplace.bitegarden.com/download/download-form/52).
 
 Y si quieres ver más vídeos y tutoriales sobre nuestros productos, visita nuestro [canal de YouTube](https://www.youtube.com/@bitegarden).
 

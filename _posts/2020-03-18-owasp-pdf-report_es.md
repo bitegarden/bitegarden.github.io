@@ -14,7 +14,7 @@ Esta nueva versión se centra en exportar datos en PDF de la misma forma que hic
 
 Nos pedíais que exportáramos a PDF toda la información de OWASP de tu proyecto y hemos creado un informe maravilloso para poder hacerlo.
 
-<a href="/es/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
 ---
 
@@ -40,7 +40,7 @@ En esta sección encontrarás tu nivel de cumplimiento con OWASP Top 10, incluye
 
 Será más fácil que nunca comprobar el cumplimiento de OWASP en Sonarqube&trade; con este nuevo informe en PDF de OWASP.
 
-[Configura nuestro SonarQube&trade; update center](/es/downloads/#update-center) para actualizar la versión o ve directo a la [descarga](/es/sonarqube-security-trial-form).
+[Configura nuestro SonarQube&trade; update center](/es/downloads/#update-center) para actualizar la versión o ve directo a la [descarga](https://marketplace.bitegarden.com/download/download-form/52).
 
 ¡Difruta de la nueva versión!
 

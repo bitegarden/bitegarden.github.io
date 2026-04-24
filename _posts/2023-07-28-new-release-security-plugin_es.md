@@ -23,7 +23,7 @@ Hemos lanzado la versión 2.16 del plugin de seguridad para SonarQube que permit
 
 ## Descarga la nueva versión
 
-El Security Plugin ya está disponible para descarga a través del [Universal Plugin Manager](/es/sonarqube-upm)  o desde la página de [descarga del producto](/es/sonarqube-security-trial-form).
+El Security Plugin ya está disponible para descarga a través del [Universal Plugin Manager](/es/sonarqube-upm)  o desde la página de [descarga del producto](https://marketplace.bitegarden.com/download/download-form/52).
 
 **¡Obtén tu prueba gratuita y verifica tu código hoy mismo!**
 

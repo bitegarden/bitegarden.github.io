@@ -46,11 +46,11 @@ convenient resource to help mitigate risk.
 
 ## Download the new version
 
-The Security Plugin is now available for download via the [Universal Plugin Manager](/sonarqube-upm) or from the [product download](/sonarqube-security-trial-form) page.
+The Security Plugin is now available for download via the [Universal Plugin Manager](/sonarqube-upm) or from the [product download](https://marketplace.bitegarden.com/download/download-form/52) page.
 
 **Get your free trial and verify your code today!**
 
-<a href = "/sonarqube-security-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Start your free trial > </a>
+<a href = "https://marketplace.bitegarden.com/download/download-form/52" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Start your free trial > </a>
 
 <br/>
 
