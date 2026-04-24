@@ -20,7 +20,7 @@ Questa versione aggiunge una nuova pagina in cui vengono mostrati gli hotspot es
 
 
 ### Scarica l'ultima versione
-Il Report per SonarCloud è ora disponibile per il download tramite la pagina [product download](/sonarcloud-report-trial-form).
+Il Report per SonarCloud è ora disponibile per il download tramite la pagina [product download](https://marketplace.bitegarden.com/download/download-form/64).
 
 **Get your free trial and verify your code today!**
 

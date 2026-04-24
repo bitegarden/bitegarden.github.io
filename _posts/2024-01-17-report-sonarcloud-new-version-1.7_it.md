@@ -24,7 +24,7 @@ Questo rapporto mostra le informazioni relative solo ai problemi o solo agli hot
 <br/>
 
 ### Scarica l'ultima versione
-Il Report per SonarCloud è ora disponibile per il download tramite la pagina [product download](/sonarcloud-report-trial-form).
+Il Report per SonarCloud è ora disponibile per il download tramite la pagina [product download](https://marketplace.bitegarden.com/download/download-form/64).
 
 **Get your free trial and verify your code today!**
 

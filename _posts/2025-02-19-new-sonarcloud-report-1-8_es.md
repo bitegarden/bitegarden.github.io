@@ -31,7 +31,7 @@ Ese parámetro se llama "sonar.types" y podemos proporcionar los siguientes valo
 <br/>
 
 ### Descarga la última versión
-El Report para SonarCloud ya está disponible para su descarga en la página de [descarga del producto](/sonarcloud-report-trial-form).
+El Report para SonarCloud ya está disponible para su descarga en la página de [descarga del producto](https://marketplace.bitegarden.com/download/download-form/64).
 
 **Obtén tu prueba gratuita y verifica tu código hoy mismo!**
 

@@ -38,7 +38,7 @@ Tanto si tu instancia de **SonarQube es Server o Cloud**, dar el salto a reporte
 
 [Aquí](/es/sonarqube-report-trial-form) tienes el enlace para **instancias Server**.
 
-Para **instancias en Cloud** puedes descargarlo [aquí](/es/sonarcloud-report-trial-form).
+Para **instancias en Cloud** puedes descargarlo [aquí](https://marketplace.bitegarden.com/download/download-form/64).
 
 2 - Instálalo en tu instancia (solo en Server) en pocos minutos, sin configuraciones complicadas. A continuación, te dejamos las instrucciones: 
 
