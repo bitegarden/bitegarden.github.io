@@ -40,7 +40,7 @@ the needs of those who are missing SQALE on SonarQube&trade;, but of those who a
 effective methodology to improve software quality. **SQALE Plugin for SonarQube&trade; is listed as an official SQALE tool 
 to manage your technical debt**. 
 
-<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 \- [Overview Report Plugin for SonarQube&trade;](https://www.bitegarden.com/sonarqube-overview) responds to one of the most 
 asked functionalities: gather sonarqube projects together creating one or more portfolios for a better evaluation of 

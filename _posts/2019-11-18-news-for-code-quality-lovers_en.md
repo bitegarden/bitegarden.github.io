@@ -17,7 +17,7 @@ Have you lost track of how quality measures are evolving?  Check the evolution o
  
 Do you need help defining an action plan to focus on the problems that matter? Use ROI strategy graph which evaluates remediation costs and weighted severity
 
-<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 

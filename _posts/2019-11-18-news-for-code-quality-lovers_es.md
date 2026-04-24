@@ -20,7 +20,7 @@ Hemos estado ocupados los últimos meses trabajando en mejoras, nuevas funcional
 
 Descarga y evalua [SQALE Plugin for SonarQube&trade;](https://www.bitegarden.com/es/sonarqube-sqale) para descubrir todas las funcionalidades. 
 
-<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 

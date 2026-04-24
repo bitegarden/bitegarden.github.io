@@ -32,7 +32,7 @@ Dos grandes ejemplos para reflejar las razones que llevaron a crear bitegarden, 
 \- [SQALE plugin for SonarQube&trade;](https://www.bitegarden.com/es/sonarqube-sqale) trae de vuelta la metodología de calidad de código que solía estar presente en versiones anteriores de SonarQube&trade;. 
 El método SQALE esté centrado en la gestión de la deuda técnica y es conforme a la ISO 25000, así que no solo nuestro plugin cubre las necesidades de aquellos que echan de menos SQALE en SonarQube&trade;, sino también de aquellos que están en búsqueda de un modelo específico, certificado y efectivo para mejorar la calidad de su software. 
 
-<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 **El plugin de SQALE está reconocido como herramienta oficial para gestión de la deuda técnica**
 
