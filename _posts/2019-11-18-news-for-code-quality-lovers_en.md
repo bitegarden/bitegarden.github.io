@@ -37,7 +37,7 @@ SonarQube&trade; has a powerful quality model based on reliability, security and
 
 With this plugin you will be able to get ratings for all those code quality characteristics by using the rule tags feature available in SonarQube.
 
-<a href="/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/57" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 

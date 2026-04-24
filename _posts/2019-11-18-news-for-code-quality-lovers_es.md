@@ -39,7 +39,7 @@ SonarQube&trade; tiene un poderoso modelo de calidad basado en fiabilidad, segur
 
 Con [este plugin](https://www.bitegarden.com/es/sonarqube-rating) de SonarQube&trade;, podrá obtener calificaciones para todas esas características de calidad de código mediante el uso de etiquetado de reglas.
 
-<a href="/es/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/57" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 
