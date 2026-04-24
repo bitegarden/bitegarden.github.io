@@ -29,7 +29,7 @@ Aquí puedes ver cómo un usuario **podrá seleccionar uno o varios usuarios** y
 
 <br>
 
-Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](/es/sonarqube-control-center-trial-form) 
+Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](https://marketplace.bitegarden.com/download/download-form/60) 
 
 ---
 **<span style="color: green">bitegarden</span> team**

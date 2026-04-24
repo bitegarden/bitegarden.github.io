@@ -33,7 +33,7 @@ That parameter is called "sonar.types" and we can provide that possible values, 
 
 
 ### Download the latest version
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-report-trial-form) page.
+The Report for SonarCloud is now available for download via [product download](https://marketplace.bitegarden.com/download/download-form/64) page.
 
 **Get your free trial and verify your code today!**
 

@@ -39,7 +39,7 @@ risorsa conveniente per contribuire a mitigare il rischio.
 -- Aggiunta la Top 25 CWE del 2023.
 
 ## Scarica la nuova versione
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-security-trial-form) page.
+The Report for SonarCloud is now available for download via [product download](https://marketplace.bitegarden.com/download/download-form/62) page.
 
 **Get your free trial and verify your code today!**
 

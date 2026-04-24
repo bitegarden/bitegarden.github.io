@@ -41,7 +41,7 @@ The new **version 2.0 of the Overview Report Plugin** (compatible with SonarQube
 
 -- Improves the user experience
 
-<a href="/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/53" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 ---
 

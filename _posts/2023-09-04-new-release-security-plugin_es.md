@@ -50,11 +50,11 @@ recurso conveniente para ayudar a mitigar el riesgo.
 
 ## Descarga la nueva versión
 
-Security Plugin para SonarQube 2.17 ya está disponible para descarga a través del [Universal Plugin Manager](/es/sonarqube-upm)  o desde la página de [descarga del producto](/es/sonarqube-security-trial-form).
+Security Plugin para SonarQube 2.17 ya está disponible para descarga a través del [Universal Plugin Manager](/es/sonarqube-upm)  o desde la página de [descarga del producto](https://marketplace.bitegarden.com/download/download-form/52).
 
 **¡Obtén tu prueba gratuita y verifica tu código hoy mismo!**
 
-<a href = "/es/sonarqube-security-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Inicia tu prueba gratuita > </a>
+<a href = "https://marketplace.bitegarden.com/download/download-form/52" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Inicia tu prueba gratuita > </a>
 
 <br/>
 

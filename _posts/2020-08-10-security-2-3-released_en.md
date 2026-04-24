@@ -22,7 +22,7 @@ This applies to the PDF report too, it will include the metrics related to the s
 Through plugin configuration settings you can now change the footer image for the PDF generation. 
 You can change it for all the projects (Global Settings) or just for the projects you want (Project Settings).
 
-<a href="/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 **Enjoy the new version!**
 

@@ -38,7 +38,7 @@ Whether your SonarQube instance is Server or Cloud, moving to richer reports is 
 
 For Server instances, download it [here](/sonarqube-report-trial-form).
 
-For Cloud instances, download it [here](/sonarcloud-report-trial-form).
+For Cloud instances, download it [here](https://marketplace.bitegarden.com/download/download-form/64).
 
 2 – Install it on your instance (Server only) in just a few minutes, with no complicated configuration. Here are the guides:
 

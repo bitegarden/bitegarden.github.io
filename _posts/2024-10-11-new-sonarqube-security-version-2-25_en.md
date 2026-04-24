@@ -37,7 +37,7 @@ In this video you can view this new release:
 
 ## Download the new version
 
-Security Plugin for SonarQube 2.25 is now available for download through the [Universal Plugin Manager](/sonarqube-upm) or from the [download product page](/sonarqube-security-trial-form).
+Security Plugin for SonarQube 2.25 is now available for download through the [Universal Plugin Manager](/sonarqube-upm) or from the [download product page](https://marketplace.bitegarden.com/download/download-form/52).
 
 If you haven't tried this plugin yet, remember you can do so **for free** through this button.
 

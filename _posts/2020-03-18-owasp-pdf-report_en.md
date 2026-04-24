@@ -14,7 +14,7 @@ This new version is focused in exporting data the same way we did with [Report P
 
 You requested us to export to PDF all the OWASP information from your project and we have just build a beautiful report for you!
 
-<a href="/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 ---
 
@@ -40,7 +40,7 @@ OWASP Top 10, including ratings per category and number of vulnerabilities and h
 
 It will be easier than ever to check your compliance with OWASP Top 10 in Sonarqube&trade; with this new amazing OWASP PDF report.
 
-[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [download page](/sonarqube-security-trial-form).
+[Configure SonarQube&trade; update center](/downloads/#update-center) to upgrade your version or download it directly from [download page](https://marketplace.bitegarden.com/download/download-form/52).
 
 Enjoy the new version!
 

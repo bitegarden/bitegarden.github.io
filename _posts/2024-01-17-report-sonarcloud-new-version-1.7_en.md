@@ -26,7 +26,7 @@ That report will show you the information about only Issues or only Hotspots in 
 
 
 ### Download the latest version
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-report-trial-form) page.
+The Report for SonarCloud is now available for download via [product download](https://marketplace.bitegarden.com/download/download-form/64) page.
 
 **Get your free trial and verify your code today!**
 

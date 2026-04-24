@@ -125,7 +125,7 @@ SonarQube&trade; has improved its security engine and now the tool is playing in
 
 Try [bitegarden Security](/sonarqube-security) to improve the way you detect and fix vulnerabilities in your code:
 
-<a href="/es/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 ---
 **<span style="color: green">bitegarden</span> team**

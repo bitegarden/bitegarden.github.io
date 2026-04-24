@@ -41,7 +41,7 @@ International standards ensure that the products and services you use daily are 
 ### Download the new version
 
 The Security Plugin 2.19 is now available for download through the [Universal Plugin Manager](/sonarqube-upm) or directly from 
-the [product download page](/sonarqube-security-trial-form).
+the [product download page](https://marketplace.bitegarden.com/download/download-form/52).
 
 **Get your free trial and verify your code compliance today!**
 

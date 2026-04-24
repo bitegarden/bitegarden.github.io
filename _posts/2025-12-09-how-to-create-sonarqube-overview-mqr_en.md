@@ -44,7 +44,7 @@ To download your report, follow these steps:
 
 Check if MQR mode is enabled. <br>
 
-1. [Install](/sonarqube-overview-trial-form.html) the Overview Report Plugin for SonarQube™ Server. <br>
+1. [Install](https://marketplace.bitegarden.com/download/download-form/53) the Overview Report Plugin for SonarQube™ Server. <br>
 
 2. Log in to your SonarQube instance. Go to the main menu and click on More. If the plugin is installed correctly, you will see different Overview tabs. <br>
 
