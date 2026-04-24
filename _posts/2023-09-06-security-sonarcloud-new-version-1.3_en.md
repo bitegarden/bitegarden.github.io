@@ -38,7 +38,7 @@ convenient resource to help mitigate risk.
 – Added support for 2023 CWE Top 25.
 
 ### Download the latest version
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-security-trial-form) page.
+The Report for SonarCloud is now available for download via [product download](https://marketplace.bitegarden.com/download/download-form/62) page.
 
 **Get your free trial and verify your code today!**
 
