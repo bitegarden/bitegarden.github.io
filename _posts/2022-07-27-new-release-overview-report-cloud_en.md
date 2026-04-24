@@ -68,13 +68,13 @@ and a new section with the activity for the given period.
 
 Hope that you like this new version and please, upgrade to the latest version to enjoy the new features!
 
-You can download the new version from the [product download page](/sonarcloud-overview-trial-form).
+You can download the new version from the [product download page](https://marketplace.bitegarden.com/download/download-form/63).
 
 Your feedback is really appreciated so feel free to open a ticket in 
 our [customer support portal](http://support.bitegarden.com/) to help us continue adding new features 
 and improve the product!
 
-<a href = "/sonarcloud-overview-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Download > </a>
+<a href = "https://marketplace.bitegarden.com/download/download-form/63" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Download > </a>
 
 <br/>
 
