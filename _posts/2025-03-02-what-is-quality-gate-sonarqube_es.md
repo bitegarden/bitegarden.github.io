@@ -57,7 +57,7 @@ En esta nueva página podrás **personalizar el título de los umbrales de calid
 <img width="100%" src="/img/sonarqube-quality-gates-board/quality-gates-board-2.png" alt="quality gates board with passed failed conditions">
 
 
-Si quieres probar este plugin en tu instancia, puedes descargarlo a través de [este enlace](/es/sonarqube-quality-gates-board-trial-form). 
+Si quieres probar este plugin en tu instancia, puedes descargarlo a través de [este enlace](https://marketplace.bitegarden.com/download/download-form/70). 
 
 ---
 **<span style="color: green">bitegarden</span> team**

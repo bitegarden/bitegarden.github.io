@@ -24,7 +24,7 @@ El historial de versiones de este plugin lo puedes encontrar en [esta página](h
 
 ## Descargar la nueva versión
 
-Esta versión está disponible para su descarga a través de [Universal Plugin Manager](/es/sonarqube-upm) o desde la página de [product download page](/es/sonarqube-quality-gates-board-trial-form).
+Esta versión está disponible para su descarga a través de [Universal Plugin Manager](/es/sonarqube-upm) o desde la página de [product download page](https://marketplace.bitegarden.com/download/download-form/70).
 
 ---
 **<span style="color: green">bitegarden</span> team**
