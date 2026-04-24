@@ -38,7 +38,7 @@ El método SQALE esté centrado en la gestión de la deuda técnica y es conform
 
 \- [Overview Report Plugin for SonarQube&trade;](https://www.bitegarden.com/es/sonarqube-overview) responde a una de las funcionalidades más demandadas: la capacidad de agrupar proyectos de SonarQube&trade; creando una o más carteras, para una mejor evaluación del estado general de la calidad del código en la organización.
 
-<a href="/es/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/53" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 **¡[Descubre todos nuestros plugins](https://www.bitegarden.com/es/products/), y pruébalos gratis!** 
 

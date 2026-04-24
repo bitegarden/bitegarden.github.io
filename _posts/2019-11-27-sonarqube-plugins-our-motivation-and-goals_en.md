@@ -46,7 +46,7 @@ to manage your technical debt**.
 asked functionalities: gather sonarqube projects together creating one or more portfolios for a better evaluation of 
 overall quality of software within an organisation. 
 
-<a href="/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/53" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 **[Check all of our plugins](https://www.bitegarden.com/products/), and evaluate them for free!** 
 
