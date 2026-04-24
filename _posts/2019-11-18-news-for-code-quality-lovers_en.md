@@ -27,7 +27,7 @@ Creating tags manually is a very hard when you have a lot of projects. With our 
 
 Your project onboarding it's going to be much more smooth...
 
-<a href="/sonarqube-project-tag-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/58" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 
