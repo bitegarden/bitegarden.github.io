@@ -4,7 +4,7 @@ title: Control Center for SonarQube Server 1.10
 description: New version with new features in the Audit section of this plugin for administrators.
 
 permalink: release-control-center-sonarqube-server-1-10
-english: lanzamiento-control-center-sonarqube-server-1-10
+spanish: lanzamiento-control-center-sonarqube-server-1-10
 
 cover: /img/posts/2026-05-04-release-control-center-sonarqube-server-1-10_en.png
 ---
