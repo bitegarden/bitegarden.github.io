@@ -58,12 +58,12 @@ Además, en el listado con el detalle de proyectos también se ha incluido estad
 
 Esperamos que os guste esta nueva versión, actualiza para disfrutar de todas las novedades.
 
-Puedes descargar la versión desde [la página del producto](/es/sonarcloud-overview-trial-form).
+Puedes descargar la versión desde [la página del producto](https://marketplace.bitegarden.com/download/download-form/63).
 
 Y recuerda que el feedback es siempre muy apreciado así que sientete libre de abrir un ticket en 
 nuestro [portal de soporte](http://support.bitegarden.com/) para ayudarnos a seguir mejorando el producto.
 
-<a href = "/es/sonarcloud-overview-trial-form" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Descarga > </a>
+<a href = "https://marketplace.bitegarden.com/download/download-form/63" class = "btn btn-primary btn-call-to-action fancybox" style = "font-weight: bold; font-size: 16px; text-transform : mayúsculas; "> Descarga > </a>
 
 <br/>
 

@@ -18,7 +18,7 @@ Esta versión incluye:
 
 \- La URL base del servidor ya no es necesaria para usar el plugin.
 
-<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
 Puedes también [configurar el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar de manera automática tu plugin. 
 

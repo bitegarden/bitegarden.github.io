@@ -27,7 +27,7 @@ These enhancements are part of our ongoing commitment to providing more useful a
 <br />
 ## Download the new version
 
-Security Plugin para SonarQube 2.20 ya está disponible para descarga a través del [Universal Plugin Manager](/sonarqube-upm)  o desde la página de [descarga del producto](/sonarqube-security-trial-form).
+Security Plugin para SonarQube 2.20 ya está disponible para descarga a través del [Universal Plugin Manager](/sonarqube-upm)  o desde la página de [descarga del producto](https://marketplace.bitegarden.com/download/download-form/52).
 
 If you have not yet tried this plugin, remember that you can do it **for free** through this button.
 

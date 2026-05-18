@@ -86,7 +86,7 @@ You will find the requirement description with the related CWE ID, as long as th
 ## Download the new version
 
 The Security Plugin is now available for download through the [Universal Plugin Manager](/sonarqube-upm) or directly from 
-the [product download page](/sonarqube-security-trial-form).
+the [product download page](https://marketplace.bitegarden.com/download/download-form/52).
 
 **Get your free trial and verify your OWASP ASVS compliance today!**
 

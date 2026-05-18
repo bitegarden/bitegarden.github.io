@@ -24,7 +24,7 @@ Ese informe le mostrará la información sobre sólo Issues o sólo Hotspots en 
 <br/>
 
 ### Descarga la última versión
-El Report para SonarCloud ya está disponible para su descarga a través de la página de [descarga](/sonarcloud-report-trial-form).
+El Report para SonarCloud ya está disponible para su descarga a través de la página de [descarga](https://marketplace.bitegarden.com/download/download-form/64).
 
 **Consigue tu prueba gratuita y verifica tu código!.**
 

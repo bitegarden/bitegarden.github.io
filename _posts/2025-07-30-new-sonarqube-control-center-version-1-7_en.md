@@ -33,7 +33,7 @@ If you don’t have the UPM yet, you can download it from [this page](/sonarqube
 
 <h2>How can I download Control Center for SonarQube?</h2>
 
-If you haven’t tried Control Center for SonarQube Server&trade; yet, you can download it and start testing it in your instance from [this link](/sonarqube-control-center-trial-form).
+If you haven’t tried Control Center for SonarQube Server&trade; yet, you can download it and start testing it in your instance from [this link](https://marketplace.bitegarden.com/download/download-form/60).
 
 ---
 **<span style="color: green">bitegarden</span> team**

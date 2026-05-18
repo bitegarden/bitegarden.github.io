@@ -20,7 +20,7 @@ This version adds a new page where is shown the reviewed hotspots, their resolut
 
 
 ### Download the latest version
-The Report for SonarCloud is now available for download via [product download](/sonarcloud-report-trial-form) page.
+The Report for SonarCloud is now available for download via [product download](https://marketplace.bitegarden.com/download/download-form/64) page.
 
 **Get your free trial and verify your code today!**
 

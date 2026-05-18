@@ -11,7 +11,7 @@ cover: /img/thumbs/2020-09-10-security-plugin-for-sonarqube-2-4-CWE-SANS-top-25-
 The [Security Plugin 2.4](/sonarqube-security) includes a new functionality for the verification of the **CWE / SANS Top 25 Most Dangerous Software Errors standard** in the **2020 edition**.
 
 <br>
-<center><a href="/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">DOWNLOAD SECURITY PLUGIN 2.4 ></a></center>
+<center><a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">DOWNLOAD SECURITY PLUGIN 2.4 ></a></center>
 <br>
 ## New Feature
 
@@ -19,13 +19,13 @@ Now the plugin is able to do the **compliance verification** following the most 
 
 The Security Plugin, as with the OWASP standard, will show you a page in the project space with all the information related to the CWE Top 25 of 2020, including rating, vulnerabilities, security hotspots, etc.
 
-<ins>[DISCOVER ALL FEATURES >>](/sonarqube-security-trial-form)</ins>
+<ins>[DISCOVER ALL FEATURES >>](https://marketplace.bitegarden.com/download/download-form/52)</ins>
 
 <br>
 <center><a href="/sonarqube-security"><img src="/img/posts/2020-09-10-security-plugin-for-sonarqube-2-4-CWE-SANS-top-25-2020.png" alt="Give a look to the CWE/SANS Top 25 Most Dangerous Software Errors included in the new Security Plugin for SonarQube" width="100%"></a></center>
 
 <br>
-<center><a href="/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">GET YOUR FREE TRIAL ></a></center>
+<center><a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox" style="font-weight:bold;font-size:20px">GET YOUR FREE TRIAL ></a></center>
 <br>
 
 If you want to read more information about the latest edition of the **CWE / SANS Top 25** published in August 2020 please click on the following link: [https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html](https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html)

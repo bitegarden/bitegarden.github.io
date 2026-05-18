@@ -125,7 +125,7 @@ liga que otras herramientas más especializadas. Empieza a revisar todos los pro
 Prueba [bitegarden Security](/sonarqube-security) para mejorar la forma en que detectas y solucionas las vulnerabilidades
 de tu código:
 
-<a href="/es/sonarqube-security-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/52" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
 ---
 **<span style="color: green">bitegarden</span> team**

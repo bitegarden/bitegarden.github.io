@@ -17,7 +17,7 @@ Have you lost track of how quality measures are evolving?  Check the evolution o
  
 Do you need help defining an action plan to focus on the problems that matter? Use ROI strategy graph which evaluates remediation costs and weighted severity
 
-<a href="/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 
@@ -27,7 +27,7 @@ Creating tags manually is a very hard when you have a lot of projects. With our 
 
 Your project onboarding it's going to be much more smooth...
 
-<a href="/sonarqube-project-tag-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/58" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 
@@ -37,7 +37,7 @@ SonarQube&trade; has a powerful quality model based on reliability, security and
 
 With this plugin you will be able to get ratings for all those code quality characteristics by using the rule tags feature available in SonarQube.
 
-<a href="/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/57" class="btn btn-primary btn-call-to-action fancybox">TRY NOW ></a>
 
 ---
 

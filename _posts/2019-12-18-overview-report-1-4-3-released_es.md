@@ -17,7 +17,7 @@ Esta versión es principalmente una mejora interna y consiste en:
 
 \- La URL base del servidor ya no es necesaria para usar el plugin.
 
-<a href="/es/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/53" class="btn btn-primary btn-call-to-action fancybox">DESCARGA AHORA ></a>
 
 Puedes tambien [configurar el centro de actualizaciones de SonarQube&trade;](/es/downloads/#update-center) para actualizar de manera automática tu plugin. 
 

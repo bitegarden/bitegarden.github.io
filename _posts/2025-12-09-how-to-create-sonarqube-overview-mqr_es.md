@@ -44,7 +44,7 @@ Para descargar tu informe, sigue estos pasos:
 
 1. Revisa si tienes activado el MQR. <br>
 
-2. [Instala](/es/sonarqube-overview-trial-form.html) el Overview Report Plugin for SonarQube&trade; Server. <br>
+2. [Instala](https://marketplace.bitegarden.com/download/download-form/53) el Overview Report Plugin for SonarQube&trade; Server. <br>
 
 3. Ingresa a tu instancia de SonarQube. Dirígete al menú principal y pulsa sobre 'More'. Si has instalado el plugin correctamente, tendrás distintas pestañas del Overview. <br>
 

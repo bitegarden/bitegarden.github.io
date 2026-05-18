@@ -20,7 +20,7 @@ Hemos estado ocupados los últimos meses trabajando en mejoras, nuevas funcional
 
 Descarga y evalua [SQALE Plugin for SonarQube&trade;](https://www.bitegarden.com/es/sonarqube-sqale) para descubrir todas las funcionalidades. 
 
-<a href="/es/sonarqube-sqale-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/54" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 
@@ -29,7 +29,7 @@ Descarga y evalua [SQALE Plugin for SonarQube&trade;](https://www.bitegarden.com
 Crear etiquetas manualmente es muy difícil cuando tienes muchos proyectos. Con nuestro nuevo complemento, podrá configurar etiquetas de proyecto de forma fácil y automática. Simplemente proporcione la etiqueta a través de una propiedad de línea de comando en su análisis y el plugin hará el resto.
 ¡Automatiza con [Project Tag](https://www.bitegarden.com/es/sonarqube-project-tag)! 
 
-<a href="/es/sonarqube-project-tag-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="/https://marketplace.bitegarden.com/download/download-form/58" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 
@@ -39,7 +39,7 @@ SonarQube&trade; tiene un poderoso modelo de calidad basado en fiabilidad, segur
 
 Con [este plugin](https://www.bitegarden.com/es/sonarqube-rating) de SonarQube&trade;, podrá obtener calificaciones para todas esas características de calidad de código mediante el uso de etiquetado de reglas.
 
-<a href="/es/sonarqube-rating-trial-form" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/57" class="btn btn-primary btn-call-to-action fancybox">PRUÉBALO GRATIS ></a>
 
 ---
 

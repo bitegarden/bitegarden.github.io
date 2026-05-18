@@ -18,7 +18,7 @@ el proveedor externo o su identitdad externa.
 Además, hemos añadido un buscador para que sea más fácil encontrar el usuario que buscas!
 
 
-Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](/es/sonarqube-control-center-trial-form) 
+Si todavía no has probado en tu instancia de SonarQube este producto, puedes descargarte la versión gratuita a través de [este enlace](https://marketplace.bitegarden.com/download/download-form/60) 
 
 ---
 **<span style="color: green">bitegarden</span> team**

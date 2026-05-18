@@ -15,7 +15,7 @@ This new version includes:
 
 \- Server Base URL is no longer required to use the plugin.
 
-<a href="/sonarqube-overview-trial-form" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
+<a href="https://marketplace.bitegarden.com/download/download-form/53" class="btn btn-primary btn-call-to-action fancybox">DOWNLOAD NOW ></a>
 
 Or [configure SonarQube&trade; update center](/downloads/#update-center) to upgrade automatically your plugin.
 

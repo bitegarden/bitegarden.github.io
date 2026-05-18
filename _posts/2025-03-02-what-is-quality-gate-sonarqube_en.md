@@ -57,7 +57,7 @@ On this new page you will be able to **customize the title of the quality thresh
 <img width="100%" src="/img/sonarqube-quality-gates-board/quality-gates-board-2.png" alt="quality gates board with passed failed conditions">
 
 
-If you want to test this plugin on your instance, you can download it via [this link](/sonarqube-quality-gates-board-trial-form). 
+If you want to test this plugin on your instance, you can download it via [this link](https://marketplace.bitegarden.com/download/download-form/70). 
 
 ---
 **<span style="color: green">bitegarden</span> team**
