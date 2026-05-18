@@ -28,7 +28,7 @@ Non-applicable checks, such as the Data Center ones in this case, can be **disab
 
 We’d like to remind you that Control Center for SonarQube&trade; Server is the ultimate plugin for administrators who want to manage their SonarQube instance in a faster, more efficient, and centralized way.
 
-<h2>Actualización sencilla desde UPM</h2>
+<h2>Easy update from UPM</h2>
 
 If you already have [Universal Plugin Manager for SonarQube Server](/sonarqube-upm), you only need to access your instance administration panel and click the update button to start using the new version.
 

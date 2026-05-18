@@ -17,7 +17,7 @@ With this version, you can evaluate your projects’ **compliance against OWASP 
 
 <h2>What does this plugin do?</h2>
 
-bitegarden Security Assessment for SonarQube™ Server is more than just a **vulnerability viewe**. With this plugin, you can:
+bitegarden Security Assessment for SonarQube™ Server is more than just a **vulnerability viewer**. With this plugin, you can:
 
 - Gather all vulnerabilities detected in SonarQube. <br>
 

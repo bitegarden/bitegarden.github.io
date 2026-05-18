@@ -6,7 +6,7 @@ description: New version of Control Center with new audit checks and improvement
 permalink: release-control-center-sonarqube-server-1-9
 spanish: lanzamiento-control-center-sonarqube-server-1-9
 
-cover: /img/posts/2026-04-26-release-control-center-sonarqube-server-1-9_es.png
+cover: /img/posts/2026-04-26-release-control-center-sonarqube-server-1-9_en.png
 ---
 
 The main new feature of the new version of **Control Center for SonarQube&trade; Server** is the beta release of the **Audit module**, a new functionality designed to perform automatic checks on your SonarQube instance and help identify problematic or improvable configurations.
