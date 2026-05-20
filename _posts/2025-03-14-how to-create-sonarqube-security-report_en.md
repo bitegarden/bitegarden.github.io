@@ -14,9 +14,9 @@ If you want to **get reports of security standards** from your code we will make
 
 <h2>Step 1: Download the Security Plugin for SonarQube&trade;</h2>
 
-The first thing you need to do is **download the Security Plugin for SonarQube&trade;** via [this link](/en/sonarqube-security){:target="_blank"}. In case you don’t know, this is our product that adds a new page to SonarQube projects where you can see and manage information about vulnerabilities classified in the standards: OWASP TOP 10, CWE SANS Top 25 and OWASP ASVS. 
+The first thing you need to do is **download the Security Plugin for SonarQube&trade;** via [this link](/sonarqube-security){:target="_blank"}. In case you don’t know, this is our product that adds a new page to SonarQube projects where you can see and manage information about vulnerabilities classified in the standards: OWASP TOP 10, CWE SANS Top 25 and OWASP ASVS. 
 
-You have a **14-day free version** to see how this product works in your instance. We also have this same product for SonarQube Cloud, which you can download via [this link](/es/sonarcloud-security){:target="_blank"}
+You have a **14-day free version** to see how this product works in your instance. We also have this same product for SonarQube Cloud, which you can download via [this link](/sonarcloud-security){:target="_blank"}
 
 <h2>Step 2: Generate reports</h2>
 
@@ -39,7 +39,7 @@ Here you can see an image of where these options are located:
 
 Click on any of them and a new page will open with the analysis of the information of that security standard. Here, you simply have to click on the 'Download as PDF' button.
 
-And so far this quick tutorial. If you are interested, we have available a **20% discount for the Premium Pack bitegarden** which includes all products for SonarQube Server. You can take advantage of this offer through the [download products page](https://www.bitegarden.com/es/products/){:target="_blank"}
+And so far this quick tutorial. If you are interested, we have available a **20% discount for the Premium Pack bitegarden** which includes all products for SonarQube Server. You can take advantage of this offer through the [download products page](/products/){:target="_blank"}
 
 ---
 **<span style="color: green">bitegarden</span> team**
