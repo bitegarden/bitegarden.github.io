@@ -16,7 +16,7 @@ Adaptation of reports to use the **new severities**: Blocker, High, Medium, Low,
 
 Incorporation of user **feedback during PDF generation**, displaying the operations being performed at each stage of the process.
 
-Change of hotspots in MQR mode to the to **review and reviewed states**.
+Change of hotspots in MQR mode to the to 'To Review' y 'Reviewed'.
 
 With these improvements, **Report for SonarQube&trade; Server** provides greater alignment with the latest SonarQube capabilities and a more transparent user experience for teams.
 
