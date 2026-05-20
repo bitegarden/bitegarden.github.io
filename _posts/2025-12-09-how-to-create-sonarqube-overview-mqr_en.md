@@ -10,7 +10,7 @@ spanish: como-exportar-informe-sonarqube-overview-mqr
 cover: /img/posts/2025-12-09-how-to-create-sonarqube-overview-mqr_en.png
 ---
 
-SonarQube is an essential tool for code quality analysis. With [version 3.0](/new-sonarqube-overview-version-3) of the **Overview Report Plugin for SonarQube&trade; Server**, you can now generate PDF reports compatible with the **Multi Quality Rule (MQR)** mode, providing a more comprehensive view of your projects’ quality.
+SonarQube is an essential tool for code quality analysis. With version 3.0 of the **Overview Report Plugin for SonarQube&trade; Server**, you can now generate PDF reports compatible with the **Multi Quality Rule (MQR)** mode, providing a more comprehensive view of your projects’ quality.
 
 <h2>What is the Overview Report for SonarQube Server?</h2>
 
