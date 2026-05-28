@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¡New version! Security Assessment for SonarQube Server 2.32
+title: New version! Security Assessment for SonarQube Server 2.32
 description: We added support for the CWE Top 10 KEV Weaknesses security standard analysis, as well as PDF export functionality. 
 
 permalink: release-security-assessment-sonarqube-server-2-32
