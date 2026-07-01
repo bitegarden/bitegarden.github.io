@@ -67,7 +67,7 @@ Este tipo de visión global ayuda a responder preguntas como:
 
 En el Marketplace de bitegarden puedes ampliar la información de [este plugin](https://marketplace.bitegarden.com/product/bitegardenPortfolio). 
 
-Muy pronto continuaremos con esta serie de capitulos, el siguiente enfocado a cómo obtener información de seguridad sobre tu código. 
+Muy pronto continuaremos con esta serie de capítulos, el siguiente enfocado a cómo obtener información de seguridad sobre tu código. 
 
 ---
 
