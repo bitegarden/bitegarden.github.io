@@ -257,6 +257,10 @@ disable.iso5055.not.supported.cwe = If you want to show Not Supported CWE, chang
             If you just want to pass the required parameters through system properties use "-D" arguments when running the report:
           <pre>java <strong>-Dsonar.token=mytoken -Dsonar.projectKey=myprojectkey -Dsonar.organizationKey=myorg -Dreport.type=cwe-top-25-2021</strong> -jar bitegarden-sonarcloud-security.jar</pre>
           </p>
+          <div class="important-info-box">
+            <strong>Important:</strong> if you are running the command from PowerShell, each "-D" argument must be quoted individually, otherwise PowerShell will not pass the properties correctly:
+          <code>java <strong>-D'sonar.token'=mytoken -D'sonar.projectKey'=myprojectkey -D'sonar.organizationKey'=myorg -D'report.type'=cwe-top-25-2021</strong> -jar bitegarden-sonarcloud-security.jar</code>
+          </div>
           <p>
             If a property is defined in both locations (file and command line args) the command line property will override
             the property in the file. This way you can have a generic configuration file with the common properties (sonar.token, sonar.organizationKey, report.type, ...)

@@ -229,6 +229,10 @@ Optional properties:
             Se lo preferisci puoi fornire tutti i parametri attraverso la linea di comando "-D":
           <pre>java <strong>-Dsonar.token=mytoken -Dsonar.projectKey=myprojectkey -Dsonar.organizationKey=myorg -Dreport.type=cwe-top-25-2022</strong> -jar bitegarden-sonarcloud-security.jar</pre>
           </p>
+          <div class="important-info-box">
+            <strong>Importante:</strong> se esegui il comando da PowerShell, ogni argomento "-D" deve essere racchiuso singolarmente tra virgolette, altrimenti PowerShell non passerà correttamente le proprietà:
+          <code>java <strong>-D'sonar.token'=mytoken -D'sonar.projectKey'=myprojectkey -D'sonar.organizationKey'=myorg -D'report.type'=cwe-top-25-2022</strong> -jar bitegarden-sonarcloud-security.jar</code>
+          </div>
           <p>
             Se un'opzione è definita in entrambe le posizioni (un file di configurazione e un argomento della riga di comando)
             verrà utilizzato il valore fornito nella riga di comando. In questo modo potrai avere un file di configurazione
