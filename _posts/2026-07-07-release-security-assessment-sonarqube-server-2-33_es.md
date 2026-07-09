@@ -27,7 +27,7 @@ Desde esta versión ya puedes evaluar tu código frente a STIG ASD, que se incor
 
 <h2>¿Cómo actualizar a la nueva versión?</h2>
 
-Si utilizas el [Universal Plugin Manager for SonarQube&trade; Server (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager) accede y pulsa sobre la actualización que te aparecerá en el plugin. Si todavía no has probado el [bitegarden Security Assessment for SonarQube&trade; Server](https://marketplace.bitegarden.com/product/bitegardenSecurity) puedes descargalo y probarlo en tu instancia de forma gratuita. 
+Si utilizas el [Universal Plugin Manager for SonarQube&trade; Server (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager) accede y pulsa sobre la actualización que te aparecerá en el plugin. Si todavía no has probado el [bitegarden Security Assessment for SonarQube&trade; Server](https://marketplace.bitegarden.com/product/bitegardenSecurity) puedes descargarlo y probarlo en tu instancia de forma gratuita. 
 
 ---
 
