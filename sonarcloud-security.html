@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Generate PDF Security Reports
-description: Generate OWASP, CWE PDF security reports for SonarCloud and improve your code security now.
+description: Generate OWASP, CWE, ASVS, ISO 5055, STIG, and CWE-KEV PDF security reports for SonarCloud and improve your code security now.
 permalink: /sonarcloud-security
 trial: sonarcloud-security-trial-form
 ---
@@ -12,7 +12,7 @@ trial: sonarcloud-security-trial-form
       <div class="col-md-12">
         <div class="block">
           <h1>Security Assessment for SonarQube&trade; Cloud</h1>
-          <p>Provides insights into the security standards compliance of your projects (OWASP Top 10, CWE SANS Top 25, OWASP ASVS),
+          <p>Provides insights into the security standards compliance of your projects (OWASP Top 10, CWE Top 25, OWASP ASVS, ISO/IEC 5055, DISA STIG, and CWE-KEV),
             including risk factors, vulnerabilities, and hotspots by SonarQube&trade; Cloud categories.</p>
           <a class="btn btn-default fancybox price-button" href="https://marketplace.bitegarden.com/download/download-form/62" style="padding:10px 30px">DOWNLOAD</a>&nbsp;&nbsp;&nbsp; 
           <a href="#product-block-center" style="padding:10px 30px" class="btn btn-primary fancybox">BUY</a>
@@ -45,24 +45,26 @@ trial: sonarcloud-security-trial-form
             The OWASP Top 10 lists the <strong>ten most critical security risks</strong> for web applications, helping developers and organizations protect their projects. Maintained by OWASP, a leader in software security.
           </p>
           <p>
-            This solution allows exporting reports 
-            <a href="https://owasp.org/Top10/" target="_blank" rel="noopener nofollow">OWASP Top 10 2021</a> and
-            <a href="https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/" target="_blank" rel="nofollow">OWASP Top 10 2017</a> 
+            This solution allows exporting reports for
+            <a href="https://owasp.org/Top10/" target="_blank" rel="noopener nofollow">OWASP Top 10 2025</a> (default),
+            <a href="https://owasp.org/Top10/2021/" target="_blank" rel="noopener nofollow">OWASP Top 10 2021</a>, and
+            <a href="https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/" target="_blank" rel="nofollow">OWASP Top 10 2017</a>
             directly to PDF.
           </p>
           <br>
           <h3>CWE Top 25 PDF Report: Prioritize Critical Weaknesses</h3>
           <p>
             CWE Top 25 provides a common language to <strong>identify and prioritize</strong> the most critical software weaknesses, enabling better risk prevention and mitigation. Maintained by MITRE Corporation.
-            <br>
-            Security Assessment for SonarQube&trade; Cloud (SonarCloud&trade;) supports PDF generation for CWE Top 25 2022, 2021, 2020, and 2019.
           </p>
           <p>
             <strong>bitegarden Security Assessment for SonarCloud&trade;</strong> supports PDF generation for
-            <a href="https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25" target="_blank" rel="nofollow">CWE Top 25 2022</a>,
-            <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25" target="_blank" rel="nofollow">CWE Top 25 2021</a>,
-            <a href="https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25" target="_blank" rel="nofollow">CWE Top 25 2020</a>, and
-            <a href="https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25" target="_blank" rel="nofollow">CWE Top 25 2019</a>.
+            <a href="https://cwe.mitre.org/top25/archive/2025/2025_cwe_top25.html" target="_blank" rel="nofollow">CWE Top 25 2025</a>,
+            <a href="https://cwe.mitre.org/top25/archive/2024/2024_cwe_top25.html" target="_blank" rel="nofollow">2024</a>,
+            <a href="https://cwe.mitre.org/top25/archive/2023/2023_top25_list.html" target="_blank" rel="nofollow">2023</a>,
+            <a href="https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25" target="_blank" rel="nofollow">2022</a>,
+            <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25" target="_blank" rel="nofollow">2021</a>,
+            <a href="https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25" target="_blank" rel="nofollow">2020</a>, and
+            <a href="https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25" target="_blank" rel="nofollow">2019</a>, plus the corresponding <strong>"On the Cusp"</strong> weaknesses for every one of those years.
           </p>
           <br>
           <h3>OWASP ASVS PDF Report: Verify Your Application Security</h3>
@@ -73,8 +75,8 @@ trial: sonarcloud-security-trial-form
             Security Assessment for SonarQube&trade; Cloud (SonarCloud&trade;) allows generating PDFs with complete OWASP ASVS information.
           </p>
           <p>
-            <strong>bitegarden Security Assessment for SonarCloud&trade;</strong> supports PDF generation for 
-            <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" rel="nofollow">OWASP ASVS</a>.
+            <strong>bitegarden Security Assessment for SonarCloud&trade;</strong> supports PDF generation for
+            <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" rel="nofollow">OWASP ASVS</a>, including version 5.0.0 (latest, default) and version 4.0.3.
           </p>
           <br>
           <h3>ISO 5055 PDF Report: Evaluate Reliability and Security</h3>
@@ -86,6 +88,26 @@ trial: sonarcloud-security-trial-form
           </p>
           <p>
             <strong>bitegarden Security Assessment for SonarQube&trade; Cloud (SonarCloud)</strong> supports PDF generation for <a href="https://www.it-cisq.org/standards/code-quality-standards/" target="_blank">ISO/IEC 5055:2021</a>.
+          </p>
+          <br>
+          <h3>DISA STIG PDF Report: Harden Applications to DoD Standards</h3>
+          <p>
+            The DISA Application Security and Development (ASD) STIG defines a comprehensive set of security controls required for software used by the U.S. Department of Defense, helping teams harden their applications against common attack vectors.
+          </p>
+          <p>
+            <strong>bitegarden Security Assessment for SonarCloud&trade;</strong> supports PDF generation for
+            <a href="https://www.cyber.mil/stigs" target="_blank" rel="nofollow">STIG ASD V6</a> and
+            <a href="https://www.cyber.mil/stigs" target="_blank" rel="nofollow">STIG ASD V5R3</a>.
+          </p>
+          <br>
+          <h3>CWE-KEV PDF Report: Known Exploited Vulnerabilities</h3>
+          <p>
+            CWE-KEV cross-references the CISA <strong>Known Exploited Vulnerabilities (KEV)</strong> catalog with CWE weaknesses, helping teams prioritize the issues that attackers are actively exploiting in the wild.
+          </p>
+          <p>
+            <strong>bitegarden Security Assessment for SonarCloud&trade;</strong> supports PDF generation for
+            <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="nofollow">CWE-KEV 2025</a> and
+            <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="nofollow">CWE-KEV 2023</a>.
           </p>
           <br>
           <p class="center-text">
@@ -137,7 +159,11 @@ trial: sonarcloud-security-trial-form
           <p>
             - <strong>Java Command Line Tool</strong> that can be used standalone or integrated into your CI/CD tool as a step to automatically generate the report.<br><br>
             - <strong>SonarCloud&trade; OWASP Top 10</strong> in PDF to verify your code against the standard, including all the security metrics vulnerabilities.<br><br>
-            - <strong>SonarCloud&trade; CWE Top 25</strong> in PDF with to verify your code against the CWE Top 25 Most Dangerous Software Weaknesses.<br><br>
+            - <strong>SonarCloud&trade; CWE Top 25</strong> in PDF to verify your code against the CWE Top 25 Most Dangerous Software Weaknesses.<br><br>
+            - <strong>SonarCloud&trade; OWASP ASVS</strong> in PDF to verify your code against the Application Security Verification Standard.<br><br>
+            - <strong>SonarCloud&trade; ISO/IEC 5055</strong> in PDF to evaluate reliability, performance, and maintainability.<br><br>
+            - <strong>SonarCloud&trade; DISA STIG</strong> in PDF to harden your applications to U.S. Department of Defense standards.<br><br>
+            - <strong>SonarCloud&trade; CWE-KEV</strong> in PDF to prioritize actively exploited vulnerabilities.<br><br>
           </p>
           <div>
             <h3>Additional options</h3>
@@ -146,6 +172,7 @@ trial: sonarcloud-security-trial-form
           <p>PDF generation includes additional customizations: </p>
           <p>
             - Support for <strong>branches</strong>: generate PDF reports for any of your project branches.<br>
+            - Support for <strong>pull requests</strong>: generate PDF reports for a specific pull request instead of a branch.<br>
             - Support for <strong>all SonarCloud&trade; languages and technologies</strong>.<br>
             - Support for <strong>custom footer logo</strong> to add your organization logo.<br>
             - Support for <strong>english</strong> and <strong>spanish</strong> reports.<br>
@@ -174,10 +201,16 @@ trial: sonarcloud-security-trial-form
           <h2>Frequently Asked Questions (FAQ)</h2>
 
           <h3>Which OWASP Top 10 versions are supported?</h3>
-          <p>Supports OWASP Top 10 2017 and 2021.</p>
+          <p>Supports OWASP Top 10 2025 (default), 2021, and 2017.</p>
+
+          <h3>Which other security standards are supported?</h3>
+          <p>Besides OWASP Top 10, the tool supports CWE Top 25 (2019 to 2025, including "On the Cusp"), OWASP ASVS (versions 5.0.0 and 4.0.3), ISO/IEC 5055, DISA STIG (ASD V6 and V5R3), and CWE-KEV (2025 and 2023).</p>
 
           <h3>Can I generate reports for multiple branches?</h3>
           <p>Yes, the tool allows PDF generation for any branch of your SonarCloud&trade; project.</p>
+
+          <h3>Can I generate a report for a pull request?</h3>
+          <p>Yes, you can generate a report for a specific pull request instead of a branch using the <code>sonar.pullRequest</code> property.</p>
 
           <h3>In which languages are the reports available?</h3>
           <p>Reports can be generated in English and Spanish.</p>
@@ -199,7 +232,7 @@ trial: sonarcloud-security-trial-form
             <hr>
           </div>
           <p>
-            <strong>bitegarden Security Report for SonarCloud&trade;</strong> requires Java 8 or later.
+            <strong>bitegarden Security Report for SonarCloud&trade;</strong> requires Java 17 or later.
           </p>
           <br/>
           <h4>How to generate PDF security reports for projects in SonarCloud&trade;</h4>
@@ -228,16 +261,34 @@ Mandatory properties:
 
           Optional properties:
 
-                      report.type = owasp-top-10-2021 (default value)
+                      report.type = owasp-top-10-2025 (default value)
+                                    owasp-top-10-2021
                                     owasp-top-10-2017
+                                    cwe-top-25-2025
+                                    cwe-top-25-2024
+                                    cwe-top-25-2023
                                     cwe-top-25-2022
                                     cwe-top-25-2021
                                     cwe-top-25-2020
                                     cwe-top-25-2019
-                                    owasp-asvs
+                                    cwe-on-the-cusp-2025
+                                    cwe-on-the-cusp-2024
+                                    cwe-on-the-cusp-2023
+                                    cwe-on-the-cusp-2022
+                                    cwe-on-the-cusp-2021
+                                    cwe-on-the-cusp-2020
+                                    cwe-on-the-cusp-2019
+                                    owasp-asvs    (latest version, currently 5.0.0)
+                                    owasp-asvs-v5
+                                    owasp-asvs-v4
                                     iso-5055
+                                    stig-asd-v6
+                                    stig-asd-v5r3
+                                    cwe-kev-2025
+                                    cwe-kev-2023
 
                      sonar.branch = the branch where we will get the information for the report (default is main branch)
+                sonar.pullRequest = the pull request key to analyze instead of a branch (mutually exclusive with sonar.branch)
                        footer.url = URL of the image to display centered in footer (PNG or JPG format are supported)
                       user.locale = Locale to use for generated PDF file. Options are English (user.locale=en) or Spanish (user.locale=es)
                            output = File name for the generated report
