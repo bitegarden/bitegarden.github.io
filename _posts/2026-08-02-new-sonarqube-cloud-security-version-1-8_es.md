@@ -38,9 +38,9 @@ Nos mantenemos al día con las amenazas más recientes actualizando los reportes
 
 **Nuevas Severidades**: Hemos adaptado los reportes para utilizar el sistema de severidades estándar (Blocker, High, Medium, Low e Info), facilitando la lectura y priorización de hallazgos.
 
-<h2>Descarga la nueva version</h2>
+<h2>Descarga la nueva versión</h2>
 
-Puedes descargar esta nueva version 1.8 desde el [Marketplace de bitegarden](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity).
+Puedes descargar esta nueva versión 1.8 desde el [Marketplace de bitegarden](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity).
 
 ---
 **<span style="color: green">bitegarden</span> team**

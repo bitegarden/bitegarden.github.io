@@ -10,8 +10,6 @@ spanish: nueva-version-sonarqube-cloud-security-version-1-8
 cover: /img/posts/2026-08-02-new-sonarqube-cloud-security-version-1-8_en.png
 ---
 
-<h2>New Security Standards</h2>
-
 The new version 1.8 of our security plugin for SonarQube Cloud is now available. The latest update of Security Assessment for SonarQube Cloud comes packed with important new features to strengthen the security of your developments and simplify compliance with the most demanding standards.
 
 <h2>New Security Standards</h2>
@@ -42,7 +40,7 @@ We stay up to date with the latest threats by updating the reports for:
 
 <h2>Download the New Version</h2>
 
-You can download this new version 1.7 from the [bitegarden Marketplace ](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity).
+You can download this new version 1.8 from the [bitegarden Marketplace ](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity).
 
 ---
 **<span style="color: green">bitegarden</span> team**
