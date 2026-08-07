@@ -10,7 +10,7 @@ cover: /img/posts/2026-08-04-release-security-assessment-sonarqube-server-2-34_e
 
 ---
 
-The **new version of Security Assessment for SonarQube™ Server** is now available. In this **version 2.34**, we have added a security report fully based on the PCI DSS standard.
+The **new version of Security Assessment for SonarQube™ Server** is now available. In this **version 2.34** we have added a security report fully based on the PCI DSS standard.
 
 <img width="80%" src="/img/sonarqube-security/security-assessment-sonarqube-server-pci-dss-report.png" alt="New PCI DSS report">
 <br><br>

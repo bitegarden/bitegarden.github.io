@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New version! Security Assessment for SonarQube Cloud&trade; 1.8
+title: New version! Security Assessment for SonarQube Cloud 1.8
 description: Discover what's new in Security Report for SonarQube Cloud with new security standards, 2025 reports, and Pull Request support.
 
 permalink: new-sonarqube-cloud-security-version-1-8
@@ -22,7 +22,6 @@ We have expanded our coverage by incorporating new industry-leading reference fr
 
 **ASD STIG**: Security Technical Implementation Guides.
 
-**CASA**: We have also added support for the Cloud Application Security Assessment standard.
 
 <h2>2025 Updates</h2>
 

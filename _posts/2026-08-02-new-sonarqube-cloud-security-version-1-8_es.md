@@ -1,6 +1,6 @@
 ---
 layout: post_es
-title: Nueva versión! Security Assessment for SonarQube Cloud&trade; 1.8
+title: Nueva versión! Security Assessment for SonarQube Cloud 1.8
 description: Descubre las novedades de Security Report for SonarQube Cloud con nuevos estándares de seguridad, reportes 2025 y soporte para Pull Requests.
 
 permalink: nueva-version-sonarqube-cloud-security-version-1-8
@@ -21,8 +21,6 @@ Ampliamos nuestra cobertura incorporando nuevos marcos de referencia fundamental
 **CISA KEV**: Catálogo de vulnerabilidades explotadas conocidas.
 
 **ASD STIG**: Guías de implementación técnica de seguridad.
-
-**CASA**: Incorporamos también el estándar Cloud Application Security Assessment.
 
 <h2>Actualización a 2025</h2>
 
