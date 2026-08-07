@@ -22,7 +22,6 @@ We have expanded our coverage by incorporating new industry-leading reference fr
 
 **ASD STIG**: Security Technical Implementation Guides.
 
-**CASA**: We have also added support for the Cloud Application Security Assessment standard.
 
 <h2>2025 Updates</h2>
 

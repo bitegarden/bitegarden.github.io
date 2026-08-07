@@ -22,8 +22,6 @@ Ampliamos nuestra cobertura incorporando nuevos marcos de referencia fundamental
 
 **ASD STIG**: Guías de implementación técnica de seguridad.
 
-**CASA**: Incorporamos también el estándar Cloud Application Security Assessment.
-
 <h2>Actualización a 2025</h2>
 
 Nos mantenemos al día con las amenazas más recientes actualizando los reportes de:
