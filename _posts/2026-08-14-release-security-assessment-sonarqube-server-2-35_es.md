@@ -12,12 +12,12 @@ cover: /img/posts/2026-08-14-release-security-assessment-sonarqube-server-2-35_e
 
 La versión **2.35 de Security Assessment for SonarQube Server** introduce mejoras significativas en la evaluación de seguridad, gracias a la **integración del nuevo informe Cloud Application Security Assessment (CASA)**. A partir de ahora, podrás revisar la información que tiene este informe y **descargarla en PDF** tanto en el modo estándar como en el modo MQR.
 
-Como verás en la siguiente imagen añadimos **una sección específica** que desglosa el cumplimiento por cada requisito del estándar, permitiendo una trazabilidad total mediante evidencias y hotspots directamente enlazados en SonarQube.
+Como verás en la siguiente imagen, añadimos **una sección específica** que desglosa el cumplimiento por cada requisito del estándar, permitiendo una trazabilidad total mediante evidencias y hotspots directamente enlazados en SonarQube.
 
 <img width="90%" src="/img/sonarqube-security/sonarqube-security-report-CASA.png" alt="Nuevo informe CASA en Security Assessment for SonarQube">
 <br><br>
 
-<h2>¿Qué es CASA</h2>
+<h2>¿Qué es CASA?</h2>
 
 El **Cloud Application Security Assessment (CASA)** es una iniciativa de la App Defense Alliance que utiliza el Estándar de Verificación de Seguridad de Aplicaciones (ASVS) de OWASP. Su objetivo es proporcionar **un conjunto uniforme de requisitos para asegurar aplicaciones** que manejan datos sensibles.
 
