@@ -1,10 +1,10 @@
 ---
 layout: post_es
-title: Nueva versión! Security Assessment for SonarQube Cloud 1.9
+title: ¡Nueva versión! Security Assessment for SonarQube Cloud 1.9
 description: Añadimos el informe CASA a nuestro producto de seguridad para SonarCloud.
 
 permalink: nueva-version-sonarqube-cloud-security-version-1-9
-english: new-sonarqube-cloud-security-version-1-8
+english: new-sonarqube-cloud-security-version-1-9
 
 
 cover: /img/posts/2026-08-19-new-sonarqube-cloud-security-version-1-9_es.png
