@@ -10,7 +10,7 @@ english: new-sonarqube-cloud-security-version-1-8
 cover: /img/posts/2026-08-02-new-sonarqube-cloud-security-version-1-8_es.png
 ---
 
-Ya está disponible la versión 1.8 de nuestro plugin de seguridad para SonarQube Cloud. La actualizacióndel Security Assessment for SonarQube Cloud viene cargada de novedades importantes para fortalecer la seguridad de tus desarrollos y facilitar el cumplimiento de los estándares más exigentes.
+Ya está disponible la versión 1.8 de nuestro plugin de seguridad para SonarQube Cloud. La actualización del Security Assessment for SonarQube Cloud viene cargada de novedades importantes para fortalecer la seguridad de tus desarrollos y facilitar el cumplimiento de los estándares más exigentes.
 
 <h2>Nuevos Estándares de Seguridad</h2>
 
