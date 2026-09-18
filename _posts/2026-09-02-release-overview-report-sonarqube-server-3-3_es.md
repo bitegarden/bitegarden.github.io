@@ -3,8 +3,8 @@ layout: post_es
 title: ¡Nueva versión! Overview Report for SonarQube Server 3.3
 description: Analiza datos y métricas agregadas seleccionando ramas específicas en tus grupos de proyectos. 
 
-permalink: nueva-version-oveview-report-sonarqube-server-3-3
-english: new-version-oveview-report-sonarqube-server-3-3
+permalink: nueva-version-overview-report-sonarqube-server-3-3
+english: new-version-overview-report-sonarqube-server-3-3
 
 
 cover: /img/posts/2026-09-02-release-overview-report-sonarqube-server-3-3_es.png

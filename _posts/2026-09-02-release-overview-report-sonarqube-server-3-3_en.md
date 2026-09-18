@@ -3,8 +3,8 @@ layout: post_es
 title: New version! Overview Report for SonarQube Server 3.3
 description: Select specific branches in Project Groups to view consolidated code quality metrics across all your projects.
 
-permalink: new-version-oveview-report-sonarqube-server-3-3
-spanish: nueva-version-oveview-report-sonarqube-server-3-3
+permalink: new-version-overview-report-sonarqube-server-3-3
+spanish: nueva-version-overview-report-sonarqube-server-3-3
 
 
 cover: /img/posts/2026-09-02-release-overview-report-sonarqube-server-3-3_en.png
