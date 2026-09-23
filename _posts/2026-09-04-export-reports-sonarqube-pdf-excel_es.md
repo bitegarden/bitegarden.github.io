@@ -24,7 +24,7 @@ Con **Report Plugin for SonarQube&trade; Server** puedes generar un informe PDF 
 
 El proceso es sencillo: **instala el plugin, accede al proyecto que quieres analizar y genera el informe desde SonarQube**. El PDF recopila las métricas más relevantes del proyecto y las presenta en un formato preparado para compartir. La principal ventaja es que no necesitas preparar manualmente el documento ni copiar los datos de SonarQube a otro formato.
 
-<img width="90%" src="/img/sonarqube-report/bitegarden-report-pdf.png" alt="Ejemplo de PDF extraido de SonarQube">
+<img width="100%" src="/img/sonarqube-report/report-sonarqube-pdf-example.png" alt="Ejemplo de PDF extraido de SonarQube">
 <br><br>
  <h2>Cómo exportar bugs, code smells, cobertura y otras métricas a Excel</h2>
 

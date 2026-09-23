@@ -23,11 +23,11 @@ With **Report Plugin for SonarQube&trade; Server**, you can generate a PDF repor
 
 The process is simple: **install the plugin, access the project you want to analyze, and generate the report from SonarQube**. The PDF collects the project's most relevant metrics and presents them in a format ready to share. The main advantage is that you do not need to manually prepare the document or copy data from SonarQube into another format.
 
-<img width="90%" src="/img/sonarqube-report/bitegarden-report-pdf.png" alt="Ejemplo de PDF extraido de SonarQube">
+<img width="100%" src="/img/sonarqube-report/report-sonarqube-pdf-example.png" alt="Ejemplo de PDF extraido de SonarQube">
 <br><br>
 <h2>How to export bugs, code smells, coverage, and other metrics to Excel</h2>
 
-If you need to work with the data afterwards, an editable document **may be more practical than a PDF**. The Report Plugin for SonarQube&trade; Server allows you to create custom reports using **Open Document (ODT) and Excel**** templates. This way, you can define how you want to present the information and add additional content to the document.
+If you need to work with the data afterwards, an editable document **may be more practical than a PDF**. The Report Plugin for SonarQube&trade; Server allows you to create custom reports using **Open Document (ODT) and Excel** templates. This way, you can define how you want to present the information and add additional content to the document.
 
 For example, you can use a **corporate template** to add:
 
