@@ -24,6 +24,9 @@ De esta forma, los equipos pueden **consultar la información de seguridad de su
 
 Una de las principales novedades de la versión 2.36 es la posibilidad de descargar los **informes PCI DSS** en formato PDF en las ediciones comerciales de SonarQube Server. 
 
+<img width="100%" src="/img/sonarqube-security/security-assessment-sonarqube-server-pcid-download-PDF.png" alt="Ejemplo de PDF extraido de SonarQube">
+<br><br>
+
 Esta funcionalidad está disponible para los siguientes elementos de SonarQube Server:
 
 **Proyectos**: permite obtener el informe PCI DSS de un proyecto.
@@ -33,6 +36,7 @@ Esta funcionalidad está disponible para los siguientes elementos de SonarQube S
 **Portfolios**: permite generar el documento PDF para un portfolio.
 
 Además, la descarga está disponible tanto en modo Standard como en modo MQR (Multi-Quality Rule).
+
 
 
 <h3>Nuevos informes MQR para estándares de seguridad</h3>

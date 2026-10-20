@@ -24,6 +24,9 @@ This allows teams to **review their code security information** in a more struct
 
 One of the main additions in version 2.36 is the ability to download **PCI DSS reports** in PDF format in the commercial editions of SonarQube Server.
 
+<img width="100%" src="/img/sonarqube-security/security-assessment-sonarqube-server-pcid-download-PDF.png" alt="Ejemplo de PDF extraido de SonarQube">
+<br><br>
+
 This functionality is available for the following SonarQube Server elements:
 
 **Projects**: get the PCI DSS report for a project.
