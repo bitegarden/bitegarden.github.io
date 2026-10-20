@@ -25,11 +25,9 @@ A continuación, te mostramos dónde encontrar este nuevo selector de rama en la
 
 ## ¿Cómo actualizar a la nueva versión?
 
-* **Si utilizas [Universal Plugin Manager for SonarQube Server™ (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager):**  
-  La actualización es automática y directa. Solo tienes que acceder al panel de administración de tu instancia de SonarQube y pulsar el botón **Actualizar**. <br>
+**Si utilizas [Universal Plugin Manager for SonarQube Server™ (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager):**  La actualización es automática y directa. Solo tienes que acceder al panel de administración de tu instancia de SonarQube y pulsar el botón **Actualizar**. <br>
 
-* **Si aún no has probado Overview Report for SonarQube™ Server:**  
-  Puedes descargar una versión de prueba gratuita e instalarla en tu servidor desde nuestro **[Marketplace](https://marketplace.bitegarden.com/product/bitegardenSonarQubeOverview)**. <br>
+**Si aún no has probado Overview Report for SonarQube™ Server:** Puedes descargar una versión de prueba gratuita e instalarla en tu servidor desde nuestro **[Marketplace](https://marketplace.bitegarden.com/product/bitegardenSonarQubeOverview)**. <br>
 
 ---
 **<span style="color: green">bitegarden</span> team**
