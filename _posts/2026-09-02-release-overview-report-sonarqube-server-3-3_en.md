@@ -26,13 +26,9 @@ Here’s where you can find the new branch selector in the interface:
 
 ## How to update to the new version?
 
-* **If you use [Universal Plugin Manager for SonarQube Server™ (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager):**
+**If you use [Universal Plugin Manager for SonarQube Server™ (UPM)](https://marketplace.bitegarden.com/product/bitegardenUniversalPluginManager):** The update is automatic and straightforward. Simply access your SonarQube instance’s administration panel and click the **Update** button. <br>
 
-The update is automatic and straightforward. Simply access your SonarQube instance’s administration panel and click the **Update** button. <br>
-
-* **If you haven’t tried Overview Report for SonarQube™ Server yet:**
-
-You can download a free trial version and install it on your server from our **[Marketplace](https://marketplace.bitegarden.com/product/bitegardenSonarQubeOverview)**. <br>
+**If you haven’t tried Overview Report for SonarQube™ Server yet:** You can download a free trial version and install it on your server from our **[Marketplace](https://marketplace.bitegarden.com/product/bitegardenSonarQubeOverview)**. <br>
 
 ---
 **<span style="color: green">bitegarden</span> team**
