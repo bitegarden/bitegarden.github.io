@@ -61,7 +61,7 @@ Además de las novedades relacionadas con los estándares de seguridad, hemos in
 
 Estos cambios buscan ofrecer una experiencia más coherente y facilitar la consulta de los resultados.
 
-Puedes probar esta nueva versión [descargandola desde el marketplace de bitegarden](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity). 
+Puedes probar esta nueva versión [descargándola desde el marketplace de bitegarden](https://marketplace.bitegarden.com/product/bitegardenSonarCloudSecurity). 
 
 ---
 

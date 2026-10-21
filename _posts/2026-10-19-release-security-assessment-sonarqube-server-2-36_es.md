@@ -1,7 +1,7 @@
 ---
 layout: post_es
 title: Security Assessment for SonarQube 2.36, nuevos informes PCI DSS en PDF y mejoras en MQR
-description: Descubre la descarga de informes PCI DSS en PDF y nuevos informes MQR para estándares de seguridad..
+description: Descubre la descarga de informes PCI DSS en PDF y nuevos informes MQR para estándares de seguridad.
 
 permalink: version-security-assessment-sonarqube-server-2-36
 english: release-security-assessment-sonarqube-server-2-36
