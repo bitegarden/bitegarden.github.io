@@ -23,11 +23,6 @@ Nell'immagine qui sotto puoi vedere un esempio di questa **nuova funzionalità**
 
 <br>
 
-Qui puoi vedere come un utente **può selezionare uno o più utenti** e cambiare il provider allo stesso tempo: 
-
-<img src="/img/sonarqube-control-center/control-center-change-provider.png" width="100%" alt="Control Center Change provider">
-
-<br>
 
 Se non hai ancora provato questo prodotto nella tua istanza di SonarQube, puoi scaricare la versione gratuita tramite [questo link](/it/sonarqube-control-center-trial-form) 
 

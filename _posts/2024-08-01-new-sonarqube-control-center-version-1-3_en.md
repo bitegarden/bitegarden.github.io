@@ -23,12 +23,6 @@ In the following image you can see an example of this **new functionality**:
 
 <br>
 
-Here you can see how a user **will be able to select one or more users** and change the provider at the same time: 
-
-<img src="/img/sonarqube-control-center/control-center-change-provider.png" width="100%" alt="Control Center Change provider">
-
-<br>
-
 If you have not yet tested this product on your SonarQube instance, you can download the free version via [this link](https://marketplace.bitegarden.com/download/download-form/60) 
 
 ---
