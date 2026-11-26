@@ -15,9 +15,9 @@ Si quieres **exportar informes de los resultados** de los análisis de los proye
 
 <h2>Paso 1: Descargar el Report Plugin for SonarQube</h2>
 
-Para empezar tendrás que **descargar el Report Plugin for SonarQube** a través de [este enlace](/es/sonarqube-report). Por si no lo conoces, se trata de nuestro producto que te permite generar de forma automática los informes de los proyectos de SonarQube. 
+El [Report Plugin for SonarQube Server](https://marketplace.bitegarden.com/product/bitegardenReport) genera automáticamente informes de tus proyectos de SonarQube. Para empezar, [descarga la versión de prueba gratuita de 14 días para Server](https://marketplace.bitegarden.com/download/download-form/55).
 
-Te recordamos que tienes una **versión gratuita de 14 días de prueba** para que veas como funciona. También tenemos este mismo producto para SonarQube, que lo puedes descargar a través de [este enlace](/es/sonarcloud-report)
+Si utilizas Cloud, consulta la ficha de [Report for SonarQube Cloud](https://marketplace.bitegarden.com/product/bitegardenSonarCloudReport) o [descarga la versión de prueba gratuita de 14 días para Cloud](https://marketplace.bitegarden.com/download/download-form/64).
 
 Por otro lado, te dejamos [aquí](/es/sonarqube-report-documentation) las instrucciones de instalación. Verás que es muy sencillo completar este paso.
 

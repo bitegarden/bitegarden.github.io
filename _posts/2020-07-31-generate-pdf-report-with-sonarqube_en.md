@@ -21,7 +21,7 @@ custom report, in most cases you need something faster and easier.
 
 <h2>How to generate PDF form SonarQube?</h2>
 
-With [bitegarden Report for SonarQube](/sonarqube-report) these reports can be generated
+With [bitegarden Report for SonarQube](https://marketplace.bitegarden.com/product/bitegardenReport) these reports can be generated
 in the simplest way possible.
 
 Browsing the project space in the ___"More ..."___ option you will find a section that provides all the reports that
@@ -139,11 +139,11 @@ replace variables with values from SonarQube analysis. More info about how to us
 
 <h3>Discover new report samples</h3>
 
-If you want to check how it works then you can [download the trial version for 14 days](/sonarqube-report-trial-form) or
+If you want to check how it works then you can [download the free 14-day trial](https://marketplace.bitegarden.com/download/download-form/55) or
 access to our demo instance and check any of the available projects, like [Apache Airflow](http://sonarqube.bitegarden.com/project/extension/bitegardenReport/report_page?id=apache%3Aairflow&qualifier=TRK).
 
 What are you waiting for to generate code quality reports? Any suggestion for new reports? Leave your comment and help us to
 improve the product!
 
-<a class="btn btn-primary btn-call-to-action fancybox" href="/sonarqube-report-trial-form">TRY IT ></a>
+<a class="btn btn-primary btn-call-to-action" href="https://marketplace.bitegarden.com/download/download-form/55">TRY IT FREE FOR 14 DAYS &gt;</a>
 

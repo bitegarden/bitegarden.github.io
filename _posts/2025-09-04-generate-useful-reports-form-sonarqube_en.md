@@ -12,7 +12,7 @@ SonarQube is an essential tool for development teams looking to ensure **code qu
 
 Have you ever needed to prepare a **detailed report** and ended up manually exporting data, taking screenshots, or creating documents from scratch? This task can be slow, repetitive, and error-prone.
 
-In this article, we’ll explore how to generate more comprehensive and useful **reports directly from SonarQube**, thanks to two bitegarden plugins that let you simplify this process: Report Plugin for SonarQube&trade; Server and Report for SonarQube&trade; Cloud.
+In this article, we’ll explore how to generate more comprehensive and useful **reports directly from SonarQube**, thanks to two bitegarden plugins that let you simplify this process: [Report Plugin for SonarQube&trade; Server](https://marketplace.bitegarden.com/product/bitegardenReport) and [Report for SonarQube&trade; Cloud](https://marketplace.bitegarden.com/product/bitegardenSonarCloudReport).
 
 <h2>Report Plugin for SonarQube&trade; Server</h2>
 
@@ -36,9 +36,9 @@ Whether your SonarQube instance is Server or Cloud, moving to richer reports is 
 
 1 – Download the right plugin:
 
-For Server instances, download it [here](/sonarqube-report-trial-form).
+For Server instances, [download the free 14-day trial for Server](https://marketplace.bitegarden.com/download/download-form/55).
 
-For Cloud instances, download it [here](https://marketplace.bitegarden.com/download/download-form/64).
+For Cloud instances, [download the free 14-day trial for Cloud](https://marketplace.bitegarden.com/download/download-form/64).
 
 2 – Install it on your instance (Server only) in just a few minutes, with no complicated configuration. Here are the guides:
 
@@ -53,7 +53,7 @@ In a matter of seconds, you’ll have a professional document ready to share.
 <h2>Frequently Asked Questions (FAQ)</h2>
 
 **1. Can I use the Report Plugin for SonarQube Server with any version of SonarQube?**
-Yes, this plugin is compatible with multiple versions of SonarQube Server. You will find compatibility information on the download page. 
+Yes, this plugin is compatible with multiple versions of SonarQube Server. Check the [marketplace listing for supported versions](https://marketplace.bitegarden.com/product/bitegardenReport).
 
 **2. Can I customize reports with my logo and corporate branding?**
 Absolutely! You can customize both PDF and ODT reports, including logos, tables, text, and even custom cover pages.
