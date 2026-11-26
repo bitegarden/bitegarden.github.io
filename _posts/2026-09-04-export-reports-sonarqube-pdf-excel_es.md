@@ -20,6 +20,8 @@ Dependiendo del informe y de la versión de SonarQube utilizada, puedes **recopi
 
 <h2>Cómo generar un informe PDF de SonarQube</h2>
 
+Si usas Community Build, consulta [las opciones para generar un PDF](/exportar-pdf-sonarqube-community-build), incluida la posibilidad de preparar tu propio informe con datos de la Web API.
+
 Con **Report Plugin for SonarQube&trade; Server** puedes generar un informe PDF directamente desde la interfaz de SonarQube.
 
 El proceso es sencillo: **instala el plugin, accede al proyecto que quieres analizar y genera el informe desde SonarQube**. El PDF recopila las métricas más relevantes del proyecto y las presenta en un formato preparado para compartir. La principal ventaja es que no necesitas preparar manualmente el documento ni copiar los datos de SonarQube a otro formato.
