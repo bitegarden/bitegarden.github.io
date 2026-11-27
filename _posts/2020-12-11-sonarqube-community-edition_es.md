@@ -30,6 +30,8 @@ Esta herramienta sorprendente ayuda a los desarrolladores a crear un código má
 
 ## Plugins para Sonarqube
 
+Si necesitas compartir el resultado de un análisis, en la [guía de informes PDF para Community Build](/exportar-pdf-sonarqube-community-build) te mostramos cómo hacerlo con la Web API o con un plugin compatible.
+
 En **bitegarden** queremos ayudar a las empresas de todo el mundo a desarrollar un software mejor y más seguro. Y lo hacemos **extendiendo las funcionalidades Sonarqube**, desde soluciones SAST (Static Application Security Testing) usando OWASP, hasta informes de proyectos y metodologías de calidad como SQALE.  
 
 Los **TOP 3 más descargados**:

@@ -20,7 +20,7 @@ mismo, pero en la mayoría de ocasiones lo que se busca es algo más rápido y s
  
 <h2>¿Cómo generar PDFs de forma sencilla en SonarQube?</h2>
 
-Con nuestro producto [bitegarden Report for SonarQube](/es/sonarqube-report) se pueden generar estos informes 
+Con nuestro producto [bitegarden Report for SonarQube](https://marketplace.bitegarden.com/product/bitegardenReport) se pueden generar estos informes
 fácilmente. 
 
 Desde el espacio de proyecto en la opción ___"More..."___ encontrarás una sección que te proporciona todos los informes que
@@ -149,11 +149,11 @@ como utilizarlo [aquí](/es/sonarqube-report-documentation).
 ### Descubre más ejemplos...
 
 Si quieres ver como funciona la generación de informes en una instancia de SonarQube&trade; en funcionamiento puedes
-descargar la [versión de prueba de 14 días](/es/sonarqube-report-trial-form) o acceder a nuestra instancia de demostración
+descargar la [versión de prueba gratuita de 14 días](https://marketplace.bitegarden.com/download/download-form/55) o acceder a nuestra instancia de demostración
 a alguno de los proyectos disponibles, como por ejemplo [Apache Airflow](http://sonarqube.bitegarden.com/project/extension/bitegardenReport/report_page?id=apache%3Aairflow&qualifier=TRK).
 
 ¿A qué esperas para generar informes de calidad del código? ¿Tienes sugerencias para crear nuevos informes? 
 ¡Deja tus comentarios y ayudanos a mejorar el producto!
 
-<a class="btn btn-primary btn-call-to-action fancybox" href="/es/sonarqube-report-trial-form">PROBAR ></a>
+<a class="btn btn-primary btn-call-to-action" href="https://marketplace.bitegarden.com/download/download-form/55">PRUÉBALO GRATIS DURANTE 14 DÍAS &gt;</a>
 
